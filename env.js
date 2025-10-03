@@ -35,12 +35,12 @@ require('dotenv').config({
 
 // TODO: Replace these values with your own
 
-const BUNDLE_ID = 'com.doctor-med-ai'; // ios bundle id
-const PACKAGE = 'com.doctor-med-ai'; // android package name
-const NAME = 'doctor-med-ai'; // app name
-const EXPO_ACCOUNT_OWNER = 'expo-owner'; // expo account owner
-const EAS_PROJECT_ID = 'c3e1075b-6fe7-4686-aa49-35b46a229044'; // eas project id
-const SCHEME = 'doctor-med-ai'; // app scheme
+const BUNDLE_ID = 'com.doctormedai'; // ios bundle id
+const PACKAGE = 'com.doctormedai'; // android package name
+const NAME = 'Doctor Med AI'; // app name
+const EXPO_ACCOUNT_OWNER = 'bazdevelopment'; // expo account owner
+const EAS_PROJECT_ID = '4a0df3e2-5039-4365-9850-5265605498ab'; // eas project id
+const SCHEME = 'doctormedai'; // app scheme
 
 /**
  * We declare a function withEnvSuffix that will add a suffix to the variable name based on the APP_ENV
@@ -72,7 +72,7 @@ const withEnvSuffix = (name) => {
  */
 
 const client = z.object({
-  APP_ENV: z.enum(['development', 'staging', 'production']),
+  APP_ENV: z.enum(['development', 'production']),
   NAME: z.string(),
   SCHEME: z.string(),
   BUNDLE_ID: z.string(),
