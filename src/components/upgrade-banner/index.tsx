@@ -1,0 +1,39 @@
+import React from 'react';
+import { Button, View } from 'react-native';
+
+import { translate } from '@/lib';
+
+import { Text } from '../ui';
+
+interface IUpgradeBanner {
+  onUpgradePress: () => void;
+  className?: string;
+}
+
+const UpgradeBanner = ({ onUpgradePress, className }: IUpgradeBanner) => {
+  return (
+    <View
+      className={`flex-row items-center justify-between rounded-2xl border-4 border-primary-400 bg-primary-900 p-4 ${className}`}
+    >
+      <View className="flex-[1.3] gap-1">
+        <Text className="font-bold-work-sans text-2xl text-white">
+          {translate('components.UpgradeBanner.heading')}
+        </Text>
+        <Text className="font-semibold-work-sans text-base  text-white ">
+          {translate('components.UpgradeBanner.subheading')}
+        </Text>
+      </View>
+
+      <View className="flex-1">
+        <Button
+          label={translate('general.upgradePlan')}
+          className="dark:bg-blackEerie h-[54] rounded-full border-[3px] border-primary-700 px-6"
+          textClassName="dark:text-white text-center"
+          onPress={onUpgradePress}
+        />
+      </View>
+    </View>
+  );
+};
+
+export default UpgradeBanner;

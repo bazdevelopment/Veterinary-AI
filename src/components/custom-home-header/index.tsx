@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -20,6 +21,7 @@ const CustomHomeHeader = () => {
           textClassName="ml-3 text-white text-lg dark:text-white tracking-[1px]"
           iconPosition="left"
           className="-top-2 self-center rounded-full bg-primary-900 dark:bg-primary-900"
+          onPress={() => router.navigate('/paywall-new')}
         />
       </View>
       <HorizontalLine

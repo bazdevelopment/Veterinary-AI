@@ -36,8 +36,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   assetBundlePatterns: ['**/*'],
   ios: {
+    appStoreUrl: '',
     supportsTablet: true,
     bundleIdentifier: Env.BUNDLE_ID,
+    googleServicesFile: ClientEnv.GOOGLE_SERVICES_PLIST_PATH,
     infoPlist: {
       ITSAppUsesNonExemptEncryption: false,
     },
@@ -46,6 +48,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     typedRoutes: true,
   },
   android: {
+    playStoreUrl: '',
+    googleServicesFile: ClientEnv.GOOGLE_SERVICES_JSON_PATH,
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',
       backgroundColor: '#FFFFFF',
@@ -75,6 +79,42 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     'expo-router',
     ['app-icon-badge', appIconBadgeConfig],
     ['react-native-edge-to-edge'],
+    '@react-native-firebase/app',
+    '@react-native-firebase/auth',
+    '@react-native-firebase/crashlytics',
+    [
+      'expo-build-properties',
+      {
+        android: {
+          compileSdkVersion: 35,
+          targetSdkVersion: 35,
+          buildToolsVersion: '35.0.0',
+        },
+        ios: {
+          useFrameworks: 'static',
+        },
+      },
+    ],
+    [
+      'expo-quick-actions',
+      {
+        androidIcons: {
+          heart_icon: {
+            foregroundImage: './assets/heart-icon-android.png',
+            backgroundColor: '#FFFFFF',
+          },
+        },
+        iosIcons: {
+          heart_icon: './assets/heart-icon-ios.png',
+        },
+      },
+    ],
+    [
+      'expo-asset',
+      {
+        assets: ['./assets/icon_transparent.png', './assets/medical_frame.png'],
+      },
+    ],
   ],
   extra: {
     ...ClientEnv,

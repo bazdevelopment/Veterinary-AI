@@ -34,6 +34,12 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
+          <string>com.googleusercontent.apps.965843352805-ko4vqe3dtjg52l9ftvf04b5l98bt8kvs</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
           <string>exp+doctormedai</string>
         </array>
       </dict>

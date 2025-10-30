@@ -1,25 +1,22 @@
-/* eslint-disable max-lines-per-function */
-import {
-  BottomSheetFlatList,
-  type BottomSheetModal,
-} from '@gorhom/bottom-sheet';
+import { type BottomSheetModal } from '@gorhom/bottom-sheet';
 import { FlashList } from '@shopify/flash-list';
 import { useColorScheme } from 'nativewind';
-import * as React from 'react';
+import type { ComponentProps } from 'react';
+import React from 'react';
 import type { FieldValues } from 'react-hook-form';
 import { useController } from 'react-hook-form';
-import { Platform, View } from 'react-native';
+import { ActivityIndicator, TouchableOpacity, View } from 'react-native';
 import { Pressable, type PressableProps } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 import type { SvgProps } from 'react-native-svg';
 import Svg, { Path } from 'react-native-svg';
 import { tv } from 'tailwind-variants';
 
-import colors from '@/components/ui/colors';
-import { CaretDown } from '@/components/ui/icons';
-
+import { Checkbox, Radio } from './checkbox';
+import colors from './colors';
+import { CaretDown } from './icons';
 import type { InputControllerType } from './input';
-import { useModal } from './modal';
-import { Modal } from './modal';
+import { Modal, useModal } from './modal';
 import { Text } from './text';
 
 const selectTv = tv({
@@ -56,15 +53,17 @@ const selectTv = tv({
   },
 });
 
-const List = Platform.OS === 'web' ? FlashList : BottomSheetFlatList;
+const List = FlashList;
 
 export type OptionType = { label: string; value: string | number };
 
 type OptionsProps = {
   options: OptionType[];
+  isPending: boolean;
   onSelect: (option: OptionType) => void;
   value?: string | number;
   testID?: string;
+  heading?: string;
 };
 
 function keyExtractor(item: OptionType) {
@@ -72,20 +71,22 @@ function keyExtractor(item: OptionType) {
 }
 
 export const Options = React.forwardRef<BottomSheetModal, OptionsProps>(
-  ({ options, onSelect, value, testID }, ref) => {
-    const height = options.length * 70 + 100;
-    const snapPoints = React.useMemo(() => [height], [height]);
+  ({ options, onSelect, value, isPending, testID, heading }, ref) => {
+    const height = '90%';
+    const snapPoints = React.useMemo(() => [height, '90%'], [height]);
     const { colorScheme } = useColorScheme();
     const isDark = colorScheme === 'dark';
 
     const renderSelectItem = React.useCallback(
       ({ item }: { item: OptionType }) => (
-        <Option
+        <SelectableLabel
           key={`select-item-${item.value}`}
-          label={item.label}
+          title={item.label}
           selected={value === item.value}
           onPress={() => onSelect(item)}
           testID={testID ? `${testID}-item-${item.value}` : undefined}
+          icon={item.icon}
+          additionalClassName={`${value === item.value ? 'bg-primary-900 py-5' : 'py-5'}`}
         />
       ),
       [onSelect, value, testID]
@@ -95,17 +96,23 @@ export const Options = React.forwardRef<BottomSheetModal, OptionsProps>(
       <Modal
         ref={ref}
         index={0}
+        title={heading}
         snapPoints={snapPoints}
         backgroundStyle={{
-          backgroundColor: isDark ? colors.neutral[800] : colors.white,
+          backgroundColor: isDark ? colors.neutral[800] : colors.primary[50],
         }}
       >
+        {isPending && <ActivityIndicator size="small" />}
         <List
+          className="mx-4"
+          contentContainerStyle={{ paddingBottom: 100 }}
+          showsVerticalScrollIndicator={false}
           data={options}
           keyExtractor={keyExtractor}
           renderItem={renderSelectItem}
           testID={testID ? `${testID}-modal` : undefined}
           estimatedItemSize={52}
+          renderScrollComponent={ScrollView}
         />
       </Modal>
     );
@@ -196,7 +203,7 @@ export const Select = (props: SelectProps) => {
             {label}
           </Text>
         )}
-        <Pressable
+        <TouchableOpacity
           className={styles.input()}
           disabled={disabled}
           onPress={modal.present}
@@ -206,7 +213,7 @@ export const Select = (props: SelectProps) => {
             <Text className={styles.inputValue()}>{textValue}</Text>
           </View>
           <CaretDown />
-        </Pressable>
+        </TouchableOpacity>
         {error && (
           <Text
             testID={`${testID}-error`}
@@ -267,3 +274,107 @@ const Check = ({ ...props }: SvgProps) => (
     />
   </Svg>
 );
+
+interface ISelectableLabel extends ComponentProps<typeof Pressable> {
+  title: string;
+  selected?: boolean;
+  icon?: React.ReactNode;
+  showIndicator?: boolean;
+  onPress?: () => void;
+  subtitle?: string;
+  additionalClassName?: string;
+  titleClassName: string;
+  subtitleClassName: string;
+  indicatorPosition: 'left' | 'right';
+  indicatorType: 'radio' | 'checkbox';
+  extraInfo: string | boolean;
+}
+
+const indicatorsType = {
+  checkbox: Checkbox,
+  radio: Radio,
+};
+export const SelectableLabel = ({
+  title,
+  selected = false,
+  icon,
+  showIndicator = true,
+  subtitle,
+  onPress,
+  additionalClassName,
+  titleClassName,
+  subtitleClassName,
+  indicatorPosition = 'right',
+  indicatorType = 'radio',
+  extraInfo,
+  ...props
+}: ISelectableLabel) => {
+  const Indicator = indicatorsType[indicatorType];
+  return (
+    <Pressable
+      className={`
+        mt-4 flex-row items-center gap-4 rounded-2xl
+        p-6
+        ${selected ? 'border-[3px] border-primary-500' : 'dark:bg-blackEerie bg-transparent'}
+        active:bg-gray-100 dark:active:bg-primary-700
+        ${additionalClassName}
+      `}
+      onPress={onPress}
+      {...props}
+    >
+      {showIndicator && indicatorPosition === 'left' && (
+        <Indicator
+          disabled={false}
+          onPress={onPress}
+          checked={selected}
+          testID="radio"
+          accessibilityLabel="Agree"
+          accessibilityHint="toggle Agree"
+        />
+      )}
+      <View className="flex-1 flex-row items-center">
+        {icon && <View className="items-center justify-center">{icon}</View>}
+        <View className="gap-2">
+          <Text
+            className={`
+            text-base
+            ${selected ? 'font-semibold-work-sans text-lg text-white' : 'font-bold-work-sans text-lg'}
+         ${titleClassName}
+          `}
+          >
+            {title}
+          </Text>
+
+          {subtitle && (
+            <Text
+              className={`
+            ${selected ? 'text-md font-bold-work-sans text-white' : ' text-md'}
+            ${subtitleClassName}
+          `}
+            >
+              {subtitle}
+            </Text>
+          )}
+        </View>
+      </View>
+      {!!extraInfo && (
+        <View
+          className={`absolute right-2 top-[10px] flex-row items-center gap-2 rounded-xl bg-primary-500 px-5 py-1 ${selected ? 'dark:bg-blackEerie' : 'dark:bg-blackEerie dark:border dark:border-primary-800'}`}
+        >
+          <Text className="font-bold-work-sans">{extraInfo}</Text>
+        </View>
+      )}
+
+      {showIndicator && indicatorPosition === 'right' && (
+        <Indicator
+          disabled={false}
+          onChange={onPress}
+          checked={selected}
+          testID="radio"
+          accessibilityLabel="Agree"
+          accessibilityHint="toggle Agree"
+        />
+      )}
+    </Pressable>
+  );
+};

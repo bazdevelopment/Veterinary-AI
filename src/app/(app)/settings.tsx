@@ -1,37 +1,125 @@
-import { Env } from '@env';
+/* eslint-disable max-lines-per-function */
+import { useScrollToTop } from '@react-navigation/native';
+import { router } from 'expo-router';
 import { useColorScheme } from 'nativewind';
+import React, { useRef } from 'react';
+import { Linking, ScrollView, View } from 'react-native';
+import { Toaster } from 'sonner-native';
 
+import {
+  useSendGlobalPushNotifications,
+  useSendIndividualPushNotification,
+} from '@/api/push-notifications/push-notifications.hooks';
+import { useAddFieldsToCollection } from '@/api/services/services.hooks';
+import { useUpdateUser, useUser } from '@/api/user/user.hooks';
+import { logout } from '@/api/user/user.requests';
+import CustomAlert from '@/components/custom-alert';
 import { Item } from '@/components/settings/item';
 import { ItemsContainer } from '@/components/settings/items-container';
 import { LanguageItem } from '@/components/settings/language-item';
+// import { ShareItem } from '@/components/settings/share-item';
 import { ThemeItem } from '@/components/settings/theme-item';
-import {
-  colors,
-  FocusAwareStatusBar,
-  ScrollView,
-  Text,
-  View,
-} from '@/components/ui';
-import { Github, Rate, Share, Support, Website } from '@/components/ui/icons';
-import { translate, useAuth } from '@/lib';
+import Toast from '@/components/toast';
+import { Button, colors } from '@/components/ui';
+import { LogoutIcon } from '@/components/ui/icons/logout';
+import { Rate } from '@/components/ui/icons/rate';
+import { translate, useSelectedLanguage } from '@/lib';
+import { Env } from '@/lib/env';
+import useRemoteConfig from '@/lib/hooks/use-remote-config';
+import { DEVICE_TYPE } from '@/utilities/device-type';
 
 export default function Settings() {
-  const signOut = useAuth.use.signOut();
   const { colorScheme } = useColorScheme();
-  const iconColor =
-    colorScheme === 'dark' ? colors.neutral[400] : colors.neutral[500];
-  return (
-    <>
-      <FocusAwareStatusBar />
+  const { language } = useSelectedLanguage();
+  const { data: userInfo } = useUser(language);
 
-      <ScrollView>
-        <View className="flex-1 px-4 pt-16 ">
-          <Text className="font-bold-work-sans text-xl">
-            {translate('settings.title')}
-          </Text>
+  const { mutateAsync: onUpdateUser, isPending: isPendingUpdateUser } =
+    useUpdateUser();
+
+  const { SHOW_FAQ_SCREEN, SHOW_RATE_SCREEN, SHOW_ADMIN_SCREENS } =
+    useRemoteConfig();
+
+  const scrollViewRef = useRef(null);
+  const iconColor = colorScheme === 'dark' ? colors.neutral[50] : colors.black;
+
+  const { mutate: onHandleGlobalPushNotifications } =
+    useSendGlobalPushNotifications();
+
+  const { mutate: onAddFieldsToCollection } = useAddFieldsToCollection();
+
+  const { mutate: onHandleIndividualNotification } =
+    useSendIndividualPushNotification();
+  useScrollToTop(scrollViewRef);
+
+  const handleLogout = async () => {
+    Toast.showCustomToast(
+      <CustomAlert
+        visible
+        title={translate('general.attention')}
+        subtitle={translate('alerts.logoutQuestion')}
+        buttons={[
+          {
+            label: translate('general.close'),
+            variant: 'default',
+            onPress: () => Toast.dismiss(),
+            className:
+              'flex-1 rounded-xl h-[48] bg-slate-100 active:opacity-80',
+            buttonTextClassName: 'text-black',
+          },
+          {
+            label: translate('general.yes'),
+            variant: 'destructive',
+            onPress: async () => {
+              try {
+                await onUpdateUser({
+                  language,
+                  userId: userInfo.userId,
+                  fieldsToUpdate: {
+                    verificationCode: '',
+                    verificationCodeExpiry: '',
+                  },
+                });
+                logout();
+              } catch (error) {
+                Toast.error(translate('alerts.logoutUnsuccessful'));
+              }
+            },
+            className: 'flex-1 rounded-xl h-[48] active:opacity-80',
+          },
+        ]}
+      />,
+      {
+        position: 'middle', // Place the alert in the middle of the screen
+        duration: Infinity, // Keep the alert visible until dismissed
+      }
+    );
+  };
+
+  return (
+    <View className="mt-[-15px] flex-1 bg-white dark:bg-transparent">
+      {DEVICE_TYPE.IOS && (
+        <Toaster autoWiggleOnUpdate="toast-change" pauseWhenPageIsHidden />
+      )}
+      {/* 
+      {userInfo.scansRemaining <= 0 && userInfo.isFreeTrialOngoing && (
+        <UpgradeBanner
+          className="mx-4 mt-4"
+          onUpgradePress={() => router.navigate('/paywall-new')}
+        />
+      )} */}
+      <ScrollView ref={scrollViewRef}>
+        <View className="mb-20 px-6">
           <ItemsContainer title="settings.generale">
+            <Item
+              text="settings.profile"
+              onPress={() => router.navigate('/profile')}
+            />
             <LanguageItem />
             <ThemeItem />
+            <Item
+              text="settings.contactUs"
+              onPress={() => router.navigate('/contact-us')}
+            />
           </ItemsContainer>
 
           <ItemsContainer title="settings.about">
@@ -40,45 +128,114 @@ export default function Settings() {
           </ItemsContainer>
 
           <ItemsContainer title="settings.support_us">
-            <Item
-              text="settings.share"
-              icon={<Share color={iconColor} />}
-              onPress={() => {}}
-            />
+            {/* <ShareItem /> */}
+
             <Item
               text="settings.rate"
               icon={<Rate color={iconColor} />}
-              onPress={() => {}}
-            />
-            <Item
-              text="settings.support"
-              icon={<Support color={iconColor} />}
-              onPress={() => {}}
+              onPress={() => router.navigate('/rate')}
             />
           </ItemsContainer>
 
           <ItemsContainer title="settings.links">
-            <Item text="settings.privacy" onPress={() => {}} />
-            <Item text="settings.terms" onPress={() => {}} />
             <Item
-              text="settings.github"
-              icon={<Github color={iconColor} />}
-              onPress={() => {}}
+              text="settings.citations"
+              onPress={() => router.navigate('/citations')}
             />
             <Item
-              text="settings.website"
-              icon={<Website color={iconColor} />}
-              onPress={() => {}}
+              text="settings.privacy"
+              onPress={() =>
+                Linking.openURL('https://microscanaiprivacy.netlify.app/')
+              }
             />
+            <Item
+              text="settings.terms"
+              onPress={() =>
+                Linking.openURL(
+                  'https://microscanaitermsconditions.netlify.app/'
+                )
+              }
+            />
+            {SHOW_FAQ_SCREEN && (
+              <Item
+                text="settings.faq"
+                onPress={() => console.log('go to faq screen')}
+              />
+            )}
           </ItemsContainer>
 
-          <View className="my-8">
-            <ItemsContainer>
-              <Item text="settings.logout" onPress={signOut} />
-            </ItemsContainer>
-          </View>
+          <Button
+            label={translate('settings.logout')}
+            icon={<LogoutIcon width={30} height={30} />}
+            loading={isPendingUpdateUser}
+            variant="destructive"
+            className="mt-4 h-[55px] justify-start pl-5"
+            textClassName="font-semibold-work-sans text-lg"
+            iconPosition="left"
+            onPress={handleLogout}
+          />
+
+          {__DEV__ &&
+            SHOW_ADMIN_SCREENS && ( //change the condition here so this will be available in dev/prod only for an admin account
+              <>
+                <ItemsContainer title="settings.devMode.title">
+                  <Item
+                    text="settings.devMode.componentsLibrary"
+                    onPress={() => router.navigate('/ui-library')}
+                  />
+                </ItemsContainer>
+
+                <View>
+                  <ItemsContainer title="Utils">
+                    <Item
+                      text="Verify email"
+                      onPress={() => router.navigate('/verify-email')}
+                    />
+
+                    <Item
+                      text="Send global push notification"
+                      onPress={() =>
+                        onHandleGlobalPushNotifications({
+                          title: 'This is a global notification title',
+                          body: 'This is a global notification body',
+                          language,
+                        })
+                      }
+                    />
+                    <Item
+                      text="Send individual push notification"
+                      onPress={() =>
+                        onHandleIndividualNotification({
+                          title:
+                            'Hinweis zu persönlichen medizinischen Bildern',
+                          body: 'Wir empfehlen NICHT, persönliche medizinische Bilder zur individuellen Analyse auf MicroScan AI hochzuladen, da die Ergebnisse nicht als endgültig betrachtet werden sollten. Unsere KI-Modelle werden noch erforscht und verfeinert und es können potenzielle Ungenauigkeiten auftreten. Es eignet sich hervorragend zum Lernen und um allgemeine Einblicke zu gewinnen, für ausführlichere Überprüfungen sollten Sie jedoch einen Spezialisten konsultieren. Wenn Sie Fragen haben, kontaktieren Sie uns per E-Mail - microscanaiapp@gmail.com',
+                          // title: 'Notice About Personal microscopy Images',
+                          // body: 'We DO NOT encourage uploading personal microscopy images to MicroScan AI for individual analysis, as the results should not be considered final. Our AI models are still being researched and refined, and potential inaccuracies may occur. It’s great for learning and get general insights, but for in-depth reviews, consult a specialist. If you have any questions contact us via email - microscanaiapp@gmail.com',
+                          userId: '',
+                          language,
+                        })
+                      }
+                    />
+
+                    <Item
+                      text="Add completedScans field to userInfo"
+                      //! be careful with the below functions
+                      onPress={() =>
+                        onAddFieldsToCollection({
+                          fields: {
+                            //add fields here
+                            // completedScans: 0,
+                          },
+                          collectionName: 'users',
+                        })
+                      }
+                    />
+                  </ItemsContainer>
+                </View>
+              </>
+            )}
         </View>
       </ScrollView>
-    </>
+    </View>
   );
 }

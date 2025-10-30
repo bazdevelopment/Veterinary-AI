@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "965843352805",
+    "project_id": "doctor-med-ai-prod",
+    "storage_bucket": "doctor-med-ai-prod.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965843352805:android:0d8a2eebbd18a343a8680c",
+        "android_client_info": {
+          "package_name": "com.doctormedai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965843352805-b535qd789e4o98dpa73s2vpem9fa9kgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doctormedai",
+            "certificate_hash": "415642e9adfe271e9c51e9e7c9916c477b248b35"
+          }
+        },
+        {
+          "client_id": "965843352805-0gudmkpftidapt488alqn5pgon834b1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdGDLxFEkl59LRsHpnaM7YqHtxJmv30tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965843352805-0gudmkpftidapt488alqn5pgon834b1o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965843352805-ko4vqe3dtjg52l9ftvf04b5l98bt8kvs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.doctormedai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
