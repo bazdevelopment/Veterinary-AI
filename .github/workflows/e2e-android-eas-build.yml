@@ -1,5 +1,4 @@
 # 🔗 Links:
-# Source file: https://github.com/obytes/react-native-template-obytes/blob/master/.github/workflows/e2e-android-eas-build.yml
 # End-to-end testing: https://starter.obytes.com/testing/end-to-end-testing/
 
 # ✍️ Description:
@@ -17,9 +16,9 @@ on:
     inputs:
       apk-url:
         type: string
-        description: 'EAS APK URL'
+        description: "EAS APK URL"
         required: true
-        default: ''
+        default: ""
 
 jobs:
   download-eas-apk:

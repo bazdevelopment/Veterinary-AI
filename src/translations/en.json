@@ -1,23 +1,167 @@
 {
+  "general": {
+    "activeSubscription": "Subscription active",
+    "agreeingMessage": "By continuing, you agree to our",
+    "and": "and",
+    "askAssistant": "Ask AI assistant",
+    "chatbotPlaceholder": "Ask me anything...",
+    "completedScans": "Scans completed",
+    "conversationHistory": "Conversation history",
+    "copyText": {
+      "copied": "Copied!",
+      "copy": "Copy Link",
+      "loading": "Copying..."
+    },
+    "createdAt": "Created At",
+    "download": "Download",
+    "free": "FREE",
+    "freeTrial": "Free trial",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Scanning your medical imaging, please hold tight...",
+        "fourth": "Almost there, finalizing the scan...",
+        "second": "Analyzing details, this may take a moment...",
+        "third": "Enhancing accuracy for the best results..."
+      },
+      "initialAppLoad": {
+        "first": "Loading your personalized experience...",
+        "fourth": "Almost ready, just a moment...",
+        "second": "Synchronizing systems...",
+        "third": "Processing your data..."
+      },
+      "loadingChatbot": {
+        "first": "Aria is getting ready to assist you...",
+        "second": "Hold on! Dr. Med is preparing your response...",
+        "third": "Thinking...your assistant Dr. Med is on it!"
+      }
+    },
+    "medicalDisclaimer": "Medical Disclaimer",
+    "next": "Next",
+    "noPaymentNow": "No Payment Now. Cancel anytime.",
+    "online": "Online",
+    "openSettings": "Open Settings",
+    "or": "or",
+    "perMonth": "per month",
+    "perWeek": "per week",
+    "perYear": "per year",
+    "privacyPolicy": "Privacy Policy",
+    "restorePurchase": "Restore purchase",
+    "saveDiscount": "SAVE",
+    "seeNotifications": "See notifications",
+    "share": "Share",
+    "shareLink": "Share Link",
+    "skip": "Skip",
+    "termsAndConditions": "Terms & Conditions",
+    "then": "then",
+    "tryAgain": "Try again",
+    "tryForFree": "Try For Free",
+    "typing": "Typing...",
+    "unlockNow": "Unlock Now",
+    "update": "Update",
+    "upgradePlan": "Upgrade Plan",
+    "viewProfile": "View Profile",
+    "yes": "Yes"
+  },
   "onboarding": {
     "message": "Welcome to obytes app site"
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "I already have an account",
+        "heading": "Welcome to Doctor Med AI!",
+        "startButton": "Let's get started!"
+      }
+    },
+    "settings": {
+      "about": "About",
+      "app_name": "App Name",
+      "arabic": "Arabic",
+      "english": "English",
+      "generale": "General",
+      "github": "Github",
+      "language": "Language",
+      "links": "Links",
+      "logout": "Logout",
+      "more": "More",
+      "privacy": "Privacy Policy",
+      "rate": "Rate",
+      "share": "Share",
+      "support": "Support",
+      "support_us": "Support Us",
+      "terms": "Terms of Service",
+      "theme": {
+        "dark": "Dark",
+        "light": "Light",
+        "system": "System",
+        "title": "Theme"
+      },
+      "title": "Settings",
+      "version": "Version",
+      "website": "Website"
+    },
+    "welcome": "Welcome to obytes app site"
   },
   "settings": {
     "about": "About",
     "app_name": "App Name",
-    "arabic": "Arabic",
-    "english": "English",
+    "citations": "Citations for medical information",
+    "contactUs": "Contact us",
+    "devMode": {
+      "componentsLibrary": "UI library",
+      "title": "Developer mode"
+    },
+    "faq": "FAQ",
     "generale": "General",
     "github": "Github",
     "language": "Language",
+    "languages": {
+      "arabic": "Arabic",
+      "catalan": "Catalan",
+      "croatian": "Croatian",
+      "czech": "Czech",
+      "danish": "Danish",
+      "dutch": "Dutch",
+      "english": "English",
+      "finnish": "Finnish",
+      "french": "French",
+      "french_canada": "French (Canada)",
+      "german": "German",
+      "greek": "Greek",
+      "hebrew": "Hebrew",
+      "hindi": "Hindi",
+      "hungarian": "Hungarian",
+      "indonesian": "Indonesian",
+      "italian": "Italian",
+      "japanese": "Japanese",
+      "korean": "Korean",
+      "malay": "Malay",
+      "mandarin_chinese": "Chinese",
+      "norwegian": "Norwegian",
+      "polish": "Polish",
+      "portuguese_brazil": "Portuguese (Brazil)",
+      "portuguese_portugal": "Portuguese (Portugal)",
+      "romanian": "Romanian",
+      "russian": "Russian",
+      "slovak": "Slovak",
+      "spanish_mexico": "Spanish (Mexico)",
+      "spanish_spain": "Spanish (Spain)",
+      "swedish": "Swedish",
+      "thai": "Thai",
+      "turkish": "Turkish",
+      "ukrainian": "Ukrainian",
+      "vietnamese": "Vietnamese"
+    },
     "links": "Links",
     "logout": "Logout",
     "more": "More",
     "privacy": "Privacy Policy",
+    "profile": "Profile",
     "rate": "Rate",
     "share": "Share",
     "support": "Support",
     "support_us": "Support Us",
+    "tab": "Settings",
     "terms": "Terms of Service",
     "theme": {
       "dark": "Dark",
@@ -28,6 +172,5 @@
     "title": "Settings",
     "version": "Version",
     "website": "Website"
-  },
-  "welcome": "Welcome to obytes app site"
+  }
 }

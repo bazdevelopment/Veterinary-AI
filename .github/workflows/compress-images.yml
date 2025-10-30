@@ -1,5 +1,4 @@
 # 🔗 Links:
-# Source file: https://github.com/obytes/react-native-template-obytes/blob/master/.github/workflows/compress-images.yml
 
 # ✍️ Description:
 # This workflow is used to compress images in the repo.
@@ -15,10 +14,10 @@ on:
       - master
       - main
     paths:
-      - '**.jpg'
-      - '**.jpeg'
-      - '**.png'
-      - '**.webp'
+      - "**.jpg"
+      - "**.jpeg"
+      - "**.png"
+      - "**.webp"
   workflow_dispatch:
 
 jobs:
@@ -36,7 +35,7 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           compressOnly: true
-          ignorePaths: 'node_modules/**,ios/**,android/**'
+          ignorePaths: "node_modules/**,ios/**,android/**"
 
       - name: Create Pull Request
         if: steps.calibre.outputs.markdown != ''

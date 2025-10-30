@@ -1,4 +1,3 @@
-/* eslint-disable max-lines-per-function */
 import React, { type ReactElement } from 'react';
 import type { PressableProps } from 'react-native';
 import {
@@ -16,7 +15,7 @@ import colors from './colors';
 const button = tv({
   slots: {
     container: 'my-2 flex flex-row items-center justify-center rounded-md px-4',
-    label: 'font-semibold-nunito text-base',
+    label: 'font-semibold-work-sans text-base',
     indicator: 'h-6 text-white',
   },
 
@@ -201,7 +200,7 @@ export const RoundedButton = ({
       onPress={onPress}
     >
       {icon}
-      <Text className={`font-semibold-nunito text-center ${textClassName}`}>
+      <Text className={`text-center font-semibold-work-sans ${textClassName}`}>
         {label}
       </Text>
     </TouchableOpacity>
