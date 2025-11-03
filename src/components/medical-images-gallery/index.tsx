@@ -3,14 +3,16 @@ import { ScrollView, View } from 'react-native';
 import ImageCard, { type IMedicalImageCard } from '../image-card';
 import SeeAllButton from '../see-all-button';
 import { Text } from '../ui';
+import { router } from 'expo-router';
 
 const MedicalImagesGallery = ({ className }: { className: string }) => {
-  const handleSeeAll = () => {
-    console.log('navigate to all images screen');
-  };
+  const handleSeeAll = () => {};
 
-  const handleImagePress = (item: MedicalImageType) => {
-    console.log('Pressed image:');
+  const handleImagePress = (item: IMedicalImageCard) => {
+    router.navigate({
+      pathname: '/chat',
+      params: { topic: item.title },
+    });
   };
 
   return (

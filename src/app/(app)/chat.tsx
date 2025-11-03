@@ -1,14 +1,22 @@
-import React from 'react';
-import { View } from 'react-native';
-
-import { Text } from '@/components/ui';
+import { generateUniqueId } from '@/utilities/generate-unique-id';
+import { router, useLocalSearchParams } from 'expo-router';
+import { useEffect } from 'react';
 
 const Chat = () => {
-  return (
-    <View>
-      <Text>Chat screen</Text>
-    </View>
-  );
+  const { topic = '' } = useLocalSearchParams();
+
+  useEffect(() => {
+    router.navigate({
+      pathname: '/chat-screen',
+      params: {
+        conversationId: generateUniqueId(),
+        mediaSource: '',
+        mimeType: '',
+        topic,
+      },
+    });
+  }, []);
+  return null;
 };
 
 export default Chat;

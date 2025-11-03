@@ -54,6 +54,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       foregroundImage: './assets/adaptive-icon.png',
       backgroundColor: '#FFFFFF',
     },
+    blockedPermissions: ['FOREGROUND_SERVICE_MEDIA_PLAYBACK'], // Android review didn't pass (permission used by expo-av)You
     package: Env.PACKAGE,
   },
   web: {
@@ -76,7 +77,24 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       },
     ],
     'expo-localization',
+    [
+      'expo-document-picker',
+      {
+        iCloudContainerEnvironment: 'Production',
+      },
+    ],
     'expo-router',
+    [
+      'expo-image-picker',
+      {
+        photosPermission:
+          'Allow $(PRODUCT_NAME) to access your photo library to upload media for AI analysis, providing insights and feedback for informational purposes.',
+        cameraPermission:
+          'Allow $(PRODUCT_NAME) to access your camera to capture images for AI-powered analysis, providing insights and feedback for informational purposes.',
+        //'Disables the microphone permission',
+        microphonePermission: false,
+      },
+    ],
     ['app-icon-badge', appIconBadgeConfig],
     ['react-native-edge-to-edge'],
     '@react-native-firebase/app',
@@ -112,7 +130,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     [
       'expo-asset',
       {
-        assets: ['./assets/icon_transparent.png', './assets/medical_frame.png'],
+        assets: ['./assets/icon_transparent.png'],
       },
     ],
   ],

@@ -8,6 +8,7 @@ import SpecializationCard, {
   type MedicalSpecialization,
 } from '@/components/specialization-card';
 import { Text } from '@/components/ui';
+import { router } from 'expo-router';
 
 // Full Screen All Specializations
 const DoctorsScreen: React.FC = () => {
@@ -18,7 +19,12 @@ const DoctorsScreen: React.FC = () => {
 
   const handleBack = () => {};
 
-  const handleSpecializationPress = (item: MedicalSpecialization) => {};
+  const handleSpecializationPress = (item: MedicalSpecialization) => {
+    router.navigate({
+      pathname: '/chat',
+      params: { topic: item.title },
+    });
+  };
 
   // Search functionality
   const handleSearch = (text: string) => {

@@ -5,7 +5,6 @@ import { translate } from '@/lib';
 import getDeviceSizeCategory from '@/utilities/get-device-size-category';
 import React from 'react';
 import { ScrollView, View } from 'react-native';
-import { router } from 'react-query-kit';
 
 const FirstOnboardingScreen = ({
   goToNextScreen,
