@@ -4,6 +4,9 @@ import { ScrollView } from 'react-native';
 import MedicalCard, { type IMedicalCardItem } from '../medical-card';
 import { BotAssistant } from '../ui/icons/bot-assistent';
 import { GalleyIcon } from '../ui/icons/gallery';
+import { router } from 'expo-router';
+import { Env } from 'env';
+import icon from '../icon';
 
 const cardData: IMedicalCardItem[] = [
   {
@@ -11,14 +14,22 @@ const cardData: IMedicalCardItem[] = [
     title: 'Medical Images\nAnalyzer',
     icon: <GalleyIcon />,
     bgColor: 'bg-primary-900',
-    onPress: () => console.log('Medical Images Analyzer pressed'),
+    onPress: () =>
+      router.navigate({
+        pathname: '/chat',
+        params: { topic: 'Medical Images Analyzer' },
+      }),
   },
   {
     id: '2',
     title: 'Ask Medical\nAI Assistant',
     icon: <BotAssistant />,
     bgColor: 'bg-secondary-900',
-    onPress: () => console.log('Ask Medical AI Assistant pressed'),
+    onPress: () =>
+      router.navigate({
+        pathname: '/chat',
+        params: { topic: 'Medical Assistant' },
+      }),
   },
 ];
 

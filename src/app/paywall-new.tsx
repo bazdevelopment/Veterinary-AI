@@ -430,8 +430,8 @@ const PaywallNew = () => {
             </View>
 
             {/* Free Trial Toggle */}
-            <View className="mb-8  flex-row items-center justify-between rounded-2xl bg-gray-100 p-4 dark:bg-charcoal-800">
-              <Text className="font-bold-work-sans text-lg text-gray-900">
+            <View className="mb-8 flex-row items-center justify-between rounded-2xl bg-gray-100 p-4 dark:bg-charcoal-800">
+              <Text className="font-bold-work-sans text-lg text-gray-900 w-[90%]">
                 {translate(
                   'rootLayout.screens.paywallOnboarding.freeTierOfferings.freeTrialEnabled'
                 )}

@@ -19,7 +19,10 @@ const MedicalSpecializationsPreview: React.FC = () => {
   };
 
   const handleSpecializationPress = (item: MedicalSpecialization) => {
-    console.log('specialization pressed');
+    router.navigate({
+      pathname: '/chat',
+      params: { topic: item.title },
+    });
   };
 
   return (

@@ -97,6 +97,25 @@
         "heading": "Enjoy your free trial! 🎉",
         "review": "The medical scan analysis gave me valuable insights into the images, and the chat support is very helpful.",
         "reviewTrust": "📈 Trusted by 5,212+ users"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "What does a chest X-ray show?",
+          "two": "What are the common symptoms of a heart attack?",
+          "three": "How can I lower my blood pressure naturally?",
+          "four": "What is the difference between an MRI and a CT scan?",
+          "five": "What are the early signs of diabetes?",
+          "six": "How do I interpret my basic blood test results?",
+          "seven": "What is the treatment for a urinary tract infection (UTI)?",
+          "eight": "Can you explain what an echocardiogram is used for?",
+          "nine": "What are the guidelines for a healthy diet?",
+          "ten": "What causes high cholesterol?",
+          "eleven": "How is a brain tumor detected on an MRI?",
+          "twelve": "What is the role of family medicine?",
+          "thirteen": "What are the risk factors for a stroke?",
+          "fourteen": "How to manage anxiety and stress?",
+          "fifteen": "What are the latest guidelines for managing hypertension?"
+        }
       }
     },
 

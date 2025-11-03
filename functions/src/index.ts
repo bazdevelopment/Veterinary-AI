@@ -1,6 +1,10 @@
 import { logger } from 'firebase-functions/v1';
 import * as functions from 'firebase-functions/v1';
 
+import {
+  getAllConversationsHandler,
+  getConversationHandler,
+} from './conversation';
 import * as userFunctions from './user';
 
 const usCentralFunctions = functions.region('us-central1');
@@ -41,4 +45,12 @@ export const getUserInfo = usCentralFunctions.https.onCall(
 
 export const updatePreferredLanguage = usCentralFunctions.https.onCall(
   userFunctions.handleUpdateUserLanguage
+);
+
+export const getConversation = usCentralFunctions.https.onCall(
+  getConversationHandler
+);
+
+export const getAllConversations = usCentralFunctions.https.onCall(
+  getAllConversationsHandler
 );

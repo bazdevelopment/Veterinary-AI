@@ -82,6 +82,8 @@ const client = z.object({
   // ADD YOUR CLIENT ENV VARS HERE
   GOOGLE_SERVICES_JSON_PATH: z.string().optional(),
   GOOGLE_SERVICES_PLIST_PATH: z.string().optional(),
+  EXPO_PUBLIC_GEMINI_API_KEY:z.string().optional(),
+  EXPO_PUBLIC_AI_ANALYSIS_PROMPT:z.string().optional()
 });
 
 const buildTime = z.object({
@@ -104,6 +106,8 @@ const _clientEnv = {
   // ADD YOUR ENV VARS HERE TOO
   GOOGLE_SERVICES_JSON_PATH: process.env.GOOGLE_SERVICES_JSON_PATH,
   GOOGLE_SERVICES_PLIST_PATH: process.env.GOOGLE_SERVICES_PLIST_PATH,
+  EXPO_PUBLIC_GEMINI_API_KEY: process.env.EXPO_PUBLIC_GEMINI_API_KEY,
+  EXPO_PUBLIC_AI_ANALYSIS_PROMPT:process.env.EXPO_PUBLIC_AI_ANALYSIS_PROMPT
 };
 
 /**

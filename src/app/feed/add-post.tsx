@@ -32,10 +32,10 @@ export default function AddPost() {
       { ...data, userId: 1 },
       {
         onSuccess: () => {
-          showMessage({
-            message: 'Post added successfully',
-            type: 'success',
-          });
+          // showMessage({
+          //   message: 'Post added successfully',
+          //   type: 'success',
+          // });
           // here you can navigate to the post list and refresh the list data
           //queryClient.invalidateQueries(usePosts.getKey());
         },
