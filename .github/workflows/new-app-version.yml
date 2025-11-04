@@ -41,13 +41,13 @@ on:
           Development build -> e.g. 24.10.1-dev;
 
         required: false
-        default: ''
+        default: ""
 
       environment:
         type: choice
-        description: 'Environment type (one of): development, production'
+        description: "Environment type (one of): development, production"
         required: true
-        default: 'development'
+        default: "development"
         options:
           - development
           - production
@@ -57,7 +57,7 @@ on:
         type: choice
         description: Run IOS build?
         required: true
-        default: 'true'
+        default: "true"
         options:
           - true
           - false
@@ -66,7 +66,7 @@ on:
         type: choice
         description: Run Android build?
         required: true
-        default: 'true'
+        default: "true"
         options:
           - true
           - false
@@ -75,7 +75,7 @@ on:
         type: choice
         description: Whether to perform the EAS submit step
         required: true
-        default: 'false'
+        default: "false"
         options:
           - true
           - false
@@ -116,7 +116,7 @@ jobs:
       - name: 📦 Setup Node + PNPM + install deps
         uses: ./.github/actions/setup-node-pnpm-install
 
-      - name: 'Load environment variables'
+      - name: "Load environment variables"
         run: |
           # Define the environment file name based on the input environment
           if [ "${{ inputs.environment }}" == "staging" ]; then
@@ -185,7 +185,7 @@ jobs:
     secrets: inherit
 
   build:
-    needs: ['create_github_release', 'release']
+    needs: ["create_github_release", "release"]
     if: ${{ inputs.environment == 'production' }}
     uses: ./.github/workflows/eas-build-production.yml
     with:
@@ -197,7 +197,7 @@ jobs:
     secrets: inherit
 
   build_staging:
-    needs: ['create_github_release', 'release']
+    needs: ["create_github_release", "release"]
     if: ${{ inputs.environment == 'staging' }}
     uses: ./.github/workflows/eas-build-staging.yml
     with:
@@ -209,7 +209,7 @@ jobs:
     secrets: inherit
 
   build_development:
-    needs: ['create_github_release', 'release']
+    needs: ["create_github_release", "release"]
     if: ${{ inputs.environment == 'development' }}
     uses: ./.github/workflows/eas-build-development.yml
     with:

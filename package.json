@@ -29,6 +29,7 @@
     "build:production:android": "cross-env APP_ENV=production EXPO_NO_DOTENV=1 eas build --profile production --platform android",
     "build:staging:ios": "cross-env APP_ENV=production EXPO_NO_DOTENV=1 eas build --profile staging --platform ios",
     "build:staging:android": "cross-env APP_ENV=production EXPO_NO_DOTENV=1 eas build --profile staging --platform android",
+    "prebuild-push:production": "pnpm run prebuild:production && git add . && git commit -m 'prebuild ran for production' --no-verify && git push --no-verify",
     "prepare": "husky",
     "app-release": "cross-env SKIP_BRANCH_PROTECTION=true np --no-publish --no-cleanup --no-release-draft --no-tests --any-branch",
     "version": "pnpm run prebuild && git add .",
