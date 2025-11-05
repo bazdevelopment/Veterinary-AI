@@ -13,7 +13,6 @@ import SkeletonLoader from '@/components/skeleton-loader';
 import dayjs from 'dayjs';
 import { NoNotification } from '@/components/ui/illustrations/no-notification';
 import { translate } from '@/lib';
-import { date } from 'zod';
 import EdgeCaseTemplate from '@/components/edge-case-template';
 
 export default function NotificationsScreen() {
@@ -50,7 +49,7 @@ export default function NotificationsScreen() {
   );
 
   return (
-    <View className="-mt-6 flex-1 bg-primary-50 dark:bg-transparent">
+    <View className="flex-1 bg-white dark:bg-transparent">
       <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
         {areUserNotificationsLoading ? (
           <SkeletonLoader />

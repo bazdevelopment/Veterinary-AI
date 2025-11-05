@@ -45,6 +45,7 @@ export const ThemeItem = () => {
         options={themes}
         onSelect={onSelect}
         value={theme?.value}
+        heading={translate('settings.theme.title')}
       />
     </>
   );

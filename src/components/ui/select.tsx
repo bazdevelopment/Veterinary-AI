@@ -99,7 +99,7 @@ export const Options = React.forwardRef<BottomSheetModal, OptionsProps>(
         title={heading}
         snapPoints={snapPoints}
         backgroundStyle={{
-          backgroundColor: isDark ? colors.neutral[800] : colors.primary[50],
+          backgroundColor: isDark ? colors.neutral[800] : colors.white,
         }}
       >
         {isPending && <ActivityIndicator size="small" />}

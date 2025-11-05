@@ -1,15 +1,15 @@
 import { Platform } from 'react-native';
 
 export const SUBSCRIPTIONS_PLANS_ANDROID = {
-  MONTHLY: 'med_scan_ai_1month_subscription:monthly-subsription',
-  YEARLY: 'med_scan_ai_1year_subscription:yearly-subscription',
-  WEEKLY: 'med_scan_ai_1week_subscription:weekly-subscription',
+  MONTHLY: 'doctor_med_ai_1month_subscription:monthly-subscription',
+  YEARLY: 'doctor_med_ai_1year_subscription:yearly-subscription',
+  WEEKLY: 'doctor_med_ai_1week_subscription:weekly-subscription',
 };
 
 export const SUBSCRIPTIONS_PLANS_IOS = {
-  MONTHLY: 'med_scan_ai_1month_subscription',
-  YEARLY: 'med_scan_ai_1year_subscription',
-  WEEKLY: 'med_scan_ai_1week_subscription',
+  MONTHLY: 'doctor_med_ai_1month_subscription',
+  YEARLY: 'doctor_med_ai_1year_subscription',
+  WEEKLY: 'doctor_med_ai_1week_subscription',
 };
 
 export const SUBSCRIPTION_PLANS_PER_PLATFORM = Platform.select({

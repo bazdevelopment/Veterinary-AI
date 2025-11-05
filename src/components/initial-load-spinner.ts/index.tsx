@@ -13,7 +13,7 @@ const InitialLoadSpinner = () => {
 
   return (
     <View className="flex-1 items-center justify-center gap-3 bg-primary-900 dark:bg-transparent">
-      <Branding isLogoVisible className="top-[-25]" />
+      <Branding isLogoVisible className="top-[-25]" invertedColors />
       <ActivityIndicator
         size="large"
         className="items-center justify-center"

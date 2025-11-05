@@ -45,7 +45,7 @@ export const ShareItem = () => {
         snapPoints={['90%']}
         title={translate('general.share')}
         backgroundStyle={{
-          backgroundColor: isDark ? colors.blackBeauty : colors.primary[50],
+          backgroundColor: isDark ? colors.blackBeauty : colors.white,
         }}
       >
         <ScrollView className="dark:bg-blackEerie flex-1 bg-gray-50">

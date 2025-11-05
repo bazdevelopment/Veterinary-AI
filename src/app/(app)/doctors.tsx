@@ -10,9 +10,10 @@ import SpecializationCard, {
 import { Button, colors, Text } from '@/components/ui';
 import { router } from 'expo-router';
 import { translate } from '@/lib';
-import { ArrowRight } from '@/components/ui/icons';
 import { ArrowRightSharp } from '@/components/ui/icons/arrow-right-sharp';
 import { useColorScheme } from 'nativewind';
+import UpgradeBanner from '@/components/upgrade-banner';
+import useSubscriptionAlert from '@/lib/hooks/use-subscription-banner';
 
 // Full Screen All Specializations
 const DoctorsScreen: React.FC = () => {
@@ -20,6 +21,7 @@ const DoctorsScreen: React.FC = () => {
   const [filteredData, setFilteredData] = React.useState(
     medicalSpecializationsData
   );
+  const { isUpgradeRequired } = useSubscriptionAlert();
 
   const { colorScheme } = useColorScheme();
   const isDark = colorScheme === 'dark';
@@ -61,7 +63,12 @@ const DoctorsScreen: React.FC = () => {
           </Text>
         </View>
       </View>
-
+      {isUpgradeRequired && (
+        <UpgradeBanner
+          className="mx-4 mt-4"
+          onUpgradePress={() => router.navigate('/paywall-new')}
+        />
+      )}
       <SearchBar
         value={searchQuery}
         onChangeText={handleSearch}

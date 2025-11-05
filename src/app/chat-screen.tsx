@@ -11,8 +11,6 @@ import {
   Animated,
   Image,
   Keyboard,
-  KeyboardAvoidingView,
-  SafeAreaView,
   ScrollView,
   StyleSheet,
   TextInput,
@@ -43,7 +41,7 @@ import {
   BLURRING_CONTENT_CONVERSATIONS_LIMIT,
 } from '@/constants/constants/limits';
 import { getStorageItem } from '@/lib/storage';
-import { colors, Text } from '@/components/ui';
+import { colors, SafeAreaView, Text } from '@/components/ui';
 import { AI_ANALYSIS_LANGUAGE_SELECTION } from '@/constants/constants/language';
 import { shuffleArray } from '@/utilities/shuffle-array';
 import { useTextToSpeech } from '@/lib/hooks/use-text-to-speech';
@@ -64,6 +62,10 @@ import { RobotIcon } from '@/components/ui/icons/robot';
 import { SendIcon } from '@/components/ui/icons/send';
 import { requestAppRatingWithDelay } from '@/utilities/request-app-review';
 import { ChevronLeftNavigation } from '@/components/ui/icons/chevron-left-navigation';
+import useSubscriptionAlert from '@/lib/hooks/use-subscription-banner';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-controller';
+import { CloseIcon } from '@/components/ui/icons/close';
+import icon from '@/components/icon';
 
 type MessageType = {
   role: string;
@@ -148,7 +150,7 @@ const BlurredMessageOverlay = ({
           </Animated.View>
         </View>
 
-        <Text className="mt-2 rounded-full bg-white p-2 text-center font-semibold-work-sans text-base text-gray-800 dark:bg-blackEerie dark:text-black">
+        <Text className="mt-2 rounded-full bg-white p-2 text-center font-semibold-work-sans text-base text-gray-800 dark:bg-blackEerie dark:text-white">
           {translate('general.unlockNow')} 🔓
         </Text>
       </TouchableOpacity>
@@ -426,6 +428,7 @@ const ChatScreen = () => {
 
   // Hooks for messaging
   const { sendStreamingMessage } = useSendStreamingMessage();
+  const { isUpgradeRequired } = useSubscriptionAlert();
 
   const handleSpeak = (messageId: string, text: string) => {
     if (currentlySpeakingId === messageId) {
@@ -507,7 +510,7 @@ const ChatScreen = () => {
     Keyboard.dismiss();
     // Check limits
     if (
-      userInfo.isFreeTrialOngoing &&
+      isUpgradeRequired &&
       conversationsCount >= MAX_CONVERSATIONS_ALLOWED_FREE_TRIAL
     ) {
       return Toast.showCustomToast(
@@ -677,23 +680,31 @@ const ChatScreen = () => {
       {DEVICE_TYPE.IOS && (
         <Toaster autoWiggleOnUpdate="toast-change" pauseWhenPageIsHidden />
       )}
-      <KeyboardAvoidingView
+      <KeyboardAwareScrollView
+        contentContainerStyle={{
+          //   paddingBottom: isKeyboardVisible && DEVICE_TYPE.ANDROID ? 100 : 0,
+          flex: 1,
+        }}
+        keyboardShouldPersistTaps="handled"
+        // bottomOffset={500}
+      >
+        {/* <KeyboardAvoidingView
         behavior="padding"
         className="flex-1"
         keyboardVerticalOffset={DEVICE_TYPE.ANDROID ? 40 : 0}
-      >
+      > */}
         <View className="flex-1 bg-white dark:bg-transparent">
           {/* Header */}
           <View className="flex-row items-center  border-b border-gray-200 bg-white px-4 py-3 dark:border-gray-600 dark:bg-transparent">
             <Icon
-              size={32}
+              size={26}
               // containerStyle="rounded-full dark:bg-white p-1"
               onPress={() => {
                 stopSpeaking();
                 router.push('/(app)');
               }}
               icon={
-                <ChevronLeftNavigation
+                <CloseIcon
                   innerColor={isDark ? 'transparent' : colors.white}
                   color={isDark ? colors.white : colors.black}
                 />
@@ -734,7 +745,7 @@ const ChatScreen = () => {
                 questions={randomQuestions}
                 onSelect={(question) => {
                   if (
-                    userInfo.isFreeTrialOngoing &&
+                    isUpgradeRequired &&
                     conversationsCount >= MAX_CONVERSATIONS_ALLOWED_FREE_TRIAL
                   ) {
                     return Toast.showCustomToast(
@@ -775,7 +786,7 @@ const ChatScreen = () => {
             data={messages}
             extraData={[
               isSpeaking,
-              userInfo?.isFreeTrialOngoing,
+              isUpgradeRequired,
               conversationsCount,
               isStreaming,
             ]}
@@ -787,10 +798,11 @@ const ChatScreen = () => {
             renderItem={({ item, index }) => {
               const isAssistantMessage = item.role !== 'user';
               const isFreeTrialLimitReached =
-                userInfo?.isFreeTrialOngoing &&
-                conversationsCount >= BLURRING_CONTENT_CONVERSATIONS_LIMIT;
+                isUpgradeRequired &&
+                conversationsCount >= BLURRING_CONTENT_CONVERSATIONS_LIMIT &&
+                isAssistantMessage;
 
-              const shouldBlurMessage = false;
+              const shouldBlurMessage = isFreeTrialLimitReached;
               return (
                 <ChatBubble
                   message={item}
@@ -825,7 +837,7 @@ const ChatScreen = () => {
                 containerStyle="-left-2 border-white border-[1.5px] rounded-full"
                 onPress={() => {
                   if (
-                    userInfo.isFreeTrialOngoing &&
+                    isUpgradeRequired &&
                     conversationsCount >= MAX_CONVERSATIONS_ALLOWED_FREE_TRIAL
                   ) {
                     return Toast.showCustomToast(
@@ -887,7 +899,7 @@ const ChatScreen = () => {
             </TouchableOpacity>
           </View>
         </View>
-      </KeyboardAvoidingView>
+      </KeyboardAwareScrollView>
       <ImagePickerModal
         title=""
         data={['Select from the library', 'Take a picture', 'Choose file']}

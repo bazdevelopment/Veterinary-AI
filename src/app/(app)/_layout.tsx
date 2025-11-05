@@ -101,7 +101,7 @@ export default function TabLayout() {
   return (
     <SafeAreaView
       className="flex-1 bg-white dark:bg-transparent"
-      edges={DEVICE_TYPE.ANDROID ? ['bottom'] : ['top']}
+      edges={DEVICE_TYPE.ANDROID ? ['bottom', 'top'] : ['top']}
     >
       <Tabs
         screenOptions={{

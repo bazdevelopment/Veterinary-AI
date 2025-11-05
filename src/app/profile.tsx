@@ -62,7 +62,7 @@ const Profile = () => {
 
   return (
     <KeyboardStickyView offset={{ opened: 150 }}>
-      <ScrollView className="dark:bg-transparent">
+      <ScrollView className="dark:bg-transparent bg-white">
         <View className="flex-1">
           <View className="h-[120px] rounded-b-[50px] pb-10 pt-12 " />
           <Avatar

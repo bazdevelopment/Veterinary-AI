@@ -11,7 +11,6 @@ import {
   useSendIndividualPushNotification,
 } from '@/api/push-notifications/push-notifications.hooks';
 import { useAddFieldsToCollection } from '@/api/services/services.hooks';
-import { useUpdateUser, useUser } from '@/api/user/user.hooks';
 import { logout } from '@/api/user/user.requests';
 import CustomAlert from '@/components/custom-alert';
 import { Item } from '@/components/settings/item';
@@ -27,6 +26,8 @@ import { translate, useSelectedLanguage } from '@/lib';
 import { Env } from '@/lib/env';
 import useRemoteConfig from '@/lib/hooks/use-remote-config';
 import { DEVICE_TYPE } from '@/utilities/device-type';
+import UpgradeBanner from '@/components/upgrade-banner';
+import useSubscriptionAlert from '@/lib/hooks/use-subscription-banner';
 
 export default function Settings() {
   const { colorScheme } = useColorScheme();
@@ -34,6 +35,7 @@ export default function Settings() {
 
   const { SHOW_FAQ_SCREEN, SHOW_RATE_SCREEN, SHOW_ADMIN_SCREENS } =
     useRemoteConfig();
+  const { isUpgradeRequired } = useSubscriptionAlert();
 
   const scrollViewRef = useRef(null);
   const iconColor = colorScheme === 'dark' ? colors.neutral[50] : colors.black;
@@ -88,13 +90,13 @@ export default function Settings() {
       {DEVICE_TYPE.IOS && (
         <Toaster autoWiggleOnUpdate="toast-change" pauseWhenPageIsHidden />
       )}
-      {/* 
-      {userInfo.scansRemaining <= 0 && userInfo.isFreeTrialOngoing && (
+
+      {isUpgradeRequired && (
         <UpgradeBanner
           className="mx-4 mt-4"
           onUpgradePress={() => router.navigate('/paywall-new')}
         />
-      )} */}
+      )}
       <ScrollView ref={scrollViewRef}>
         <View className="mb-20 px-6">
           <ItemsContainer title="settings.generale">

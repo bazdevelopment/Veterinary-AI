@@ -3,7 +3,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useColorScheme } from 'nativewind';
 import React, { useState } from 'react';
-import { SafeAreaView, ScrollView, TouchableOpacity, View } from 'react-native';
+import { ScrollView, TouchableOpacity, View } from 'react-native';
 import { type CustomerInfo } from 'react-native-purchases';
 
 import {
@@ -22,6 +22,7 @@ import {
   Image,
   Button,
   Switch,
+  SafeAreaView,
 } from '@/components/ui';
 import { CloseIcon } from '@/components/ui/icons/close';
 import { useCrashlytics } from '@/lib/hooks/use-crashlytics';
@@ -299,7 +300,7 @@ const PaywallNew = () => {
         : selectedPlan === 'monthly'
           ? SUBSCRIPTION_PLANS_PER_PLATFORM?.MONTHLY
           : SUBSCRIPTION_PLANS_PER_PLATFORM?.WEEKLY;
-
+    console.log('packageIdentifier', packageIdentifier);
     const customerInfoAfterPurchase = await purchaseSubscription({
       packageIdentifier,
     });

@@ -39,6 +39,9 @@ import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
 import { Path, Svg } from 'react-native-svg';
 
 import { Text } from './text';
+import Icon from '../icon';
+import colors from './colors';
+import { CloseIcon } from './icons/close';
 
 type ModalProps = BottomSheetModalProps & {
   title?: string;
@@ -157,41 +160,29 @@ const getDetachedProps = (detached: boolean) => {
 
 const ModalHeader = React.memo(({ title, dismiss }: ModalHeaderProps) => {
   return (
-    <>
+    <View className="mx-6 -mt-2 mb-4  flex-row items-center justify-between">
       {title && (
-        <View className="flex-row px-2 py-4">
-          <View className="size-[24px]" />
-          <View className="flex-1">
-            <Text className="text-center font-bold-work-sans text-[16px] text-[#26313D] dark:text-white">
-              {title}
-            </Text>
-          </View>
+        <View className="w-[90%]">
+          <Text className="font-semibold-work-sans text-xl text-black dark:text-white">
+            {title}
+          </Text>
         </View>
       )}
-      <CloseButton close={dismiss} />
-    </>
+      <View className="flex-1 flex-row justify-end">
+        <CloseButton close={dismiss} />
+      </View>
+    </View>
   );
 });
 
 const CloseButton = ({ close }: { close: () => void }) => {
   return (
-    <Pressable
+    <Icon
+      containerStyle="p-1.5 bg-black rounded-full"
+      icon={<CloseIcon />}
+      size={16}
+      color={colors.white}
       onPress={close}
-      className="absolute right-3 top-3 size-[24px] items-center justify-center "
-      hitSlop={{ top: 20, bottom: 20, left: 20, right: 20 }}
-      accessibilityLabel="close modal"
-      accessibilityRole="button"
-      accessibilityHint="closes the modal"
-    >
-      <Svg
-        className="fill-neutral-300 dark:fill-white"
-        width={24}
-        height={24}
-        fill="none"
-        viewBox="0 0 24 24"
-      >
-        <Path d="M18.707 6.707a1 1 0 0 0-1.414-1.414L12 10.586 6.707 5.293a1 1 0 0 0-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 1 0 1.414 1.414L12 13.414l5.293 5.293a1 1 0 0 0 1.414-1.414L13.414 12l5.293-5.293Z" />
-      </Svg>
-    </Pressable>
+    />
   );
 };
