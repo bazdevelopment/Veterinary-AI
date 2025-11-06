@@ -38,7 +38,7 @@ const SearchBar: React.FC<ISearchBar> = ({
           />
         </View>
         <TextInput
-          className="ml-2 flex-1 font-primary-work-sans text-gray-800 dark:text-white"
+          className="ml-2 flex-1 font-medium-work-sans text-gray-800 dark:text-white"
           placeholder={placeholder}
           placeholderTextColor={
             isDark ? colors.charcoal[200] : colors.charcoal[800]

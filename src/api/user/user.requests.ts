@@ -37,7 +37,6 @@ export const createAnonymousAccount = async ({
 
     return { ...userCredentials, ...data };
   } catch (error) {
-    console.log('akungggggee-----');
     throw error;
   }
 };

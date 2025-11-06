@@ -109,14 +109,14 @@ runs:
          # Use sed to replace placeholders in eas.json
          sed -i '' "s|EXPO_PUBLIC_REVENUE_CAT_API_KEYS_GOOGLE_CI|${{ inputs.REVENUE_CAT_API_KEYS_GOOGLE }}|g" eas.json
          sed -i '' "s|EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE_CI|${{ inputs.REVENUE_CAT_API_KEYS_APPLE }}|g" eas.json
-         sed -i '' "s|EXPO_PUBLIC_EXPO_PUBLIC_GEMINI_API_KEY_CI|${{ inputs.EXPO_PUBLIC_GEMINI_API_KEY }}|g" eas.json
-         sed -i '' "s|EXPO_PUBLIC_EXPO_PUBLIC_AI_ANALYSIS_PROMPT_CI|${{ inputs.EXPO_PUBLIC_AI_ANALYSIS_PROMPT }}|g" eas.json
+         sed -i '' "s|EXPO_PUBLIC_GEMINI_API_KEY_CI|${{ inputs.EXPO_PUBLIC_GEMINI_API_KEY }}|g" eas.json
+         sed -i '' "s|EXPO_PUBLIC_AI_ANALYSIS_PROMPT_CI|${{ inputs.EXPO_PUBLIC_AI_ANALYSIS_PROMPT }}|g" eas.json
 
          else
          sed -i 's|EXPO_PUBLIC_REVENUE_CAT_API_KEYS_GOOGLE_CI|${{ inputs.REVENUE_CAT_API_KEYS_GOOGLE }}|g' eas.json
          sed -i 's|EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE_CI|${{ inputs.REVENUE_CAT_API_KEYS_APPLE }}|g' eas.json
-         sed -i 's|EXPO_PUBLIC_EXPO_PUBLIC_GEMINI_API_KEY_CI|${{ inputs.EXPO_PUBLIC_GEMINI_API_KEY }}|g' eas.json
-         sed -i 's|EXPO_PUBLIC_EXPO_PUBLIC_AI_ANALYSIS_PROMPT_CI|${{ inputs.EXPO_PUBLIC_AI_ANALYSIS_PROMPT }}|g' eas.json
+         sed -i 's|EXPO_PUBLIC_GEMINI_API_KEY_CI|${{ inputs.EXPO_PUBLIC_GEMINI_API_KEY }}|g' eas.json
+         sed -i 's|EXPO_PUBLIC_AI_ANALYSIS_PROMPT_CI|${{ inputs.EXPO_PUBLIC_AI_ANALYSIS_PROMPT }}|g' eas.json
          
          fi
       shell: bash

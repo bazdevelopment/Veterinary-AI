@@ -34,7 +34,7 @@ const ThirdOnboardingScreen = ({
             <Text className="font-bold-work-sans text-4xl">
               {translate('rootLayout.screens.onboarding.thirdOnboarding.title')}
             </Text>
-            <Text className="text-lg font-primary-work-sans mt-4 text-charcoal-800 dark:text-white">
+            <Text className="text-lg font-medium-work-sans mt-4 text-charcoal-800 dark:text-white">
               {translate(
                 'rootLayout.screens.onboarding.thirdOnboarding.subtitle'
               )}

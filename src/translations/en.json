@@ -84,7 +84,7 @@
     "upgradePlan": "Upgrade Plan",
     "viewProfile": "View Profile",
     "yes": "Yes",
-    "chatBotPlaceholder": "Hi! If you have any questions about ${{topic}} domain. Dr. Med is available to assist you"
+    "chatBotPlaceholder": "Hi! If you have any questions about {{topic}} domain. Dr. Med is available to assist you"
   },
   "weekDays": {
     "today": "Today",
@@ -98,7 +98,7 @@
       "third": "No ads"
     },
     "UpgradeBanner": {
-      "heading": "Upgrade Now",
+      "heading": "Unlock Now",
       "subheading": "Enjoy all benefits without restrictions"
     },
     "MedicalCard": {
@@ -313,7 +313,7 @@
           "title": "Unlock Premium Features Today!",
           "firstOffering": "Access All Premium Features",
           "secondOffering": "Ad-Free Experience",
-          "thirdOffering": "Unlimited medical images scans + reports",
+          "thirdOffering": "Unlimited analysis of medical images, videos, PDF scans + reports",
           "fourthOffering": "Unlimited chats with a 24/7 AI medical assistants"
         }
       },

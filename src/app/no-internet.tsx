@@ -2,13 +2,12 @@ import { Text, Button } from '@/components/ui';
 import { NoInternetIllustration } from '@/components/ui/illustrations/no-internet';
 import { translate } from '@/lib';
 import React from 'react';
-import { NativeModules, View } from 'react-native';
+import { View } from 'react-native';
 import RNRestart from 'react-native-restart';
 
 const NoInternet = () => {
   const handleAppRestart = () => {
-    if (__DEV__) NativeModules.DevSettings.reload();
-    else RNRestart.restart();
+    RNRestart.restart();
   };
   return (
     <View className="flex-1  items-center dark:bg-blackEerie">

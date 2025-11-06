@@ -26,11 +26,7 @@ const cardData: IMedicalCardItem[] = [
     title: translate('components.MedicalCard.askMedicalAssistant'),
     icon: <BotAssistant />,
     bgColor: 'bg-secondary-900',
-    onPress: () =>
-      router.navigate({
-        pathname: '/chat',
-        params: { topic: translate('components.MedicalCard.medicalAssistant') },
-      }),
+    onPress: () => router.navigate('/chat'),
   },
 ];
 

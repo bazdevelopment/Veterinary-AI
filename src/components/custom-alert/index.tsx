@@ -93,7 +93,7 @@ const CustomAlert = ({
 
             {/* Subtitle (normal weight) */}
             {subtitle && (
-              <Text className="mb-2 text-center font-primary-work-sans text-lg dark:text-white">
+              <Text className="mb-2 text-center font-medium-work-sans text-lg dark:text-white">
                 {subtitle}
               </Text>
             )}

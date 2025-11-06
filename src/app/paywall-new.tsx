@@ -285,12 +285,12 @@ const PaywallNew = () => {
       ),
       icon: <CheckboxIcon />,
     },
-    {
-      title: translate(
-        'rootLayout.screens.paywallOnboarding.freeTierOfferings.secondOffering'
-      ),
-      icon: <CheckboxIcon />,
-    },
+    // {
+    //   title: translate(
+    //     'rootLayout.screens.paywallOnboarding.freeTierOfferings.secondOffering'
+    //   ),
+    //   icon: <CheckboxIcon />,
+    // },
   ];
 
   const handlePurchase = async () => {
@@ -424,7 +424,7 @@ const PaywallNew = () => {
                     isFree={true}
                   />
 
-                  <Text className="ml-2 -top-2 text-center font-primary-work-sans text-sm text-gray-900">
+                  <Text className="ml-2 -top-2 text-center font-medium-work-sans text-sm text-gray-900">
                     {translate('general.noPaymentNow')}
                   </Text>
                 </>

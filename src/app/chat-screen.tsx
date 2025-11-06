@@ -39,9 +39,7 @@ import {
   MAX_CONVERSATIONS_ALLOWED_FREE_TRIAL,
   BLURRING_CONTENT_CONVERSATIONS_LIMIT,
 } from '@/constants/constants/limits';
-import { getStorageItem } from '@/lib/storage';
 import { colors, SafeAreaView, Text } from '@/components/ui';
-import { AI_ANALYSIS_LANGUAGE_SELECTION } from '@/constants/constants/language';
 import { shuffleArray } from '@/utilities/shuffle-array';
 import { useTextToSpeech } from '@/lib/hooks/use-text-to-speech';
 import { translate, useSelectedLanguage } from '@/lib';
@@ -59,7 +57,10 @@ import { useMediaPiker } from '@/lib/hooks/use-media-picker';
 import ImagePreviewGallery from '@/components/image-preview-gallery';
 import { RobotIcon } from '@/components/ui/icons/robot';
 import { SendIcon } from '@/components/ui/icons/send';
-import { requestAppRatingWithDelay } from '@/utilities/request-app-review';
+import {
+  shouldRequestInAppRating,
+  requestAppRatingWithDelayStorage,
+} from '@/utilities/request-app-review';
 import useSubscriptionAlert from '@/lib/hooks/use-subscription-banner';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-controller';
 import { CloseIcon } from '@/components/ui/icons/close';
@@ -327,12 +328,14 @@ export function useRequestAppRatingOnce({
   isLoading,
   isFetchingAllConversationsPending,
   userInfo,
-  requestAppRatingWithDelay,
+  requestAppRatingWithDelayStorage,
+  canRequestInAppRating,
 }: {
   isLoading: boolean;
   isFetchingAllConversationsPending: boolean;
   userInfo?: { completedScans?: number };
-  requestAppRatingWithDelay: (delay: number) => void;
+  requestAppRatingWithDelayStorage: (delay: number) => void;
+  canRequestInAppRating: boolean;
 }) {
   const hasRequestedRef = useRef(globalHasRequested);
 
@@ -342,17 +345,19 @@ export function useRequestAppRatingOnce({
     if (
       !isLoading &&
       !isFetchingAllConversationsPending &&
+      canRequestInAppRating &&
       userInfo?.completedScans === 1
     ) {
       hasRequestedRef.current = true;
       globalHasRequested = true;
-      requestAppRatingWithDelay(1000);
+      requestAppRatingWithDelayStorage(1000);
     }
   }, [
     isLoading,
     isFetchingAllConversationsPending,
     userInfo?.completedScans,
-    requestAppRatingWithDelay,
+    requestAppRatingWithDelayStorage,
+    canRequestInAppRating,
   ]);
 }
 export const TypingIndicator = () => {
@@ -402,8 +407,12 @@ const ChatScreen = () => {
   } = useTranslation();
 
   const { data: userInfo } = useUser(language);
+
   const { data: conversation, isLoading: isLoadingConversation } =
     useConversationHistory(conversationId as string);
+
+  const { canRequest: canRequestInAppRating } = shouldRequestInAppRating();
+
   const showPicker = () => setVisible(true);
   const closePicker = () => setVisible(false);
 
@@ -419,6 +428,7 @@ const ChatScreen = () => {
   const { data, isPending: isFetchingAllConversationsPending } =
     useAllUserConversations();
   const conversationsCount = data?.count || 0;
+  console.log('conversationsCount', conversationsCount);
   // Hooks for messaging
   const { sendStreamingMessage } = useSendStreamingMessage();
   const { isUpgradeRequired } = useSubscriptionAlert();
@@ -670,7 +680,8 @@ const ChatScreen = () => {
     isLoading: isLoadingConversation,
     isFetchingAllConversationsPending,
     userInfo,
-    requestAppRatingWithDelay,
+    requestAppRatingWithDelayStorage,
+    canRequestInAppRating,
   });
   return (
     <SafeAreaView className="flex-1 bg-white dark:bg-transparent">
@@ -799,7 +810,9 @@ const ChatScreen = () => {
                 conversationsCount >= BLURRING_CONTENT_CONVERSATIONS_LIMIT;
 
               const shouldBlurMessage =
-                isFreeTrialLimitReached && isAssistantMessage && index > 1;
+                isFreeTrialLimitReached && isAssistantMessage && index >= 1;
+              console.log('isFreeTrialLimitReached', isFreeTrialLimitReached);
+              console.log('shouldBlurMessage', shouldBlurMessage);
               return (
                 <ChatBubble
                   message={item}
