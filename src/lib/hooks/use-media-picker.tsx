@@ -29,7 +29,7 @@ interface IMediaPicker {
 
 export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
   const [files, setFiles] = useState([]);
-  console.log('files', files);
+
   const handleRemoveFile = (fileId: string) => {
     const newFiles = files.filter((file) => file.id !== fileId);
     setFiles(newFiles);
@@ -87,7 +87,6 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
       }
 
       const assets = result.assets;
-
       // Check for mixed media types (images and videos together)
       const hasImages = assets.some((asset) => asset.type === 'image');
       const hasVideos = assets.some((asset) => asset.type === 'video');
@@ -307,7 +306,7 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
     try {
       // Launch the document picker for selecting files
       const result = await DocumentPicker.getDocumentAsync({
-        type: ['image/*', 'video/*'], // ! Accepts only images and videos, add like this in the future !type: ['image/*', 'video/*'], // Accepts only images and videos,
+        type: ['image/*', 'video/*', 'application/pdf'], // Images, videos, PDFs, and Word documents (word not supported yet)
         multiple: true,
       });
       onCloseModal(); //!very important to close the modal here after the document picker launch (especially for ios)
@@ -319,16 +318,22 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
 
       const assets = result.assets;
 
-      // Check for mixed media types (images and videos together)
+      // Check for different media types
       const hasImages = assets.some((asset) =>
         asset.mimeType?.startsWith('image')
       );
       const hasVideos = assets.some((asset) =>
         asset.mimeType?.startsWith('video')
       );
+      const hasDocs = assets.some((asset) =>
+        asset.mimeType?.startsWith('application')
+      );
 
-      if (hasImages && hasVideos) {
-        // ! wait(100) - workaround because there is a conflict between modal from document picker and modals that the app shows at the same time
+      // Count different types
+      const typeCount = [hasImages, hasVideos, hasDocs].filter(Boolean).length;
+
+      // Check for mixed media types (images, videos, and documents together)
+      if (typeCount > 1) {
         wait(1000).then(() =>
           Toast.showCustomToast(
             <CustomAlert
@@ -406,12 +411,6 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
 
         if (!isLimitReached) {
           handleLoadFile(assets);
-          // onUploadFinished({
-          //   fileMimeType: asset.mimeType,
-          //   fileExtension: getImageExtension(asset.name),
-          //   fileUri: asset.uri,
-          //   fileName: asset.name,
-          // });
         } else {
           wait(1000).then(() =>
             Toast.showCustomToast(
@@ -438,6 +437,79 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
               }
             )
           );
+        }
+        return;
+      }
+
+      // Handle document files (PDFs, Word docs)
+      if (hasDocs) {
+        const processedDocs = [];
+        let hasErrors = false;
+
+        for (const asset of assets) {
+          try {
+            // const sizeInMb = getFileSizeInMB(asset.size as number);
+            // const { isLimitReached } = checkFileSize(
+            //   Number(sizeInMb),
+            //   'document'
+            // );
+
+            // if (isLimitReached) {
+            //   wait(1000).then(() =>
+            //     Toast.showCustomToast(
+            //       <CustomAlert
+            //         title={translate('general.attention')}
+            //         subtitle={translate('alerts.documentSizeLarge', {
+            //           fileSize: Number(sizeInMb),
+            //           documentLimit: DOCUMENT_SIZE_LIMIT_MB,
+            //           fileName: asset.name || 'Unknown',
+            //         })}
+            //         buttons={[
+            //           {
+            //             label: translate('general.close'),
+            //             variant: 'default',
+            //             onPress: Toast.dismiss,
+            //             buttonTextClassName: 'dark:text-white',
+            //             className:
+            //               'flex-1 rounded-xl h-[48] bg-primary-900 active:opacity-80 dark:bg-primary-900',
+            //           },
+            //         ]}
+            //       />,
+            //       {
+            //         position: 'middle',
+            //         duration: Infinity,
+            //       }
+            //     )
+            //   );
+            //   hasErrors = true;
+            //   continue;
+            // }
+
+            processedDocs.push({
+              fileMimeType: asset.mimeType,
+              fileExtension: asset.name.split('.').pop() || '',
+              fileUri: asset.uri,
+              fileName: asset.name,
+            });
+          } catch (docError) {
+            hasErrors = true;
+          }
+        }
+
+        if (processedDocs.length > 0) {
+          handleLoadFile(processedDocs);
+        }
+
+        if (hasErrors && processedDocs.length > 0) {
+          Toast.warning(translate('alerts.someDocumentsSkipped'), {
+            closeButton: true,
+            duration: 5000,
+          });
+        } else if (hasErrors && processedDocs.length === 0) {
+          Toast.error(translate('alerts.allDocumentsFailed'), {
+            closeButton: true,
+            duration: Infinity,
+          });
         }
         return;
       }
@@ -516,7 +588,6 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
               fileName: finalFileName,
             });
           } catch (imageError) {
-            // console.error('Error processing image:', imageError);
             hasErrors = true;
           }
         }
@@ -540,7 +611,6 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
         }
       }
     } catch (error) {
-      // console.error('Error in handleChooseFromFiles:', error);
       Toast.error(translate('alerts.errorSelectingDocumentPicker'), {
         closeButton: true,
         duration: Infinity,

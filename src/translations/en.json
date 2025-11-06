@@ -23,6 +23,7 @@
     "conversationHistory": "Conversation history",
     "medicalAssistants": "Medical Assistants",
     "searchAssistant": "Search Assistant...",
+    "analyzingMediaFilesPlaceholder": "Analyzing Media Files...",
     "copyText": {
       "copied": "Copied!",
       "copy": "Copy Link",
@@ -467,7 +468,7 @@
     "restorationError": "An error occurred while restoring the purchase.",
     "medicalDisclaimerAlert": "The Doctor Med AI app does not replace medical consultation. Some diagnoses are for informational/educational purposes only. For medical recommendations, always consult a doctor or licensed specialist.",
     "scanLimitReached": "We're optimizing scan quality for you! You'll be able to scan again in around {{hours}} hours and {{minutes}} minutes. Have any questions about any medical topic? Ask our chat assistant while you wait!",
-    "mixedMediaNotAllowed": "Uploads must contain only images or only videos, not a mix of both.",
+    "mixedMediaNotAllowed": "For better accuracy, do not upload a mix of different media files. Please upload only images, videos, or pdfs — not all together.",
     "multipleVideosNotAllowed": "For better accuracy, please upload only one video at a time.",
     "mediaFilesUploadFiles": "There was an error uploading your media files. Please try again.",
     "chatAndMediaFilesLimit": "Dear user, you need to upgrade your plan to benefit from unlimited chats, unlimited scans, multi-images analysis and more. 🔓"

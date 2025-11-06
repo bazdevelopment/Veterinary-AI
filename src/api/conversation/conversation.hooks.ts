@@ -84,7 +84,7 @@ const uploadToFirebaseStorage = async (
   conversationId: string
 ): Promise<string> => {
   const fileName = localPath?.split('/').pop()!;
-  const ref = storage().ref(`conversations/${conversationId}/${fileName}`);
+  const ref = storage().ref(`interpretations/${conversationId}/${fileName}`);
   await ref.putFile(localPath);
   return await ref.getDownloadURL();
 };

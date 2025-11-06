@@ -64,6 +64,7 @@ import useSubscriptionAlert from '@/lib/hooks/use-subscription-banner';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-controller';
 import { CloseIcon } from '@/components/ui/icons/close';
 import Toast from '@/components/toast';
+import MessageMediaAttachments from '@/components/message-media-attachments';
 
 type MessageType = {
   role: string;
@@ -247,16 +248,15 @@ export const ChatBubble = ({
         )}
       </Animated.View>
       {isUser && message?.imageUrls?.length > 0 && (
-        <View className="flex-row flex-wrap self-end">
-          {message.imageUrls.map((url, index) => (
-            <Image
-              key={index}
-              source={{ uri: url }}
-              className="w-[70px] h-[70px] rounded-xl m-1"
-              resizeMode="cover"
-            />
-          ))}
-        </View>
+        <MessageMediaAttachments
+          urls={message.imageUrls}
+          isUser={isUser}
+          onDocumentPress={(url) => {
+            // Optional: Custom handler for document press
+            // e.g., open in a WebView, download, etc.
+            // Linking.openURL(url);
+          }}
+        />
       )}
       {!shouldBlur && (
         <View className="item-center mt-1 flex-row gap-4">
@@ -382,10 +382,7 @@ const ChatScreen = () => {
   >(null);
 
   const { language: appLanguage } = useSelectedLanguage();
-  const languageAIResponsesLocally = getStorageItem(
-    AI_ANALYSIS_LANGUAGE_SELECTION
-  );
-  const selectedLanguage = languageAIResponsesLocally || appLanguage;
+  const selectedLanguage = appLanguage;
 
   const flashListRef = useRef<FlashList<MessageType>>(null);
   const [randomQuestions, setRandomQuestions] = useState<string[]>([]);
@@ -407,7 +404,6 @@ const ChatScreen = () => {
   const { data: userInfo } = useUser(language);
   const { data: conversation, isLoading: isLoadingConversation } =
     useConversationHistory(conversationId as string);
-  console.log('userInfo', userInfo);
   const showPicker = () => setVisible(true);
   const closePicker = () => setVisible(false);
 
@@ -423,7 +419,6 @@ const ChatScreen = () => {
   const { data, isPending: isFetchingAllConversationsPending } =
     useAllUserConversations();
   const conversationsCount = data?.count || 0;
-  console.log('conversationsCount', conversationsCount);
   // Hooks for messaging
   const { sendStreamingMessage } = useSendStreamingMessage();
   const { isUpgradeRequired } = useSubscriptionAlert();
@@ -466,7 +461,7 @@ const ChatScreen = () => {
         userMessage: message.content
           ? message.content
           : mediaFiles.length
-            ? 'Analyzing Media Files'
+            ? translate('general.analyzingMediaFilesPlaceholder')
             : '',
         conversationId: conversationId as string,
         userId: userInfo.userId,
@@ -494,7 +489,11 @@ const ChatScreen = () => {
       setPendingMessages((prev) =>
         prev.map((msg) =>
           msg.content === message.content
-            ? { ...msg, isPending: false, isError: true }
+            ? {
+                ...msg,
+                isPending: false,
+                isError: true,
+              }
             : msg
         )
       );
@@ -547,7 +546,7 @@ const ChatScreen = () => {
       content: !!userMsg?.trim()
         ? userMsg
         : !!mediaFiles?.length
-          ? 'Analyzing Media Files'
+          ? translate('general.analyzingMediaFilesPlaceholder')
           : '',
       isPending: true,
       imageUrls: mediaFiles.map((img) => img.uri),
@@ -564,7 +563,7 @@ const ChatScreen = () => {
         userMessage: !!userMsg?.trim()
           ? userMsg
           : !!mediaFiles?.length
-            ? 'Analyzing Media Files'
+            ? translate('general.analyzingMediaFilesPlaceholder')
             : '',
         conversationId: conversationId as string,
         userId: userInfo.userId,
@@ -904,9 +903,7 @@ const ChatScreen = () => {
         isVisible={isVisible}
         onCancelPress={closePicker}
         onBackdropPress={closePicker}
-        onPress={(item) => {
-          console.log('Picked image URI:', item.assets[0].uri);
-        }}
+        onPress={(item) => {}}
         onChooseImageFromGallery={onChooseImageFromGallery}
         onChooseFromFiles={onChooseFromFiles}
         onTakePhoto={onTakePhoto}
