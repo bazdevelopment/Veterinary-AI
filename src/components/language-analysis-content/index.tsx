@@ -149,7 +149,7 @@ const LanguageAnalysisContent = ({
         className={`flex-row items-center justify-between border-b border-black/20 px-6 py-4 dark:border-white/10`}
         activeOpacity={0.7}
       >
-        <Text className="flex-1 font-semibold-work-sans text-[15px] text-black dark:text-white">
+        <Text className="flex-1 font-semibold-poppins text-[15px] text-black dark:text-white">
           {item.label}
         </Text>
         {selectedLanguage === item.value && (
@@ -186,6 +186,7 @@ const LanguageAnalysisContent = ({
             className="ml-3 flex-1 text-base text-black dark:text-white"
             autoCorrect={false}
             autoCapitalize="none"
+            allowFontScaling={true}
           />
         </View>
       </View>
@@ -212,7 +213,7 @@ const LanguageAnalysisContent = ({
                 height={48}
                 color={isDark ? colors.white : colors.black}
               />
-              <Text className="mt-4 text-center font-bold-work-sans text-lg text-black dark:text-white/60">
+              <Text className="mt-4 text-center font-bold-poppins text-lg text-black dark:text-white/60">
                 {translate(
                   'rootLayout.screens.languageAnalysisModal.noLanguageFound'
                 )}

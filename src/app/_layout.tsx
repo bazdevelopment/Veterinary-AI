@@ -2,13 +2,14 @@
 import '../../global.css';
 
 import {
+  Poppins_300Light,
+  Poppins_400Regular,
+  Poppins_500Medium,
+  Poppins_600SemiBold,
+  Poppins_700Bold,
+  Poppins_800ExtraBold,
   useFonts,
-  WorkSans_300Light,
-  WorkSans_400Regular,
-  WorkSans_600SemiBold,
-  WorkSans_700Bold,
-  WorkSans_800ExtraBold,
-} from '@expo-google-fonts/work-sans';
+} from '@expo-google-fonts/poppins';
 import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import { ThemeProvider } from '@react-navigation/native';
 import { router, Stack } from 'expo-router';
@@ -47,12 +48,12 @@ export default function RootLayout() {
   const isDark = colorScheme === 'dark';
 
   const [fontsLoaded] = useFonts({
-    'Font-Regular': WorkSans_400Regular,
-    'Font-SemiBold': WorkSans_600SemiBold,
-    'Font-Light': WorkSans_300Light,
-    'Font-Bold': WorkSans_700Bold,
-    'Font-Medium': WorkSans_400Regular,
-    'Font-Extra-Bold': WorkSans_800ExtraBold,
+    'Font-Regular': Poppins_400Regular,
+    'Font-SemiBold': Poppins_600SemiBold,
+    'Font-Light': Poppins_300Light,
+    'Font-Bold': Poppins_700Bold,
+    'Font-Medium': Poppins_400Regular,
+    'Font-Extra-Bold': Poppins_800ExtraBold,
   });
 
   const [appIsReady, setAppReady] = useState(false);

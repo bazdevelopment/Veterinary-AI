@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "חזרה",
+    "welcome": "היי",
+    "welcomeBack": "ברוך שובך!",
+    "welcomeMessage": "ברוך הבא!",
+    "continue": "המשך",
+    "retry": "נסה שוב",
+    "close": "סגור",
+    "gallery": "גלריה",
+    "files": "קבצים",
+    "seeAll": "ראה הכל",
+    "cancel": "ביטול",
+    "delete": "מחק",
+    "attention": "תשומת לב!",
+    "new": "חדש",
+    "activeSubscription": "מינוי פעיל",
+    "agreeingMessage": "בהמשך, אתה מסכים ל",
+    "and": "ו",
+    "askAssistant": "שאל את עוזר הבינה המלאכותית",
+    "chatbotPlaceholder": "שאל אותי כל דבר...",
+    "completedScans": "סריקות הושלמו",
+    "conversationHistory": "היסטוריית שיחות",
+    "medicalAssistants": "עוזרים רפואיים",
+    "searchAssistant": "חפש עוזר...",
+    "analyzingMediaFilesPlaceholder": "מנתח קבצי מדיה...",
+    "copyText": {
+      "copied": "הועתק!",
+      "copy": "העתק קישור",
+      "loading": "מעתיק..."
+    },
+    "createdAt": "נוצר ב",
+    "download": "הורד",
+    "free": "חינם",
+    "freeTrial": "ניסיון חינם",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "סורק את הדימות הרפואי שלך, אנא המתן...",
+        "fourth": "כמעט סיימנו, מסיים את הסריקה...",
+        "second": "מנתח פרטים, זה עשוי לקחת רגע...",
+        "third": "משפר דיוק לתוצאות הטובות ביותר..."
+      },
+      "initialAppLoad": {
+        "first": "טוען את החוויה האישית שלך...",
+        "fourth": "כמעט מוכן, רק רגע...",
+        "second": "מסנכרן מערכות...",
+        "third": "מעבד את הנתונים שלך..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med מתכונן לסייע לך...",
+        "second": "המתן! Dr. Med מכין את התשובה שלך...",
+        "third": "חושב... העוזר שלך Dr. Med מטפל בזה!"
+      }
+    },
+    "tabs": {
+      "home": "בית",
+      "chat": "צ'אט",
+      "aiDoctors": "רופאי בינה מלאכותית",
+      "settings": "הגדרות"
+    },
+    "medicalDisclaimer": "הצהרה רפואית",
+    "next": "הבא",
+    "noPaymentNow": "ללא תשלום עכשיו. ניתן לבטל בכל עת.",
+    "online": "מקוון",
+    "openSettings": "פתח הגדרות",
+    "or": "או",
+    "perMonth": "לחודש",
+    "perWeek": "לשבוע",
+    "perYear": "לשנה",
+    "privacyPolicy": "מדיניות פרטיות",
+    "restorePurchase": "שחזר רכישה",
+    "termsOfUse": "תנאי שימוש",
+    "saveDiscount": "חסך",
+    "seeNotifications": "ראה התראות",
+    "share": "שתף",
+    "shareLink": "שתף קישור",
+    "skip": "דלג",
+    "termsAndConditions": "תנאים והגבלות",
+    "then": "ואז",
+    "tryAgain": "נסה שוב",
+    "tryForFree": "התחל ניסיון חינם",
+    "typing": "כותב...",
+    "unlockNow": "בטל נעילה עכשיו",
+    "update": "עדכן",
+    "upgradePlan": "שדרג תוכנית",
+    "viewProfile": "הצג פרופיל",
+    "yes": "כן",
+    "chatBotPlaceholder": "היי. אם יש לך שאלה, אני יכול לעזור לך לחקור את תחום {{topic}}. לשימוש חינוכי בלבד."
+  },
+  "weekDays": {
+    "today": "היום",
+    "yesterday": "אתמול"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "קבל ניתוח מסריקות רפואיות שונות, כולל רנטגן, CT, MRI, ECG ועוד",
+      "second": "גישה לכל התכונות הפרמיות",
+      "fourth": "צ'אטים בלתי מוגבלים עם עוזרים רפואיים בבינה מלאכותית 24/7",
+      "third": "ללא פרסומות"
+    },
+    "UpgradeBanner": {
+      "heading": "בטל נעילה עכשיו",
+      "subheading": "הנאה מכל היתרונות ללא הגבלות"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "מנתח תמונות רפואיות",
+      "askMedicalAssistant": "שאל את העוזר הרפואי בבינה מלאכותית",
+      "medicalAssistant": "עוזר רפואי",
+      "imageTypes": {
+        "xray": "רנטגן",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "אולטרסאונד",
+        "ecg": "אקג",
+        "skinLesion": "נגע עור",
+        "mammogram": "ממוגרפיה",
+        "retinalScan": "סריקת רשתית",
+        "bloodSmear": "משטח דם",
+        "dental": "רפואת שיניים",
+        "pet": "PET",
+        "dexa": "DEXA / סריקת צפיפות עצם",
+        "angiography": "אנגיוגרפיה",
+        "echo": "אקוקרדיוגרפיה (ECHO)",
+        "fluoroscopy": "פלואורוסקופיה"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "רפואת משפחה",
+          "subtitle": "רפואה כללית"
+        },
+        "internalMedicine": {
+          "title": "רפואה פנימית"
+        },
+        "pediatrics": {
+          "title": "רפואת ילדים"
+        },
+        "dermatology": {
+          "title": "דרמטולוגיה"
+        },
+        "cardiology": {
+          "title": "קרדיולוגיה"
+        },
+        "orthopedics": {
+          "title": "אורתופדיה"
+        },
+        "psychiatry": {
+          "title": "פסיכיאטריה",
+          "subtitle": "בריאות הנפש"
+        },
+        "obstetricsGynecology": {
+          "title": "מיילדות וגינקולוגיה",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "נוירולוגיה"
+        },
+        "ophthalmology": {
+          "title": "רפואת עיניים"
+        },
+        "otolaryngology": {
+          "title": "אף אוזן גרון",
+          "subtitle": "ENT"
+        },
+        "dentistry": {
+          "title": "רפואת שיניים"
+        },
+        "radiology": {
+          "title": "רדיולוגיה",
+          "subtitle": "דימות"
+        },
+        "oncology": {
+          "title": "אונקולוגיה"
+        },
+        "endocrinology": {
+          "title": "אנדוקרינולוגיה"
+        },
+        "nephrology": {
+          "title": "נפרולוגיה"
+        },
+        "pulmonology": {
+          "title": "רפואת ריאות"
+        },
+        "gastroenterology": {
+          "title": "גסטרואנטרולוגיה"
+        },
+        "allergyImmunology": {
+          "title": "אלרגיה ואימונולוגיה"
+        },
+        "hematology": {
+          "title": "המטולוגיה"
+        },
+        "rheumatology": {
+          "title": "ראומטולוגיה"
+        },
+        "urology": {
+          "title": "אורולוגיה"
+        },
+        "emergencyMedicine": {
+          "title": "רפואה דחופה"
+        },
+        "surgery": {
+          "title": "כירורגיה"
+        },
+        "anesthesiology": {
+          "title": "הרדמה"
+        },
+        "rehabilitationMedicine": {
+          "title": "רפואה שיקומית",
+          "subtitle": "פיזיותרפיה"
+        },
+        "geriatrics": {
+          "title": "גריאטריה"
+        },
+        "publicHealth": {
+          "title": "בריאות הציבור",
+          "subtitle": "רפואה מונעת"
+        },
+        "microscopy": {
+          "title": "מיקרוסקופיה"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "ספריית תמונות",
+      "takePhoto": "צלם תמונה",
+      "chooseFile": "בחר קובץ"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "כבר יש לי חשבון",
+        "heading": "ברוך הבא ל-Doctor Med AI!",
+        "startButton": "בואו נתחיל!"
+      },
+      "freeTrialPreview": {
+        "heading": "תהנה מהניסיון החינמי שלך! 🎉",
+        "review": "אני משתמש באפליקציה הזו עבור שאלות רפואיות, סריקות רנטגן ולימוד - זה מדהים!",
+        "reviewTrust": "📈 נתמך על ידי 5,212+ משתמשים"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "באיזו שפה אתה מעדיף את ניתוח הבינה המלאכותית?",
+        "languageSelection": "בחר שפה לתגובות בינה מלאכותית",
+        "languageSearchCriteria": "חפש לפי שפה, קוד מדינה או דגל",
+        "noLanguageFound": "שפה לא נמצאה",
+        "noLanguageFoundSubtitle": "נסה לשנות את מונחי החיפוש שלך"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "מה מראה צילום חזה?",
+          "two": "מהם התסמינים הנפוצים של התקף לב?",
+          "three": "איך אוכל להוריד את לחץ הדם שלי באופן טבעי?",
+          "four": "מה ההבדל בין MRI ל-CT?",
+          "five": "מהם הסימנים המוקדמים לסוכרת?",
+          "six": "איך אני מפרש את תוצאות בדיקת הדם הבסיסית שלי?",
+          "seven": "מה הטיפול בזיהום בדרכי השתן?",
+          "eight": "אתה יכול להסביר למה משמש אקוקרדיוגרם?",
+          "nine": "מהן ההנחיות לתזונה בריאה?",
+          "ten": "מה גורם לכולסטרול גבוה?",
+          "eleven": "איך מגלים גידול במוח ב-MRI?",
+          "twelve": "מה התפקיד של רפואת משפחה?",
+          "thirteen": "מהם גורמי הסיכון לשבץ?",
+          "fourteen": "איך להתמודד עם חרדה ולחץ?",
+          "fifteen": "מהן ההנחיות העדכניות לטיפול ביתר לחץ דם?"
+        }
+      },
+      "notifications": {
+        "title": "התראות",
+        "noNotifications": "אין התראות כרגע - הישאר מעודכן!"
+      },
+      "rateAppScreen": {
+        "heading": "האם אתה מוצא את האפליקציה מועילה ומרתקת?",
+        "like": "כן, אני אוהב את זה!",
+        "dislike": "אני לא אוהב את זה"
+      },
+      "profile": {
+        "title": "פרופיל",
+        "edit": "ערוך פרופיל",
+        "placeholderPreferredName": "למשל: קפטן מגניב, מלכת הדבורים, או פשוט אלכס!"
+      },
+      "noInternetScreen": {
+        "heading": "אתה לא מחובר לאינטרנט",
+        "subheading": "החיבור שלך נראה לא יציב. אנא בדוק את סטטוס הרשת שלך"
+      },
+      "newAppVersionScreen": {
+        "heading": "גרסה חדשה של Doctor Med AI זמינה",
+        "subheading": "עדכן לגרסה האחרונה כדי להמשיך ליהנות מכל תכונות האפליקציה - זה לוקח רק 5 שניות!",
+        "action": "קבל עכשיו!"
+      },
+      "disclaimerScreen": {
+        "heading": "הצהרה רפואית חשובה",
+        "subheading": "Doctor Med AI נועד עבור אנשי מקצוע ברדיולוגיה, מומחי בריאות, סטודנטים לרפואה וחובבים",
+        "consentAgreement": "קראתי והסכמתי להצהרה.",
+        "firstConsent": "Doctor Med AI אינו מספק מדידות בריאות או ייעוץ טיפולי, ואינו מיועד למטרות כאלה. על המשתמשים ב-Doctor Med AI להחיל את השיפוט הקליני שלהם ולאמת מידע ממקורות סמכותיים לפני קבלת החלטות קליניות.",
+        "secondConsent": "Doctor Med AI אינו כלי אבחון, פלטפורמת טיפול או תחליף לייעוץ רפואי מקצועי. הוא מציע תובנות שנוצרו על ידי בינה מלאכותית כדי לסייע לאנשי מקצוע בתחום הבריאות לגשת לידע רפואי ולנתח תמונות ומסמכים רפואיים. Doctor Med AI הוא אפליקציה חינוכית ומידעית המונעת על ידי בינה מלאכותית שנועדה יותר לתמוך באנשי מקצוע מורשים בתחום הבריאות.",
+        "thirdConsent": "Doctor Med AI אינו מיועד לשימוש מטופלים. הוא אינו מספק אבחנות רפואיות ישירות, המלצות טיפול או תפקודי ניהול מטופלים.",
+        "fourthConsent": "Doctor Med AI אינו מסווג כמכשיר רפואי ואינו טוען לאישור רגולטורי. הוא מיועד למטרות חינוכיות ומידעיות כדי להשלים מומחיות מקצועית.",
+        "fifthConsent": "Doctor Med AI אינו אוסף, מאחסן או מעבד נתונים אישיים או נתוני מטופלים. כל האינטראקציות של המשתמש הן חסויות ומוגבלות להיקף האפליקציה."
+      },
+      "contactUs": {
+        "heading": "אל תהסס לשלוח לנו אימייל ישירות, והצוות שלנו יחזור אליך בהקדם האפשרי",
+        "customerSupport": "תמיכה ללקוחות",
+        "emailAddress": "כתובת אימייל"
+      },
+      "rate": {
+        "title": "תן לנו משוב!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "לא נמצאו תוצאות - אבל אל תדאג!",
+          "notFoundSubtitle": "נסה להשתמש במילות מפתח שונות, או שאל את העוזר הרפואי שלנו בבינה מלאכותית ישירות",
+          "askAssistant": "שאל עוזר רפואי"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "ניסיון חינם מופעל",
+          "heading": "גישה בלתי מוגבלת",
+          "title": "בטל נעילה לתכונות פרמיום היום!",
+          "firstOffering": "גישה לכל התכונות הפרמיות",
+          "secondOffering": "חוויה נטולת פרסומות",
+          "thirdOffering": "ניתוח בלתי מוגבל של תמונות רפואיות, סרטונים, סריקות PDF + דוחות",
+          "fourthOffering": "צ'אטים בלתי מוגבלים עם עוזרים רפואיים בבינה מלאכותית 24/7"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "שותף הבריאות שלך המונע על ידי בינה מלאכותית",
+          "subtitle": "קבל תובנות רפואיות מיידיות והדרכה מרופאי בינה מלאכותית מומחים, בכל עת, בכל מקום."
+        },
+        "secondOnboarding": {
+          "title": "שאל, העלה וקבל תובנות רפואיות",
+          "subtitle": "שוחח עם רופאי בינה מלאכותית מתחומים שונים, או העלה תמונות רפואיות לניתוח רפואי מהיר."
+        },
+        "thirdOnboarding": {
+          "title": "הפרטיות שלך חשובה",
+          "subtitle": "אנו מחויבים להגן על הפרטיות שלך. אנו לא אוספים נתונים אישיים. כל הקבצים שאתה מעלה נשארים פרטיים ולעולם לא משותפים."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "בטל נעילה לתכונות פרמיום היום!",
+        "firstOffering": {
+          "title": "התחל ניסיון חינם",
+          "subtitle": "הנאה מ-{{freeScans}} סריקות חינם - ללא תשלום"
+        },
+        "secondOffering": {
+          "title": "תוכנית חודשית",
+          "subtitle": "{{ price }}/חודש"
+        },
+        "thirdOffering": {
+          "title": "תוכנית שנתית",
+          "subtitle": "{{ price }} לשנה"
+        },
+        "fourthOffering": {
+          "title": "ניסיון {{trialDays}}-יום",
+          "subtitle": "{{ price }} לשנה",
+          "plan": "תוכנית שבועית"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "אודות",
+    "app_name": "שם האפליקציה",
+    "citations": "ציטוטים למידע רפואי",
+    "contactUs": "צור קשר",
+    "devMode": {
+      "componentsLibrary": "ספריית ממשק משתמש",
+      "title": "מצב מפתח"
+    },
+    "faq": "שאלות נפוצות",
+    "generale": "כללי",
+    "github": "Github",
+    "language": "שפה",
+    "languages": {
+      "arabic": "ערבית",
+      "catalan": "קטלאנית",
+      "croatian": "קרואטית",
+      "czech": "צ'כית",
+      "danish": "דנית",
+      "dutch": "הולנדית",
+      "english": "אנגלית",
+      "finnish": "פינית",
+      "french": "צרפתית",
+      "french_canada": "צרפתית (קנדה)",
+      "german": "גרמנית",
+      "greek": "יוונית",
+      "hebrew": "עברית",
+      "hindi": "הינדי",
+      "hungarian": "הונגרית",
+      "indonesian": "אינדונזית",
+      "italian": "איטלקית",
+      "japanese": "יפנית",
+      "korean": "קוריאנית",
+      "malay": "מלאית",
+      "mandarin_chinese": "סינית",
+      "norwegian": "נורווגית",
+      "polish": "פולנית",
+      "portuguese_brazil": "פורטוגזית (ברזיל)",
+      "portuguese_portugal": "פורטוגזית (פורטוגל)",
+      "romanian": "רומנית",
+      "russian": "רוסית",
+      "slovak": "סלובקית",
+      "spanish_mexico": "ספרדית (מקסיקו)",
+      "spanish_spain": "ספרדית (ספרד)",
+      "swedish": "שוודית",
+      "thai": "תאילנדית",
+      "turkish": "טורקית",
+      "ukrainian": "אוקראינית",
+      "vietnamese": "וייטנאמית"
+    },
+    "links": "קישורים",
+    "logout": "התנתק",
+    "more": "עוד",
+    "privacy": "מדיניות פרטיות",
+    "profile": "פרופיל",
+    "rate": "משוב",
+    "share": "שתף",
+    "support": "תמיכה",
+    "support_us": "תמכו בנו",
+    "tab": "הגדרות",
+    "terms": "תנאי שירות",
+    "theme": {
+      "dark": "כהה",
+      "light": "בהיר",
+      "system": "מערכת",
+      "title": "ערכת נושא"
+    },
+    "title": "הגדרות",
+    "version": "גרסה",
+    "website": "אתר אינטרנט"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "סליחה, אנחנו צריכים הרשאות מצלמה כדי שזה יעבוד!",
+    "errorSelectingImagePicker": "משהו השתבש בבחירת התמונה. אנא נסה שוב.",
+    "errorSelectingDocumentPicker": "משהו השתבש בבחירת המסמך. אנא נסה שוב.",
+    "errorTakingPicture": "משהו השתבש בצילום התמונה. אנא נסה שוב.",
+    "enableNotifications": {
+      "heading": "הפעל התראות",
+      "subHeading": "ההתראות כרגע כבויות. כדי להישאר מעודכן, אנא הפעל אותן בהגדרות המכשיר שלך."
+    },
+    "enableNotificationFailed": "התראות Push כבויות. הפעל אותן בהגדרות כדי לקבל עדכונים חשובים!",
+    "enableNotificationError": "אירעה שגיאה בהפעלת ההתראות",
+    "notificationDisabledSuccess": "ההתראות כובו בהצלחה.",
+    "notificationDisabledRegisterError": "נכשל ביטול רישום המכשיר להתראות.",
+    "notificationDisabledError": "אירעה שגיאה בכיבוי ההתראות.",
+    "checkNotificationStatusError": "שגיאה בבדיקת סטטוס ההתראות.",
+    "projectIdNotFound": "מזהה פרויקט ההתראות לא נמצא.",
+    "imageSizeLarge": "התמונה גדולה מדי! גודל הקובץ הוא {{fileSize}} MB, אבל המגבלה היא {{imageLimit}} MB.",
+    "videoSizeLarge": "הסרטון גדול מדי! גודל הקובץ הוא {{fileSize}} MB, אבל המגבלה היא {{videoLimit}} MB.",
+    "loggedInSuccess": "התחברת בהצלחה",
+    "loggedOutSuccess": "התנתקת בהצלחה!",
+    "sendVerificationCodeError": "שגיאה בשליחת קוד אימות",
+    "validateAuthCodeError": "שגיאה באימות קוד אימות",
+    "anonymousSignInError": "שגיאה בהתחברות אנונימית",
+    "emailLoginError": "שגיאה בהתחברות",
+    "preferredLanguageError": "שגיאה בעדכון שפת המשתמש המועדפת",
+    "sharingNotAvailable": "שיתוף אינו זמין כרגע במכשיר שלך",
+    "sharingLinkError": "נכשל שיתוף הקישור.",
+    "individualPushNotificationSuccess": "התראות Push אישיות נשלחו בהצלחה!",
+    "globalPushNotificationSuccess": "התראות Push גלובליות נשלחו בהצלחה! 🌍🚀",
+    "interpretationFieldsUpdateFail": "נכשל עדכון שדות הפרשנות! ❌",
+    "deleteScanReportFail": "לא ניתן למחוק את דוח הסריקה. אנא נסה שוב",
+    "onboardingUnsuccessful": "העלייה למטוס לא הצליחה. אנא נסה שוב",
+    "logoutUnsuccessful": "ההתנתקות לא הצליחה. אנא נסה שוב",
+    "deleteScanReportQuestion": "האם אתה בטוח שאתה רוצה למחוק דוח זה לצמיתות?",
+    "videoLimitExceeds": "הסרטון שלך חורג ממגבלת {{videoSecondsLimit}} השניות. אנא חתוך אותו והעלה מחדש",
+    "subscriptionActivated": "המינוי שלך הופעל בהצלחה! תהנה מהיתרונות הבלעדיים שלך!",
+    "subscriptionCancelledByUser": "ביטלת את העסקה. אל תהסס לנסות שוב!",
+    "subscriptionActivationFailed": "נכשל בהפעלת המינוי שלך. אנא נסה שוב",
+    "logoutQuestion": "האם אתה בטוח שאתה רוצה להתנתק?",
+    "noSubscriptionToRestore": "אופס! נראה שאין לך מינוי פעיל כרגע. כדי להמשיך ליהנות מגישה מלאה, אנא בחר באחת מתוכניות המינוי שלנו.",
+    "restorationSuccessful": "השחזור הצליח! תהנה!",
+    "restorationError": "אירעה שגיאה בשחזור הרכישה.",
+    "medicalDisclaimerAlert": "אפליקציית Doctor Med AI אינה מחליפה ייעוץ רפואי. חלק מהאבחנות הן למטרות מידע/חינוך בלבד. להמלצות רפואיות, התייעץ תמיד עם רופא או מומחה מורשה.",
+    "scanLimitReached": "אנו משפרים את איכות הסריקה עבורך! תוכל לסרוק שוב בעוד כ-{{hours}} שעות ו-{{minutes}} דקות. יש לך שאלות על נושא רפואי כלשהו? שאל את עוזר הצ'אט שלנו בזמן שאתה מחכה!",
+    "mixedMediaNotAllowed": "לדיוק טוב יותר, אל תעלה תערובת של קבצי מדיה שונים. אנא העלה רק תמונות, סרטונים או pdf - לא כולם יחד.",
+    "multipleVideosNotAllowed": "לדיוק טוב יותר, אנא העלה רק סרטון אחד בכל פעם.",
+    "mediaFilesUploadFiles": "אירעה שגיאה בהעלאת קבצי המדיה שלך. אנא נסה שוב.",
+    "chatAndMediaFilesLimit": "משתמש יקר, עליך לשדרג את התוכנית שלך כדי ליהנות מצ'אטים בלתי מוגבלים, סריקות בלתי מוגבלות, ניתוח רב-תמונות ועוד. 🔓"
+  },
+  "deleteApp": {
+    "title": "חכה! אל תמחק אותי!",
+    "subtitle": "שלח משוב במקום"
+  }
+}

@@ -50,12 +50,12 @@ const NotificationItem = ({
           <View className="flex-row items-center">
             <View className="flex-[0.9]">
               <Text
-                className="font-semibold-work-sans text-lg text-gray-800"
+                className="font-semibold-poppins text-lg text-gray-800"
                 numberOfLines={2}
               >
                 {notification.title}
               </Text>
-              <Text className="font-semibold-work-sans text-sm text-primary-900">
+              <Text className="font-semibold-poppins text-sm text-primary-900">
                 {dayjs(notification.createdAt)
                   .locale(language)
                   .format('MMMM D, YYYY | h:mm A')}

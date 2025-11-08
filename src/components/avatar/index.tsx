@@ -47,7 +47,7 @@ const Avatar = ({
       ) : (
         showInitials && (
           <View className={styles.name()}>
-            <Text className={`${textColor} font-bold-work-sans text-lg`}>
+            <Text className={`${textColor} font-bold-poppins text-lg`}>
               {initials}
             </Text>
           </View>

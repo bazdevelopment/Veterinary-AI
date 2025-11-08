@@ -338,7 +338,7 @@ export const SelectableLabel = ({
           <Text
             className={`
             text-base
-            ${selected ? 'font-semibold-work-sans text-lg text-white' : 'font-bold-work-sans text-lg'}
+            ${selected ? 'font-semibold-poppins text-lg text-white' : 'font-bold-poppins text-lg'}
          ${titleClassName}
           `}
           >
@@ -348,7 +348,7 @@ export const SelectableLabel = ({
           {subtitle && (
             <Text
               className={`
-            ${selected ? 'text-md font-bold-work-sans text-white' : ' text-md'}
+            ${selected ? 'text-md font-bold-poppins text-white' : ' text-md'}
             ${subtitleClassName}
           `}
             >
@@ -361,7 +361,7 @@ export const SelectableLabel = ({
         <View
           className={`absolute right-2 top-[10px] flex-row items-center gap-2 rounded-xl bg-primary-500 px-5 py-1 ${selected ? 'dark:bg-blackEerie' : 'dark:bg-blackEerie dark:border dark:border-primary-800'}`}
         >
-          <Text className="font-bold-work-sans">{extraInfo}</Text>
+          <Text className="font-bold-poppins">{extraInfo}</Text>
         </View>
       )}
 

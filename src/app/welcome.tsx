@@ -45,7 +45,7 @@ const Welcome = () => {
       <SafeAreaView>
         <View className="items-center justify-center px-6 pb-32 pt-14">
           <Branding isLogoVisible invertedColors />
-          <Text className="my-10 text-center font-bold-work-sans text-[30px] text-primary-900">
+          <Text className="my-10 text-center font-bold-poppins text-[30px] text-primary-900">
             {translate('rootLayout.screens.welcome.heading')}
           </Text>
 
@@ -60,7 +60,7 @@ const Welcome = () => {
               label={translate('rootLayout.screens.welcome.startButton')}
               variant="default"
               className="h-[55px] rounded-xl bg-primary-900 pl-5 dark:bg-primary-900"
-              textClassName="font-semibold-work-sans text-lg dark:text-white "
+              textClassName="font-semibold-poppins text-lg dark:text-white "
               iconPosition="left"
               loading={isLoginPending}
               onPress={() => {

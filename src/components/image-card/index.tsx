@@ -29,7 +29,7 @@ const ImageCard: React.FC<ImageCardProps> = ({
       activeOpacity={0.7}
     >
       <View
-        className={`${compact ? 'h-[64px] w-[96px]' : 'h-32'} items-center justify-center`}
+        className={`${compact ? 'h-[64px] min-w-[96px]' : 'h-32'} items-center justify-center`}
       >
         <Image source={item.image} className="size-full" contentFit="cover" />
       </View>
@@ -37,7 +37,7 @@ const ImageCard: React.FC<ImageCardProps> = ({
         className={`bg-white p-3 dark:bg-[#001A33] ${compact ? 'py-2' : ''}`}
       >
         <Text
-          className={`text-center font-semibold-work-sans text-gray-800 ${compact ? 'text-base' : 'text-base'}`}
+          className={`text-center w-[100%] font-semibold-poppins text-gray-800 ${compact ? 'text-base' : 'text-base'}`}
         >
           {item.title}
         </Text>

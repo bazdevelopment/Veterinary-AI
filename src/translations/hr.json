@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Natrag",
+    "welcome": "Bok",
+    "welcomeBack": "Dobrodošli natrag!",
+    "welcomeMessage": "Dobrodošli!",
+    "continue": "Nastavi",
+    "retry": "Pokušaj ponovno",
+    "close": "Zatvori",
+    "gallery": "Galerija",
+    "files": "Datoteke",
+    "seeAll": "Vidi sve",
+    "cancel": "Odustani",
+    "delete": "Izbriši",
+    "attention": "Pažnja!",
+    "new": "Novo",
+    "activeSubscription": "Pretplata aktivna",
+    "agreeingMessage": "Nastavkom prihvaćate naše",
+    "and": "i",
+    "askAssistant": "Pitaj AI asistenta",
+    "chatbotPlaceholder": "Pitajte me bilo što...",
+    "completedScans": "Skeniranja završena",
+    "conversationHistory": "Povijest razgovora",
+    "medicalAssistants": "Medicinski asistenti",
+    "searchAssistant": "Traži asistenta...",
+    "analyzingMediaFilesPlaceholder": "Analiziram medijske datoteke...",
+    "copyText": {
+      "copied": "Kopirano!",
+      "copy": "Kopiraj vezu",
+      "loading": "Kopiram..."
+    },
+    "createdAt": "Kreirano",
+    "download": "Preuzmi",
+    "free": "BESPLATNO",
+    "freeTrial": "Besplatna proba",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Skeniram vaše medicinske snimke, pričekajte...",
+        "fourth": "Skoro gotovo, završavam skeniranje...",
+        "second": "Analiziram detalje, ovo može potrajati...",
+        "third": "Poboljšavam točnost za najbolje rezultate..."
+      },
+      "initialAppLoad": {
+        "first": "Učitavam vaše personalizirano iskustvo...",
+        "fourth": "Skoro spremno, samo trenutak...",
+        "second": "Sinkroniziram sustave...",
+        "third": "Obradjujem vaše podatke..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med se priprema da vam pomogne...",
+        "second": "Pričekajte! Dr. Med priprema vaš odgovor...",
+        "third": "Razmišljam...vaš asistent Dr. Med je na tome!"
+      }
+    },
+    "tabs": {
+      "home": "Početna",
+      "chat": "Chat",
+      "aiDoctors": "AI Liječnici",
+      "settings": "Postavke"
+    },
+    "medicalDisclaimer": "Medicinska izjava o odricanju od odgovornosti",
+    "next": "Sljedeće",
+    "noPaymentNow": "Nema plaćanja sada. Otkažite bilo kada.",
+    "online": "Online",
+    "openSettings": "Otvori postavke",
+    "or": "ili",
+    "perMonth": "mjesečno",
+    "perWeek": "tjedno",
+    "perYear": "godišnje",
+    "privacyPolicy": "Pravila o privatnosti",
+    "restorePurchase": "Vraćanje kupnje",
+    "termsOfUse": "Uvjeti korištenja",
+    "saveDiscount": "ŠTEDI",
+    "seeNotifications": "Vidi obavijesti",
+    "share": "Podijeli",
+    "shareLink": "Podijeli vezu",
+    "skip": "Preskoči",
+    "termsAndConditions": "Uvjeti i odredbe",
+    "then": "zatim",
+    "tryAgain": "Pokušaj ponovno",
+    "tryForFree": "Započni besplatnu probu",
+    "typing": "Tipkam...",
+    "unlockNow": "Otključaj sada",
+    "update": "Ažuriraj",
+    "upgradePlan": "Nadogradi plan",
+    "viewProfile": "Pogledaj profil",
+    "yes": "Da",
+    "chatBotPlaceholder": "Bok. Ako imate pitanja, mogu vam pomoći da istražite {{topic}} domenu. Samo za edukativnu upotrebu."
+  },
+  "weekDays": {
+    "today": "Danas",
+    "yesterday": "Jučer"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Dobijte analizu različitih medicinskih snimki, uključujući X-RAY, CT, MRI, EKG i više",
+      "second": "Pristup svim premium značajkama",
+      "fourth": "Neograničeni razgovori s 24/7 medicinskim AI asistentima",
+      "third": "Nema reklama"
+    },
+    "UpgradeBanner": {
+      "heading": "Otključaj sada",
+      "subheading": "Uživajte u svim prednostima bez ograničenja"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Analizator medicinskih slika",
+      "askMedicalAssistant": "Pitaj medicinskog AI asistenta",
+      "medicalAssistant": "Medicinski asistent",
+      "imageTypes": {
+        "xray": "Rendgen",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "Ultrazvuk",
+        "ecg": "EKG",
+        "skinLesion": "Kožna lezija",
+        "mammogram": "Mamografija",
+        "retinalScan": "Skeniranje mrežnice",
+        "bloodSmear": "Razmaz krvi",
+        "dental": "Dentalno",
+        "pet": "PET",
+        "dexa": "DEXA / Mjerenje koštane gustoće",
+        "angiography": "Angiografija",
+        "echo": "Ehhokardiografija (ECHO)",
+        "fluoroscopy": "Fluoroskopija"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Obiteljska medicina",
+          "subtitle": "Opća praksa"
+        },
+        "internalMedicine": {
+          "title": "Interna medicina"
+        },
+        "pediatrics": {
+          "title": "Pedijatrija"
+        },
+        "dermatology": {
+          "title": "Dermatologija"
+        },
+        "cardiology": {
+          "title": "Kardiologija"
+        },
+        "orthopedics": {
+          "title": "Ortopedija"
+        },
+        "psychiatry": {
+          "title": "Psihijatrija",
+          "subtitle": "Mentalno zdravlje"
+        },
+        "obstetricsGynecology": {
+          "title": "Ginekologija i opstetricija",
+          "subtitle": "Gin/Op"
+        },
+        "neurology": {
+          "title": "Neurologija"
+        },
+        "ophthalmology": {
+          "title": "Oftalmologija"
+        },
+        "otolaryngology": {
+          "title": "Otorinolaringologija",
+          "subtitle": "ORL"
+        },
+        "dentistry": {
+          "title": "Stomatologija"
+        },
+        "radiology": {
+          "title": "Radiologija",
+          "subtitle": "Snimanje"
+        },
+        "oncology": {
+          "title": "Onkologija"
+        },
+        "endocrinology": {
+          "title": "Endokrinologija"
+        },
+        "nephrology": {
+          "title": "Nefrologija"
+        },
+        "pulmonology": {
+          "title": "Pulmologija"
+        },
+        "gastroenterology": {
+          "title": "Gastroenterologija"
+        },
+        "allergyImmunology": {
+          "title": "Alergologija i imunologija"
+        },
+        "hematology": {
+          "title": "Hematologija"
+        },
+        "rheumatology": {
+          "title": "Reumatologija"
+        },
+        "urology": {
+          "title": "Urologija"
+        },
+        "emergencyMedicine": {
+          "title": "Hitna medicina"
+        },
+        "surgery": {
+          "title": "Kirurgija"
+        },
+        "anesthesiology": {
+          "title": "Anesteziologija"
+        },
+        "rehabilitationMedicine": {
+          "title": "Rehabilitacijska medicina",
+          "subtitle": "FT"
+        },
+        "geriatrics": {
+          "title": "Gerijatrija"
+        },
+        "publicHealth": {
+          "title": "Javno zdravstvo",
+          "subtitle": "Preventivna medicina"
+        },
+        "microscopy": {
+          "title": "Mikroskopija"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Foto biblioteka",
+      "takePhoto": "Uslikaj fotografiju",
+      "chooseFile": "Odaberi datoteku"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Već imam račun",
+        "heading": "Dobrodošli u Doctor Med AI!",
+        "startButton": "Započnimo!"
+      },
+      "freeTrialPreview": {
+        "heading": "Uživajte u besplatnoj probi! 🎉",
+        "review": "Koristim ovu aplikaciju za medicinska pitanja, radiološke snimke i učenje — nevjerojatna je!",
+        "reviewTrust": "📈 Pouzdano od 5.212+ korisnika"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Koji jezik biste preferirali za AI analizu?",
+        "languageSelection": "Odaberite jezik za AI odgovore",
+        "languageSearchCriteria": "Tražite po jeziku, šifri države ili zastavi",
+        "noLanguageFound": "Jezik nije pronađen",
+        "noLanguageFoundSubtitle": "Pokušajte promijeniti vaše pojmove pretraživanja"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Što pokazuje rendgen prsnog koša?",
+          "two": "Koji su uobičajeni simptomi srčanog udara?",
+          "three": "Kako mogu prirodno sniziti krvni tlak?",
+          "four": "Koja je razlika između MRI i CT snimke?",
+          "five": "Koji su rani znakovi dijabetesa?",
+          "six": "Kako protumačiti svoje osnovne rezultate krvnih pretraga?",
+          "seven": "Koji je tretman za infekciju mokraćnog sustava (UTI)?",
+          "eight": "Možete li objasniti za što se koristi ehokardiogram?",
+          "nine": "Koje su smjernice za zdravu prehranu?",
+          "ten": "Što uzrokuje visok kolesterol?",
+          "eleven": "Kako se otkriva tumor mozga na MRI-u?",
+          "twelve": "Koja je uloga obiteljske medicine?",
+          "thirteen": "Koji su čimbenici rizika za moždani udar?",
+          "fourteen": "Kako upravljati anksioznošću i stresom?",
+          "fifteen": "Koje su najnovije smjernice za liječenje hipertenzije?"
+        }
+      },
+      "notifications": {
+        "title": "Obavijesti",
+        "noNotifications": "Trenutno nema obavijesti — pratite nas za ažuriranja!"
+      },
+      "rateAppScreen": {
+        "heading": "Smatrate li aplikaciju vrijednom i zanimljivom?",
+        "like": "Da, sviđa mi se!",
+        "dislike": "Ne sviđa mi se"
+      },
+      "profile": {
+        "title": "Profil",
+        "edit": "Uredi profil",
+        "placeholderPreferredName": "Npr. Kapetan Cool, Kraljica Pčela, ili samo Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Vi ste offline",
+        "subheading": "Vaša veza se čini nestabilnom. Provjerite status mreže"
+      },
+      "newAppVersionScreen": {
+        "heading": "Nova verzija Doctor Med AI je dostupna",
+        "subheading": "Ažurirajte na najnoviju verziju da nastavite uživati u svim značajkama aplikacije — traje samo 5 sekundi!",
+        "action": "Preuzmi sada!"
+      },
+      "disclaimerScreen": {
+        "heading": "Važna medicinska izjava o odricanju od odgovornosti",
+        "subheading": "Doctor Med AI je dizajniran za radiološke profesionalce, zdravstvene stručnjake, studente medicine i entuzijaste",
+        "consentAgreement": "Pročitao/la sam i pristajem na izjavu o odricanju od odgovornosti.",
+        "firstConsent": "Doctor Med AI ne pruža zdravstvene mjere ili savjete o liječenju, niti je namijenjen za takve svrhe. Korisnici Doctor Med AI moraju primijeniti svoju kliničku prosudbu i provjeriti informacije iz autoritativnih izvora prije donošenja kliničkih odluka.",
+        "secondConsent": "Doctor Med AI nije dijagnostički alat, platforma za liječenje ili zamjena za profesionalne medicinske savjete. Nudi AI-generirane uvide kako bi pomogao zdravstvenim radnicima u pristupu medicinskom znanju i analizi medicinskih slika i dokumenata. Doctor Med AI je AI-pokrenuta informativna i edukativna aplikacija dizajnirana da podrži licencirane zdravstvene profesionalce.",
+        "thirdConsent": "Doctor Med AI nije dizajniran za upotrebu pacijenata. Ne pruža izravne medicinske dijagnoze, preporuke za liječenje ili funkcionalnosti upravljanja pacijentima.",
+        "fourthConsent": "Doctor Med AI nije klasificiran kao medicinski uređaj i ne traži regulatorno odobrenje. Namijenjen je u obrazovne i informativne svrhe kako bi nadopunio stručnost profesionalaca.",
+        "fifthConsent": "Doctor Med AI ne prikuplja, pohranjuje ili obrađuje osobne ili pacijentske podatke. Sve interakcije korisnika su povjerljive i ograničene na opseg aplikacije."
+      },
+      "contactUs": {
+        "heading": "Slobodno nam pošaljite izravnu e-poštu, a naš tim će vam se javiti što je prije moguće",
+        "customerSupport": "Korisnička podrška",
+        "emailAddress": "Adresa e-pošte"
+      },
+      "rate": {
+        "title": "Dajte nam povratne informacije!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Nema pronađenih rezultata — ali ne brinite!",
+          "notFoundSubtitle": "Pokušajte koristiti druge ključne riječi ili pitajte izravno našeg AI medicinskog asistenta",
+          "askAssistant": "Pitaj medicinskog asistenta"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Besplatna proba omogućena",
+          "heading": "Neograničen pristup",
+          "title": "Otključajte premium značajke danas!",
+          "firstOffering": "Pristup svim premium značajkama",
+          "secondOffering": "Iskustvo bez reklama",
+          "thirdOffering": "Neograničena analiza medicinskih slika, videa, PDF skeniranja + izvješća",
+          "fourthOffering": "Neograničeni razgovori s 24/7 AI medicinskim asistentima"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Vaš AI-pokrenut zdravstveni suputnik",
+          "subtitle": "Dobijte trenutne medicinske uvide i smjernice od specijaliziranih AI liječnika, bilo kada, bilo gdje."
+        },
+        "secondOnboarding": {
+          "title": "Pitajte, učitajte i dobijte medicinske uvide",
+          "subtitle": "Razgovarajte s AI liječnicima iz različitih specijalnosti ili učitajte medicinske slike za brzu medicinsku analizu."
+        },
+        "thirdOnboarding": {
+          "title": "Vaša privatnost je važna",
+          "subtitle": "Posvećeni smo zaštiti vaše privatnosti. Ne prikupljamo osobne podatke. Sve datoteke koje učitavate ostaju privatne i nikada se ne dijele."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Otključajte premium značajke danas!",
+        "firstOffering": {
+          "title": "Započni besplatnu probu",
+          "subtitle": "Uživajte u {{freeScans}} besplatnih skeniranja – bez plaćanja"
+        },
+        "secondOffering": {
+          "title": "Mjesečni plan",
+          "subtitle": "{{ price }}/mjesečno"
+        },
+        "thirdOffering": {
+          "title": "Godišnji plan",
+          "subtitle": "{{ price }} godišnje"
+        },
+        "fourthOffering": {
+          "title": "{{trialDays}}-dnevna proba",
+          "subtitle": "{{ price }} godišnje",
+          "plan": "Tjedni plan"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "O nama",
+    "app_name": "Naziv aplikacije",
+    "citations": "Citati za medicinske informacije",
+    "contactUs": "Kontaktirajte nas",
+    "devMode": {
+      "componentsLibrary": "UI biblioteka",
+      "title": "Developer mod"
+    },
+    "faq": "FAQ",
+    "generale": "Općenito",
+    "github": "Github",
+    "language": "Jezik",
+    "languages": {
+      "arabic": "Arapski",
+      "catalan": "Katalonski",
+      "croatian": "Hrvatski",
+      "czech": "Češki",
+      "danish": "Danski",
+      "dutch": "Nizozemski",
+      "english": "Engleski",
+      "finnish": "Finski",
+      "french": "Francuski",
+      "french_canada": "Francuski (Kanada)",
+      "german": "Njemački",
+      "greek": "Grčki",
+      "hebrew": "Hebrejski",
+      "hindi": "Hindski",
+      "hungarian": "Mađarski",
+      "indonesian": "Indonezijski",
+      "italian": "Talijanski",
+      "japanese": "Japanski",
+      "korean": "Korejski",
+      "malay": "Malajski",
+      "mandarin_chinese": "Kineski",
+      "norwegian": "Norveški",
+      "polish": "Poljski",
+      "portuguese_brazil": "Portugalski (Brazil)",
+      "portuguese_portugal": "Portugalski (Portugal)",
+      "romanian": "Rumunjski",
+      "russian": "Ruski",
+      "slovak": "Slovački",
+      "spanish_mexico": "Španjolski (Meksiko)",
+      "spanish_spain": "Španjolski (Španjolska)",
+      "swedish": "Švedski",
+      "thai": "Tajski",
+      "turkish": "Turski",
+      "ukrainian": "Ukrajinski",
+      "vietnamese": "Vijetnamski"
+    },
+    "links": "Linkovi",
+    "logout": "Odjava",
+    "more": "Više",
+    "privacy": "Pravila o privatnosti",
+    "profile": "Profil",
+    "rate": "Povratne informacije",
+    "share": "Podijeli",
+    "support": "Podrška",
+    "support_us": "Podržite nas",
+    "tab": "Postavke",
+    "terms": "Uvjeti usluge",
+    "theme": {
+      "dark": "Tamna",
+      "light": "Svijetla",
+      "system": "Sustav",
+      "title": "Tema"
+    },
+    "title": "Postavke",
+    "version": "Verzija",
+    "website": "Web stranica"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Oprostite, trebamo dopuštenja za kameru da bi ovo radilo!",
+    "errorSelectingImagePicker": "Nešto je pošlo po zlu pri odabiru slike. Pokušajte ponovno.",
+    "errorSelectingDocumentPicker": "Nešto je pošlo po zlu pri odabiru dokumenta. Pokušajte ponovno.",
+    "errorTakingPicture": "Nešto je pošlo po zlu pri snimanju fotografije. Pokušajte ponovno.",
+    "enableNotifications": {
+      "heading": "Omogući obavijesti",
+      "subHeading": "Obavijesti su trenutno isključene. Da biste ostali ažurni, omogućite ih u postavkama uređaja."
+    },
+    "enableNotificationFailed": "Push obavijesti su onemogućene. Omogućite ih u postavkama da primate važna ažuriranja!",
+    "enableNotificationError": "Došlo je do pogreške pri omogućavanju obavijesti",
+    "notificationDisabledSuccess": "Obavijesti su uspješno onemogućene.",
+    "notificationDisabledRegisterError": "Uklanjanje uređaja iz registracije za obavijesti nije uspjelo.",
+    "notificationDisabledError": "Došlo je do pogreške pri onemogućavanju obavijesti.",
+    "checkNotificationStatusError": "Pogreška pri provjeri statusa obavijesti.",
+    "projectIdNotFound": "ID projekta obavijesti nije pronađen.",
+    "imageSizeLarge": "Slika je prevelika! Veličina datoteke je {{fileSize}} MB, ali ograničenje je {{imageLimit}} MB.",
+    "videoSizeLarge": "Video je prevelik! Veličina datoteke je {{fileSize}} MB, ali ograničenje je {{videoLimit}} MB.",
+    "loggedInSuccess": "Uspješno prijavljeni",
+    "loggedOutSuccess": "Uspješno ste se odjavili!",
+    "sendVerificationCodeError": "Pogreška pri slanju verifikacijskog koda",
+    "validateAuthCodeError": "Pogreška pri validaciji auth koda",
+    "anonymousSignInError": "Pogreška pri anonimnoj prijavi",
+    "emailLoginError": "Pogreška pri prijavi",
+    "preferredLanguageError": "Pogreška pri ažuriranju korisničkog preferiranog jezika",
+    "sharingNotAvailable": "Dijeljenje trenutno nije dostupno na vašem uređaju",
+    "sharingLinkError": "Dijeljenje veze nije uspjelo.",
+    "individualPushNotificationSuccess": "Pojedinačne push obavijesti uspješno poslane!",
+    "globalPushNotificationSuccess": "Globalne push obavijesti uspješno poslane! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Ažuriranje polja tumačenja nije uspjelo! ❌",
+    "deleteScanReportFail": "Nije moguće izbrisati izvješće skeniranja. Pokušajte ponovno",
+    "onboardingUnsuccessful": "Uvod nije uspješan. Pokušajte ponovno",
+    "logoutUnsuccessful": "Odjava nije uspjela. Pokušajte ponovno",
+    "deleteScanReportQuestion": "Jeste li sigurni da želite trajno izbrisati ovo izvješće?",
+    "videoLimitExceeds": "Vaš video premašuje ograničenje od {{videoSecondsLimit}} sekundi. Skratite ga i ponovno učitajte",
+    "subscriptionActivated": "Vaša pretplata je uspješno aktivirana! Uživajte u ekskluzivnim pogodnostima!",
+    "subscriptionCancelledByUser": "Otkazali ste transakciju. Slobodno pokušajte ponovno!",
+    "subscriptionActivationFailed": "Aktivacija pretplate nije uspjela. Pokušajte ponovno",
+    "logoutQuestion": "Jeste li sigurni da se želite odjaviti?",
+    "noSubscriptionToRestore": "Ups! Čini se da trenutno nemate aktivnu pretplatu. Da biste nastavili uživati u punom pristupu, odaberite jedan od naših planova pretplate.",
+    "restorationSuccessful": "Vraćanje je bilo uspješno! Uživajte!",
+    "restorationError": "Došlo je do pogreške pri vraćanju kupnje.",
+    "medicalDisclaimerAlert": "Aplikacija Doctor Med AI ne zamjenjuje medicinsku konzultaciju. Neke dijagnoze su samo u informativne/edukativne svrhe. Za medicinske preporuke, uvijek se konzultirajte s liječnikom ili licenciranim stručnjakom.",
+    "scanLimitReached": "Optimiziramo kvalitetu skeniranja za vas! Moći ćete ponovno skenirati za otprilike {{hours}} sati i {{minutes}} minuta. Imate li pitanja o medicinskim temama? Pitajte našeg chat asistenta dok čekate!",
+    "mixedMediaNotAllowed": "Radi bolje točnosti, ne učitavajte mješavinu različitih medijskih datoteka. Učitajte samo slike, videozapise ili pdf-ove — ne sve zajedno.",
+    "multipleVideosNotAllowed": "Radi bolje točnosti, učitajte samo jedan videozapis odjednom.",
+    "mediaFilesUploadFiles": "Došlo je do pogreške pri učitavanju vaših medijskih datoteka. Pokušajte ponovno.",
+    "chatAndMediaFilesLimit": "Poštovani korisniče, trebate nadograditi svoj plan kako biste imali koristi od neograničenih razgovora, neograničenih skeniranja, analize više slika i više. 🔓"
+  },
+  "deleteApp": {
+    "title": "Čekajte! Ne brišite me!",
+    "subtitle": "Umjesto toga pošaljite povratne informacije"
+  }
+}

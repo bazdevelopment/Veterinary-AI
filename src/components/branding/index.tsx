@@ -25,12 +25,12 @@ const Branding = ({
 
       <View className={`${isLogoVisible ? 'ml-3' : ''} flex-row`}>
         <Text
-          className={`text-center font-bold-work-sans text-[22px] tracking-[2px] text-black dark:text-white`}
+          className={`text-center font-bold-poppins text-[22px] tracking-[2px] text-black dark:text-white`}
         >
           Doctor Med
         </Text>
         <Text
-          className={`ml-2 text-center font-bold-work-sans text-[22px] tracking-[2px] text-primary-900 dark:text-primary-900 ${textColor}`}
+          className={`ml-2 text-center font-bold-poppins text-[22px] tracking-[2px] text-primary-900 dark:text-primary-900 ${textColor}`}
         >
           AI
         </Text>

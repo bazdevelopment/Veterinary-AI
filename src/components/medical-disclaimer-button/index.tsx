@@ -22,7 +22,7 @@ const MedicalDisclaimerButton = ({ className }: { className: string }) => {
         height={24}
         color={isDark ? colors.warning[400] : colors.warning[600]}
       />
-      <Text className="font-semibold-work-sans text-base text-warning-600 dark:text-warning-400">
+      <Text className="font-semibold-poppins text-base text-warning-600 dark:text-warning-400">
         {translate('general.medicalDisclaimer')}
       </Text>
       <DoubleArrowRight

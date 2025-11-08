@@ -32,13 +32,13 @@ const SpecializationCard: React.FC<SpecializationCardProps> = ({
     >
       <View className="flex-1 flex-row items-center">
         {/* Icon Container */}
-        <View className="mr-4  size-[60px] items-center justify-center rounded-xl">
+        <View className="mr-4 size-[60px] items-center justify-center rounded-xl">
           <Image source={item.icon} className="size-[70px]" />
         </View>
 
         {/* Title and Subtitle */}
         <View className="flex-1">
-          <Text className="font-semibold-work-sans text-lg text-gray-800 dark:text-white">
+          <Text className="font-semibold-poppins text-lg text-gray-800 dark:text-white">
             {item.title}
           </Text>
           {item.subtitle && (

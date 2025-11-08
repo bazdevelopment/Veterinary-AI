@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "返回",
+    "welcome": "你好",
+    "welcomeBack": "欢迎回来！",
+    "welcomeMessage": "欢迎！",
+    "continue": "继续",
+    "retry": "重试",
+    "close": "关闭",
+    "gallery": "相册",
+    "files": "文件",
+    "seeAll": "查看全部",
+    "cancel": "取消",
+    "delete": "删除",
+    "attention": "注意！",
+    "new": "新",
+    "activeSubscription": "订阅已激活",
+    "agreeingMessage": "继续即表示您同意我们的",
+    "and": "和",
+    "askAssistant": "询问AI助手",
+    "chatbotPlaceholder": "问我任何问题...",
+    "completedScans": "扫描完成",
+    "conversationHistory": "对话历史",
+    "medicalAssistants": "医疗助手",
+    "searchAssistant": "搜索助手...",
+    "analyzingMediaFilesPlaceholder": "正在分析媒体文件...",
+    "copyText": {
+      "copied": "已复制！",
+      "copy": "复制链接",
+      "loading": "复制中..."
+    },
+    "createdAt": "创建于",
+    "download": "下载",
+    "free": "免费",
+    "freeTrial": "免费试用",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "正在扫描您的医学影像，请稍候...",
+        "fourth": "即将完成，正在最终处理扫描...",
+        "second": "正在分析细节，这可能需要一些时间...",
+        "third": "正在提高准确性以获得最佳结果..."
+      },
+      "initialAppLoad": {
+        "first": "正在加载您的个性化体验...",
+        "fourth": "即将就绪，请稍等片刻...",
+        "second": "正在同步系统...",
+        "third": "正在处理您的数据..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med 正在准备为您提供帮助...",
+        "second": "请稍候！Dr. Med 正在准备您的回复...",
+        "third": "思考中...您的助手 Dr. Med 正在处理！"
+      }
+    },
+    "tabs": {
+      "home": "首页",
+      "chat": "聊天",
+      "aiDoctors": "AI医生",
+      "settings": "设置"
+    },
+    "medicalDisclaimer": "医疗免责声明",
+    "next": "下一步",
+    "noPaymentNow": "现在无需付款。随时取消。",
+    "online": "在线",
+    "openSettings": "打开设置",
+    "or": "或",
+    "perMonth": "每月",
+    "perWeek": "每周",
+    "perYear": "每年",
+    "privacyPolicy": "隐私政策",
+    "restorePurchase": "恢复购买",
+    "termsOfUse": "使用条款",
+    "saveDiscount": "节省",
+    "seeNotifications": "查看通知",
+    "share": "分享",
+    "shareLink": "分享链接",
+    "skip": "跳过",
+    "termsAndConditions": "条款和条件",
+    "then": "然后",
+    "tryAgain": "再试一次",
+    "tryForFree": "开始免费试用",
+    "typing": "正在输入...",
+    "unlockNow": "立即解锁",
+    "update": "更新",
+    "upgradePlan": "升级计划",
+    "viewProfile": "查看个人资料",
+    "yes": "是",
+    "chatBotPlaceholder": "您好。如果您有任何问题，我可以帮助您探索{{topic}}领域。仅供教育用途。"
+  },
+  "weekDays": {
+    "today": "今天",
+    "yesterday": "昨天"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "获取各种医学扫描的分析，包括X光、CT、MRI、心电图等",
+      "second": "访问所有高级功能",
+      "fourth": "与24/7医疗AI助手无限聊天",
+      "third": "无广告"
+    },
+    "UpgradeBanner": {
+      "heading": "立即解锁",
+      "subheading": "无限制享受所有福利"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "医学影像分析器",
+      "askMedicalAssistant": "咨询医疗AI助手",
+      "medicalAssistant": "医疗助手",
+      "imageTypes": {
+        "xray": "X光",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "超声",
+        "ecg": "心电图",
+        "skinLesion": "皮肤病变",
+        "mammogram": "乳腺X光",
+        "retinalScan": "视网膜扫描",
+        "bloodSmear": "血涂片",
+        "dental": "牙科",
+        "pet": "PET",
+        "dexa": "DEXA/骨密度扫描",
+        "angiography": "血管造影",
+        "echo": "超声心动图",
+        "fluoroscopy": "荧光透视"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "家庭医学",
+          "subtitle": "全科医疗"
+        },
+        "internalMedicine": {
+          "title": "内科"
+        },
+        "pediatrics": {
+          "title": "儿科"
+        },
+        "dermatology": {
+          "title": "皮肤科"
+        },
+        "cardiology": {
+          "title": "心脏病学"
+        },
+        "orthopedics": {
+          "title": "骨科"
+        },
+        "psychiatry": {
+          "title": "精神病学",
+          "subtitle": "心理健康"
+        },
+        "obstetricsGynecology": {
+          "title": "妇产科",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "神经病学"
+        },
+        "ophthalmology": {
+          "title": "眼科"
+        },
+        "otolaryngology": {
+          "title": "耳鼻喉科",
+          "subtitle": "ENT"
+        },
+        "dentistry": {
+          "title": "牙科"
+        },
+        "radiology": {
+          "title": "放射科",
+          "subtitle": "影像学"
+        },
+        "oncology": {
+          "title": "肿瘤科"
+        },
+        "endocrinology": {
+          "title": "内分泌科"
+        },
+        "nephrology": {
+          "title": "肾内科"
+        },
+        "pulmonology": {
+          "title": "呼吸科"
+        },
+        "gastroenterology": {
+          "title": "消化科"
+        },
+        "allergyImmunology": {
+          "title": "过敏与免疫学"
+        },
+        "hematology": {
+          "title": "血液科"
+        },
+        "rheumatology": {
+          "title": "风湿科"
+        },
+        "urology": {
+          "title": "泌尿科"
+        },
+        "emergencyMedicine": {
+          "title": "急诊医学"
+        },
+        "surgery": {
+          "title": "外科"
+        },
+        "anesthesiology": {
+          "title": "麻醉科"
+        },
+        "rehabilitationMedicine": {
+          "title": "康复医学",
+          "subtitle": "物理治疗"
+        },
+        "geriatrics": {
+          "title": "老年医学"
+        },
+        "publicHealth": {
+          "title": "公共卫生",
+          "subtitle": "预防医学"
+        },
+        "microscopy": {
+          "title": "显微镜检查"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "照片库",
+      "takePhoto": "拍照",
+      "chooseFile": "选择文件"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "我已有账户",
+        "heading": "欢迎使用 Doctor Med AI！",
+        "startButton": "让我们开始吧！"
+      },
+      "freeTrialPreview": {
+        "heading": "享受您的免费试用！🎉",
+        "review": "我使用此应用处理医疗问题、放射扫描和学习 — 它太棒了！",
+        "reviewTrust": "📈 受5,212+用户信赖"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "您希望使用哪种语言进行AI分析？",
+        "languageSelection": "选择AI回复的语言",
+        "languageSearchCriteria": "按语言、国家代码或旗帜搜索",
+        "noLanguageFound": "未找到语言",
+        "noLanguageFoundSubtitle": "请尝试修改搜索条件"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "胸部X光片显示什么？",
+          "two": "心脏病的常见症状有哪些？",
+          "three": "如何自然降低血压？",
+          "four": "MRI和CT扫描有什么区别？",
+          "five": "糖尿病的早期迹象是什么？",
+          "six": "如何解读我的基础血液检查结果？",
+          "seven": "尿路感染(UTI)的治疗方法是什么？",
+          "eight": "您能解释超声心动图的用途吗？",
+          "nine": "健康饮食的指南是什么？",
+          "ten": "高胆固醇的原因是什么？",
+          "eleven": "如何在MRI上检测脑肿瘤？",
+          "twelve": "家庭医学的作用是什么？",
+          "thirteen": "中风的风险因素有哪些？",
+          "fourteen": "如何管理焦虑和压力？",
+          "fifteen": "高血压管理的最新指南是什么？"
+        }
+      },
+      "notifications": {
+        "title": "通知",
+        "noNotifications": "目前没有通知 — 请关注更新！"
+      },
+      "rateAppScreen": {
+        "heading": "您觉得这个应用有价值且吸引人吗？",
+        "like": "是的，我喜欢！",
+        "dislike": "我不喜欢"
+      },
+      "profile": {
+        "title": "个人资料",
+        "edit": "编辑个人资料",
+        "placeholderPreferredName": "例如：酷队长、蜂后，或者只是Alex！"
+      },
+      "noInternetScreen": {
+        "heading": "您处于离线状态",
+        "subheading": "您的连接似乎不稳定。请检查网络状态"
+      },
+      "newAppVersionScreen": {
+        "heading": "Doctor Med AI 有新版本可用",
+        "subheading": "更新到最新版本以继续享受所有应用功能 — 只需5秒钟！",
+        "action": "立即获取！"
+      },
+      "disclaimerScreen": {
+        "heading": "重要医疗免责声明",
+        "subheading": "Doctor Med AI 专为放射科专业人员、医疗专家、医学生和爱好者设计",
+        "consentAgreement": "我已阅读并同意免责声明。",
+        "firstConsent": "Doctor Med AI 不提供健康测量或治疗建议，也不用于此类目的。Doctor Med AI 用户必须应用其临床判断，并在做出临床决策前从权威来源验证信息。",
+        "secondConsent": "Doctor Med AI 不是诊断工具、治疗平台或专业医疗建议的替代品。它提供AI生成的见解，以帮助医疗专业人员获取医学知识并分析医学影像和文档。Doctor Med AI 是一个AI驱动的信息和教育应用，旨在支持持照医疗专业人员。",
+        "thirdConsent": "Doctor Med AI 并非为患者使用而设计。它不提供直接的医学诊断、治疗建议或患者管理功能。",
+        "fourthConsent": "Doctor Med AI 未被归类为医疗设备，也不声称获得监管批准。它旨在用于教育和信息目的，以补充专业专业知识。",
+        "fifthConsent": "Doctor Med AI 不收集、存储或处理个人或患者数据。所有用户互动都是保密的，并限于应用范围。"
+      },
+      "contactUs": {
+        "heading": "欢迎直接给我们发送电子邮件，我们的团队会尽快回复您",
+        "customerSupport": "客户支持",
+        "emailAddress": "电子邮件地址"
+      },
+      "rate": {
+        "title": "给我们反馈！"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "未找到结果 — 但别担心！",
+          "notFoundSubtitle": "尝试使用不同的关键词，或直接询问我们的AI医疗助手",
+          "askAssistant": "咨询医疗助手"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "免费试用已启用",
+          "heading": "无限访问",
+          "title": "立即解锁高级功能！",
+          "firstOffering": "访问所有高级功能",
+          "secondOffering": "无广告体验",
+          "thirdOffering": "医学影像、视频、PDF扫描+报告的无限分析",
+          "fourthOffering": "与24/7 AI医疗助手无限聊天"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "您的AI驱动医疗伴侣",
+          "subtitle": "随时随地获取专业AI医生的即时医疗见解和指导。"
+        },
+        "secondOnboarding": {
+          "title": "提问、上传并获取医疗见解",
+          "subtitle": "与不同专业的AI医生聊天，或上传医学影像进行快速医疗分析。"
+        },
+        "thirdOnboarding": {
+          "title": "您的隐私很重要",
+          "subtitle": "我们致力于保护您的隐私。我们不收集个人数据。您上传的任何文件都保持私密且永不共享。"
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "立即解锁高级功能！",
+        "firstOffering": {
+          "title": "开始免费试用",
+          "subtitle": "享受{{freeScans}}次免费扫描 — 无需付款"
+        },
+        "secondOffering": {
+          "title": "月度计划",
+          "subtitle": "{{ price }}/月"
+        },
+        "thirdOffering": {
+          "title": "年度计划",
+          "subtitle": "{{ price }} 每年"
+        },
+        "fourthOffering": {
+          "title": "{{trialDays}}天试用",
+          "subtitle": "{{ price }} 每年",
+          "plan": "周计划"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "关于",
+    "app_name": "应用名称",
+    "citations": "医学信息引用",
+    "contactUs": "联系我们",
+    "devMode": {
+      "componentsLibrary": "UI库",
+      "title": "开发者模式"
+    },
+    "faq": "常见问题",
+    "generale": "通用",
+    "github": "Github",
+    "language": "语言",
+    "languages": {
+      "arabic": "阿拉伯语",
+      "catalan": "加泰罗尼亚语",
+      "croatian": "克罗地亚语",
+      "czech": "捷克语",
+      "danish": "丹麦语",
+      "dutch": "荷兰语",
+      "english": "英语",
+      "finnish": "芬兰语",
+      "french": "法语",
+      "french_canada": "法语（加拿大）",
+      "german": "德语",
+      "greek": "希腊语",
+      "hebrew": "希伯来语",
+      "hindi": "印地语",
+      "hungarian": "匈牙利语",
+      "indonesian": "印度尼西亚语",
+      "italian": "意大利语",
+      "japanese": "日语",
+      "korean": "韩语",
+      "malay": "马来语",
+      "mandarin_chinese": "中文",
+      "norwegian": "挪威语",
+      "polish": "波兰语",
+      "portuguese_brazil": "葡萄牙语（巴西）",
+      "portuguese_portugal": "葡萄牙语（葡萄牙）",
+      "romanian": "罗马尼亚语",
+      "russian": "俄语",
+      "slovak": "斯洛伐克语",
+      "spanish_mexico": "西班牙语（墨西哥）",
+      "spanish_spain": "西班牙语（西班牙）",
+      "swedish": "瑞典语",
+      "thai": "泰语",
+      "turkish": "土耳其语",
+      "ukrainian": "乌克兰语",
+      "vietnamese": "越南语"
+    },
+    "links": "链接",
+    "logout": "退出登录",
+    "more": "更多",
+    "privacy": "隐私政策",
+    "profile": "个人资料",
+    "rate": "反馈",
+    "share": "分享",
+    "support": "支持",
+    "support_us": "支持我们",
+    "tab": "设置",
+    "terms": "服务条款",
+    "theme": {
+      "dark": "深色",
+      "light": "浅色",
+      "system": "系统",
+      "title": "主题"
+    },
+    "title": "设置",
+    "version": "版本",
+    "website": "网站"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "抱歉，我们需要相机权限才能正常工作！",
+    "errorSelectingImagePicker": "选择图像时出错。请重试。",
+    "errorSelectingDocumentPicker": "选择文档时出错。请重试。",
+    "errorTakingPicture": "拍照时出错。请重试。",
+    "enableNotifications": {
+      "heading": "启用通知",
+      "subHeading": "通知当前已关闭。请保持更新，在设备设置中启用它们。"
+    },
+    "enableNotificationFailed": "推送通知已禁用。在设置中启用以接收重要更新！",
+    "enableNotificationError": "启用通知时出错",
+    "notificationDisabledSuccess": "通知已成功禁用。",
+    "notificationDisabledRegisterError": "无法取消注册设备通知。",
+    "notificationDisabledError": "禁用通知时出错。",
+    "checkNotificationStatusError": "检查通知状态时出错。",
+    "projectIdNotFound": "未找到通知项目ID。",
+    "imageSizeLarge": "图像太大！文件大小为{{fileSize}} MB，但限制为{{imageLimit}} MB。",
+    "videoSizeLarge": "视频太大！文件大小为{{fileSize}} MB，但限制为{{videoLimit}} MB。",
+    "loggedInSuccess": "登录成功",
+    "loggedOutSuccess": "您已成功退出登录！",
+    "sendVerificationCodeError": "发送验证码时出错",
+    "validateAuthCodeError": "验证认证码时出错",
+    "anonymousSignInError": "匿名登录时出错",
+    "emailLoginError": "登录时出错",
+    "preferredLanguageError": "更新用户首选语言时出错",
+    "sharingNotAvailable": "共享当前在您的设备上不可用",
+    "sharingLinkError": "分享链接失败。",
+    "individualPushNotificationSuccess": "个人推送通知发送成功！",
+    "globalPushNotificationSuccess": "全局推送通知发送成功！🌍🚀",
+    "interpretationFieldsUpdateFail": "更新解释字段失败！❌",
+    "deleteScanReportFail": "无法删除扫描报告。请重试",
+    "onboardingUnsuccessful": "引导不成功。请重试",
+    "logoutUnsuccessful": "退出登录不成功。请重试",
+    "deleteScanReportQuestion": "您确定要永久删除此报告吗？",
+    "videoLimitExceeds": "您的视频超过{{videoSecondsLimit}}秒限制。请修剪后重新上传",
+    "subscriptionActivated": "您的订阅已成功激活！享受专属福利！",
+    "subscriptionCancelledByUser": "您已取消交易。欢迎随时重试！",
+    "subscriptionActivationFailed": "激活订阅失败。请重试",
+    "logoutQuestion": "您确定要退出登录吗？",
+    "noSubscriptionToRestore": "糟糕！看起来您目前没有活跃订阅。要继续享受完全访问权限，请选择我们的订阅计划之一。",
+    "restorationSuccessful": "恢复成功！尽情享受！",
+    "restorationError": "恢复购买时出错。",
+    "medicalDisclaimerAlert": "Doctor Med AI 应用不能替代医疗咨询。某些诊断仅用于信息/教育目的。对于医疗建议，请务必咨询医生或持照专家。",
+    "scanLimitReached": "我们正在为您优化扫描质量！您将在大约{{hours}}小时{{minutes}}分钟后能够再次扫描。有任何医疗问题吗？在等待时询问我们的聊天助手！",
+    "mixedMediaNotAllowed": "为了更好的准确性，请不要上传不同类型的媒体文件混合。请仅上传图像、视频或pdf — 不要全部一起上传。",
+    "multipleVideosNotAllowed": "为了更好的准确性，请一次仅上传一个视频。",
+    "mediaFilesUploadFiles": "上传媒体文件时出错。请重试。",
+    "chatAndMediaFilesLimit": "亲爱的用户，您需要升级计划才能受益于无限聊天、无限扫描、多图像分析等功能。🔓"
+  },
+  "deleteApp": {
+    "title": "等等！别删除我！",
+    "subtitle": "请提供反馈"
+  }
+}

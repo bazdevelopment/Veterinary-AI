@@ -31,10 +31,10 @@ const ThirdOnboardingScreen = ({
           />
 
           <View className="mt-14">
-            <Text className="font-bold-work-sans text-4xl">
+            <Text className="font-bold-poppins text-4xl">
               {translate('rootLayout.screens.onboarding.thirdOnboarding.title')}
             </Text>
-            <Text className="text-lg font-medium-work-sans mt-4 text-charcoal-800 dark:text-white">
+            <Text className="text-lg font-medium-poppins mt-4 text-charcoal-800 dark:text-white">
               {translate(
                 'rootLayout.screens.onboarding.thirdOnboarding.subtitle'
               )}
@@ -47,7 +47,7 @@ const ThirdOnboardingScreen = ({
           label={translate('general.continue')}
           variant="default"
           className="h-[55px] rounded-full bg-primary-900 pl-5 dark:bg-primary-900"
-          textClassName="font-semibold-work-sans text-lg dark:text-white "
+          textClassName="font-semibold-poppins text-lg dark:text-white "
           iconPosition="right"
           icon={<ArrowRightSharp color={colors.white} />}
           onPress={goToNextScreen}

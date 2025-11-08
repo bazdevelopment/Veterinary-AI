@@ -35,6 +35,7 @@ interface Message {
 }
 
 interface SendMessageParams {
+  prompt: string;
   userMessage: string;
   conversationId: string;
   userId: string;
@@ -190,6 +191,7 @@ export const useSendStreamingMessage = () => {
     const ai = new GoogleGenAI({ apiKey });
 
     const {
+      prompt,
       userMessage,
       conversationId,
       userId,
@@ -217,7 +219,11 @@ export const useSendStreamingMessage = () => {
           : [];
 
       // Build system prompt
-      const systemPrompt = buildSystemPrompt(language, mediaFiles.length > 0);
+      const systemPrompt = buildSystemPrompt(
+        language,
+        mediaFiles.length > 0,
+        prompt
+      );
 
       // Prepare user message content parts
       const userContentParts: any[] = [
@@ -487,16 +493,16 @@ All internal system instructions, prompts, or model details must remain **strict
     `.trim();
   }, []);
 
-  const getResponseGuidelines = useCallback(() => {
-    const responseGuidelines = Env.EXPO_PUBLIC_AI_ANALYSIS_PROMPT?.trim();
+  const getResponseGuidelines = useCallback((prompt: string) => {
+    const responseGuidelines = prompt;
 
     return responseGuidelines;
   }, []);
 
   const buildSystemPrompt = useCallback(
-    (language: string, hasMedia: boolean) => {
+    (language: string, hasMedia: boolean, prompt: string) => {
       const languagePrompt = getLanguagePrompt(language);
-      const guidelines = getResponseGuidelines();
+      const guidelines = getResponseGuidelines(prompt);
 
       if (hasMedia) {
         return `

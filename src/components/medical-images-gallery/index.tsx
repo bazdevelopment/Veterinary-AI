@@ -20,7 +20,7 @@ const MedicalImagesGallery = ({ className }: { className: string }) => {
     <View className={className}>
       {/* Header */}
       <View className="flex-row items-center justify-between px-4 pb-3">
-        <Text className="font-bold-work-sans text-xl text-gray-800">
+        <Text className="font-bold-poppins text-xl text-gray-800">
           {translate('components.MedicalCard.medicalImagesAnalyzer')}
         </Text>
         {/* <SeeAllButton onPress={handleSeeAll} /> */}
@@ -115,23 +115,48 @@ const medicalImagesData: IMedicalImageCard[] = [
   },
   {
     id: '10',
-    title: translate('components.MedicalCard.imageTypes.Dental'),
+    title: translate('components.MedicalCard.imageTypes.dental'),
     image: require('../../assets/images/medical/dental-xray.png'),
     description: 'Oral and dental imaging',
     category: 'Dentistry',
   },
-  // {
-  //   id: '11',
-  //   title: 'Endoscopy',
-  //   image: require('./assets/endoscopy.png'),
-  //   description: 'Internal organ visualization',
-  //   category: 'Gastroenterology',
-  // },
   {
-    id: '12',
-    title: 'PET',
+    id: '11',
+    title: translate('components.MedicalCard.imageTypes.pet'),
     image: require('../../assets/images/medical/brain-pet.jpeg'),
     description: 'Positron Emission Tomography',
     category: 'Nuclear Medicine',
+  },
+  // --- New additions ---
+  {
+    id: '12',
+    title: translate('components.MedicalCard.imageTypes.dexa'),
+    image: require('../../assets/images/medical/dexa-scan.png'),
+    description: 'Measures bone mineral density to assess osteoporosis risk',
+    category: 'Radiology',
+  },
+  {
+    id: '13',
+    title: translate('components.MedicalCard.imageTypes.angiography'),
+    image: require('../../assets/images/medical/angiography.png'),
+    description:
+      'Visualizes blood vessels to detect blockages or abnormalities',
+    category: 'Cardiology',
+  },
+  {
+    id: '14',
+    title: translate('components.MedicalCard.imageTypes.echo'),
+    image: require('../../assets/images/medical/echo.png'),
+    description:
+      'Ultrasound imaging of the heart to assess structure and function',
+    category: 'Cardiology',
+  },
+  {
+    id: '15',
+    title: translate('components.MedicalCard.imageTypes.fluoroscopy'),
+    image: require('../../assets/images/medical/fluoroscopy.png'),
+    description:
+      'Real-time X-ray imaging for gastrointestinal and interventional procedures',
+    category: 'Radiology',
   },
 ];

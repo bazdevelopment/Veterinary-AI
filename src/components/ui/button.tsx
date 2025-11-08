@@ -3,7 +3,6 @@ import type { PressableProps } from 'react-native';
 import {
   ActivityIndicator,
   Pressable,
-  Text,
   TouchableOpacity,
   View,
 } from 'react-native';
@@ -11,11 +10,12 @@ import type { VariantProps } from 'tailwind-variants';
 import { tv } from 'tailwind-variants';
 
 import colors from './colors';
+import { Text } from './text';
 
 const button = tv({
   slots: {
     container: 'my-2 flex flex-row items-center justify-center rounded-md px-4',
-    label: 'font-semibold-work-sans text-base',
+    label: 'font-semibold-poppins text-base',
     indicator: 'h-6 text-white',
   },
 
@@ -200,7 +200,7 @@ export const RoundedButton = ({
       onPress={onPress}
     >
       {icon}
-      <Text className={`text-center font-semibold-work-sans ${textClassName}`}>
+      <Text className={`text-center font-semibold-poppins ${textClassName}`}>
         {label}
       </Text>
     </TouchableOpacity>

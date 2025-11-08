@@ -20,16 +20,10 @@ export const HomeIcon = (props: ISvgProps) => (
         opacity={0.2}
       />
       <Path
-        stroke={
-          props.isFocused
-            ? '#00ACB8'
-            : props.isDark
-              ? colors.white
-              : colors.charcoal[800]
-        }
+        stroke={props.color}
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth={1.5}
+        strokeWidth={2}
         d="M9.75 20.25v-6h4.5v6h6v-9a.75.75 0 0 0-.22-.53l-7.5-7.5a.749.749 0 0 0-1.06 0l-7.5 7.5a.75.75 0 0 0-.22.53v9h6Z"
       />
     </G>

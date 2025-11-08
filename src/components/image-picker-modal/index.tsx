@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, Modal, Pressable } from 'react-native';
+import { View, TouchableOpacity, Modal, Pressable } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
-import { useMediaPiker } from '@/lib/hooks/use-media-picker';
 import { translate } from '@/lib';
+import { Text } from '../ui';
 
 type ImagePickerModalProps = {
   title?: string;
@@ -71,10 +71,10 @@ export const ImagePickerModal: React.FC<ImagePickerModalProps> = ({
             </TouchableOpacity>
           ))}
           <TouchableOpacity
-            className=" bg-neutral-800 rounded-2xl w-72 py-1 py-4 shadow-lg border-t border-neutral-700 "
+            className="bg-neutral-800 rounded-2xl w-72 py-1 py-4 shadow-lg border-t border-neutral-700 "
             onPress={onCancelPress}
           >
-            <Text className="text-white text-lg text-base font-semibold-work-sans px-4">
+            <Text className="text-white  font-semibold-poppins px-4">
               {translate('general.cancel')}
             </Text>
           </TouchableOpacity>

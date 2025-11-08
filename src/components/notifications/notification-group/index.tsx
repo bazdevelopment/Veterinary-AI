@@ -20,7 +20,7 @@ const NotificationGroup = ({
   }) => void;
 }) => (
   <View className="mt-6 px-6">
-    <Text className="mb-2 font-semibold-work-sans text-lg">{date}</Text>
+    <Text className="mb-2 font-semibold-poppins text-lg">{date}</Text>
     <View className="rounded-2xl">
       {notifications.map((notification: INotificationItem, index: number) => {
         const isLastRecord = index === notifications.length - 1;

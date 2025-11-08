@@ -41,7 +41,7 @@ export const LoginForm = ({ onSubmit = () => {} }: LoginFormProps) => {
         <View className="items-center justify-center">
           <Text
             testID="form-title"
-            className="pb-6 text-center font-bold-work-sans text-4xl"
+            className="pb-6 text-center font-bold-poppins text-4xl"
           >
             Sign In
           </Text>

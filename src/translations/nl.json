@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Terug",
+    "welcome": "Hallo",
+    "welcomeBack": "Welkom terug!",
+    "welcomeMessage": "Welkom!",
+    "continue": "Doorgaan",
+    "retry": "Opnieuw proberen",
+    "close": "Sluiten",
+    "gallery": "Galerij",
+    "files": "Bestanden",
+    "seeAll": "Alles zien",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "attention": "Let op!",
+    "new": "Nieuw",
+    "activeSubscription": "Abonnement actief",
+    "agreeingMessage": "Door verder te gaan, gaat u akkoord met onze",
+    "and": "en",
+    "askAssistant": "Vraag AI-assistent",
+    "chatbotPlaceholder": "Vraag me alles...",
+    "completedScans": "Scans voltooid",
+    "conversationHistory": "Gespreksgeschiedenis",
+    "medicalAssistants": "Medische assistenten",
+    "searchAssistant": "Assistent zoeken...",
+    "analyzingMediaFilesPlaceholder": "Mediabestanden analyseren...",
+    "copyText": {
+      "copied": "Gekopieerd!",
+      "copy": "Link kopiëren",
+      "loading": "Bezig met kopiëren..."
+    },
+    "createdAt": "Aangemaakt op",
+    "download": "Downloaden",
+    "free": "GRATIS",
+    "freeTrial": "Gratis proefperiode",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Uw medische beelden worden gescand, even geduld...",
+        "fourth": "Bijna klaar, scan wordt afgerond...",
+        "second": "Details worden geanalyseerd, dit kan even duren...",
+        "third": "Nauwkeurigheid wordt verbeterd voor de beste resultaten..."
+      },
+      "initialAppLoad": {
+        "first": "Uw persoonlijke ervaring wordt geladen...",
+        "fourth": "Bijna klaar, nog even geduld...",
+        "second": "Systemen synchroniseren...",
+        "third": "Uw gegevens worden verwerkt..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med maakt zich klaar om u te helpen...",
+        "second": "Wacht even! Dr. Med bereidt uw antwoord voor...",
+        "third": "Denken... uw assistent Dr. Med is ermee bezig!"
+      }
+    },
+    "tabs": {
+      "home": "Home",
+      "chat": "Chat",
+      "aiDoctors": "AI-artsen",
+      "settings": "Instellingen"
+    },
+    "medicalDisclaimer": "Medische disclaimer",
+    "next": "Volgende",
+    "noPaymentNow": "Nu geen betaling. Altijd opzegbaar.",
+    "online": "Online",
+    "openSettings": "Instellingen openen",
+    "or": "of",
+    "perMonth": "per maand",
+    "perWeek": "per week",
+    "perYear": "per jaar",
+    "privacyPolicy": "Privacybeleid",
+    "restorePurchase": "Aankoop herstellen",
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "saveDiscount": "BESPAAR",
+    "seeNotifications": "Meldingen bekijken",
+    "share": "Delen",
+    "shareLink": "Link delen",
+    "skip": "Overslaan",
+    "termsAndConditions": "Algemene voorwaarden",
+    "then": "vervolgens",
+    "tryAgain": "Opnieuw proberen",
+    "tryForFree": "Start gratis proefperiode",
+    "typing": "Typen...",
+    "unlockNow": "Nu ontgrendelen",
+    "update": "Bijwerken",
+    "upgradePlan": "Plan upgraden",
+    "viewProfile": "Profiel bekijken",
+    "yes": "Ja",
+    "chatBotPlaceholder": "Hallo. Als u vragen heeft, kan ik u helpen het {{topic}}-domein te verkennen. Alleen voor educatief gebruik."
+  },
+  "weekDays": {
+    "today": "Vandaag",
+    "yesterday": "Gisteren"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Krijg analyses van verschillende medische scans, waaronder RÖNTGENFOTO, CT, MRI, ECG en meer",
+      "second": "Toegang tot alle premiumfuncties",
+      "fourth": "Onbeperkte chats met 24/7 medische AI-assistenten",
+      "third": "Geen advertenties"
+    },
+    "UpgradeBanner": {
+      "heading": "Nu ontgrendelen",
+      "subheading": "Geniet van alle voordelen zonder beperkingen"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Medische Beelden Analysator",
+      "askMedicalAssistant": "Vraag Medische AI-assistent",
+      "medicalAssistant": "Medische Assistent",
+      "imageTypes": {
+        "xray": "Röntgenfoto",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "Echografie",
+        "ecg": "ECG",
+        "skinLesion": "Huidlaesie",
+        "mammogram": "Mammogram",
+        "retinalScan": "Netvliesscan",
+        "bloodSmear": "Bloeduitstrijkje",
+        "dental": "Tandheelkundig",
+        "pet": "PET",
+        "dexa": "DEXA / Botdichtheidsscan",
+        "angiography": "Angiografie",
+        "echo": "Echocardiografie (ECHO)",
+        "fluoroscopy": "Doorlichting"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Huisartsgeneeskunde",
+          "subtitle": "Algemene Praktijk"
+        },
+        "internalMedicine": {
+          "title": "Interne Geneeskunde"
+        },
+        "pediatrics": {
+          "title": "Kindergeneeskunde"
+        },
+        "dermatology": {
+          "title": "Dermatologie"
+        },
+        "cardiology": {
+          "title": "Cardiologie"
+        },
+        "orthopedics": {
+          "title": "Orthopedie"
+        },
+        "psychiatry": {
+          "title": "Psychiatrie",
+          "subtitle": "Geestelijke Gezondheid"
+        },
+        "obstetricsGynecology": {
+          "title": "Verloskunde & Gynaecologie",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "Neurologie"
+        },
+        "ophthalmology": {
+          "title": "Oogheelkunde"
+        },
+        "otolaryngology": {
+          "title": "Keel-, Neus- en Oorheelkunde",
+          "subtitle": "KNO"
+        },
+        "dentistry": {
+          "title": "Tandheelkunde"
+        },
+        "radiology": {
+          "title": "Radiologie",
+          "subtitle": "Beeldvorming"
+        },
+        "oncology": {
+          "title": "Oncologie"
+        },
+        "endocrinology": {
+          "title": "Endocrinologie"
+        },
+        "nephrology": {
+          "title": "Nefrologie"
+        },
+        "pulmonology": {
+          "title": "Longgeneeskunde"
+        },
+        "gastroenterology": {
+          "title": "Gastro-enterologie"
+        },
+        "allergyImmunology": {
+          "title": "Allergie & Immunologie"
+        },
+        "hematology": {
+          "title": "Hematologie"
+        },
+        "rheumatology": {
+          "title": "Reumatologie"
+        },
+        "urology": {
+          "title": "Urologie"
+        },
+        "emergencyMedicine": {
+          "title": "Spoedeisende Hulp"
+        },
+        "surgery": {
+          "title": "Chirurgie"
+        },
+        "anesthesiology": {
+          "title": "Anesthesiologie"
+        },
+        "rehabilitationMedicine": {
+          "title": "Revalidatiegeneeskunde",
+          "subtitle": "Fysiotherapie"
+        },
+        "geriatrics": {
+          "title": "Geriatrie"
+        },
+        "publicHealth": {
+          "title": "Volksgezondheid",
+          "subtitle": "Preventieve Geneeskunde"
+        },
+        "microscopy": {
+          "title": "Microscopie"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Fotobibliotheek",
+      "takePhoto": "Foto maken",
+      "chooseFile": "Bestand kiezen"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Ik heb al een account",
+        "heading": "Welkom bij Doctor Med AI!",
+        "startButton": "Laten we beginnen!"
+      },
+      "freeTrialPreview": {
+        "heading": "Geniet van uw gratis proefperiode! 🎉",
+        "review": "Ik gebruik deze app voor medische vragen, radiologiescans en studie - het is geweldig!",
+        "reviewTrust": "📈 Vertrouwd door 5.212+ gebruikers"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Welke taal geeft u de voorkeur voor de AI-analyse?",
+        "languageSelection": "Kies een taal voor AI-antwoorden",
+        "languageSearchCriteria": "Zoek op taal, landcode of vlag",
+        "noLanguageFound": "Geen taal gevonden",
+        "noLanguageFoundSubtitle": "Probeer uw zoektermen aan te passen"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Wat toont een röntgenfoto van de borstkas?",
+          "two": "Wat zijn de veelvoorkomende symptomen van een hartaanval?",
+          "three": "Hoe kan ik mijn bloeddruk natuurlijk verlagen?",
+          "four": "Wat is het verschil tussen een MRI en een CT-scan?",
+          "five": "Wat zijn de vroege tekenen van diabetes?",
+          "six": "Hoe interpreteer ik mijn basis bloedtestresultaten?",
+          "seven": "Wat is de behandeling voor een urineweginfectie (UWI)?",
+          "eight": "Kunt u uitleggen waar een echocardiogram voor wordt gebruikt?",
+          "nine": "Wat zijn de richtlijnen voor een gezond dieet?",
+          "ten": "Wat veroorzaakt hoog cholesterol?",
+          "eleven": "Hoe wordt een hersentumor op een MRI gedetecteerd?",
+          "twelve": "Wat is de rol van huisartsgeneeskunde?",
+          "thirteen": "Wat zijn de risicofactoren voor een beroerte?",
+          "fourteen": "Hoe omgaan met angst en stress?",
+          "fifteen": "Wat zijn de nieuwste richtlijnen voor het beheren van hypertensie?"
+        }
+      },
+      "notifications": {
+        "title": "Meldingen",
+        "noNotifications": "Geen meldingen voor nu - blijf op de hoogte voor updates!"
+      },
+      "rateAppScreen": {
+        "heading": "Vindt u de app waardevol en boeiend?",
+        "like": "Ja, ik vind het leuk!",
+        "dislike": "Ik vind het niet leuk"
+      },
+      "profile": {
+        "title": "Profiel",
+        "edit": "Profiel bewerken",
+        "placeholderPreferredName": "Bijv., Captain Cool, Queen Bee, of gewoon Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "U bent offline",
+        "subheading": "Uw verbinding lijkt onstabiel. Controleer uw netwerkstatus"
+      },
+      "newAppVersionScreen": {
+        "heading": "Een nieuwe versie van Doctor Med AI is beschikbaar",
+        "subheading": "Update naar de nieuwste versie om te blijven genieten van alle app-functies - het duurt maar 5 seconden!",
+        "action": "Krijg het nu!"
+      },
+      "disclaimerScreen": {
+        "heading": "Belangrijke medische disclaimer",
+        "subheading": "Doctor Med AI is ontworpen voor radiologieprofessionals, gezondheidsexperts, medische studenten en enthousiastelingen",
+        "consentAgreement": "Ik heb de disclaimer gelezen en ga ermee akkoord.",
+        "firstConsent": "Doctor Med AI biedt geen gezondheidsmetingen of behandeladvies, noch is het bedoeld voor dergelijke doeleinden. Gebruikers van Doctor Med AI moeten hun klinische oordeel toepassen en informatie van gezaghebbende bronnen verifiëren voordat ze klinische beslissingen nemen.",
+        "secondConsent": "Doctor Med AI is geen diagnostisch hulpmiddel, behandelplatform of vervanging voor professioneel medisch advies. Het biedt AI-gegenereerde inzichten om zorgprofessionals te helpen bij het toegang krijgen tot medische kennis en het analyseren van medische beelden en documenten. Doctor Med AI is een AI-aangedreven informatieve en educatieve app die meer is ontworpen om gelicentieerde zorgprofessionals te ondersteunen.",
+        "thirdConsent": "Doctor Med AI is niet ontworpen voor patiëntgebruik. Het biedt geen directe medische diagnoses, behandelingsaanbevelingen of patiëntbeheerfunctionaliteiten.",
+        "fourthConsent": "Doctor Med AI is niet geclassificeerd als een medisch hulpmiddel en claimt geen regelgevende goedkeuring. Het is bedoeld voor educatieve en informatieve doeleinden om professionele expertise aan te vullen.",
+        "fifthConsent": "Doctor Med AI verzamelt, slaat of verwerkt geen persoonlijke of patiëntgegevens. Alle gebruikersinteracties zijn vertrouwelijk en beperkt tot de reikwijdte van de app."
+      },
+      "contactUs": {
+        "heading": "Voel u vrij om ons rechtstreeks te e-mailen, en ons team zal zo snel mogelijk contact met u opnemen",
+        "customerSupport": "Klantenservice",
+        "emailAddress": "E-mailadres"
+      },
+      "rate": {
+        "title": "Geef ons feedback!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Geen resultaten gevonden - Maar maak je geen zorgen!",
+          "notFoundSubtitle": "Probeer andere zoekwoorden te gebruiken, of vraag direct aan onze AI medische assistent",
+          "askAssistant": "Vraag Medische Assistent"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Gratis proefperiode ingeschakeld",
+          "heading": "Onbeperkte toegang",
+          "title": "Ontgrendel premiumfuncties vandaag nog!",
+          "firstOffering": "Toegang tot alle premiumfuncties",
+          "secondOffering": "Advertentievrije ervaring",
+          "thirdOffering": "Onbeperkte analyse van medische beelden, video's, PDF-scans + rapporten",
+          "fourthOffering": "Onbeperkte chats met 24/7 AI medische assistenten"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Uw AI-aangedreven gezondheidsmaatje",
+          "subtitle": "Krijg direct medisch inzicht en begeleiding van gespecialiseerde AI-artsen, altijd en overal."
+        },
+        "secondOnboarding": {
+          "title": "Vraag, upload en krijg medisch inzicht",
+          "subtitle": "Chat met AI-artsen van verschillende specialismen, of upload medische beelden voor snelle medische analyse."
+        },
+        "thirdOnboarding": {
+          "title": "Uw privacy is belangrijk",
+          "subtitle": "We zijn toegewijd aan het beschermen van uw privacy. We verzamelen geen persoonlijke gegevens. Bestanden die u uploadt blijven privé en worden nooit gedeeld."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Ontgrendel premiumfuncties vandaag nog!",
+        "firstOffering": {
+          "title": "Start gratis proefperiode",
+          "subtitle": "Geniet van {{freeScans}} gratis scans - geen betaling"
+        },
+        "secondOffering": {
+          "title": "Maandabonnement",
+          "subtitle": "{{ price }}/maand"
+        },
+        "thirdOffering": {
+          "title": "Jaarabonnement",
+          "subtitle": "{{ price }} per jaar"
+        },
+        "fourthOffering": {
+          "title": "{{trialDays}}-dagen proefperiode",
+          "subtitle": "{{ price }} per jaar",
+          "plan": "Weekabonnement"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Over",
+    "app_name": "App-naam",
+    "citations": "Citaten voor medische informatie",
+    "contactUs": "Neem contact op",
+    "devMode": {
+      "componentsLibrary": "UI-bibliotheek",
+      "title": "Ontwikkelaarsmodus"
+    },
+    "faq": "Veelgestelde vragen",
+    "generale": "Algemeen",
+    "github": "Github",
+    "language": "Taal",
+    "languages": {
+      "arabic": "Arabisch",
+      "catalan": "Catalaans",
+      "croatian": "Kroatisch",
+      "czech": "Tsjechisch",
+      "danish": "Deens",
+      "dutch": "Nederlands",
+      "english": "Engels",
+      "finnish": "Fins",
+      "french": "Frans",
+      "french_canada": "Frans (Canada)",
+      "german": "Duits",
+      "greek": "Grieks",
+      "hebrew": "Hebreeuws",
+      "hindi": "Hindi",
+      "hungarian": "Hongaars",
+      "indonesian": "Indonesisch",
+      "italian": "Italiaans",
+      "japanese": "Japans",
+      "korean": "Koreaans",
+      "malay": "Maleis",
+      "mandarin_chinese": "Chinees",
+      "norwegian": "Noors",
+      "polish": "Pools",
+      "portuguese_brazil": "Portugees (Brazilië)",
+      "portuguese_portugal": "Portugees (Portugal)",
+      "romanian": "Roemeens",
+      "russian": "Russisch",
+      "slovak": "Slowaaks",
+      "spanish_mexico": "Spaans (Mexico)",
+      "spanish_spain": "Spaans (Spanje)",
+      "swedish": "Zweeds",
+      "thai": "Thais",
+      "turkish": "Turks",
+      "ukrainian": "Oekraïens",
+      "vietnamese": "Vietnamees"
+    },
+    "links": "Links",
+    "logout": "Uitloggen",
+    "more": "Meer",
+    "privacy": "Privacybeleid",
+    "profile": "Profiel",
+    "rate": "Feedback",
+    "share": "Delen",
+    "support": "Ondersteuning",
+    "support_us": "Steun ons",
+    "tab": "Instellingen",
+    "terms": "Servicevoorwaarden",
+    "theme": {
+      "dark": "Donker",
+      "light": "Licht",
+      "system": "Systeem",
+      "title": "Thema"
+    },
+    "title": "Instellingen",
+    "version": "Versie",
+    "website": "Website"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Sorry, we hebben cameratoestemmingen nodig om dit te laten werken!",
+    "errorSelectingImagePicker": "Er is iets misgegaan bij het selecteren van de afbeelding. Probeer het opnieuw.",
+    "errorSelectingDocumentPicker": "Er is iets misgegaan bij het kiezen van het document. Probeer het opnieuw.",
+    "errorTakingPicture": "Er is iets misgegaan bij het maken van de foto. Probeer het opnieuw.",
+    "enableNotifications": {
+      "heading": "Meldingen inschakelen",
+      "subHeading": "Meldingen zijn momenteel uitgeschakeld. Schakel ze in uw apparaatinstellingen in om op de hoogte te blijven."
+    },
+    "enableNotificationFailed": "Pushmeldingen zijn uitgeschakeld. Schakel ze in instellingen in om belangrijke updates te ontvangen!",
+    "enableNotificationError": "Er is een fout opgetreden bij het inschakelen van meldingen",
+    "notificationDisabledSuccess": "Meldingen succesvol uitgeschakeld.",
+    "notificationDisabledRegisterError": "Kon apparaat niet uitschrijven voor meldingen.",
+    "notificationDisabledError": "Er is een fout opgetreden bij het uitschakelen van meldingen.",
+    "checkNotificationStatusError": "Fout bij controleren meldingsstatus.",
+    "projectIdNotFound": "Meldingsproject-ID niet gevonden.",
+    "imageSizeLarge": "Afbeelding is te groot! Bestandsgrootte is {{fileSize}} MB, maar de limiet is {{imageLimit}} MB.",
+    "videoSizeLarge": "Video is te groot! Bestandsgrootte is {{fileSize}} MB, maar de limiet is {{videoLimit}} MB.",
+    "loggedInSuccess": "Succesvol ingelogd",
+    "loggedOutSuccess": "U bent succesvol uitgelogd!",
+    "sendVerificationCodeError": "Fout bij verzenden verificatiecode",
+    "validateAuthCodeError": "Fout bij valideren auth-code",
+    "anonymousSignInError": "Fout bij anoniem inloggen",
+    "emailLoginError": "Fout bij inloggen",
+    "preferredLanguageError": "Fout bij bijwerken voorkeurstaal gebruiker",
+    "sharingNotAvailable": "Delen is momenteel niet beschikbaar op uw apparaat",
+    "sharingLinkError": "Kan link niet delen.",
+    "individualPushNotificationSuccess": "Individuele pushmeldingen succesvol verzonden!",
+    "globalPushNotificationSuccess": "Globale pushmeldingen succesvol verzonden! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Kon interpretatievelden niet bijwerken! ❌",
+    "deleteScanReportFail": "Kan scanrapport niet verwijderen. Probeer het opnieuw",
+    "onboardingUnsuccessful": "Onboarding niet succesvol. Probeer het opnieuw",
+    "logoutUnsuccessful": "Uitloggen niet succesvol. Probeer het opnieuw",
+    "deleteScanReportQuestion": "Weet u zeker dat u dit rapport permanent wilt verwijderen?",
+    "videoLimitExceeds": "Uw video overschrijdt de limiet van {{videoSecondsLimit}} seconden. Knip het bij en upload opnieuw",
+    "subscriptionActivated": "Uw abonnement is succesvol geactiveerd! Geniet van uw exclusieve voordelen!",
+    "subscriptionCancelledByUser": "U heeft de transactie geannuleerd. Voel u vrij om het opnieuw te proberen!",
+    "subscriptionActivationFailed": "Kon uw abonnement niet activeren. Probeer het opnieuw",
+    "logoutQuestion": "Weet u zeker dat u wilt uitloggen?",
+    "noSubscriptionToRestore": "Oeps! Het lijkt erop dat u momenteel geen actief abonnement heeft. Kies een van onze abonnementsplannen om volledige toegang te blijven genieten.",
+    "restorationSuccessful": "Herstel was succesvol! Geniet ervan!",
+    "restorationError": "Er is een fout opgetreden bij het herstellen van de aankoop.",
+    "medicalDisclaimerAlert": "De Doctor Med AI-app vervangt geen medisch consult. Sommige diagnoses zijn alleen voor informatieve/educatieve doeleinden. Raadpleeg voor medische aanbevelingen altijd een arts of gelicentieerde specialist.",
+    "scanLimitReached": "We optimaliseren de scankwaliteit voor u! U kunt over ongeveer {{hours}} uur en {{minutes}} minuten opnieuw scannen. Heeft u vragen over een medisch onderwerp? Vraag het onze chatassistent terwijl u wacht!",
+    "mixedMediaNotAllowed": "Voor betere nauwkeurigheid, upload geen mix van verschillende mediabestanden. Upload alleen afbeeldingen, video's of pdf's - niet allemaal samen.",
+    "multipleVideosNotAllowed": "Voor betere nauwkeurigheid, upload slechts één video per keer.",
+    "mediaFilesUploadFiles": "Er was een fout bij het uploaden van uw mediabestanden. Probeer het opnieuw.",
+    "chatAndMediaFilesLimit": "Beste gebruiker, u moet uw plan upgraden om te profiteren van onbeperkte chats, onbeperkte scans, multi-beeldanalyse en meer. 🔓"
+  },
+  "deleteApp": {
+    "title": "Wacht! Verwijder me niet!",
+    "subtitle": "Stuur in plaats daarvan feedback"
+  }
+}

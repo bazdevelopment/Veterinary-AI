@@ -30,7 +30,7 @@ const MedicalSpecializationsPreview: React.FC = () => {
     <View className="bg-gray-50 pb-4 dark:bg-transparent">
       {/* Header */}
       <View className="flex-row items-center justify-between px-4 pb-3 pt-6">
-        <Text className="font-bold-work-sans text-xl text-gray-800">
+        <Text className="font-bold-poppins text-xl text-gray-800">
           {translate('general.medicalAssistants')}
         </Text>
 
@@ -128,7 +128,6 @@ export const medicalSpecializationsData: MedicalSpecialization[] = [
     ),
     icon: require('../../assets/images/specializations/psychiatry.png'),
     color: '#00ACC1',
-    searchRank: 7,
     description: 'Mental health and behavioral disorders',
   },
   {
@@ -344,5 +343,16 @@ export const medicalSpecializationsData: MedicalSpecialization[] = [
     icon: require('../../assets/images/specializations/public-health.png'),
     color: '#26A69A',
     description: 'Population health and disease prevention',
+  },
+  {
+    id: '29',
+    title: translate(
+      'components.SpecializationCard.specialization.microscopy.title'
+    ),
+
+    icon: require('../../assets/images/specializations/microscopy.png'),
+    color: '#00ACC1',
+    description: 'Mental health and behavioral disorders',
+    searchRank: 7,
   },
 ];

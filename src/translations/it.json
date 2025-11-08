@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Indietro",
+    "welcome": "Ciao",
+    "welcomeBack": "Bentornato!",
+    "welcomeMessage": "Benvenuto!",
+    "continue": "Continua",
+    "retry": "Riprova",
+    "close": "Chiudi",
+    "gallery": "Galleria",
+    "files": "File",
+    "seeAll": "Vedi tutto",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "attention": "Attenzione!",
+    "new": "Nuovo",
+    "activeSubscription": "Abbonamento attivo",
+    "agreeingMessage": "Continuando, accetti i nostri",
+    "and": "e",
+    "askAssistant": "Chiedi all'assistente AI",
+    "chatbotPlaceholder": "Chiedimi qualsiasi cosa...",
+    "completedScans": "Scansioni completate",
+    "conversationHistory": "Cronologia conversazioni",
+    "medicalAssistants": "Assistenti Medici",
+    "searchAssistant": "Cerca Assistente...",
+    "analyzingMediaFilesPlaceholder": "Analisi File Multimediali in corso...",
+    "copyText": {
+      "copied": "Copiato!",
+      "copy": "Copia Link",
+      "loading": "Copia in corso..."
+    },
+    "createdAt": "Creato il",
+    "download": "Scarica",
+    "free": "GRATIS",
+    "freeTrial": "Prova gratuita",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Scansione delle tue immagini mediche in corso, attendi...",
+        "fourth": "Ci siamo quasi, finalizzazione della scansione...",
+        "second": "Analisi dei dettagli, potrebbe richiedere un momento...",
+        "third": "Miglioramento della precisione per i migliori risultati..."
+      },
+      "initialAppLoad": {
+        "first": "Caricamento della tua esperienza personalizzata...",
+        "fourth": "Quasi pronto, solo un momento...",
+        "second": "Sincronizzazione dei sistemi...",
+        "third": "Elaborazione dei tuoi dati..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med si sta preparando ad assisterti...",
+        "second": "Attendi! Dr. Med sta preparando la tua risposta...",
+        "third": "Sto pensando... il tuo assistente Dr. Med ci sta lavorando!"
+      }
+    },
+    "tabs": {
+      "home": "Home",
+      "chat": "Chat",
+      "aiDoctors": "Medici AI",
+      "settings": "Impostazioni"
+    },
+    "medicalDisclaimer": "Disclaimer Medico",
+    "next": "Avanti",
+    "noPaymentNow": "Nessun Pagamento Ora. Cancella quando vuoi.",
+    "online": "Online",
+    "openSettings": "Apri Impostazioni",
+    "or": "o",
+    "perMonth": "al mese",
+    "perWeek": "a settimana",
+    "perYear": "all'anno",
+    "privacyPolicy": "Privacy Policy",
+    "restorePurchase": "Ripristina acquisto",
+    "termsOfUse": "Termini di Utilizzo",
+    "saveDiscount": "RISPARMIA",
+    "seeNotifications": "Vedi notifiche",
+    "share": "Condividi",
+    "shareLink": "Condividi Link",
+    "skip": "Salta",
+    "termsAndConditions": "Termini & Condizioni",
+    "then": "poi",
+    "tryAgain": "Riprova",
+    "tryForFree": "Inizia Prova Gratuita",
+    "typing": "Sto scrivendo...",
+    "unlockNow": "Sblocca Ora",
+    "update": "Aggiorna",
+    "upgradePlan": "Aggiorna Piano",
+    "viewProfile": "Vedi Profilo",
+    "yes": "Sì",
+    "chatBotPlaceholder": "Ciao. Se hai domande, posso aiutarti ad esplorare il dominio {{topic}}. Solo per uso educativo."
+  },
+  "weekDays": {
+    "today": "Oggi",
+    "yesterday": "Ieri"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Ottieni analisi da varie scansioni mediche, inclusi RAGGI-X, TC, RM, ECG e altro",
+      "second": "Accesso a tutte le funzionalità premium",
+      "fourth": "Chat illimitate con assistenti medici AI 24/7",
+      "third": "Nessuna pubblicità"
+    },
+    "UpgradeBanner": {
+      "heading": "Sblocca Ora",
+      "subheading": "Goditi tutti i benefici senza restrizioni"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Analizzatore Immagini Mediche",
+      "askMedicalAssistant": "Chiedi all'Assistente Medico AI",
+      "medicalAssistant": "Assistente Medico",
+      "imageTypes": {
+        "xray": "Raggi-X",
+        "ct": "TC",
+        "mri": "Risonanza Magnetica",
+        "ultrasound": "Ecografia",
+        "ecg": "ECG",
+        "skinLesion": "Lesione Cutanea",
+        "mammogram": "Mammografia",
+        "retinalScan": "Scansione Retinica",
+        "bloodSmear": "Striscio di Sangue",
+        "dental": "Dentale",
+        "pet": "PET",
+        "dexa": "DEXA / Scansione Densità Ossea",
+        "angiography": "Angiografia",
+        "echo": "Ecocardiografia (ECHO)",
+        "fluoroscopy": "Fluoroscopia"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Medicina Generale",
+          "subtitle": "Pratica Generale"
+        },
+        "internalMedicine": {
+          "title": "Medicina Interna"
+        },
+        "pediatrics": {
+          "title": "Pediatria"
+        },
+        "dermatology": {
+          "title": "Dermatologia"
+        },
+        "cardiology": {
+          "title": "Cardiologia"
+        },
+        "orthopedics": {
+          "title": "Ortopedia"
+        },
+        "psychiatry": {
+          "title": "Psichiatria",
+          "subtitle": "Salute Mentale"
+        },
+        "obstetricsGynecology": {
+          "title": "Ostetricia & Ginecologia",
+          "subtitle": "Ostetricia/Ginecologia"
+        },
+        "neurology": {
+          "title": "Neurologia"
+        },
+        "ophthalmology": {
+          "title": "Oftalmologia"
+        },
+        "otolaryngology": {
+          "title": "Otorinolaringoiatria",
+          "subtitle": "ORL"
+        },
+        "dentistry": {
+          "title": "Odontoiatria"
+        },
+        "radiology": {
+          "title": "Radiologia",
+          "subtitle": "Imaging"
+        },
+        "oncology": {
+          "title": "Oncologia"
+        },
+        "endocrinology": {
+          "title": "Endocrinologia"
+        },
+        "nephrology": {
+          "title": "Nefrologia"
+        },
+        "pulmonology": {
+          "title": "Pneumologia"
+        },
+        "gastroenterology": {
+          "title": "Gastroenterologia"
+        },
+        "allergyImmunology": {
+          "title": "Allergologia & Immunologia"
+        },
+        "hematology": {
+          "title": "Ematologia"
+        },
+        "rheumatology": {
+          "title": "Reumatologia"
+        },
+        "urology": {
+          "title": "Urologia"
+        },
+        "emergencyMedicine": {
+          "title": "Medicina d'Emergenza"
+        },
+        "surgery": {
+          "title": "Chirurgia"
+        },
+        "anesthesiology": {
+          "title": "Anestesiologia"
+        },
+        "rehabilitationMedicine": {
+          "title": "Medicina Riabilitativa",
+          "subtitle": "Fisioterapia"
+        },
+        "geriatrics": {
+          "title": "Geriatria"
+        },
+        "publicHealth": {
+          "title": "Sanità Pubblica",
+          "subtitle": "Medicina Preventiva"
+        },
+        "microscopy": {
+          "title": "Microscopia"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Libreria Foto",
+      "takePhoto": "Scatta Foto",
+      "chooseFile": "Scegli File"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Ho già un account",
+        "heading": "Benvenuto in Doctor Med AI!",
+        "startButton": "Iniziamo!"
+      },
+      "freeTrialPreview": {
+        "heading": "Goditi la tua prova gratuita! 🎉",
+        "review": "Uso questa app per domande mediche, scansioni radiologiche e studio — è fantastica!",
+        "reviewTrust": "📈 Fiducia di 5.212+ utenti"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Che lingua preferisci per l'analisi AI?",
+        "languageSelection": "Scegli una lingua per le risposte AI",
+        "languageSearchCriteria": "Cerca per lingua, codice paese o bandiera",
+        "noLanguageFound": "Nessuna Lingua Trovata",
+        "noLanguageFoundSubtitle": "Prova a modificare i termini di ricerca"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Cosa mostra una radiografia del torace?",
+          "two": "Quali sono i sintomi comuni di un attacco di cuore?",
+          "three": "Come posso abbassare la pressione sanguigna naturalmente?",
+          "four": "Qual è la differenza tra una risonanza magnetica e una TAC?",
+          "five": "Quali sono i primi segni del diabete?",
+          "six": "Come interpreto i risultati del mio esame del sangue base?",
+          "seven": "Qual è il trattamento per un'infezione del tratto urinario (UTI)?",
+          "eight": "Puoi spiegare a cosa serve un ecocardiogramma?",
+          "nine": "Quali sono le linee guida per una dieta sana?",
+          "ten": "Cosa causa il colesterolo alto?",
+          "eleven": "Come viene rilevato un tumore al cervello con una risonanza magnetica?",
+          "twelve": "Qual è il ruolo della medicina generale?",
+          "thirteen": "Quali sono i fattori di rischio per un ictus?",
+          "fourteen": "Come gestire ansia e stress?",
+          "fifteen": "Quali sono le ultime linee guida per la gestione dell'ipertensione?"
+        }
+      },
+      "notifications": {
+        "title": "Notifiche",
+        "noNotifications": "Nessuna notifica per ora — rimani sintonizzato per aggiornamenti!"
+      },
+      "rateAppScreen": {
+        "heading": "Trovi l'app utile e coinvolgente?",
+        "like": "Sì, mi piace!",
+        "dislike": "Non mi piace"
+      },
+      "profile": {
+        "title": "Profilo",
+        "edit": "Modifica Profilo",
+        "placeholderPreferredName": "Es. Capitano Cool, Regina Ape, o semplicemente Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Sei offline",
+        "subheading": "La tua connessione sembra instabile. Verifica lo stato della tua rete"
+      },
+      "newAppVersionScreen": {
+        "heading": "È disponibile una nuova versione di Doctor Med AI",
+        "subheading": "Aggiorna all'ultima versione per continuare a godere di tutte le funzionalità — richiede solo 5 secondi!",
+        "action": "Scaricala ora!"
+      },
+      "disclaimerScreen": {
+        "heading": "Importante Disclaimer Medico",
+        "subheading": "Doctor Med AI è progettato per professionisti radiologici, esperti sanitari, studenti di medicina e appassionati",
+        "consentAgreement": "Ho letto e acconsento al disclaimer.",
+        "firstConsent": "Doctor Med AI non fornisce misurazioni sanitarie o consigli di trattamento, né è destinato a tali scopi. Gli utenti di Doctor Med AI devono applicare il proprio giudizio clinico e verificare le informazioni da fonti autorevoli prima di prendere qualsiasi decisione clinica.",
+        "secondConsent": "Doctor Med AI non è uno strumento diagnostico, una piattaforma di trattamento o un sostituto del parere medico professionale. Offre approfondimenti generati dall'AI per assistere i professionisti sanitari nell'accesso alla conoscenza medica e nell'analisi di immagini e documenti medici. Doctor Med AI è un'app informativa ed educativa guidata dall'AI progettata principalmente per supportare professionisti sanitari autorizzati.",
+        "thirdConsent": "Doctor Med AI non è progettato per l'uso da parte di pazienti. Non fornisce diagnosi mediche dirette, raccomandazioni di trattamento o funzionalità di gestione dei pazienti.",
+        "fourthConsent": "Doctor Med AI non è classificato come dispositivo medico e non rivendica approvazioni normative. È destinato a scopi educativi e informativi per integrare l'esperienza professionale.",
+        "fifthConsent": "Doctor Med AI non raccoglie, memorizza o elabora dati personali o dei pazienti. Tutte le interazioni dell'utente sono confidenziali e limitate all'ambito dell'app."
+      },
+      "contactUs": {
+        "heading": "Sentiti libero di scriverci direttamente, e il nostro team ti risponderà il prima possibile",
+        "customerSupport": "Assistenza Clienti",
+        "emailAddress": "Indirizzo Email"
+      },
+      "rate": {
+        "title": "Dacci un feedback!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Nessun Risultato Trovato — Ma Non Preoccuparti!",
+          "notFoundSubtitle": "Prova a usare parole chiave diverse, o chiedi direttamente al nostro assistente medico AI",
+          "askAssistant": "Chiedi all'Assistente Medico"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Prova Gratuita Abilitata",
+          "heading": "Accesso Illimitato",
+          "title": "Sblocca le Funzionalità Premium Oggi!",
+          "firstOffering": "Accesso a Tutte le Funzionalità Premium",
+          "secondOffering": "Esperienza Senza Pubblicità",
+          "thirdOffering": "Analisi illimitata di immagini mediche, video, scansioni PDF + report",
+          "fourthOffering": "Chat illimitate con assistenti medici AI 24/7"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Il Tuo Compagno Sanitario Basato sull'AI",
+          "subtitle": "Ottieni approfondimenti e orientamenti medici immediati da medici AI specializzati, in qualsiasi momento e ovunque."
+        },
+        "secondOnboarding": {
+          "title": "Chiedi, Carica e Ottieni Approfondimenti Medici",
+          "subtitle": "Chatta con medici AI di diverse specialità, o carica immagini mediche per una rapida analisi medica."
+        },
+        "thirdOnboarding": {
+          "title": "La Tua Privacy è Importante",
+          "subtitle": "Ci impegniamo a proteggere la tua privacy. Non raccogliamo dati personali. Qualsiasi file che carichi rimane privato e non viene mai condiviso."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Sblocca le Funzionalità Premium Oggi!",
+        "firstOffering": {
+          "title": "Inizia Prova Gratuita",
+          "subtitle": "Goditi {{freeScans}} scansioni gratuite — nessun pagamento"
+        },
+        "secondOffering": {
+          "title": "Piano Mensile",
+          "subtitle": "{{ price }}/mese"
+        },
+        "thirdOffering": {
+          "title": "Piano Annuale",
+          "subtitle": "{{ price }} all'anno"
+        },
+        "fourthOffering": {
+          "title": "Prova di {{trialDays}} Giorni",
+          "subtitle": "{{ price }} all'anno",
+          "plan": "Piano Settimanale"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Informazioni",
+    "app_name": "Nome App",
+    "citations": "Citazioni per informazioni mediche",
+    "contactUs": "Contattaci",
+    "devMode": {
+      "componentsLibrary": "Libreria UI",
+      "title": "Modalità sviluppatore"
+    },
+    "faq": "FAQ",
+    "generale": "Generale",
+    "github": "Github",
+    "language": "Lingua",
+    "languages": {
+      "arabic": "Arabo",
+      "catalan": "Catalano",
+      "croatian": "Croato",
+      "czech": "Ceco",
+      "danish": "Danese",
+      "dutch": "Olandese",
+      "english": "Inglese",
+      "finnish": "Finlandese",
+      "french": "Francese",
+      "french_canada": "Francese (Canada)",
+      "german": "Tedesco",
+      "greek": "Greco",
+      "hebrew": "Ebraico",
+      "hindi": "Hindi",
+      "hungarian": "Ungherese",
+      "indonesian": "Indonesiano",
+      "italian": "Italiano",
+      "japanese": "Giapponese",
+      "korean": "Coreano",
+      "malay": "Malese",
+      "mandarin_chinese": "Cinese",
+      "norwegian": "Norvegese",
+      "polish": "Polacco",
+      "portuguese_brazil": "Portoghese (Brasile)",
+      "portuguese_portugal": "Portoghese (Portogallo)",
+      "romanian": "Rumeno",
+      "russian": "Russo",
+      "slovak": "Slovacco",
+      "spanish_mexico": "Spagnolo (Messico)",
+      "spanish_spain": "Spagnolo (Spagna)",
+      "swedish": "Svedese",
+      "thai": "Thai",
+      "turkish": "Turco",
+      "ukrainian": "Ucraino",
+      "vietnamese": "Vietnamita"
+    },
+    "links": "Link",
+    "logout": "Logout",
+    "more": "Altro",
+    "privacy": "Privacy Policy",
+    "profile": "Profilo",
+    "rate": "Feedback",
+    "share": "Condividi",
+    "support": "Supporto",
+    "support_us": "Supportaci",
+    "tab": "Impostazioni",
+    "terms": "Termini di Servizio",
+    "theme": {
+      "dark": "Scuro",
+      "light": "Chiaro",
+      "system": "Sistema",
+      "title": "Tema"
+    },
+    "title": "Impostazioni",
+    "version": "Versione",
+    "website": "Sito Web"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Spiacenti, servono i permessi della fotocamera per far funzionare questo!",
+    "errorSelectingImagePicker": "Qualcosa è andato storto durante la selezione dell'immagine. Riprova.",
+    "errorSelectingDocumentPicker": "Qualcosa è andato storto durante la selezione del documento. Riprova.",
+    "errorTakingPicture": "Qualcosa è andato storto durante lo scatto della foto. Riprova.",
+    "enableNotifications": {
+      "heading": "Abilita Notifiche",
+      "subHeading": "Le notifiche sono attualmente disattivate. Per rimanere aggiornato, abilitalle nelle impostazioni del tuo dispositivo."
+    },
+    "enableNotificationFailed": "Le notifiche push sono disabilitate. Abilitalle nelle impostazioni per ricevere aggiornamenti importanti!",
+    "enableNotificationError": "Si è verificato un errore durante l'abilitazione delle notifiche",
+    "notificationDisabledSuccess": "Notifiche disabilitate con successo.",
+    "notificationDisabledRegisterError": "Impossibile annullare la registrazione del dispositivo per le notifiche.",
+    "notificationDisabledError": "Si è verificato un errore durante la disabilitazione delle notifiche.",
+    "checkNotificationStatusError": "Errore nel controllo dello stato delle notifiche.",
+    "projectIdNotFound": "ID progetto notifiche non trovato.",
+    "imageSizeLarge": "L'immagine è troppo grande! La dimensione del file è {{fileSize}} MB, ma il limite è {{imageLimit}} MB.",
+    "videoSizeLarge": "Il video è troppo grande! La dimensione del file è {{fileSize}} MB, ma il limite è {{videoLimit}} MB.",
+    "loggedInSuccess": "Accesso effettuato con successo",
+    "loggedOutSuccess": "Hai effettuato il logout con successo!",
+    "sendVerificationCodeError": "Errore durante l'invio del codice di verifica",
+    "validateAuthCodeError": "Errore durante la convalida del codice di autenticazione",
+    "anonymousSignInError": "Errore durante l'accesso anonimo",
+    "emailLoginError": "Errore durante l'accesso",
+    "preferredLanguageError": "Errore durante l'aggiornamento della lingua preferita dell'utente",
+    "sharingNotAvailable": "La condivisione non è attualmente disponibile sul tuo dispositivo",
+    "sharingLinkError": "Impossibile condividere il link.",
+    "individualPushNotificationSuccess": "Notifiche push individuali inviate con successo!",
+    "globalPushNotificationSuccess": "Notifiche push globali inviate con successo! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Impossibile aggiornare i campi di interpretazione! ❌",
+    "deleteScanReportFail": "Impossibile eliminare il report della scansione. Riprova",
+    "onboardingUnsuccessful": "Onboarding non riuscito. Riprova",
+    "logoutUnsuccessful": "Logout non riuscito. Riprova",
+    "deleteScanReportQuestion": "Sei sicuro di voler eliminare definitivamente questo report?",
+    "videoLimitExceeds": "Il tuo video supera il limite di {{videoSecondsLimit}} secondi. Taglialo e ricaricalo",
+    "subscriptionActivated": "Il tuo abbonamento è stato attivato con successo! Goditi i tuoi benefici esclusivi!",
+    "subscriptionCancelledByUser": "Hai annullato la transazione. Sentiti libero di riprovare!",
+    "subscriptionActivationFailed": "Impossibile attivare il tuo abbonamento. Riprova",
+    "logoutQuestion": "Sei sicuro di voler effettuare il logout?",
+    "noSubscriptionToRestore": "Ops! Sembra che tu non abbia un abbonamento attivo al momento. Per continuare a godere dell'accesso completo, scegli uno dei nostri piani di abbonamento.",
+    "restorationSuccessful": "Ripristino avvenuto con successo! Goditelo!",
+    "restorationError": "Si è verificato un errore durante il ripristino dell'acquisto.",
+    "medicalDisclaimerAlert": "L'app Doctor Med AI non sostituisce la consultazione medica. Alcune diagnosi sono solo a scopo informativo/educativo. Per raccomandazioni mediche, consulta sempre un medico o uno specialista autorizzato.",
+    "scanLimitReached": "Stiamo ottimizzando la qualità della scansione per te! Potrai scansionare di nuovo tra circa {{hours}} ore e {{minutes}} minuti. Hai domande su qualche argomento medico? Chiedi al nostro assistente chat mentre aspetti!",
+    "mixedMediaNotAllowed": "Per una migliore precisione, non caricare un mix di diversi file multimediali. Carica solo immagini, video o pdf — non tutti insieme.",
+    "multipleVideosNotAllowed": "Per una migliore precisione, carica solo un video alla volta.",
+    "mediaFilesUploadFiles": "Si è verificato un errore durante il caricamento dei tuoi file multimediali. Riprova.",
+    "chatAndMediaFilesLimit": "Caro utente, devi aggiornare il tuo piano per beneficiare di chat illimitate, scansioni illimitate, analisi multi-immagini e altro. 🔓"
+  },
+  "deleteApp": {
+    "title": "Aspetta! Non eliminarmi!",
+    "subtitle": "Invia invece un feedback"
+  }
+}

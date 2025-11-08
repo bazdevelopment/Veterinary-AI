@@ -20,7 +20,7 @@ const IconBadge = ({
   );
 
   const badgeTextStyle = twMerge(
-    'text-[9px] mt-[1px] font-bold-work-sans text-white w-full h-full text-center',
+    'text-[9px] mt-[1px] font-bold-poppins text-white w-full h-full text-center',
     badgeTextClassName
   );
 

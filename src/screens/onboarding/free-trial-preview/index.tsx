@@ -29,7 +29,7 @@ const SocialProofCard = () => (
           />
         </View>
         <View className="flex-row gap-4">
-          <Text className="text-lg font-bold-work-sans text-gray-900 dark:text-white">
+          <Text className="text-lg font-bold-poppins text-gray-900 dark:text-white">
             Natalia S.
           </Text>
           <View className="flex-row gap-1">
@@ -43,7 +43,7 @@ const SocialProofCard = () => (
       </View>
     </View>
 
-    <Text className="text-base font-bold-work-sans leading-5 dark:text-white">
+    <Text className="text-base font-bold-poppins leading-5 dark:text-white">
       {translate('rootLayout.screens.freeTrialPreview.review')}
     </Text>
     <Text className="mt-2 text-sm text-gray-900  dark:text-white">
@@ -64,7 +64,7 @@ const FreeTrialPreview = ({ onFinish }) => {
         contentContainerClassName={`${DEVICE_TYPE.ANDROID ? 'pb-20' : ''}`}
         showsVerticalScrollIndicator={false}
       >
-        <Text className="mb-6 text-center font-bold-work-sans text-4xl text-primary-900">
+        <Text className="mb-6 text-center font-bold-poppins text-4xl text-primary-900">
           {translate('rootLayout.screens.freeTrialPreview.heading')}
         </Text>
 
@@ -80,7 +80,7 @@ const FreeTrialPreview = ({ onFinish }) => {
           label={translate('general.continue')}
           variant="default"
           className="h-[55px] rounded-full bg-primary-900 pl-5 dark:bg-primary-900"
-          textClassName="font-semibold-work-sans text-lg dark:text-white "
+          textClassName="font-semibold-poppins text-lg dark:text-white "
           iconPosition="right"
           icon={<ArrowRightSharp color={colors.white} />}
           onPress={onFinish}

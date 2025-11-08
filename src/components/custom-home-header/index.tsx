@@ -30,7 +30,7 @@ const CustomHomeHeader = ({ unReadMessages }: { unReadMessages: number }) => {
         </TouchableOpacity>
       </View>
       <View className=" flex-row items-center justify-between">
-        <MedicalDisclaimerButton className="mt-3 mb-3" />
+        <MedicalDisclaimerButton className="mt-3 mb-3 max-w-[50%]" />
         {isUpgradeRequired && (
           <Button
             label="PRO" //or PREMIUM

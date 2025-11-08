@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Enrere",
+    "welcome": "Hola",
+    "welcomeBack": "Benvingut/da de nou!",
+    "welcomeMessage": "Benvingut/da!",
+    "continue": "Continuar",
+    "retry": "Tornar a intentar",
+    "close": "Tancar",
+    "gallery": "Galeria",
+    "files": "Fitxers",
+    "seeAll": "Veure tot",
+    "cancel": "Cancel·lar",
+    "delete": "Eliminar",
+    "attention": "Atenció!",
+    "new": "Nou",
+    "activeSubscription": "Subscripció activa",
+    "agreeingMessage": "En continuar, acceptes les nostres",
+    "and": "i",
+    "askAssistant": "Pregunta a l'assistent d'IA",
+    "chatbotPlaceholder": "Pregunta'm el que vulguis...",
+    "completedScans": "Escaneigs completats",
+    "conversationHistory": "Historial de converses",
+    "medicalAssistants": "Assistents mèdics",
+    "searchAssistant": "Cercar assistent...",
+    "analyzingMediaFilesPlaceholder": "Analitzant fitxers multimèdia...",
+    "copyText": {
+      "copied": "S'ha copiat!",
+      "copy": "Copiar enllaç",
+      "loading": "S'està copiant..."
+    },
+    "createdAt": "Creat el",
+    "download": "Descarregar",
+    "free": "GRATUÏT",
+    "freeTrial": "Prova gratuïta",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "S'estan escanejant les teves imatges mèdiques, si us plau, espera...",
+        "fourth": "Gairebé allà, finalitzant l'escaneig...",
+        "second": "S'estan analitzant els detalls, això pot tardar uns moments...",
+        "third": "Millorant la precisió per als millors resultats..."
+      },
+      "initialAppLoad": {
+        "first": "S'està carregant la teva experiència personalitzada...",
+        "fourth": "Gairebé llest, només un moment...",
+        "second": "Sincronitzant sistemes...",
+        "third": "Processant les teves dades..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med s'està preparant per ajudar-te...",
+        "second": "Espera! Dr. Med està preparant la teva resposta...",
+        "third": "Pensant... el teu assistent Dr. Med hi està treballant!"
+      }
+    },
+    "tabs": {
+      "home": "Inici",
+      "chat": "Xat",
+      "aiDoctors": "Metges IA",
+      "settings": "Configuració"
+    },
+    "medicalDisclaimer": "Avís mèdic",
+    "next": "Següent",
+    "noPaymentNow": "Sense pagament ara. Cancel·la quan vulguis.",
+    "online": "En línia",
+    "openSettings": "Obrir configuració",
+    "or": "o",
+    "perMonth": "per mes",
+    "perWeek": "per setmana",
+    "perYear": "per any",
+    "privacyPolicy": "Política de privadesa",
+    "restorePurchase": "Restaurar compra",
+    "termsOfUse": "Condicions d'ús",
+    "saveDiscount": "ESTALVIA",
+    "seeNotifications": "Veure notificacions",
+    "share": "Compartir",
+    "shareLink": "Compartir enllaç",
+    "skip": "Ometre",
+    "termsAndConditions": "Termes i condicions",
+    "then": "després",
+    "tryAgain": "Tornar a provar",
+    "tryForFree": "Començar prova gratuïta",
+    "typing": "Escrivint...",
+    "unlockNow": "Desbloqueja ara",
+    "update": "Actualitzar",
+    "upgradePlan": "Millorar pla",
+    "viewProfile": "Veure perfil",
+    "yes": "Sí",
+    "chatBotPlaceholder": "Hola. Si tens alguna pregunta, puc ajudar-te a explorar l'àmbit de {{topic}}. Només per a ús educatiu."
+  },
+  "weekDays": {
+    "today": "Avui",
+    "yesterday": "Ahir"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Obtén anàlisis de diversos escàners mèdics, incloent RAI-X, TC, RM, ECG i més",
+      "second": "Accés a totes les funcions premium",
+      "fourth": "Xats il·limitats amb assistents mèdics d'IA 24/7",
+      "third": "Sense anuncis"
+    },
+    "UpgradeBanner": {
+      "heading": "Desbloqueja ara",
+      "subheading": "Gaudeix de tots els beneficis sense restriccions"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Analitzador d'Imatges Mèdiques",
+      "askMedicalAssistant": "Pregunta a l'Assistent Mèdic IA",
+      "medicalAssistant": "Assistent Mèdic",
+      "imageTypes": {
+        "xray": "Raigs X",
+        "ct": "TC",
+        "mri": "RM",
+        "ultrasound": "Ecografia",
+        "ecg": "ECG",
+        "skinLesion": "Lesió cutània",
+        "mammogram": "Mamografia",
+        "retinalScan": "Escaneig retinal",
+        "bloodSmear": "Frotis sanguini",
+        "dental": "Dental",
+        "pet": "PET",
+        "dexa": "DEXA / Densitometria òssia",
+        "angiography": "Angiografia",
+        "echo": "Ecocardiografia (ECHO)",
+        "fluoroscopy": "Fluoroscòpia"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Medicina Familiar",
+          "subtitle": "Medicina General"
+        },
+        "internalMedicine": {
+          "title": "Medicina Interna"
+        },
+        "pediatrics": {
+          "title": "Pediatria"
+        },
+        "dermatology": {
+          "title": "Dermatologia"
+        },
+        "cardiology": {
+          "title": "Cardiologia"
+        },
+        "orthopedics": {
+          "title": "Ortopèdia"
+        },
+        "psychiatry": {
+          "title": "Psiquiatria",
+          "subtitle": "Salut Mental"
+        },
+        "obstetricsGynecology": {
+          "title": "Obstetrícia i Ginecologia",
+          "subtitle": "OB/GIN"
+        },
+        "neurology": {
+          "title": "Neurologia"
+        },
+        "ophthalmology": {
+          "title": "Oftalmologia"
+        },
+        "otolaryngology": {
+          "title": "Otorinolaringologia",
+          "subtitle": "ORL"
+        },
+        "dentistry": {
+          "title": "Odontologia"
+        },
+        "radiology": {
+          "title": "Radiologia",
+          "subtitle": "Imatgeria"
+        },
+        "oncology": {
+          "title": "Oncologia"
+        },
+        "endocrinology": {
+          "title": "Endocrinologia"
+        },
+        "nephrology": {
+          "title": "Nefrologia"
+        },
+        "pulmonology": {
+          "title": "Pneumologia"
+        },
+        "gastroenterology": {
+          "title": "Gastroenterologia"
+        },
+        "allergyImmunology": {
+          "title": "Al·lèrgia i Immunologia"
+        },
+        "hematology": {
+          "title": "Hematologia"
+        },
+        "rheumatology": {
+          "title": "Reumatologia"
+        },
+        "urology": {
+          "title": "Urologia"
+        },
+        "emergencyMedicine": {
+          "title": "Medicina d'Emergències"
+        },
+        "surgery": {
+          "title": "Cirurgia"
+        },
+        "anesthesiology": {
+          "title": "Anestesiologia"
+        },
+        "rehabilitationMedicine": {
+          "title": "Medicina de Rehabilitació",
+          "subtitle": "Fisioteràpia"
+        },
+        "geriatrics": {
+          "title": "Geriatria"
+        },
+        "publicHealth": {
+          "title": "Salut Pública",
+          "subtitle": "Medicina Preventiva"
+        },
+        "microscopy": {
+          "title": "Microscòpia"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Biblioteca de fotos",
+      "takePhoto": "Fer una foto",
+      "chooseFile": "Triar fitxer"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Ja tinc un compte",
+        "heading": "Benvingut/da a Doctor Med AI!",
+        "startButton": "Comencem!"
+      },
+      "freeTrialPreview": {
+        "heading": "Gaudiu de la vostra prova gratuïta! 🎉",
+        "review": "Utilitzo aquesta app per a preguntes mèdiques, escàners de radiologia i estudiar - és increïble!",
+        "reviewTrust": "📈 Confiat per més de 5.212 usuaris"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Quina llengua preferiu per a l'anàlisi d'IA?",
+        "languageSelection": "Trieu una llengua per a les respostes d'IA",
+        "languageSearchCriteria": "Cerca per llengua, codi de país o bandera",
+        "noLanguageFound": "No s'ha trobat cap llengua",
+        "noLanguageFoundSubtitle": "Prova de modificar els termes de cerca"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Què mostra una radiografia de tòrax?",
+          "two": "Quins són els símptomes comuns d'un atac de cor?",
+          "three": "Com puc baixar la meva pressió arterial de forma natural?",
+          "four": "Quina és la diferència entre una RM i un TC?",
+          "five": "Quins són els signes inicials de la diabetis?",
+          "six": "Com interpreto els meus resultats bàsics de sang?",
+          "seven": "Quin és el tractament per a una infecció del tracte urinari (ITU)?",
+          "eight": "Pots explicar per a què s'utilitza un ecocardiograma?",
+          "nine": "Quines són les pautes per a una dieta saludable?",
+          "ten": "Què causa el colesterol alt?",
+          "eleven": "Com es detecta un tumor cerebral en una RM?",
+          "twelve": "Quina és la funció de la medicina familiar?",
+          "thirteen": "Quins són els factors de risc d'un ictus?",
+          "fourteen": "Com gestionar l'ansietat i l'estrès?",
+          "fifteen": "Quines són les darreres pautes per al maneig de la hipertensió?"
+        }
+      },
+      "notifications": {
+        "title": "Notificacions",
+        "noNotifications": "Cap notificació per ara - estigueu atents per a actualitzacions!"
+      },
+      "rateAppScreen": {
+        "heading": "Trobeu valuosa i atractiva l'aplicació?",
+        "like": "Sí, m'agrada!",
+        "dislike": "No m'agrada"
+      },
+      "profile": {
+        "title": "Perfil",
+        "edit": "Editar perfil",
+        "placeholderPreferredName": "P.e., Capità Guai, Reina Abella, o simplement l'Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Esteu fora de línia",
+        "subheading": "La vostra connexió sembla inestable. Si us plau, verifiqueu l'estat de la xarxa"
+      },
+      "newAppVersionScreen": {
+        "heading": "Hi ha disponible una nova versió de Doctor Med AI",
+        "subheading": "Actualitzeu a la darrera versió per continuar gaudint de totes les funcions de l'app - només triga 5 segons!",
+        "action": "Obteniu-la ara!"
+      },
+      "disclaimerScreen": {
+        "heading": "Avís mèdic important",
+        "subheading": "Doctor Med AI està dissenyat per a professionals de radiologia, experts en salut, estudiants de medicina i entusiastes",
+        "consentAgreement": "He llegit i accepto l'avís.",
+        "firstConsent": "Doctor Med AI no proporciona mesures de salut ni consells de tractament, ni està destinat a aquests propòsits. Els usuaris de Doctor Med AI han d'aplicar el seu judici clínic i verificar la informació de fonts autoritzades abans de prendre decisions clíniques.",
+        "secondConsent": "Doctor Med AI no és una eina de diagnòstic, una plataforma de tractament o un substitut del consell mèdic professional. Ofereix informació generada per IA per ajudar els professionals de la salut a accedir al coneixement mèdic i analitzar imatges i documents mèdics. Doctor Med AI és una aplicació informativa i educativa impulsada per IA dissenyada més per donar suport a professionals de la salut amb llicència.",
+        "thirdConsent": "Doctor Med AI no està dissenyat per a l'ús de pacients. No proporciona diagnòstics mèdics directes, recomanacions de tractament o funcionalitats de gestió de pacients.",
+        "fourthConsent": "Doctor Med AI no està classificat com a dispositiu mèdic i no pretén aprovació regulatoria. Està destinat a fins educatius i informatius per complementar l'expertesa professional.",
+        "fifthConsent": "Doctor Med AI no recull, emmagatzema ni processa dades personals o de pacients. Totes les interaccions dels usuaris són confidencials i limitades a l'abast de l'aplicació."
+      },
+      "contactUs": {
+        "heading": "No dubteu a enviar-nos un correu electrònic directament, i el nostre equip us respondrà tan aviat com sigui possible",
+        "customerSupport": "Suport al client",
+        "emailAddress": "Adreça de correu electrònic"
+      },
+      "rate": {
+        "title": "Doneu-nos feedback!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "No s'han trobat resultats - Però no us preocupeu!",
+          "notFoundSubtitle": "Proveu d'utilitzar paraules clau diferents, o pregunteu directament al nostre assistent mèdic d'IA",
+          "askAssistant": "Pregunta a l'Assistent Mèdic"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Prova gratuïta activada",
+          "heading": "Accés il·limitat",
+          "title": "Desbloqueja les funcions premium avui!",
+          "firstOffering": "Accés a totes les funcions premium",
+          "secondOffering": "Experència sense anuncis",
+          "thirdOffering": "Anàlisi il·limitada d'imatges mèdiques, vídeos, escaneigs PDF + informes",
+          "fourthOffering": "Xats il·limitats amb assistents mèdics d'IA 24/7"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "El teu acompanyant de salut amb IA",
+          "subtitle": "Obtén informació i orientació mèdica instantània de metges d'IA especialitzats, en qualsevol moment i lloc."
+        },
+        "secondOnboarding": {
+          "title": "Pregunta, puja i obtén informació mèdica",
+          "subtitle": "Xateja amb metges d'IA de diferents especialitats, o puja imatges mèdiques per a una anàlisi mèdica ràpida."
+        },
+        "thirdOnboarding": {
+          "title": "La teva privadesa és important",
+          "subtitle": "Estem compromesos a protegir la teva privadesa. No recopilem dades personals. Qualsevol fitxer que puguis roman privat i mai es comparteix."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Desbloqueja les funcions premium avui!",
+        "firstOffering": {
+          "title": "Començar prova gratuïta",
+          "subtitle": "Gaudiu de {{freeScans}} escaneigs gratuïts - sense pagament"
+        },
+        "secondOffering": {
+          "title": "Pla mensual",
+          "subtitle": "{{ price }}/mes"
+        },
+        "thirdOffering": {
+          "title": "Pla anual",
+          "subtitle": "{{ price }} per any"
+        },
+        "fourthOffering": {
+          "title": "Prova de {{trialDays}} dies",
+          "subtitle": "{{ price }} per any",
+          "plan": "Pla setmanal"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Quant a",
+    "app_name": "Nom de l'app",
+    "citations": "Citacions per a informació mèdica",
+    "contactUs": "Contacta'ns",
+    "devMode": {
+      "componentsLibrary": "Biblioteca d'UI",
+      "title": "Mode desenvolupador"
+    },
+    "faq": "PMF",
+    "generale": "General",
+    "github": "Github",
+    "language": "Llengua",
+    "languages": {
+      "arabic": "Àrab",
+      "catalan": "Català",
+      "croatian": "Croat",
+      "czech": "Txec",
+      "danish": "Danès",
+      "dutch": "Neerlandès",
+      "english": "Anglès",
+      "finnish": "Finès",
+      "french": "Francès",
+      "french_canada": "Francès (Canadà)",
+      "german": "Alemany",
+      "greek": "Grec",
+      "hebrew": "Hebreu",
+      "hindi": "Hindi",
+      "hungarian": "Hongarès",
+      "indonesian": "Indonesi",
+      "italian": "Italià",
+      "japanese": "Japonès",
+      "korean": "Coreà",
+      "malay": "Malai",
+      "mandarin_chinese": "Xinès",
+      "norwegian": "Noruec",
+      "polish": "Polonès",
+      "portuguese_brazil": "Portuguès (Brasil)",
+      "portuguese_portugal": "Portuguès (Portugal)",
+      "romanian": "Romanès",
+      "russian": "Rus",
+      "slovak": "Eslovac",
+      "spanish_mexico": "Espanyol (Mèxic)",
+      "spanish_spain": "Espanyol (Espanya)",
+      "swedish": "Suec",
+      "thai": "Tai",
+      "turkish": "Turc",
+      "ukrainian": "Ucraïnès",
+      "vietnamese": "Vietnamita"
+    },
+    "links": "Enllaços",
+    "logout": "Tancar sessió",
+    "more": "Més",
+    "privacy": "Política de privadesa",
+    "profile": "Perfil",
+    "rate": "Feedback",
+    "share": "Compartir",
+    "support": "Suport",
+    "support_us": "Suporta'ns",
+    "tab": "Configuració",
+    "terms": "Condicions del servei",
+    "theme": {
+      "dark": "Fosc",
+      "light": "Clar",
+      "system": "Sistema",
+      "title": "Tema"
+    },
+    "title": "Configuració",
+    "version": "Versió",
+    "website": "Lloc web"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Ho sentim, necessitem permisos de càmera perquè això funcioni!",
+    "errorSelectingImagePicker": "Alguna cosa ha anat malament en seleccionar la imatge. Si us plau, torneu-ho a intentar.",
+    "errorSelectingDocumentPicker": "Alguna cosa ha anat malament en triar el document. Si us plau, torneu-ho a intentar.",
+    "errorTakingPicture": "Alguna cosa ha anat malament en fer la foto. Si us plau, torneu-ho a intentar.",
+    "enableNotifications": {
+      "heading": "Activar notificacions",
+      "subHeading": "Les notificacions estan desactivades actualment. Per estar actualitzat, si us plau, activeu-les a la configuració del vostre dispositiu."
+    },
+    "enableNotificationFailed": "Les notificacions push estan desactivades. Activeu-les a la configuració per rebre actualitzacions importants!",
+    "enableNotificationError": "S'ha produït un error en activar les notificacions",
+    "notificationDisabledSuccess": "Notificacions desactivades correctament.",
+    "notificationDisabledRegisterError": "No s'ha pogut donar de baixar el dispositiu per a notificacions.",
+    "notificationDisabledError": "S'ha produït un error en desactivar les notificacions.",
+    "checkNotificationStatusError": "Error en comprovar l'estat de les notificacions.",
+    "projectIdNotFound": "No s'ha trobat l'ID del projecte de notificacions.",
+    "imageSizeLarge": "La imatge és massa gran! La mida del fitxer és {{fileSize}} MB, però el límit és {{imageLimit}} MB.",
+    "videoSizeLarge": "El vídeo és massa gran! La mida del fitxer és {{fileSize}} MB, però el límit és {{videoLimit}} MB.",
+    "loggedInSuccess": "Sessió iniciada correctament",
+    "loggedOutSuccess": "Heu tancat la sessió correctament!",
+    "sendVerificationCodeError": "Error en enviar el codi de verificació",
+    "validateAuthCodeError": "Error en validar el codi d'autenticació",
+    "anonymousSignInError": "Error en iniciar sessió anònimament",
+    "emailLoginError": "Error en iniciar sessió",
+    "preferredLanguageError": "Error en actualitzar l'idioma preferit de l'usuari",
+    "sharingNotAvailable": "La compartició no està disponible actualment al vostre dispositiu",
+    "sharingLinkError": "No s'ha pogut compartir l'enllaç.",
+    "individualPushNotificationSuccess": "Notificacions push individuals enviades correctament!",
+    "globalPushNotificationSuccess": "Notificacions push globals enviades correctament! 🌍🚀",
+    "interpretationFieldsUpdateFail": "No s'han pogut actualitzar els camps d'interpretació! ❌",
+    "deleteScanReportFail": "No s'ha pogut eliminar l'informe de l'escaneig. Si us plau, torneu-ho a intentar",
+    "onboardingUnsuccessful": "Onboarding no exitós. Si us plau, torneu-ho a intentar",
+    "logoutUnsuccessful": "Tancament de sessió no exitós. Si us plau, torneu-ho a intentar",
+    "deleteScanReportQuestion": "Esteu segur que voleu eliminar permanentment aquest informe?",
+    "videoLimitExceeds": "El vostre vídeo supera el límit de {{videoSecondsLimit}} segons. Si us plau, retalleu-lo i torneu-lo a pujar",
+    "subscriptionActivated": "La vostra subscripció s'ha activat correctament! Gaudiu dels vostres beneficis exclusius!",
+    "subscriptionCancelledByUser": "Heu cancel·lat la transacció. No dubteu en tornar-ho a provar!",
+    "subscriptionActivationFailed": "No s'ha pogut activar la vostra subscripció. Si us plau, torneu-ho a intentar",
+    "logoutQuestion": "Esteu segur que voleu tancar la sessió?",
+    "noSubscriptionToRestore": "Vaja! Sembla que no teniu cap subscripció activa en aquest moment. Per continuar gaudint d'accés complet, si us plau, trieu un dels nostres plans de subscripció.",
+    "restorationSuccessful": "La restauració ha estat exitosa! Gaudiu!",
+    "restorationError": "S'ha produït un error en restaurar la compra.",
+    "medicalDisclaimerAlert": "L'aplicació Doctor Med AI no substitueix la consulta mèdica. Alguns diagnòstics són només per a fins informatius/educatius. Per a recomanacions mèdiques, consulteu sempre un metge o especialista amb llicència.",
+    "scanLimitReached": "Estem optimitzant la qualitat de l'escaneig per a vosaltres! Podreu escanejar de nou en aproximadament {{hours}} hores i {{minutes}} minuts. Teniu alguna pregunta sobre algun tema mèdic? Pregunteu al nostre assistent de xat mentre espereu!",
+    "mixedMediaNotAllowed": "Per a una millor precisió, no pengeu una barreja de diferents fitxers multimèdia. Si us plau, pengeu només imatges, vídeos o pdfs - no tots junts.",
+    "multipleVideosNotAllowed": "Per a una millor precisió, si us plau, pengeu només un vídeo a la vegada.",
+    "mediaFilesUploadFiles": "Hi ha hagut un error en pujar els vostres fitxers multimèdia. Si us plau, torneu-ho a intentar.",
+    "chatAndMediaFilesLimit": "Estimat usuari, heu de millorar el vostre pla per beneficiar-vos de xats il·limitats, escaneigs il·limitats, anàlisi multi-imatge i més. 🔓"
+  },
+  "deleteApp": {
+    "title": "Espereu! No em suprimeixis!",
+    "subtitle": "Doneu feedback en lloc d'això"
+  }
+}

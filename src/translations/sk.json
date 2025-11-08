@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Späť",
+    "welcome": "Ahoj",
+    "welcomeBack": "Vitajte späť!",
+    "welcomeMessage": "Vitajte!",
+    "continue": "Pokračovať",
+    "retry": "Skúsiť znova",
+    "close": "Zavrieť",
+    "gallery": "Galéria",
+    "files": "Súbory",
+    "seeAll": "Zobraziť všetko",
+    "cancel": "Zrušiť",
+    "delete": "Odstrániť",
+    "attention": "Pozor!",
+    "new": "Nové",
+    "activeSubscription": "Aktívne predplatné",
+    "agreeingMessage": "Pokračovaním súhlasíte s našimi",
+    "and": "a",
+    "askAssistant": "Opýtajte sa asistenta AI",
+    "chatbotPlaceholder": "Opýtajte sa ma čokoľvek...",
+    "completedScans": "Dokončené skeny",
+    "conversationHistory": "História konverzácií",
+    "medicalAssistants": "Medickí asistenti",
+    "searchAssistant": "Hľadať asistenta...",
+    "analyzingMediaFilesPlaceholder": "Analýza médií...",
+    "copyText": {
+      "copied": "Skopírované!",
+      "copy": "Kopírovať odkaz",
+      "loading": "Kopíruje sa..."
+    },
+    "createdAt": "Vytvorené",
+    "download": "Stiahnuť",
+    "free": "ZADARMO",
+    "freeTrial": "Bezplatná skúšobná verzia",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Skenujeme vaše lekárske snímky, čakajte prosím...",
+        "fourth": "Takmer hotovo, dokončujeme skenovanie...",
+        "second": "Analyzujeme detaily, môže to chvíľu trvať...",
+        "third": "Zvyšujeme presnosť pre najlepšie výsledky..."
+      },
+      "initialAppLoad": {
+        "first": "Načítava sa váš personalizovaný zážitok...",
+        "fourth": "Takmer hotovo, len chvíľu...",
+        "second": "Synchronizácia systémov...",
+        "third": "Spracovávajú sa vaše dáta..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med sa pripravuje na pomoc...",
+        "second": "Počkajte! Dr. Med pripravuje vašu odpoveď...",
+        "third": "Premýšľam... váš asistent Dr. Med na tom pracuje!"
+      }
+    },
+    "tabs": {
+      "home": "Domov",
+      "chat": "Chat",
+      "aiDoctors": "AI lekári",
+      "settings": "Nastavenia"
+    },
+    "medicalDisclaimer": "Lekárske vyhlásenie",
+    "next": "Ďalej",
+    "noPaymentNow": "Žiadna platba teraz. Zrušte kedykoľvek.",
+    "online": "Online",
+    "openSettings": "Otvoriť nastavenia",
+    "or": "alebo",
+    "perMonth": "mesačne",
+    "perWeek": "týždenne",
+    "perYear": "ročne",
+    "privacyPolicy": "Zásady ochrany osobných údajov",
+    "restorePurchase": "Obnoviť nákup",
+    "termsOfUse": "Podmienky použitia",
+    "saveDiscount": "UŠETRIŤ",
+    "seeNotifications": "Zobraziť upozornenia",
+    "share": "Zdieľať",
+    "shareLink": "Zdieľať odkaz",
+    "skip": "Preskočiť",
+    "termsAndConditions": "Všeobecné podmienky",
+    "then": "potom",
+    "tryAgain": "Skúsiť znova",
+    "tryForFree": "Spustiť bezplatnú skúšobnú verziu",
+    "typing": "Píše sa...",
+    "unlockNow": "Odomknúť teraz",
+    "update": "Aktualizovať",
+    "upgradePlan": "Inovovať plán",
+    "viewProfile": "Zobraziť profil",
+    "yes": "Áno",
+    "chatBotPlaceholder": "Ahoj. Ak máte nejaké otázky, môžem vám pomôcť preskúmať doménu {{topic}}. Iba na vzdelávacie účely."
+  },
+  "weekDays": {
+    "today": "Dnes",
+    "yesterday": "Včera"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Získajte analýzy z rôznych lekárskech vyšetrení vrátane RTG, CT, MRI, EKG a ďalších",
+      "second": "Prístup ku všetkým prémiovým funkciám",
+      "fourth": "Neobmedzené konverzácie s 24/7 lekárske AI asistentmi",
+      "third": "Žiadne reklamy"
+    },
+    "UpgradeBanner": {
+      "heading": "Odomknúť teraz",
+      "subheading": "Užite si všetky výhody bez obmedzení"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Analyzátor Lekárskych Obrázkov",
+      "askMedicalAssistant": "Opýtajte sa Lekárskeho AI Asistenta",
+      "medicalAssistant": "Lekársky Asistent",
+      "imageTypes": {
+        "xray": "RTG",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "Ultrazvuk",
+        "ecg": "EKG",
+        "skinLesion": "Kožná lézia",
+        "mammogram": "Mamografia",
+        "retinalScan": "Sken sietnice",
+        "bloodSmear": "Krvný roztier",
+        "dental": "Zubné",
+        "pet": "PET",
+        "dexa": "DEXA / Hustota kostí",
+        "angiography": "Angiografia",
+        "echo": "Echokardiografia (ECHO)",
+        "fluoroscopy": "Fluoroskopia"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Všeobecné lekárstvo",
+          "subtitle": "Všeobecná prax"
+        },
+        "internalMedicine": {
+          "title": "Vnútorné lekárstvo"
+        },
+        "pediatrics": {
+          "title": "Pediatria"
+        },
+        "dermatology": {
+          "title": "Dermatológia"
+        },
+        "cardiology": {
+          "title": "Kardiológia"
+        },
+        "orthopedics": {
+          "title": "Ortopédia"
+        },
+        "psychiatry": {
+          "title": "Psychiatria",
+          "subtitle": "Duševné zdravie"
+        },
+        "obstetricsGynecology": {
+          "title": "Pôrodníctvo a gynekológia",
+          "subtitle": "GYN/POR"
+        },
+        "neurology": {
+          "title": "Neurológia"
+        },
+        "ophthalmology": {
+          "title": "Oftalmológia"
+        },
+        "otolaryngology": {
+          "title": "Otolaryngológia",
+          "subtitle": "ENT"
+        },
+        "dentistry": {
+          "title": "Stomatológia"
+        },
+        "radiology": {
+          "title": "Radiológia",
+          "subtitle": "Zobrazovanie"
+        },
+        "oncology": {
+          "title": "Onkológia"
+        },
+        "endocrinology": {
+          "title": "Endokrinológia"
+        },
+        "nephrology": {
+          "title": "Nefrológia"
+        },
+        "pulmonology": {
+          "title": "Pneumológia"
+        },
+        "gastroenterology": {
+          "title": "Gastroenterológia"
+        },
+        "allergyImmunology": {
+          "title": "Alergológia a Imunológia"
+        },
+        "hematology": {
+          "title": "Hematológia"
+        },
+        "rheumatology": {
+          "title": "Reumatológia"
+        },
+        "urology": {
+          "title": "Urológia"
+        },
+        "emergencyMedicine": {
+          "title": "Pohotovostná medicína"
+        },
+        "surgery": {
+          "title": "Chirurgia"
+        },
+        "anesthesiology": {
+          "title": "Anestéziológia"
+        },
+        "rehabilitationMedicine": {
+          "title": "Rehabilitačná medicína",
+          "subtitle": "Fyzikálna terapia"
+        },
+        "geriatrics": {
+          "title": "Geriatria"
+        },
+        "publicHealth": {
+          "title": "Verejné zdravotníctvo",
+          "subtitle": "Preventívna medicína"
+        },
+        "microscopy": {
+          "title": "Mikroskopia"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Knižnica fotografií",
+      "takePhoto": "Urobiť fotografiu",
+      "chooseFile": "Vybrať súbor"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Už mám účet",
+        "heading": "Vitajte v Doctor Med AI!",
+        "startButton": "Začnime!"
+      },
+      "freeTrialPreview": {
+        "heading": "Užite si svoju bezplatnú skúšobnú verziu! 🎉",
+        "review": "Používam túto aplikáciu na lekárske otázky, röntgenové snímky a štúdium - je úžasná!",
+        "reviewTrust": "📈 Dôveruje viac ako 5 212 používateľov"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Ktorý jazyk preferujete pre analýzu AI?",
+        "languageSelection": "Vyberte jazyk pre odpovede AI",
+        "languageSearchCriteria": "Hľadať podľa jazyka, kódu krajiny alebo vlajky",
+        "noLanguageFound": "Nenašiel sa žiadny jazyk",
+        "noLanguageFoundSubtitle": "Skúste upraviť svoje vyhľadávacie výrazy"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Čo ukazuje röntgen hrudníka?",
+          "two": "Aké sú bežné príznaky infarktu?",
+          "three": "Ako môžem prirodzene znížiť krvný tlak?",
+          "four": "Aký je rozdiel medzi MRI a CT?",
+          "five": "Aké sú rané príznaky cukrovky?",
+          "six": "Ako interpretovať základné výsledky krvných testov?",
+          "seven": "Aká je liečba infekcie močových ciest (IMC)?",
+          "eight": "Môžete vysvetliť, na čo sa používa echokardiogram?",
+          "nine": "Aké sú pokyny pre zdravú stravu?",
+          "ten": "Čo spôsobuje vysoký cholesterol?",
+          "eleven": "Ako sa zistí nádor na mozgu na MRI?",
+          "twelve": "Aká je úloha všeobecného lekárstva?",
+          "thirteen": "Aké sú rizikové faktory pre mŕtvicu?",
+          "fourteen": "Ako zvládať úzkosť a stres?",
+          "fifteen": "Aké sú najnovšie pokyny pre liečbu hypertenzie?"
+        }
+      },
+      "notifications": {
+        "title": "Upozornenia",
+        "noNotifications": "Zatiaľ žiadne upozornenia - zostaňte naladení na aktualizácie!"
+      },
+      "rateAppScreen": {
+        "heading": "Považujete aplikáciu za hodnotnú a pútavú?",
+        "like": "Áno, páči sa mi!",
+        "dislike": "Nepáči sa mi"
+      },
+      "profile": {
+        "title": "Profil",
+        "edit": "Upraviť profil",
+        "placeholderPreferredName": "Napríklad, Kapitán Cool, Kráľovná Včela, alebo jednoducho Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Ste offline",
+        "subheading": "Vaše pripojenie sa zdá byť nestabilné. Skontrolujte stav siete"
+      },
+      "newAppVersionScreen": {
+        "heading": "Je k dispozícii nová verzia Doctor Med AI",
+        "subheading": "Aktualizujte na najnovšiu verziu, aby ste naďalej využívali všetky funkcie aplikácie - trvá to len 5 sekúnd!",
+        "action": "Získajte teraz!"
+      },
+      "disclaimerScreen": {
+        "heading": "Dôležité lekárske vyhlásenie",
+        "subheading": "Doctor Med AI je určený pre rádiológov, zdravotníckych odborníkov, študentov medicíny a nadšencov",
+        "consentAgreement": "Prečítal som si a súhlasím s vyhlásením.",
+        "firstConsent": "Doctor Med AI neposkytuje zdravotné merania ani liečebné rady, ani nie je určený na takéto účely. Používatelia Doctor Med AI musia uplatniť svoj klinický úsudok a overiť informácie z autoritatívnych zdrojov pred akýmkoľvek klinickým rozhodnutím.",
+        "secondConsent": "Doctor Med AI nie je diagnostický nástroj, liečebná platforma ani náhrada za odborné lekárske poradenstvo. Ponúka poznatky generované umelou inteligenciou na pomoc zdravotníckym pracovníkom pri prístupe k lekárskej znalosti a analýze lekárskech obrázkov a dokumentov. Doctor Med AI je informačná a vzdelávacia aplikácia poháňaná umelou inteligenciou, ktorá je navrhnutá skôr na podporu licencovaných zdravotníckych pracovníkov.",
+        "thirdConsent": "Doctor Med AI nie je navrhnutý pre použitie pacientmi. Neposkytuje priame lekárske diagnózy, odporúčania liečby ani funkcie riadenia pacientov.",
+        "fourthConsent": "Doctor Med AI nie je klasifikovaný ako lekársky prístroj a netvrdí, že má regulačné schválenie. Je určený na vzdelávacie a informačné účely na doplnenie profesionálnej odbornosti.",
+        "fifthConsent": "Doctor Med AI nezhromažďuje, neukladá ani nespracúva osobné údaje ani údaje pacientov. Všetky interakcie používateľov sú dôverné a obmedzené na rozsah aplikácie."
+      },
+      "contactUs": {
+        "heading": "Kľudne nám napíšte priamo e-mail a náš tím sa vám čoskoro ozve",
+        "customerSupport": "Zákaznícka podpora",
+        "emailAddress": "E-mailová adresa"
+      },
+      "rate": {
+        "title": "Dajte nám spätnú väzbu!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Nenašli sa žiadne výsledky - Ale nebojte sa!",
+          "notFoundSubtitle": "Skúste použiť iné kľúčové slová alebo sa opýtajte priamo nášho lekárskeho asistenta AI",
+          "askAssistant": "Opýtajte sa Lekárskeho Asistenta"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Bezplatná skúšobná verzia povolená",
+          "heading": "Neobmedzený prístup",
+          "title": "Odomknite prémiové funkcie ešte dnes!",
+          "firstOffering": "Prístup ku všetkým prémiovým funkciám",
+          "secondOffering": "Zážitok bez reklám",
+          "thirdOffering": "Neobmedzená analýza lekárskech obrázkov, videí, PDF skenov + správ",
+          "fourthOffering": "Neobmedzené konverzácie s 24/7 lekárske AI asistentmi"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Váš zdravotnícky spoločník poháňaný AI",
+          "subtitle": "Získajte okamžité lekárske poznatky a usmernenie od špecializovaných AI lekárov, kedykoľvek a kdekoľvek."
+        },
+        "secondOnboarding": {
+          "title": "Opýtajte sa, nahrajte a získajte lekárske poznatky",
+          "subtitle": "Chatujte s AI lekármi z rôznych špecializácií alebo nahrajte lekárske obrázky pre rýchlu lekárska analýzu."
+        },
+        "thirdOnboarding": {
+          "title": "Vaše súkromie je dôležité",
+          "subtitle": "Sme odhodlaní chrániť vaše súkromie. Nezhromažďujeme osobné údaje. Všetky súbory, ktoré nahrajete, zostanú súkromné a nikdy sa nezdieľajú."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Odomknite prémiové funkcie ešte dnes!",
+        "firstOffering": {
+          "title": "Spustiť bezplatnú skúšobnú verziu",
+          "subtitle": "Využite {{freeScans}} bezplatných skenov - žiadna platba"
+        },
+        "secondOffering": {
+          "title": "Mesačný plán",
+          "subtitle": "{{ price }}/mesiac"
+        },
+        "thirdOffering": {
+          "title": "Ročný plán",
+          "subtitle": "{{ price }} ročne"
+        },
+        "fourthOffering": {
+          "title": "{{trialDays}}-dňová skúšobná verzia",
+          "subtitle": "{{ price }} ročne",
+          "plan": "Týždenný plán"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "O aplikácii",
+    "app_name": "Názov aplikácie",
+    "citations": "Citácie pre lekárske informácie",
+    "contactUs": "Kontaktujte nás",
+    "devMode": {
+      "componentsLibrary": "Knižnica UI",
+      "title": "Režim vývojára"
+    },
+    "faq": "Často kladené otázky",
+    "generale": "Všeobecné",
+    "github": "Github",
+    "language": "Jazyk",
+    "languages": {
+      "arabic": "Arabčina",
+      "catalan": "Katalánčina",
+      "croatian": "Chorvátčina",
+      "czech": "Čeština",
+      "danish": "Dánčina",
+      "dutch": "Holandčina",
+      "english": "Angličtina",
+      "finnish": "Fínčina",
+      "french": "Francúzština",
+      "french_canada": "Francúzština (Kanada)",
+      "german": "Nemčina",
+      "greek": "Gréčtina",
+      "hebrew": "Hebrejčina",
+      "hindi": "Hindčina",
+      "hungarian": "Maďarčina",
+      "indonesian": "Indonézština",
+      "italian": "Taliančina",
+      "japanese": "Japončina",
+      "korean": "Kórejčina",
+      "malay": "Malajčina",
+      "mandarin_chinese": "Čínština",
+      "norwegian": "Nórčina",
+      "polish": "Poľština",
+      "portuguese_brazil": "Portugalčina (Brazília)",
+      "portuguese_portugal": "Portugalčina (Portugalsko)",
+      "romanian": "Rumunčina",
+      "russian": "Ruština",
+      "slovak": "Slovenčina",
+      "spanish_mexico": "Španielčina (Mexiko)",
+      "spanish_spain": "Španielčina (Španielsko)",
+      "swedish": "Švédčina",
+      "thai": "Thajčina",
+      "turkish": "Turečtina",
+      "ukrainian": "Ukrajinčina",
+      "vietnamese": "Vietnamčina"
+    },
+    "links": "Odkazy",
+    "logout": "Odhlásiť sa",
+    "more": "Viac",
+    "privacy": "Zásady ochrany osobných údajov",
+    "profile": "Profil",
+    "rate": "Spätná väzba",
+    "share": "Zdieľať",
+    "support": "Podpora",
+    "support_us": "Podporte nás",
+    "tab": "Nastavenia",
+    "terms": "Podmienky služby",
+    "theme": {
+      "dark": "Tmavý",
+      "light": "Svetlý",
+      "system": "Systém",
+      "title": "Téma"
+    },
+    "title": "Nastavenia",
+    "version": "Verzia",
+    "website": "Webstránka"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Prepáčte, potrebujeme povolenia kamery, aby to fungovalo!",
+    "errorSelectingImagePicker": "Pri výbere obrázka sa niečo pokazilo. Skúste to znova.",
+    "errorSelectingDocumentPicker": "Pri výbere dokumentu sa niečo pokazilo. Skúste to znova.",
+    "errorTakingPicture": "Pri fotografovaní sa niečo pokazilo. Skúste to znova.",
+    "enableNotifications": {
+      "heading": "Povoliť upozornenia",
+      "subHeading": "Upozornenia sú momentálne vypnuté. Ak chcete zostať v obraze, povoľte ich v nastaveniach zariadenia."
+    },
+    "enableNotificationFailed": "Push upozornenia sú vypnuté. Povoľte ich v nastaveniach, aby ste dostávali dôležité aktualizácie!",
+    "enableNotificationError": "Pri povolovaní upozornení sa vyskytla chyba",
+    "notificationDisabledSuccess": "Upozornenia úspešne zakázané.",
+    "notificationDisabledRegisterError": "Nepodarilo sa zrušiť registráciu zariadenia pre upozornenia.",
+    "notificationDisabledError": "Pri zakazovaní upozornení sa vyskytla chyba.",
+    "checkNotificationStatusError": "Chyba pri kontrole stavu upozornení.",
+    "projectIdNotFound": "ID projektu upozornení nebolo nájdené.",
+    "imageSizeLarge": "Obrázok je príliš veľký! Veľkosť súboru je {{fileSize}} MB, ale limit je {{imageLimit}} MB.",
+    "videoSizeLarge": "Video je príliš veľké! Veľkosť súboru je {{fileSize}} MB, ale limit je {{videoLimit}} MB.",
+    "loggedInSuccess": "Úspešne prihlásené",
+    "loggedOutSuccess": "Boli ste úspešne odhlásený!",
+    "sendVerificationCodeError": "Chyba pri odosielaní overovacieho kódu",
+    "validateAuthCodeError": "Chyba pri overovaní auth kódu",
+    "anonymousSignInError": "Chyba pri anonymnom prihlasovaní",
+    "emailLoginError": "Chyba pri prihlasovaní",
+    "preferredLanguageError": "Chyba pri aktualizácii preferovaného jazyka používateľa",
+    "sharingNotAvailable": "Zdieľanie momentálne nie je k dispozícii na vašom zariadení",
+    "sharingLinkError": "Nepodarilo sa zdieľať odkaz.",
+    "individualPushNotificationSuccess": "Individuálne push upozornenia úspešne odoslané!",
+    "globalPushNotificationSuccess": "Globálne push upozornenia úspešne odoslané! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Nepodarilo sa aktualizovať polia interpretácie! ❌",
+    "deleteScanReportFail": "Nepodarilo sa odstrániť správu o skene. Skúste to znova",
+    "onboardingUnsuccessful": "Zavedenie neúspešné. Skúste to znova",
+    "logoutUnsuccessful": "Odhlásenie neúspešné. Skúste to znova",
+    "deleteScanReportQuestion": "Ste si istý, že chcete natrvalo odstrániť túto správu?",
+    "videoLimitExceeds": "Vaše video prekračuje limit {{videoSecondsLimit}} sekúnd. Skráťte ho a znova nahrajte",
+    "subscriptionActivated": "Vaše predplatné bolo úspešne aktivované! Tešte sa zo svojich exkluzívnych výhod!",
+    "subscriptionCancelledByUser": "Zrušili ste transakciu. Pokojne to skúste znova!",
+    "subscriptionActivationFailed": "Nepodarilo sa aktivovať vaše predplatné. Skúste to znova",
+    "logoutQuestion": "Ste si istý, že sa chcete odhlásiť?",
+    "noSubscriptionToRestore": "Ops! Zdá sa, že momentálne nemáte aktívne predplatné. Ak chcete naďalej využívať plný prístup, vyberte si jeden z našich predplatných plánov.",
+    "restorationSuccessful": "Obnovenie bolo úspešné! Tešte sa!",
+    "restorationError": "Pri obnovovaní nákupu sa vyskytla chyba.",
+    "medicalDisclaimerAlert": "Aplikácia Doctor Med AI nenahradzuje lekárske konzultácie. Niektoré diagnózy sú len na informačné/vzdelávacie účely. Pre lekárske odporúčania sa vždy poraďte s lekárom alebo licencovaným špecialistom.",
+    "scanLimitReached": "Optimalizujeme pre vás kvalitu skenovania! Budete môcť znova skenovať približne o {{hours}} hodín a {{minutes}} minút. Máte nejaké otázky o nejakej lekárskej téme? Opýtajte sa nášho asistenta chatu, kým čakáte!",
+    "mixedMediaNotAllowed": "Pre lepšiu presnosť nenahrávajte zmes rôznych médií. Nahrajte iba obrázky, videá alebo pdf - nie všetky spolu.",
+    "multipleVideosNotAllowed": "Pre lepšiu presnosť nahrajte iba jedno video naraz.",
+    "mediaFilesUploadFiles": "Pri nahrávaní vašich médií sa vyskytla chyba. Skúste to znova.",
+    "chatAndMediaFilesLimit": "Vážený používateľ, musíte inovovať svoj plán, aby ste mohli využívať neobmedzené konverzácie, neobmedzené skeny, analýzu viacerých obrázkov a ďalšie. 🔓"
+  },
+  "deleteApp": {
+    "title": "Počkaj! Nemaž ma!",
+    "subtitle": "Namiesto toho pošlite spätnú väzbu"
+  }
+}

@@ -17,7 +17,7 @@ const NoInternet = () => {
 
       <View className="bottom-10 w-full self-start px-6">
         <View className="px-2">
-          <Text className="font-semibold-work-sans text-3xl">
+          <Text className="font-semibold-poppins text-3xl">
             {translate('rootLayout.screens.noInternetScreen.heading')}
           </Text>
           <Text className="mt-2 text-gray-600">

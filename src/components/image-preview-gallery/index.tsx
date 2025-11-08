@@ -56,8 +56,7 @@ const ImagePreviewGallery: React.FC<ImagePreviewGalleryProps> = ({
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {files.map((file) => {
           const isDoc = isDocument(file.fileMimeType);
-          const isVid = isVideo(file.fileMimeType);
-
+          const isVid = isVideo(file.mimeType);
           return (
             <View key={file.id} className="m-1 relative">
               {isDoc ? (

@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Quay lại",
+    "welcome": "Xin chào",
+    "welcomeBack": "Chào mừng trở lại!",
+    "welcomeMessage": "Chào mừng!",
+    "continue": "Tiếp tục",
+    "retry": "Thử lại",
+    "close": "Đóng",
+    "gallery": "Thư viện",
+    "files": "Tệp",
+    "seeAll": "Xem tất cả",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "attention": "Chú ý!",
+    "new": "Mới",
+    "activeSubscription": "Đang đăng ký",
+    "agreeingMessage": "Bằng việc tiếp tục, bạn đồng ý với",
+    "and": "và",
+    "askAssistant": "Hỏi trợ lý AI",
+    "chatbotPlaceholder": "Hỏi tôi bất cứ điều gì...",
+    "completedScans": "Quét hoàn tất",
+    "conversationHistory": "Lịch sử trò chuyện",
+    "medicalAssistants": "Trợ lý Y tế",
+    "searchAssistant": "Tìm kiếm trợ lý...",
+    "analyzingMediaFilesPlaceholder": "Đang phân tích tệp đa phương tiện...",
+    "copyText": {
+      "copied": "Đã sao chép!",
+      "copy": "Sao chép liên kết",
+      "loading": "Đang sao chép..."
+    },
+    "createdAt": "Được tạo lúc",
+    "download": "Tải xuống",
+    "free": "MIỄN PHÍ",
+    "freeTrial": "Dùng thử miễn phí",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Đang quét hình ảnh y tế của bạn, vui lòng chờ...",
+        "fourth": "Sắp xong, đang hoàn tất quá trình quét...",
+        "second": "Đang phân tích chi tiết, việc này có thể mất một lúc...",
+        "third": "Đang cải thiện độ chính xác để có kết quả tốt nhất..."
+      },
+      "initialAppLoad": {
+        "first": "Đang tải trải nghiệm cá nhân hóa của bạn...",
+        "fourth": "Sắp xong, chỉ một chút nữa...",
+        "second": "Đang đồng bộ hóa hệ thống...",
+        "third": "Đang xử lý dữ liệu của bạn..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med đang chuẩn bị hỗ trợ bạn...",
+        "second": "Chờ chút! Dr. Med đang chuẩn bị phản hồi của bạn...",
+        "third": "Đang suy nghĩ... trợ lý Dr. Med của bạn đang xử lý!"
+      }
+    },
+    "tabs": {
+      "home": "Trang chủ",
+      "chat": "Trò chuyện",
+      "aiDoctors": "Bác sĩ AI",
+      "settings": "Cài đặt"
+    },
+    "medicalDisclaimer": "Tuyên bố miễn trừ trách nhiệm y tế",
+    "next": "Tiếp theo",
+    "noPaymentNow": "Không thanh toán ngay. Hủy bất cứ lúc nào.",
+    "online": "Trực tuyến",
+    "openSettings": "Mở cài đặt",
+    "or": "hoặc",
+    "perMonth": "mỗi tháng",
+    "perWeek": "mỗi tuần",
+    "perYear": "mỗi năm",
+    "privacyPolicy": "Chính sách bảo mật",
+    "restorePurchase": "Khôi phục mua hàng",
+    "termsOfUse": "Điều khoản sử dụng",
+    "saveDiscount": "TIẾT KIỆM",
+    "seeNotifications": "Xem thông báo",
+    "share": "Chia sẻ",
+    "shareLink": "Chia sẻ liên kết",
+    "skip": "Bỏ qua",
+    "termsAndConditions": "Điều khoản & Điều kiện",
+    "then": "sau đó",
+    "tryAgain": "Thử lại",
+    "tryForFree": "Bắt đầu dùng thử miễn phí",
+    "typing": "Đang nhập...",
+    "unlockNow": "Mở khóa ngay",
+    "update": "Cập nhật",
+    "upgradePlan": "Nâng cấp gói",
+    "viewProfile": "Xem hồ sơ",
+    "yes": "Có",
+    "chatBotPlaceholder": "Xin chào. Nếu bạn có bất kỳ câu hỏi nào, tôi có thể giúp bạn khám phá lĩnh vực {{topic}}. Chỉ dùng cho mục đích giáo dục."
+  },
+  "weekDays": {
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Nhận phân tích từ các loại quét y tế khác nhau, bao gồm X-QUANG, CT, MRI, ECG và nhiều hơn nữa",
+      "second": "Truy cập tất cả các tính năng cao cấp",
+      "fourth": "Trò chuyện không giới hạn với trợ lý y tế AI 24/7",
+      "third": "Không có quảng cáo"
+    },
+    "UpgradeBanner": {
+      "heading": "Mở khóa ngay",
+      "subheading": "Tận hưởng mọi lợi ích không giới hạn"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Trình phân tích Hình ảnh Y tế",
+      "askMedicalAssistant": "Hỏi Trợ lý Y tế AI",
+      "medicalAssistant": "Trợ lý Y tế",
+      "imageTypes": {
+        "xray": "X-Quang",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "Siêu âm",
+        "ecg": "ECG",
+        "skinLesion": "Tổn thương da",
+        "mammogram": "Chụp nhũ ảnh",
+        "retinalScan": "Quét võng mạc",
+        "bloodSmear": "Phết máu",
+        "dental": "Nha khoa",
+        "pet": "PET",
+        "dexa": "DEXA / Quét mật độ xương",
+        "angiography": "Chụp mạch",
+        "echo": "Siêu âm tim (ECHO)",
+        "fluoroscopy": "Chụp X-quang huỳnh quang"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Y học gia đình",
+          "subtitle": "Thực hành tổng quát"
+        },
+        "internalMedicine": {
+          "title": "Nội khoa"
+        },
+        "pediatrics": {
+          "title": "Nhi khoa"
+        },
+        "dermatology": {
+          "title": "Da liễu"
+        },
+        "cardiology": {
+          "title": "Tim mạch"
+        },
+        "orthopedics": {
+          "title": "Chỉnh hình"
+        },
+        "psychiatry": {
+          "title": "Tâm thần học",
+          "subtitle": "Sức khỏe tâm thần"
+        },
+        "obstetricsGynecology": {
+          "title": "Sản phụ khoa",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "Thần kinh học"
+        },
+        "ophthalmology": {
+          "title": "Nhãn khoa"
+        },
+        "otolaryngology": {
+          "title": "Tai mũi họng",
+          "subtitle": "ENT"
+        },
+        "dentistry": {
+          "title": "Nha khoa"
+        },
+        "radiology": {
+          "title": "X-quang",
+          "subtitle": "Hình ảnh"
+        },
+        "oncology": {
+          "title": "Ung thư"
+        },
+        "endocrinology": {
+          "title": "Nội tiết"
+        },
+        "nephrology": {
+          "title": "Thận học"
+        },
+        "pulmonology": {
+          "title": "Phổi"
+        },
+        "gastroenterology": {
+          "title": "Tiêu hóa"
+        },
+        "allergyImmunology": {
+          "title": "Dị ứng & Miễn dịch"
+        },
+        "hematology": {
+          "title": "Huyết học"
+        },
+        "rheumatology": {
+          "title": "Thấp khớp"
+        },
+        "urology": {
+          "title": "Tiết niệu"
+        },
+        "emergencyMedicine": {
+          "title": "Cấp cứu"
+        },
+        "surgery": {
+          "title": "Phẫu thuật"
+        },
+        "anesthesiology": {
+          "title": "Gây mê"
+        },
+        "rehabilitationMedicine": {
+          "title": "Phục hồi chức năng",
+          "subtitle": "Vật lý trị liệu"
+        },
+        "geriatrics": {
+          "title": "Lão khoa"
+        },
+        "publicHealth": {
+          "title": "Y tế công cộng",
+          "subtitle": "Y học dự phòng"
+        },
+        "microscopy": {
+          "title": "Kính hiển vi"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Thư viện ảnh",
+      "takePhoto": "Chụp ảnh",
+      "chooseFile": "Chọn tệp"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Tôi đã có tài khoản",
+        "heading": "Chào mừng đến với Doctor Med AI!",
+        "startButton": "Bắt đầu nào!"
+      },
+      "freeTrialPreview": {
+        "heading": "Tận hưởng bản dùng thử miễn phí của bạn! 🎉",
+        "review": "Tôi sử dụng ứng dụng này cho câu hỏi y tế, quét X-quang và học tập - thật tuyệt vời!",
+        "reviewTrust": "📈 Được tin dùng bởi 5.212+ người dùng"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Bạn muốn phân tích AI bằng ngôn ngữ nào?",
+        "languageSelection": "Chọn ngôn ngữ cho phản hồi AI",
+        "languageSearchCriteria": "Tìm kiếm theo ngôn ngữ, mã quốc gia hoặc cờ",
+        "noLanguageFound": "Không tìm thấy ngôn ngữ",
+        "noLanguageFoundSubtitle": "Thử sửa đổi từ khóa tìm kiếm của bạn"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "X-quang ngực cho thấy điều gì?",
+          "two": "Các triệu chứng phổ biến của cơn đau tim là gì?",
+          "three": "Làm thế nào để hạ huyết áp một cách tự nhiên?",
+          "four": "Sự khác biệt giữa MRI và CT scan là gì?",
+          "five": "Các dấu hiệu sớm của bệnh tiểu đường là gì?",
+          "six": "Làm thế nào để giải thích kết quả xét nghiệm máu cơ bản của tôi?",
+          "seven": "Điều trị nhiễm trùng đường tiết niệu là gì?",
+          "eight": "Bạn có thể giải thích siêu âm tim được sử dụng để làm gì không?",
+          "nine": "Hướng dẫn cho chế độ ăn uống lành mạnh là gì?",
+          "ten": "Nguyên nhân gây cholesterol cao?",
+          "eleven": "Làm thế nào để phát hiện khối u não trên MRI?",
+          "twelve": "Vai trò của y học gia đình là gì?",
+          "thirteen": "Các yếu tố nguy cơ đột quỵ là gì?",
+          "fourteen": "Làm thế nào để quản lý lo lắng và căng thẳng?",
+          "fifteen": "Hướng dẫn mới nhất để quản lý huyết áp cao là gì?"
+        }
+      },
+      "notifications": {
+        "title": "Thông báo",
+        "noNotifications": "Không có thông báo nào - hãy theo dõi để cập nhật!"
+      },
+      "rateAppScreen": {
+        "heading": "Bạn có thấy ứng dụng có giá trị và hấp dẫn không?",
+        "like": "Có, tôi thích nó!",
+        "dislike": "Tôi không thích nó"
+      },
+      "profile": {
+        "title": "Hồ sơ",
+        "edit": "Chỉnh sửa hồ sơ",
+        "placeholderPreferredName": "Ví dụ: Captain Cool, Queen Bee, hoặc chỉ là Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Bạn đang ngoại tuyến",
+        "subheading": "Kết nối của bạn có vẻ không ổn định. Vui lòng kiểm tra trạng thái mạng"
+      },
+      "newAppVersionScreen": {
+        "heading": "Phiên bản mới của Doctor Med AI có sẵn",
+        "subheading": "Cập nhật lên phiên bản mới nhất để tiếp tục tận hưởng tất cả tính năng ứng dụng - chỉ mất 5 giây!",
+        "action": "Nhận ngay!"
+      },
+      "disclaimerScreen": {
+        "heading": "Tuyên bố miễn trừ trách nhiệm y tế quan trọng",
+        "subheading": "Doctor Med AI được thiết kế cho chuyên gia X-quang, chuyên gia chăm sóc sức khỏe, sinh viên y khoa và người đam mê",
+        "consentAgreement": "Tôi đã đọc và đồng ý với tuyên bố miễn trừ trách nhiệm.",
+        "firstConsent": "Doctor Med AI không cung cấp phép đo sức khỏe hoặc lời khuyên điều trị, và không nhằm mục đích đó. Người dùng Doctor Med AI phải áp dụng phán đoán lâm sàng của họ và xác minh thông tin từ các nguồn có thẩm quyền trước khi đưa ra quyết định lâm sàng.",
+        "secondConsent": "Doctor Med AI không phải là công cụ chẩn đoán, nền tảng điều trị hoặc thay thế cho lời khuyên y tế chuyên nghiệp. Nó cung cấp thông tin chi tiết được tạo bởi AI để giúp chuyên gia chăm sóc sức khỏe truy cập kiến thức y tế và phân tích hình ảnh và tài liệu y tế. Doctor Med AI là ứng dụng thông tin và giáo dục được hỗ trợ bởi AI được thiết kế để hỗ trợ chuyên gia chăm sóc sức khỏe có giấy phép.",
+        "thirdConsent": "Doctor Med AI không được thiết kế cho bệnh nhân sử dụng. Nó không cung cấp chẩn đoán y tế trực tiếp, khuyến nghị điều trị hoặc chức năng quản lý bệnh nhân.",
+        "fourthConsent": "Doctor Med AI không được phân loại là thiết bị y tế và không yêu cầu phê duyệt quy định. Nó nhằm mục đích giáo dục và thông tin để bổ sung cho chuyên môn chuyên nghiệp.",
+        "fifthConsent": "Doctor Med AI không thu thập, lưu trữ hoặc xử lý dữ liệu cá nhân hoặc dữ liệu bệnh nhân. Tất cả tương tác của người dùng đều được bảo mật và giới hạn trong phạm vi ứng dụng."
+      },
+      "contactUs": {
+        "heading": "Hãy gửi email trực tiếp cho chúng tôi và nhóm của chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể",
+        "customerSupport": "Hỗ trợ khách hàng",
+        "emailAddress": "Địa chỉ email"
+      },
+      "rate": {
+        "title": "Cho chúng tôi phản hồi!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Không tìm thấy kết quả - nhưng đừng lo lắng!",
+          "notFoundSubtitle": "Thử sử dụng các từ khóa khác nhau, hoặc hỏi trực tiếp trợ lý y tế AI của chúng tôi",
+          "askAssistant": "Hỏi trợ lý y tế"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Đã bật dùng thử miễn phí",
+          "heading": "Truy cập không giới hạn",
+          "title": "Mở khóa tính năng cao cấp ngay hôm nay!",
+          "firstOffering": "Truy cập tất cả tính năng cao cấp",
+          "secondOffering": "Trải nghiệm không quảng cáo",
+          "thirdOffering": "Phân tích không giới hạn hình ảnh y tế, video, quét PDF + báo cáo",
+          "fourthOffering": "Trò chuyện không giới hạn với trợ lý y tế AI 24/7"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Người bạn đồng hành sức khỏe AI của bạn",
+          "subtitle": "Nhận thông tin y tế tức thì và hướng dẫn từ các bác sĩ AI chuyên khoa, mọi lúc, mọi nơi."
+        },
+        "secondOnboarding": {
+          "title": "Hỏi, Tải lên và Nhận Thông tin Y tế",
+          "subtitle": "Trò chuyện với bác sĩ AI từ các chuyên khoa khác nhau, hoặc tải lên hình ảnh y tế để phân tích y tế nhanh chóng."
+        },
+        "thirdOnboarding": {
+          "title": "Quyền riêng tư của bạn quan trọng",
+          "subtitle": "Chúng tôi cam kết bảo vệ quyền riêng tư của bạn. Chúng tôi không thu thập dữ liệu cá nhân. Bất kỳ tệp nào bạn tải lên đều được bảo mật và không bao giờ được chia sẻ."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Mở khóa tính năng cao cấp ngay hôm nay!",
+        "firstOffering": {
+          "title": "Bắt đầu dùng thử miễn phí",
+          "subtitle": "Tận hưởng {{freeScans}} quét miễn phí – không thanh toán"
+        },
+        "secondOffering": {
+          "title": "Gói tháng",
+          "subtitle": "{{ price }}/tháng"
+        },
+        "thirdOffering": {
+          "title": "Gói năm",
+          "subtitle": "{{ price }} mỗi năm"
+        },
+        "fourthOffering": {
+          "title": "Dùng thử {{trialDays}} ngày",
+          "subtitle": "{{ price }} mỗi năm",
+          "plan": "Gói tuần"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Giới thiệu",
+    "app_name": "Tên ứng dụng",
+    "citations": "Trích dẫn thông tin y tế",
+    "contactUs": "Liên hệ chúng tôi",
+    "devMode": {
+      "componentsLibrary": "Thư viện giao diện",
+      "title": "Chế độ nhà phát triển"
+    },
+    "faq": "Câu hỏi thường gặp",
+    "generale": "Chung",
+    "github": "Github",
+    "language": "Ngôn ngữ",
+    "languages": {
+      "arabic": "Tiếng Ả Rập",
+      "catalan": "Tiếng Catalan",
+      "croatian": "Tiếng Croatia",
+      "czech": "Tiếng Séc",
+      "danish": "Tiếng Đan Mạch",
+      "dutch": "Tiếng Hà Lan",
+      "english": "Tiếng Anh",
+      "finnish": "Tiếng Phần Lan",
+      "french": "Tiếng Pháp",
+      "french_canada": "Tiếng Pháp (Canada)",
+      "german": "Tiếng Đức",
+      "greek": "Tiếng Hy Lạp",
+      "hebrew": "Tiếng Do Thái",
+      "hindi": "Tiếng Hindi",
+      "hungarian": "Tiếng Hungary",
+      "indonesian": "Tiếng Indonesia",
+      "italian": "Tiếng Ý",
+      "japanese": "Tiếng Nhật",
+      "korean": "Tiếng Hàn",
+      "malay": "Tiếng Mã Lai",
+      "mandarin_chinese": "Tiếng Trung",
+      "norwegian": "Tiếng Na Uy",
+      "polish": "Tiếng Ba Lan",
+      "portuguese_brazil": "Tiếng Bồ Đào Nha (Brazil)",
+      "portuguese_portugal": "Tiếng Bồ Đào Nha (Bồ Đào Nha)",
+      "romanian": "Tiếng Romania",
+      "russian": "Tiếng Nga",
+      "slovak": "Tiếng Slovak",
+      "spanish_mexico": "Tiếng Tây Ban Nha (Mexico)",
+      "spanish_spain": "Tiếng Tây Ban Nha (Tây Ban Nha)",
+      "swedish": "Tiếng Thụy Điển",
+      "thai": "Tiếng Thái",
+      "turkish": "Tiếng Thổ Nhĩ Kỳ",
+      "ukrainian": "Tiếng Ukraina",
+      "vietnamese": "Tiếng Việt"
+    },
+    "links": "Liên kết",
+    "logout": "Đăng xuất",
+    "more": "Thêm",
+    "privacy": "Chính sách bảo mật",
+    "profile": "Hồ sơ",
+    "rate": "Phản hồi",
+    "share": "Chia sẻ",
+    "support": "Hỗ trợ",
+    "support_us": "Ủng hộ chúng tôi",
+    "tab": "Cài đặt",
+    "terms": "Điều khoản dịch vụ",
+    "theme": {
+      "dark": "Tối",
+      "light": "Sáng",
+      "system": "Hệ thống",
+      "title": "Chủ đề"
+    },
+    "title": "Cài đặt",
+    "version": "Phiên bản",
+    "website": "Trang web"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Xin lỗi, chúng tôi cần quyền truy cập máy ảnh để hoạt động này!",
+    "errorSelectingImagePicker": "Đã xảy ra lỗi khi chọn hình ảnh. Vui lòng thử lại.",
+    "errorSelectingDocumentPicker": "Đã xảy ra lỗi khi chọn tài liệu. Vui lòng thử lại.",
+    "errorTakingPicture": "Đã xảy ra lỗi khi chụp ảnh. Vui lòng thử lại.",
+    "enableNotifications": {
+      "heading": "Bật thông báo",
+      "subHeading": "Thông báo hiện đang tắt. Để cập nhật, vui lòng bật chúng trong cài đặt thiết bị của bạn."
+    },
+    "enableNotificationFailed": "Thông báo đẩy bị tắt. Bật chúng trong cài đặt để nhận cập nhật quan trọng!",
+    "enableNotificationError": "Đã xảy ra lỗi khi bật thông báo",
+    "notificationDisabledSuccess": "Đã tắt thông báo thành công.",
+    "notificationDisabledRegisterError": "Không thể hủy đăng ký thiết bị cho thông báo.",
+    "notificationDisabledError": "Đã xảy ra lỗi khi tắt thông báo.",
+    "checkNotificationStatusError": "Lỗi kiểm tra trạng thái thông báo.",
+    "projectIdNotFound": "Không tìm thấy ID dự án thông báo.",
+    "imageSizeLarge": "Hình ảnh quá lớn! Kích thước tệp là {{fileSize}} MB, nhưng giới hạn là {{imageLimit}} MB.",
+    "videoSizeLarge": "Video quá lớn! Kích thước tệp là {{fileSize}} MB, nhưng giới hạn là {{videoLimit}} MB.",
+    "loggedInSuccess": "Đăng nhập thành công",
+    "loggedOutSuccess": "Bạn đã đăng xuất thành công!",
+    "sendVerificationCodeError": "Lỗi khi gửi mã xác minh",
+    "validateAuthCodeError": "Lỗi khi xác thực mã auth",
+    "anonymousSignInError": "Lỗi đăng nhập ẩn danh",
+    "emailLoginError": "Lỗi khi đăng nhập",
+    "preferredLanguageError": "Lỗi khi cập nhật ngôn ngữ ưa thích của người dùng",
+    "sharingNotAvailable": "Chia sẻ hiện không khả dụng trên thiết bị của bạn",
+    "sharingLinkError": "Không thể chia sẻ liên kết.",
+    "individualPushNotificationSuccess": "Đã gửi thông báo đẩy cá nhân thành công!",
+    "globalPushNotificationSuccess": "Đã gửi thông báo đẩy toàn cầu thành công! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Không thể cập nhật trường diễn giải! ❌",
+    "deleteScanReportFail": "Không thể xóa báo cáo quét. Vui lòng thử lại",
+    "onboardingUnsuccessful": "Giới thiệu không thành công. Vui lòng thử lại",
+    "logoutUnsuccessful": "Đăng xuất không thành công. Vui lòng thử lại",
+    "deleteScanReportQuestion": "Bạn có chắc chắn muốn xóa vĩnh viễn báo cáo này không?",
+    "videoLimitExceeds": "Video của bạn vượt quá giới hạn {{videoSecondsLimit}} giây. Vui lòng cắt bớt và tải lên lại",
+    "subscriptionActivated": "Đăng ký của bạn đã được kích hoạt thành công! Tận hưởng các đặc quyền độc quyền của bạn!",
+    "subscriptionCancelledByUser": "Bạn đã hủy giao dịch. Hãy thử lại!",
+    "subscriptionActivationFailed": "Không thể kích hoạt đăng ký của bạn. Vui lòng thử lại",
+    "logoutQuestion": "Bạn có chắc chắn muốn đăng xuất không?",
+    "noSubscriptionToRestore": "Rất tiếc! Có vẻ như bạn không có đăng ký hoạt động tại thời điểm này. Để tiếp tục tận hưởng quyền truy cập đầy đủ, vui lòng chọn một trong các gói đăng ký của chúng tôi.",
+    "restorationSuccessful": "Khôi phục thành công! Tận hưởng!",
+    "restorationError": "Đã xảy ra lỗi khi khôi phục giao dịch mua.",
+    "medicalDisclaimerAlert": "Ứng dụng Doctor Med AI không thay thế tư vấn y tế. Một số chẩn đoán chỉ dành cho mục đích thông tin/giáo dục. Để được khuyến nghị y tế, luôn tham khảo ý kiến bác sĩ hoặc chuyên gia được cấp phép.",
+    "scanLimitReached": "Chúng tôi đang tối ưu hóa chất lượng quét cho bạn! Bạn sẽ có thể quét lại sau khoảng {{hours}} giờ và {{minutes}} phút. Có câu hỏi về chủ đề y tế? Hỏi trợ lý trò chuyện của chúng tôi trong khi chờ đợi!",
+    "mixedMediaNotAllowed": "Để chính xác hơn, không tải lên hỗn hợp các tệp đa phương tiện khác nhau. Vui lòng chỉ tải lên hình ảnh, video hoặc pdf - không phải tất cả cùng nhau.",
+    "multipleVideosNotAllowed": "Để chính xác hơn, vui lòng chỉ tải lên một video tại một thời điểm.",
+    "mediaFilesUploadFiles": "Đã xảy ra lỗi khi tải lên tệp đa phương tiện của bạn. Vui lòng thử lại.",
+    "chatAndMediaFilesLimit": "Người dùng thân mến, bạn cần nâng cấp gói của mình để hưởng lợi từ trò chuyện không giới hạn, quét không giới hạn, phân tích đa hình ảnh và hơn thế nữa. 🔓"
+  },
+  "deleteApp": {
+    "title": "Đợi đã! Đừng xóa tôi!",
+    "subtitle": "Thay vào đó hãy gửi phản hồi"
+  }
+}

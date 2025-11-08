@@ -19,11 +19,11 @@ const EdgeCaseTemplate = ({
       style={{ width: DEVICE_DIMENSIONS.DEVICE_WIDTH }}
     >
       {image && <View className="mb-4">{image}</View>}
-      <Text className="mb-2 text-center font-semibold-work-sans text-2xl text-gray-900">
+      <Text className="mb-2 text-center font-semibold-poppins text-2xl text-gray-900">
         {title}
       </Text>
       {!!message && (
-        <Text className="text-center font-semibold-work-sans text-base text-gray-600">
+        <Text className="text-center font-semibold-poppins text-base text-gray-600">
           {message}
         </Text>
       )}

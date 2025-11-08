@@ -21,7 +21,7 @@ export const Text = ({
   const textStyle = React.useMemo(
     () =>
       twMerge(
-        'text-base text-black dark:text-white font-medium-work-sans',
+        'text-base text-black dark:text-white font-medium-poppins',
         className
       ),
     [className]
@@ -38,7 +38,12 @@ export const Text = ({
     [style]
   );
   return (
-    <NNText className={textStyle} style={nStyle} {...props}>
+    <NNText
+      className={textStyle}
+      style={nStyle}
+      {...props}
+      allowFontScaling={true}
+    >
       {tx ? translate(tx) : children}
     </NNText>
   );

@@ -25,7 +25,6 @@ const DoctorsScreen: React.FC = () => {
 
   const { colorScheme } = useColorScheme();
   const isDark = colorScheme === 'dark';
-  const handleBack = () => {};
 
   const handleSpecializationPress = (item: MedicalSpecialization) => {
     router.navigate({
@@ -58,7 +57,7 @@ const DoctorsScreen: React.FC = () => {
           {/* <TouchableOpacity onPress={handleBack} className="mr-3">
             <Ionicons name="arrow-back" size={24} color="#1F2937" />
           </TouchableOpacity> */}
-          <Text className="font-bold-work-sans text-xl text-gray-800">
+          <Text className="font-bold-poppins text-xl text-gray-800">
             {translate('general.medicalAssistants')}
           </Text>
         </View>
@@ -96,7 +95,7 @@ const DoctorsScreen: React.FC = () => {
           keyboardShouldPersistTaps="handled"
         >
           <View className="flex-1 items-center px-8">
-            <Text className="mt-4 font-semibold-work-sans text-lg text-gray-800">
+            <Text className="mt-4 font-semibold-poppins text-lg text-gray-800">
               {translate(
                 'rootLayout.screens.doctorsScreen.searchResults.notFoundTitle'
               )}
@@ -116,7 +115,7 @@ const DoctorsScreen: React.FC = () => {
               <ArrowRightSharp color={isDark ? colors.white : colors.black} />
             }
             className="self-center active:opacity-70 mt-4"
-            textClassName="text-black text-lg dark:text-white font-semibold-work-sans"
+            textClassName="text-black text-lg dark:text-white font-semibold-poppins"
             onPress={() => router.navigate('/chat')}
           />
         </ScrollView>

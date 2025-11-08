@@ -29,7 +29,7 @@ const MedicalCard: React.FC<IMedicalCardProps> = ({ item }) => {
           {item.icon}
         </View>
 
-        <Text className="font-semibold-work-sans text-xl text-white w-[90%]">
+        <Text className="font-semibold-poppins text-lg text-white w-[90%]">
           {item.title}
         </Text>
       </View>

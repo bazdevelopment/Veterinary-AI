@@ -11,7 +11,7 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
-    'google',
+    // 'google',
     'prettier', // Use Prettier to ensure code style consistency
     
   ],

@@ -73,7 +73,7 @@ const Profile = () => {
             isEditable={false} //!todo: for now upload picture should be disabled due to privacy politics
           />
 
-          <Text className="top-[-30] text-center font-semibold-work-sans text-2xl">
+          <Text className="top-[-30] text-center font-semibold-poppins text-2xl">
             {userInfo.userName}
           </Text>
           <View className="flex-column mb-6 ml-6">
@@ -84,7 +84,7 @@ const Profile = () => {
                 width={30}
                 height={30}
               />
-              <Text className="mb-6 ml-4 font-semibold-work-sans">
+              <Text className="mb-6 ml-4 font-semibold-poppins">
                 {translate('general.completedScans')} -{' '}
                 {userInfo.completedScans}
               </Text>
@@ -95,7 +95,7 @@ const Profile = () => {
                 height={30}
                 fill={colors.primary[900]}
               />
-              <Text className="mb-6 ml-4 font-semibold-work-sans">
+              <Text className="mb-6 ml-4 font-semibold-poppins">
                 {translate('general.activeSubscription')} - {activeSubscription}
               </Text>
             </View>
@@ -103,7 +103,7 @@ const Profile = () => {
 
           {/* <View className="mx-6 gap-6">
             <Input
-              className={`flex-1 rounded-xl bg-white px-3.5 py-5 font-medium-work-sans dark:border-neutral-700 dark:bg-charcoal-800 dark:text-white ${!editModeEnabled && 'bg-slate-200'}`}
+              className={`flex-1 rounded-xl bg-white px-3.5 py-5 font-medium-poppins dark:border-neutral-700 dark:bg-charcoal-800 dark:text-white ${!editModeEnabled && 'bg-slate-200'}`}
               placeholder={translate(
                 'rootLayout.screens.profile.placeholderPreferredName'
               )}
@@ -116,7 +116,7 @@ const Profile = () => {
             />
             {userInfo?.email && (
               <Input
-                className={`flex-1 rounded-xl bg-slate-200 px-3.5 py-5 font-medium-work-sans opacity-80 dark:border-neutral-700 dark:bg-charcoal-600 dark:text-white dark:opacity-50`}
+                className={`flex-1 rounded-xl bg-slate-200 px-3.5 py-5 font-medium-poppins opacity-80 dark:border-neutral-700 dark:bg-charcoal-600 dark:text-white dark:opacity-50`}
                 placeholder={translate(
                   'rootLayout.screens.profile.placeholderPreferredName'
                 )}

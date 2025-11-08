@@ -92,36 +92,11 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
       const hasVideos = assets.some((asset) => asset.type === 'video');
 
       if (hasImages && hasVideos) {
-        Toast.showCustomToast(
-          <CustomAlert
-            title={translate('general.attention')}
-            subtitle={translate('alerts.mixedMediaNotAllowed')} // You'll need to add this translation
-            buttons={[
-              {
-                label: translate('general.close'),
-                variant: 'default',
-                onPress: Toast.dismiss,
-                buttonTextClassName: 'dark:text-white',
-                className:
-                  'flex-1 rounded-xl h-[48] bg-primary-900 active:opacity-80 dark:bg-primary-900',
-              },
-            ]}
-          />,
-          {
-            position: 'middle',
-            duration: Infinity,
-          }
-        );
-        return;
-      }
-
-      // Handle video files (only single video allowed)
-      if (hasVideos) {
-        if (assets.length > 1) {
+        wait(1000).then(() =>
           Toast.showCustomToast(
             <CustomAlert
               title={translate('general.attention')}
-              subtitle={translate('alerts.multipleVideosNotAllowed')} // You'll need to add this translation
+              subtitle={translate('alerts.mixedMediaNotAllowed')} // You'll need to add this translation
               buttons={[
                 {
                   label: translate('general.close'),
@@ -137,6 +112,35 @@ export const useMediaPiker = ({ onCloseModal }: IMediaPicker) => {
               position: 'middle',
               duration: Infinity,
             }
+          )
+        );
+        return;
+      }
+
+      // Handle video files (only single video allowed)
+      if (hasVideos) {
+        if (assets.length > 1) {
+          wait(1000).then(() =>
+            Toast.showCustomToast(
+              <CustomAlert
+                title={translate('general.attention')}
+                subtitle={translate('alerts.multipleVideosNotAllowed')} // You'll need to add this translation
+                buttons={[
+                  {
+                    label: translate('general.close'),
+                    variant: 'default',
+                    onPress: Toast.dismiss,
+                    buttonTextClassName: 'dark:text-white',
+                    className:
+                      'flex-1 rounded-xl h-[48] bg-primary-900 active:opacity-80 dark:bg-primary-900',
+                  },
+                ]}
+              />,
+              {
+                position: 'middle',
+                duration: Infinity,
+              }
+            )
           );
           return;
         }

@@ -47,7 +47,7 @@
         "third": "Processing your data..."
       },
       "loadingChatbot": {
-        "first": "Aria is getting ready to assist you...",
+        "first": "Dr. Med is getting ready to assist you...",
         "second": "Hold on! Dr. Med is preparing your response...",
         "third": "Thinking...your assistant Dr. Med is on it!"
       }
@@ -69,6 +69,7 @@
     "perYear": "per year",
     "privacyPolicy": "Privacy Policy",
     "restorePurchase": "Restore purchase",
+    "termsOfUse": "Terms of Use",
     "saveDiscount": "SAVE",
     "seeNotifications": "See notifications",
     "share": "Share",
@@ -77,14 +78,14 @@
     "termsAndConditions": "Terms & Conditions",
     "then": "then",
     "tryAgain": "Try again",
-    "tryForFree": "Try For Free",
+    "tryForFree": "Start Free Trial",
     "typing": "Typing...",
     "unlockNow": "Unlock Now",
     "update": "Update",
     "upgradePlan": "Upgrade Plan",
     "viewProfile": "View Profile",
     "yes": "Yes",
-    "chatBotPlaceholder": "Hi! If you have any questions about {{topic}} domain, Dr. Med is available to assist you"
+    "chatBotPlaceholder": "Hi. If you have any question, I can help you explore the {{topic}} domain. For educational use only."
   },
   "weekDays": {
     "today": "Today",
@@ -115,8 +116,12 @@
         "mammogram": "Mammogram",
         "retinalScan": "Retinal Scan",
         "bloodSmear": "Blood Smear",
-        "Dental": "Dental",
-        "pet": "PET"
+        "dental": "Dental",
+        "pet": "PET",
+        "dexa": "DEXA / Bone Density Scan",
+        "angiography": "Angiography",
+        "echo": "Echocardiography (ECHO)",
+        "fluoroscopy": "Fluoroscopy"
       }
     },
     "SpecializationCard": {
@@ -211,6 +216,9 @@
         "publicHealth": {
           "title": "Public Health",
           "subtitle": "Preventive Medicine"
+        },
+        "microscopy": {
+          "title": "Microscopy"
         }
       }
     },
@@ -301,8 +309,8 @@
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "No Results Found",
-          "notFoundSubtitle": "Try searching with different keywords or ask medical assistant",
+          "notFoundTitle": "No Results Found — But Don’t Worry!",
+          "notFoundSubtitle": "Try using different keywords, or ask our AI medical assistant directly",
           "askAssistant": "Ask Medical Assistant"
         }
       },

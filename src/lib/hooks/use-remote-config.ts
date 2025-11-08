@@ -6,6 +6,7 @@ const useRemoteConfig = (): {
   SHOW_FAQ_SCREEN: string;
   SHOW_RATE_SCREEN: string;
   SHOW_ADMIN_SCREENS: string;
+  AI_ANALYSIS_PROMPT_FIREBASE: string;
 } => {
   const [configs, setConfigs] = useState({});
 
@@ -67,6 +68,7 @@ const useRemoteConfig = (): {
     SHOW_FAQ_SCREEN: string;
     SHOW_RATE_SCREEN: string;
     SHOW_ADMIN_SCREENS: string;
+    AI_ANALYSIS_PROMPT_FIREBASE: string;
   };
 };
 

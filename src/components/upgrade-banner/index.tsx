@@ -16,10 +16,10 @@ const UpgradeBanner = ({ onUpgradePress, className }: IUpgradeBanner) => {
       className={`flex-row items-center justify-between rounded-2xl border-4 border-primary-400 bg-primary-900 p-4 ${className}`}
     >
       <View className="flex-[1.3] gap-1">
-        <Text className="font-bold-work-sans text-2xl text-white">
+        <Text className="font-bold-poppins text-2xl text-white">
           {translate('components.UpgradeBanner.heading')}
         </Text>
-        <Text className="font-semibold-work-sans text-base  text-white ">
+        <Text className="font-semibold-poppins text-base  text-white ">
           {translate('components.UpgradeBanner.subheading')}
         </Text>
       </View>

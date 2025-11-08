@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Geri",
+    "welcome": "Merhaba",
+    "welcomeBack": "Tekrar Hoş Geldiniz!",
+    "welcomeMessage": "Hoş Geldiniz!",
+    "continue": "Devam Et",
+    "retry": "Yeniden Dene",
+    "close": "Kapat",
+    "gallery": "Galeri",
+    "files": "Dosyalar",
+    "seeAll": "Tümünü Gör",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "attention": "Dikkat!",
+    "new": "Yeni",
+    "activeSubscription": "Aktif abonelik",
+    "agreeingMessage": "Devam ederek, şunları kabul etmiş olursunuz",
+    "and": "ve",
+    "askAssistant": "AI asistanına sor",
+    "chatbotPlaceholder": "Bana her şeyi sorabilirsin...",
+    "completedScans": "Tamamlanan taramalar",
+    "conversationHistory": "Sohbet geçmişi",
+    "medicalAssistants": "Tıbbi asistanlar",
+    "searchAssistant": "Asistan ara...",
+    "analyzingMediaFilesPlaceholder": "Medya dosyaları analiz ediliyor...",
+    "copyText": {
+      "copied": "Kopyalandı!",
+      "copy": "Bağlantıyı Kopyala",
+      "loading": "Kopyalanıyor..."
+    },
+    "createdAt": "Oluşturulma Tarihi",
+    "download": "İndir",
+    "free": "ÜCRETSİZ",
+    "freeTrial": "Ücretsiz deneme",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Tıbbi görüntüleriniz taranıyor, lütfen bekleyin...",
+        "fourth": "Neredeyse bitti, tarama sonlandırılıyor...",
+        "second": "Detaylar analiz ediliyor, bu biraz zaman alabilir...",
+        "third": "En iyi sonuçlar için doğruluk artırılıyor..."
+      },
+      "initialAppLoad": {
+        "first": "Kişiselleştirilmiş deneyiminiz yükleniyor...",
+        "fourth": "Neredeyse hazır, sadece bir dakika...",
+        "second": "Sistemler senkronize ediliyor...",
+        "third": "Verileriniz işleniyor..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med size yardım etmek için hazırlanıyor...",
+        "second": "Bekleyin! Dr. Med yanıtınızı hazırlıyor...",
+        "third": "Düşünüyor... asistanınız Dr. Med üzerinde çalışıyor!"
+      }
+    },
+    "tabs": {
+      "home": "Ana Sayfa",
+      "chat": "Sohbet",
+      "aiDoctors": "AI Doktorlar",
+      "settings": "Ayarlar"
+    },
+    "medicalDisclaimer": "Tıbbi Sorumluluk Reddi",
+    "next": "İleri",
+    "noPaymentNow": "Şimdi ödeme yok. İstediğiniz zaman iptal edin.",
+    "online": "Çevrimiçi",
+    "openSettings": "Ayarları Aç",
+    "or": "veya",
+    "perMonth": "aylık",
+    "perWeek": "haftalık",
+    "perYear": "yıllık",
+    "privacyPolicy": "Gizlilik Politikası",
+    "restorePurchase": "Satın almayı geri yükle",
+    "termsOfUse": "Kullanım Şartları",
+    "saveDiscount": "TASARRUF ET",
+    "seeNotifications": "Bildirimleri gör",
+    "share": "Paylaş",
+    "shareLink": "Bağlantıyı Paylaş",
+    "skip": "Atla",
+    "termsAndConditions": "Şartlar ve Koşullar",
+    "then": "sonra",
+    "tryAgain": "Yeniden Dene",
+    "tryForFree": "Ücretsiz Denemeyi Başlat",
+    "typing": "Yazıyor...",
+    "unlockNow": "Şimdi Kilidi Aç",
+    "update": "Güncelle",
+    "upgradePlan": "Planı Yükselt",
+    "viewProfile": "Profili Görüntüle",
+    "yes": "Evet",
+    "chatBotPlaceholder": "Merhaba. Herhangi bir sorunuz varsa, {{topic}} alanını keşfetmenize yardımcı olabilirim. Sadece eğitim amaçlıdır."
+  },
+  "weekDays": {
+    "today": "Bugün",
+    "yesterday": "Dün"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Röntgen, BT, MR, EKG ve daha fazlası dahil olmak üzere çeşitli tıbbi taramalardan analiz alın",
+      "second": "Tüm premium özelliklere erişim",
+      "fourth": "7/24 tıbbi AI asistanlarıyla sınırsız sohbet",
+      "third": "Reklam yok"
+    },
+    "UpgradeBanner": {
+      "heading": "Şimdi Kilidi Aç",
+      "subheading": "Tüm avantajlardan kısıtlama olmadan yararlanın"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Tıbbi Görüntü Analizcisi",
+      "askMedicalAssistant": "Tıbbi AI Asistanına Sor",
+      "medicalAssistant": "Tıbbi Asistan",
+      "imageTypes": {
+        "xray": "Röntgen",
+        "ct": "BT",
+        "mri": "MR",
+        "ultrasound": "Ultrason",
+        "ecg": "EKG",
+        "skinLesion": "Cilt Lezyonu",
+        "mammogram": "Mamografi",
+        "retinalScan": "Retina Taraması",
+        "bloodSmear": "Kan Yayması",
+        "dental": "Diş",
+        "pet": "PET",
+        "dexa": "DEXA / Kemik Yoğunluğu Taraması",
+        "angiography": "Anjiyografi",
+        "echo": "Ekokardiyografi (ECHO)",
+        "fluoroscopy": "Floroskopi"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Aile Hekimliği",
+          "subtitle": "Genel Pratisyen"
+        },
+        "internalMedicine": {
+          "title": "İç Hastalıkları"
+        },
+        "pediatrics": {
+          "title": "Pediatri"
+        },
+        "dermatology": {
+          "title": "Dermatoloji"
+        },
+        "cardiology": {
+          "title": "Kardiyoloji"
+        },
+        "orthopedics": {
+          "title": "Ortopedi"
+        },
+        "psychiatry": {
+          "title": "Psikiyatri",
+          "subtitle": "Zihinsel Sağlık"
+        },
+        "obstetricsGynecology": {
+          "title": "Kadın Hastalıkları ve Doğum",
+          "subtitle": "Kadın Doğum"
+        },
+        "neurology": {
+          "title": "Nöroloji"
+        },
+        "ophthalmology": {
+          "title": "Oftalmoloji"
+        },
+        "otolaryngology": {
+          "title": "Kulak Burun Boğaz",
+          "subtitle": "KBB"
+        },
+        "dentistry": {
+          "title": "Diş Hekimliği"
+        },
+        "radiology": {
+          "title": "Radyoloji",
+          "subtitle": "Görüntüleme"
+        },
+        "oncology": {
+          "title": "Onkoloji"
+        },
+        "endocrinology": {
+          "title": "Endokrinoloji"
+        },
+        "nephrology": {
+          "title": "Nefroloji"
+        },
+        "pulmonology": {
+          "title": "Göğüs Hastalıkları"
+        },
+        "gastroenterology": {
+          "title": "Gastroenteroloji"
+        },
+        "allergyImmunology": {
+          "title": "Alerji ve İmmünoloji"
+        },
+        "hematology": {
+          "title": "Hematoloji"
+        },
+        "rheumatology": {
+          "title": "Romatoloji"
+        },
+        "urology": {
+          "title": "Üroloji"
+        },
+        "emergencyMedicine": {
+          "title": "Acil Tıp"
+        },
+        "surgery": {
+          "title": "Cerrahi"
+        },
+        "anesthesiology": {
+          "title": "Anesteziyoloji"
+        },
+        "rehabilitationMedicine": {
+          "title": "Rehabilitasyon Tıbbı",
+          "subtitle": "Fizik Tedavi"
+        },
+        "geriatrics": {
+          "title": "Geriatri"
+        },
+        "publicHealth": {
+          "title": "Halk Sağlığı",
+          "subtitle": "Koruyucu Hekimlik"
+        },
+        "microscopy": {
+          "title": "Mikroskopi"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Fotoğraf Kütüphanesi",
+      "takePhoto": "Fotoğraf Çek",
+      "chooseFile": "Dosya Seç"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Zaten bir hesabım var",
+        "heading": "Doctor Med AI'ya Hoş Geldiniz!",
+        "startButton": "Hadi Başlayalım!"
+      },
+      "freeTrialPreview": {
+        "heading": "Ücretsiz deneme sürümünüzün tadını çıkarın! 🎉",
+        "review": "Bu uygulamayı tıbbi sorular, radyoloji taramaları ve çalışma için kullanıyorum - harika!",
+        "reviewTrust": "📈 5.212+ kullanıcı tarafından güveniliyor"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "AI analizi için hangi dili tercih edersiniz?",
+        "languageSelection": "AI yanıtları için bir dil seçin",
+        "languageSearchCriteria": "Dil, ülke kodu veya bayrağa göre ara",
+        "noLanguageFound": "Dil Bulunamadı",
+        "noLanguageFoundSubtitle": "Arama terimlerinizi değiştirmeyi deneyin"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Göğüs röntgeni ne gösterir?",
+          "two": "Kalp krizinin yaygın belirtileri nelerdir?",
+          "three": "Tansiyonumu doğal yollarla nasıl düşürebilirim?",
+          "four": "MR ve BT taraması arasındaki fark nedir?",
+          "five": "Diyabetin erken belirtileri nelerdir?",
+          "six": "Temel kan testi sonuçlarımı nasıl yorumlarım?",
+          "seven": "İdrar yolu enfeksiyonu (İYE) tedavisi nedir?",
+          "eight": "Ekokardiyogramın ne için kullanıldığını açıklayabilir misiniz?",
+          "nine": "Sağlıklı bir diyet için yönergeler nelerdir?",
+          "ten": "Yüksek kolesterole ne sebep olur?",
+          "eleven": "MR'da beyin tümörü nasıl tespit edilir?",
+          "twelve": "Aile hekimliğinin rolü nedir?",
+          "thirteen": "İnme risk faktörleri nelerdir?",
+          "fourteen": "Kaygı ve stres nasıl yönetilir?",
+          "fifteen": "Hipertansiyon yönetimi için en son yönergeler nelerdir?"
+        }
+      },
+      "notifications": {
+        "title": "Bildirimler",
+        "noNotifications": "Şu anda bildirim yok - güncellemeler için bizi takip edin!"
+      },
+      "rateAppScreen": {
+        "heading": "Uygulamayı değerli ve ilgi çekici buluyor musunuz?",
+        "like": "Evet, beğendim!",
+        "dislike": "Beğenmedim"
+      },
+      "profile": {
+        "title": "Profil",
+        "edit": "Profili Düzenle",
+        "placeholderPreferredName": "Örn., Süper Kahraman, Kraliçe Arı veya sadece Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Çevrimdışısınız",
+        "subheading": "Bağlantınız kararsız görünüyor. Lütfen ağ durumunuzu doğrulayın"
+      },
+      "newAppVersionScreen": {
+        "heading": "Doctor Med AI'nın yeni bir sürümü mevcut",
+        "subheading": "Tüm uygulama özelliklerinden yararlanmaya devam etmek için en son sürüme güncelleyin - sadece 5 saniye sürüyor!",
+        "action": "Hemen Alın!"
+      },
+      "disclaimerScreen": {
+        "heading": "Önemli Tıbbi Sorumluluk Reddi",
+        "subheading": "Doctor Med AI, radyoloji profesyonelleri, sağlık uzmanları, tıp öğrencileri ve meraklılar için tasarlanmıştır",
+        "consentAgreement": "Sorumluluk reddini okudum ve kabul ediyorum.",
+        "firstConsent": "Doctor Med AI sağlık ölçümleri veya tedavi tavsiyesi sağlamaz, ne de bu amaçlar için tasarlanmıştır. Doctor Med AI kullanıcıları, herhangi bir klinik karar vermeden önce kendi klinik yargılarını uygulamalı ve yetkili kaynaklardan bilgi doğrulamalıdır.",
+        "secondConsent": "Doctor Med AI bir teşhis aracı, tedavi platformu veya profesyonel tıbbi tavsiyenin yerine geçmez. Sağlık uzmanlarının tıbbi bilgiye erişmelerine ve tıbbi görüntüleri ve belgeleri analiz etmelerine yardımcı olmak için AI tarafından oluşturulmuş içgörüler sunar. Doctor Med AI, lisanslı sağlık uzmanlarını desteklemek için tasarlanmış AI destekli bilgilendirici ve eğitici bir uygulamadır.",
+        "thirdConsent": "Doctor Med AI hasta kullanımı için tasarlanmamıştır. Doğrudan tıbbi teşhisler, tedavi önerileri veya hasta yönetimi işlevselliği sağlamaz.",
+        "fourthConsent": "Doctor Med AI tıbbi cihaz olarak sınıflandırılmamıştır ve düzenleyici onay iddiasında bulunmaz. Profesyonel uzmanlığı tamamlamak için eğitim ve bilgilendirme amaçlıdır.",
+        "fifthConsent": "Doctor Med AI kişisel veya hasta verilerini toplamaz, saklamaz veya işlemez. Tüm kullanıcı etkileşimleri gizlidir ve uygulamanın kapsamıyla sınırlıdır."
+      },
+      "contactUs": {
+        "heading": "Bizimle doğrudan e-posta yoluyla iletişime geçmekten çekinmeyin, ekibimiz en kısa sürede size dönüş yapacaktır",
+        "customerSupport": "Müşteri Desteği",
+        "emailAddress": "E-posta Adresi"
+      },
+      "rate": {
+        "title": "Bize geri bildirim verin!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Sonuç Bulunamadı - Ama Endişelenmeyin!",
+          "notFoundSubtitle": "Farklı anahtar kelimeler kullanmayı deneyin veya doğrudan AI tıp asistanımıza sorun",
+          "askAssistant": "Tıp Asistanına Sor"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Ücretsiz Deneme Etkin",
+          "heading": "Sınırsız Erişim",
+          "title": "Premium Özellikleri Bugün Açın!",
+          "firstOffering": "Tüm Premium Özelliklere Erişim",
+          "secondOffering": "Reklamsız Deneyim",
+          "thirdOffering": "Tıbbi görüntüler, videolar, PDF taramaları + raporların sınırsız analizi",
+          "fourthOffering": "7/24 AI tıp asistanlarıyla sınırsız sohbet"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "AI Destekli Sağlık Yardımcınız",
+          "subtitle": "Uzman AI doktorlardan anında tıbbi içgörü ve rehberlik alın, istediğiniz zaman, istediğiniz yerde."
+        },
+        "secondOnboarding": {
+          "title": "Sorun, Yükleyin ve Tıbbi İçgörü Elde Edin",
+          "subtitle": "Farklı uzmanlıklardaki AI doktorlarla sohbet edin veya hızlı tıbbi analiz için tıbbi görüntüler yükleyin."
+        },
+        "thirdOnboarding": {
+          "title": "Gizliliğiniz Önemli",
+          "subtitle": "Gizliliğinizi korumaya kararlıyız. Kişisel veri toplamıyoruz. Yüklediğiniz dosyalar gizli kalır ve asla paylaşılmaz."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Premium Özellikleri Bugün Açın!",
+        "firstOffering": {
+          "title": "Ücretsiz Denemeyi Başlat",
+          "subtitle": "{{freeScans}} ücretsiz taramadan yararlanın - ödeme yok"
+        },
+        "secondOffering": {
+          "title": "Aylık Plan",
+          "subtitle": "{{ price }}/ay"
+        },
+        "thirdOffering": {
+          "title": "Yıllık Plan",
+          "subtitle": "{{ price }} yıllık"
+        },
+        "fourthOffering": {
+          "title": "{{trialDays}}-Günlük Deneme",
+          "subtitle": "{{ price }} yıllık",
+          "plan": "Haftalık Plan"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Hakkında",
+    "app_name": "Uygulama Adı",
+    "citations": "Tıbbi bilgi için alıntılar",
+    "contactUs": "Bize Ulaşın",
+    "devMode": {
+      "componentsLibrary": "UI kütüphanesi",
+      "title": "Geliştirici modu"
+    },
+    "faq": "SSS",
+    "generale": "Genel",
+    "github": "Github",
+    "language": "Dil",
+    "languages": {
+      "arabic": "Arapça",
+      "catalan": "Katalanca",
+      "croatian": "Hırvatça",
+      "czech": "Çekçe",
+      "danish": "Danca",
+      "dutch": "Felemenkçe",
+      "english": "İngilizce",
+      "finnish": "Fince",
+      "french": "Fransızca",
+      "french_canada": "Fransızca (Kanada)",
+      "german": "Almanca",
+      "greek": "Yunanca",
+      "hebrew": "İbranice",
+      "hindi": "Hintçe",
+      "hungarian": "Macarca",
+      "indonesian": "Endonezce",
+      "italian": "İtalyanca",
+      "japanese": "Japonca",
+      "korean": "Korece",
+      "malay": "Malayca",
+      "mandarin_chinese": "Çince",
+      "norwegian": "Norveççe",
+      "polish": "Lehçe",
+      "portuguese_brazil": "Portekizce (Brezilya)",
+      "portuguese_portugal": "Portekizce (Portekiz)",
+      "romanian": "Rumence",
+      "russian": "Rusça",
+      "slovak": "Slovakça",
+      "spanish_mexico": "İspanyolca (Meksika)",
+      "spanish_spain": "İspanyolca (İspanya)",
+      "swedish": "İsveççe",
+      "thai": "Tayca",
+      "turkish": "Türkçe",
+      "ukrainian": "Ukraynaca",
+      "vietnamese": "Vietnamca"
+    },
+    "links": "Bağlantılar",
+    "logout": "Çıkış Yap",
+    "more": "Daha Fazla",
+    "privacy": "Gizlilik Politikası",
+    "profile": "Profil",
+    "rate": "Geri Bildirim",
+    "share": "Paylaş",
+    "support": "Destek",
+    "support_us": "Bizi Destekleyin",
+    "tab": "Ayarlar",
+    "terms": "Hizmet Şartları",
+    "theme": {
+      "dark": "Koyu",
+      "light": "Açık",
+      "system": "Sistem",
+      "title": "Tema"
+    },
+    "title": "Ayarlar",
+    "version": "Sürüm",
+    "website": "Web Sitesi"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Üzgünüz, bunun çalışması için kamera izinlerine ihtiyacımız var!",
+    "errorSelectingImagePicker": "Görsel seçilirken bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
+    "errorSelectingDocumentPicker": "Belge seçilirken bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
+    "errorTakingPicture": "Fotoğraf çekilirken bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
+    "enableNotifications": {
+      "heading": "Bildirimleri Etkinleştir",
+      "subHeading": "Bildirimler şu anda kapalı. Güncel kalmak için lütfen cihaz ayarlarınızdan etkinleştirin."
+    },
+    "enableNotificationFailed": "Push bildirimleri devre dışı. Önemli güncellemeleri almak için ayarlardan etkinleştirin!",
+    "enableNotificationError": "Bildirimler etkinleştirilirken bir hata oluştu",
+    "notificationDisabledSuccess": "Bildirimler başarıyla devre dışı bırakıldı.",
+    "notificationDisabledRegisterError": "Bildirimler için cihaz kaydı kaldırılamadı.",
+    "notificationDisabledError": "Bildirimler devre dışı bırakılırken bir hata oluştu.",
+    "checkNotificationStatusError": "Bildirim durumu kontrol edilirken hata.",
+    "projectIdNotFound": "Bildirim proje kimliği bulunamadı.",
+    "imageSizeLarge": "Görsel çok büyük! Dosya boyutu {{fileSize}} MB, ancak limit {{imageLimit}} MB.",
+    "videoSizeLarge": "Video çok büyük! Dosya boyutu {{fileSize}} MB, ancak limit {{videoLimit}} MB.",
+    "loggedInSuccess": "Başarıyla giriş yapıldı",
+    "loggedOutSuccess": "Başarıyla çıkış yaptınız!",
+    "sendVerificationCodeError": "Doğrulama kodu gönderilirken hata",
+    "validateAuthCodeError": "Auth kodu doğrulanırken hata",
+    "anonymousSignInError": "Anonim giriş yapılırken hata",
+    "emailLoginError": "Giriş yapılırken hata",
+    "preferredLanguageError": "Kullanıcının tercih edilen dili güncellenirken hata",
+    "sharingNotAvailable": "Paylaşım şu anda cihazınızda kullanılamıyor",
+    "sharingLinkError": "Bağlantı paylaşılamadı.",
+    "individualPushNotificationSuccess": "Bireysel push bildirimleri başarıyla gönderildi!",
+    "globalPushNotificationSuccess": "Küresel push bildirimleri başarıyla gönderildi! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Yorumlama alanları güncellenemedi! ❌",
+    "deleteScanReportFail": "Tarama raporu silinemedi. Lütfen tekrar deneyin",
+    "onboardingUnsuccessful": "Hoş geldiniz işlemi başarısız. Lütfen tekrar deneyin",
+    "logoutUnsuccessful": "Çıkış başarısız. Lütfen tekrar deneyin",
+    "deleteScanReportQuestion": "Bu raporu kalıcı olarak silmek istediğinizden emin misiniz?",
+    "videoLimitExceeds": "Videonuz {{videoSecondsLimit}} saniyelik limiti aşıyor. Lütfen kırpın ve yeniden yükleyin",
+    "subscriptionActivated": "Aboneliğiniz başarıyla etkinleştirildi! Özel avantajlarınızın tadını çıkarın!",
+    "subscriptionCancelledByUser": "İşlemi iptal ettiniz. Tekrar denemekten çekinmeyin!",
+    "subscriptionActivationFailed": "Aboneliğiniz etkinleştirilemedi. Lütfen tekrar deneyin",
+    "logoutQuestion": "Çıkış yapmak istediğinizden emin misiniz?",
+    "noSubscriptionToRestore": "Oops! Görünüşe göre şu anda aktif bir aboneliğiniz yok. Tam erişimin keyfini çıkarmaya devam etmek için lütfen abonelik planlarımızdan birini seçin.",
+    "restorationSuccessful": "Geri yükleme başarılı oldu! Keyfini çıkarın!",
+    "restorationError": "Satın alma geri yüklenirken bir hata oluştu.",
+    "medicalDisclaimerAlert": "Doctor Med AI uygulaması tıbbi danışmanın yerine geçmez. Bazı teşhisler yalnızca bilgilendirme/eğitim amaçlıdır. Tıbbi öneriler için her zaman bir doktora veya lisanslı uzmana danışın.",
+    "scanLimitReached": "Sizin için tarama kalitesini optimize ediyoruz! Yaklaşık {{hours}} saat {{minutes}} dakika sonra tekrar tarama yapabileceksiniz. Herhangi bir tıbbi konu hakkında sorunuz var mı? Beklerken sohbet asistanımıza sorun!",
+    "mixedMediaNotAllowed": "Daha iyi doğruluk için farklı medya dosyalarının karışımını yüklemeyin. Lütfen yalnızca görseller, videolar veya pdf'ler yükleyin - hepsini birlikte değil.",
+    "multipleVideosNotAllowed": "Daha iyi doğruluk için lütfen aynı anda yalnızca bir video yükleyin.",
+    "mediaFilesUploadFiles": "Medya dosyalarınız yüklenirken bir hata oluştu. Lütfen tekrar deneyin.",
+    "chatAndMediaFilesLimit": "Sayın kullanıcı, sınırsız sohbet, sınırsız tarama, çoklu görsel analiz ve daha fazlasından yararlanmak için planınızı yükseltmeniz gerekiyor. 🔓"
+  },
+  "deleteApp": {
+    "title": "Bekle! Beni silme!",
+    "subtitle": "Bunun yerine geri bildirim gönder"
+  }
+}

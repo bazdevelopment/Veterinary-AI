@@ -95,7 +95,7 @@ const CitationsScreen: React.FC = () => {
             key={source.id}
             className="mb-6 rounded-lg border border-gray-200 p-4"
           >
-            <Text className="mb-2 font-semibold-work-sans text-lg text-blue-700">
+            <Text className="mb-2 font-semibold-poppins text-lg text-blue-700">
               {source.category}
             </Text>
             <Text className="mb-2 text-sm text-gray-600">
@@ -114,7 +114,7 @@ const CitationsScreen: React.FC = () => {
           </View>
         ))}
         <View className="my-4 border-t border-gray-200 pt-4">
-          <Text className="font-work-sans-bold text-center text-sm">
+          <Text className="font-poppins-bold text-center text-sm">
             Information provided by the Doctor Med AI is for informational
             purposes only and does not constitute medical advice, diagnosis, or
             treatment. Always consult a qualified healthcare professional for

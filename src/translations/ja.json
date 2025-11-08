@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "戻る",
+    "welcome": "こんにちは",
+    "welcomeBack": "おかえりなさい！",
+    "welcomeMessage": "ようこそ！",
+    "continue": "続ける",
+    "retry": "再試行",
+    "close": "閉じる",
+    "gallery": "ギャラリー",
+    "files": "ファイル",
+    "seeAll": "すべて表示",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "attention": "注意！",
+    "new": "新規",
+    "activeSubscription": "サブスクリプション有効",
+    "agreeingMessage": "続行することにより、以下に同意したものとみなされます",
+    "and": "および",
+    "askAssistant": "AIアシスタントに質問",
+    "chatbotPlaceholder": "何でも聞いてください...",
+    "completedScans": "スキャン完了",
+    "conversationHistory": "会話履歴",
+    "medicalAssistants": "医療アシスタント",
+    "searchAssistant": "アシスタントを検索...",
+    "analyzingMediaFilesPlaceholder": "メディアファイルを分析中...",
+    "copyText": {
+      "copied": "コピーしました！",
+      "copy": "リンクをコピー",
+      "loading": "コピー中..."
+    },
+    "createdAt": "作成日",
+    "download": "ダウンロード",
+    "free": "無料",
+    "freeTrial": "無料トライアル",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "医療画像をスキャンしています。しばらくお待ちください...",
+        "fourth": "もうすぐです。スキャンを終了しています...",
+        "second": "詳細を分析しています。しばらく時間がかかる場合があります...",
+        "third": "最良の結果を得るために精度を向上させています..."
+      },
+      "initialAppLoad": {
+        "first": "あなたに合わせたエクスペリエンスを読み込んでいます...",
+        "fourth": "もうすぐです。少々お待ちください...",
+        "second": "システムを同期しています...",
+        "third": "データを処理しています..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Medがサポートの準備をしています...",
+        "second": "お待ちください！Dr. Medが回答を準備しています...",
+        "third": "考え中...あなたのアシスタントDr. Medが対応中です！"
+      }
+    },
+    "tabs": {
+      "home": "ホーム",
+      "chat": "チャット",
+      "aiDoctors": "AI医師",
+      "settings": "設定"
+    },
+    "medicalDisclaimer": "医療免責事項",
+    "next": "次へ",
+    "noPaymentNow": "今すぐの支払いはありません。いつでもキャンセル可能。",
+    "online": "オンライン",
+    "openSettings": "設定を開く",
+    "or": "または",
+    "perMonth": "月額",
+    "perWeek": "週額",
+    "perYear": "年額",
+    "privacyPolicy": "プライバシーポリシー",
+    "restorePurchase": "購入を復元",
+    "termsOfUse": "利用規約",
+    "saveDiscount": "節約",
+    "seeNotifications": "通知を表示",
+    "share": "共有",
+    "shareLink": "リンクを共有",
+    "skip": "スキップ",
+    "termsAndConditions": "利用規約",
+    "then": "その後",
+    "tryAgain": "もう一度試す",
+    "tryForFree": "無料トライアルを開始",
+    "typing": "入力中...",
+    "unlockNow": "今すぐロック解除",
+    "update": "更新",
+    "upgradePlan": "プランをアップグレード",
+    "viewProfile": "プロフィールを表示",
+    "yes": "はい",
+    "chatBotPlaceholder": "こんにちは。ご質問があれば、{{topic}}分野の探求をお手伝いします。教育目的のみに使用してください。"
+  },
+  "weekDays": {
+    "today": "今日",
+    "yesterday": "昨日"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "X線、CT、MRI、心電図など、さまざまな医療スキャンからの分析を取得",
+      "second": "すべてのプレミアム機能にアクセス",
+      "fourth": "24時間365日の医療AIアシスタントとの無制限チャット",
+      "third": "広告なし"
+    },
+    "UpgradeBanner": {
+      "heading": "今すぐロック解除",
+      "subheading": "制限なくすべての特典をお楽しみください"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "医療画像分析",
+      "askMedicalAssistant": "医療AIアシスタントに質問",
+      "medicalAssistant": "医療アシスタント",
+      "imageTypes": {
+        "xray": "X線",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "超音波",
+        "ecg": "心電図",
+        "skinLesion": "皮膚病変",
+        "mammogram": "マンモグラフィ",
+        "retinalScan": "網膜スキャン",
+        "bloodSmear": "血液塗抹",
+        "dental": "歯科",
+        "pet": "PET",
+        "dexa": "DEXA / 骨密度スキャン",
+        "angiography": "血管造影",
+        "echo": "心エコー図（ECHO）",
+        "fluoroscopy": "透視"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "家庭医療",
+          "subtitle": "総合診療"
+        },
+        "internalMedicine": {
+          "title": "内科"
+        },
+        "pediatrics": {
+          "title": "小児科"
+        },
+        "dermatology": {
+          "title": "皮膚科"
+        },
+        "cardiology": {
+          "title": "循環器内科"
+        },
+        "orthopedics": {
+          "title": "整形外科"
+        },
+        "psychiatry": {
+          "title": "精神科",
+          "subtitle": "メンタルヘルス"
+        },
+        "obstetricsGynecology": {
+          "title": "産婦人科",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "神経内科"
+        },
+        "ophthalmology": {
+          "title": "眼科"
+        },
+        "otolaryngology": {
+          "title": "耳鼻咽喉科",
+          "subtitle": "ENT"
+        },
+        "dentistry": {
+          "title": "歯科"
+        },
+        "radiology": {
+          "title": "放射線科",
+          "subtitle": "画像診断"
+        },
+        "oncology": {
+          "title": "腫瘍内科"
+        },
+        "endocrinology": {
+          "title": "内分泌内科"
+        },
+        "nephrology": {
+          "title": "腎臓内科"
+        },
+        "pulmonology": {
+          "title": "呼吸器内科"
+        },
+        "gastroenterology": {
+          "title": "消化器内科"
+        },
+        "allergyImmunology": {
+          "title": "アレルギー・免疫学"
+        },
+        "hematology": {
+          "title": "血液内科"
+        },
+        "rheumatology": {
+          "title": "リウマチ科"
+        },
+        "urology": {
+          "title": "泌尿器科"
+        },
+        "emergencyMedicine": {
+          "title": "救急医学"
+        },
+        "surgery": {
+          "title": "外科"
+        },
+        "anesthesiology": {
+          "title": "麻酔科"
+        },
+        "rehabilitationMedicine": {
+          "title": "リハビリテーション医学",
+          "subtitle": "理学療法"
+        },
+        "geriatrics": {
+          "title": "老年医学"
+        },
+        "publicHealth": {
+          "title": "公衆衛生",
+          "subtitle": "予防医学"
+        },
+        "microscopy": {
+          "title": "顕微鏡検査"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "写真ライブラリ",
+      "takePhoto": "写真を撮る",
+      "chooseFile": "ファイルを選択"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "既にアカウントをお持ちの方",
+        "heading": "Doctor Med AIへようこそ！",
+        "startButton": "始めましょう！"
+      },
+      "freeTrialPreview": {
+        "heading": "無料トライアルをお楽しみください！🎉",
+        "review": "医療質問、放射線スキャン、学習にこのアプリを使用しています — 素晴らしいです！",
+        "reviewTrust": "📈 5,212人以上のユーザーに信頼されています"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "AI分析にどの言語を希望しますか？",
+        "languageSelection": "AI応答の言語を選択",
+        "languageSearchCriteria": "言語、国コード、または国旗で検索",
+        "noLanguageFound": "言語が見つかりません",
+        "noLanguageFoundSubtitle": "検索条件を変更してみてください"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "胸部X線写真は何を示していますか？",
+          "two": "心臓発作の一般的な症状は何ですか？",
+          "three": "自然に血圧を下げる方法は？",
+          "four": "MRIとCTスキャンの違いは何ですか？",
+          "five": "糖尿病の初期症状は何ですか？",
+          "six": "基本的な血液検査結果をどのように解釈しますか？",
+          "seven": "尿路感染症（UTI）の治療法は？",
+          "eight": "心エコー図の用途について説明できますか？",
+          "nine": "健康的な食事のガイドラインは？",
+          "ten": "高コレステロールの原因は？",
+          "eleven": "MRIで脳腫瘍はどのように検出されますか？",
+          "twelve": "家庭医療の役割は何ですか？",
+          "thirteen": "脳卒中の危険因子は何ですか？",
+          "fourteen": "不安やストレスをどのように管理しますか？",
+          "fifteen": "高血圧管理の最新ガイドラインは？"
+        }
+      },
+      "notifications": {
+        "title": "通知",
+        "noNotifications": "現在通知はありません — 更新をお待ちください！"
+      },
+      "rateAppScreen": {
+        "heading": "このアプリは価値があり魅力的だと思いますか？",
+        "like": "はい、気に入りました！",
+        "dislike": "気に入りません"
+      },
+      "profile": {
+        "title": "プロフィール",
+        "edit": "プロフィールを編集",
+        "placeholderPreferredName": "例：クールキャプテン、クイーンビー、または単にアレックス！"
+      },
+      "noInternetScreen": {
+        "heading": "オフラインです",
+        "subheading": "接続が不安定なようです。ネットワークステータスを確認してください"
+      },
+      "newAppVersionScreen": {
+        "heading": "Doctor Med AIの新しいバージョンが利用可能です",
+        "subheading": "すべてのアプリ機能を引き続きお楽しみいただくには、最新バージョンに更新してください — わずか5秒で完了します！",
+        "action": "今すぐ入手！"
+      },
+      "disclaimerScreen": {
+        "heading": "重要な医療免責事項",
+        "subheading": "Doctor Med AIは、放射線科専門家、医療専門家、医学生、愛好家向けに設計されています",
+        "consentAgreement": "免責事項を読み、同意しました。",
+        "firstConsent": "Doctor Med AIは健康測定や治療アドバイスを提供せず、そのような目的を意図したものではありません。Doctor Med AIのユーザーは、臨床的判断を適用し、臨床的決定を行う前に信頼できる情報源から情報を検証する必要があります。",
+        "secondConsent": "Doctor Med AIは診断ツール、治療プラットフォーム、または専門的な医療アドバイスの代替手段ではありません。医療専門家が医学的知識にアクセスし、医療画像や文書を分析するのを支援するためにAI生成の洞察を提供します。Doctor Med AIは、主にライセンスを持つ医療専門家をサポートするために設計されたAI駆動の情報提供および教育アプリです。",
+        "thirdConsent": "Doctor Med AIは患者使用向けに設計されていません。直接的な医学的診断、治療推奨、または患者管理機能を提供しません。",
+        "fourthConsent": "Doctor Med AIは医療機器として分類されておらず、規制承認を主張しません。専門知識を補完するための教育および情報提供を目的としています。",
+        "fifthConsent": "Doctor Med AIは個人または患者データを収集、保存、または処理しません。すべてのユーザーインタラクションは機密であり、アプリの範囲に限定されます。"
+      },
+      "contactUs": {
+        "heading": "直接メールでお問い合わせください。当社チームができるだけ早くご連絡いたします",
+        "customerSupport": "カスタマーサポート",
+        "emailAddress": "メールアドレス"
+      },
+      "rate": {
+        "title": "フィードバックをお願いします！"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "結果が見つかりません — しかしご安心ください！",
+          "notFoundSubtitle": "別のキーワードを使用するか、AI医療アシスタントに直接お問い合わせください",
+          "askAssistant": "医療アシスタントに質問"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "無料トライアル有効",
+          "heading": "無制限アクセス",
+          "title": "プレミアム機能を今すぐロック解除！",
+          "firstOffering": "すべてのプレミアム機能にアクセス",
+          "secondOffering": "広告なしエクスペリエンス",
+          "thirdOffering": "医療画像、動画、PDFスキャン＋レポートの無制限分析",
+          "fourthOffering": "24時間365日のAI医療アシスタントとの無制限チャット"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "あなたのAI駆動ヘルスケアコンパニオン",
+          "subtitle": "専門AI医師からいつでもどこでも即時の医療インサイトとガイダンスを入手"
+        },
+        "secondOnboarding": {
+          "title": "質問、アップロード、医療インサイトの取得",
+          "subtitle": "さまざまな専門分野のAI医師とチャットするか、医療画像をアップロードして迅速な医療分析を実行"
+        },
+        "thirdOnboarding": {
+          "title": "あなたのプライバシーが重要です",
+          "subtitle": "私たちはあなたのプライバシーを保護することにコミットしています。個人データを収集することはありません。アップロードしたファイルはすべて非公開のままで、共有されることはありません。"
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "プレミアム機能を今すぐロック解除！",
+        "firstOffering": {
+          "title": "無料トライアルを開始",
+          "subtitle": "{{freeScans}}回の無料スキャンをお楽しみください – 支払いなし"
+        },
+        "secondOffering": {
+          "title": "月額プラン",
+          "subtitle": "{{ price }}/月"
+        },
+        "thirdOffering": {
+          "title": "年間プラン",
+          "subtitle": "{{ price }} 年額"
+        },
+        "fourthOffering": {
+          "title": "{{trialDays}}日間トライアル",
+          "subtitle": "{{ price }} 年額",
+          "plan": "週間プラン"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "約",
+    "app_name": "アプリ名",
+    "citations": "医療情報の引用",
+    "contactUs": "お問い合わせ",
+    "devMode": {
+      "componentsLibrary": "UIライブラリ",
+      "title": "開発者モード"
+    },
+    "faq": "よくある質問",
+    "generale": "一般",
+    "github": "Github",
+    "language": "言語",
+    "languages": {
+      "arabic": "アラビア語",
+      "catalan": "カタロニア語",
+      "croatian": "クロアチア語",
+      "czech": "チェコ語",
+      "danish": "デンマーク語",
+      "dutch": "オランダ語",
+      "english": "英語",
+      "finnish": "フィンランド語",
+      "french": "フランス語",
+      "french_canada": "フランス語（カナダ）",
+      "german": "ドイツ語",
+      "greek": "ギリシャ語",
+      "hebrew": "ヘブライ語",
+      "hindi": "ヒンディー語",
+      "hungarian": "ハンガリー語",
+      "indonesian": "インドネシア語",
+      "italian": "イタリア語",
+      "japanese": "日本語",
+      "korean": "韓国語",
+      "malay": "マレー語",
+      "mandarin_chinese": "中国語",
+      "norwegian": "ノルウェー語",
+      "polish": "ポーランド語",
+      "portuguese_brazil": "ポルトガル語（ブラジル）",
+      "portuguese_portugal": "ポルトガル語（ポルトガル）",
+      "romanian": "ルーマニア語",
+      "russian": "ロシア語",
+      "slovak": "スロバキア語",
+      "spanish_mexico": "スペイン語（メキシコ）",
+      "spanish_spain": "スペイン語（スペイン）",
+      "swedish": "スウェーデン語",
+      "thai": "タイ語",
+      "turkish": "トルコ語",
+      "ukrainian": "ウクライナ語",
+      "vietnamese": "ベトナム語"
+    },
+    "links": "リンク",
+    "logout": "ログアウト",
+    "more": "もっと",
+    "privacy": "プライバシーポリシー",
+    "profile": "プロフィール",
+    "rate": "フィードバック",
+    "share": "共有",
+    "support": "サポート",
+    "support_us": "私たちをサポート",
+    "tab": "設定",
+    "terms": "利用規約",
+    "theme": {
+      "dark": "ダーク",
+      "light": "ライト",
+      "system": "システム",
+      "title": "テーマ"
+    },
+    "title": "設定",
+    "version": "バージョン",
+    "website": "ウェブサイト"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "申し訳ありませんが、これを機能させるにはカメラの許可が必要です！",
+    "errorSelectingImagePicker": "画像の選択中に問題が発生しました。もう一度お試しください。",
+    "errorSelectingDocumentPicker": "ドキュメントの選択中に問題が発生しました。もう一度お試しください。",
+    "errorTakingPicture": "写真の撮影中に問題が発生しました。もう一度お試しください。",
+    "enableNotifications": {
+      "heading": "通知を有効にする",
+      "subHeading": "通知は現在オフになっています。最新情報を入手するには、デバイスの設定で有効にしてください。"
+    },
+    "enableNotificationFailed": "プッシュ通知が無効になっています。重要な更新を受け取るには設定で有効にしてください！",
+    "enableNotificationError": "通知の有効化中にエラーが発生しました",
+    "notificationDisabledSuccess": "通知が正常に無効化されました。",
+    "notificationDisabledRegisterError": "通知のデバイス登録解除に失敗しました。",
+    "notificationDisabledError": "通知の無効化中にエラーが発生しました。",
+    "checkNotificationStatusError": "通知ステータスの確認中にエラーが発生しました。",
+    "projectIdNotFound": "通知プロジェクトIDが見つかりません。",
+    "imageSizeLarge": "画像が大きすぎます！ファイルサイズは{{fileSize}} MBですが、制限は{{imageLimit}} MBです。",
+    "videoSizeLarge": "動画が大きすぎます！ファイルサイズは{{fileSize}} MBですが、制限は{{videoLimit}} MBです。",
+    "loggedInSuccess": "正常にログインしました",
+    "loggedOutSuccess": "正常にログアウトしました！",
+    "sendVerificationCodeError": "確認コードの送信中にエラーが発生しました",
+    "validateAuthCodeError": "認証コードの検証中にエラーが発生しました",
+    "anonymousSignInError": "匿名サインイン中にエラーが発生しました",
+    "emailLoginError": "サインイン中にエラーが発生しました",
+    "preferredLanguageError": "ユーザーの優先言語の更新中にエラーが発生しました",
+    "sharingNotAvailable": "共有は現在お使いのデバイスでは利用できません",
+    "sharingLinkError": "リンクの共有に失敗しました。",
+    "individualPushNotificationSuccess": "個別プッシュ通知が正常に送信されました！",
+    "globalPushNotificationSuccess": "グローバルプッシュ通知が正常に送信されました！🌍🚀",
+    "interpretationFieldsUpdateFail": "解釈フィールドの更新に失敗しました！❌",
+    "deleteScanReportFail": "スキャンレポートを削除できません。もう一度お試しください",
+    "onboardingUnsuccessful": "オンボーディングが成功しませんでした。もう一度お試しください",
+    "logoutUnsuccessful": "ログアウトが成功しませんでした。もう一度お試しください",
+    "deleteScanReportQuestion": "このレポートを完全に削除してもよろしいですか？",
+    "videoLimitExceeds": "動画が{{videoSecondsLimit}}秒の制限を超えています。トリミングして再アップロードしてください",
+    "subscriptionActivated": "サブスクリプションが正常にアクティベートされました！限定特典をお楽しみください！",
+    "subscriptionCancelledByUser": "取引をキャンセルしました。いつでも再試行してください！",
+    "subscriptionActivationFailed": "サブスクリプションのアクティベートに失敗しました。もう一度お試しください",
+    "logoutQuestion": "ログアウトしますか？",
+    "noSubscriptionToRestore": "おっと！現在アクティブなサブスクリプションがないようです。フルアクセスを引き続きお楽しみいただくには、サブスクリプションプランのいずれかを選択してください。",
+    "restorationSuccessful": "復元が成功しました！お楽しみください！",
+    "restorationError": "購入の復元中にエラーが発生しました。",
+    "medicalDisclaimerAlert": "Doctor Med AIアプリは医療相談の代わりにはなりません。一部の診断は情報提供/教育目的のみです。医療に関する推奨事項については、常に医師または認定専門家に相談してください。",
+    "scanLimitReached": "スキャン品質を最適化しています！約{{hours}}時間{{minutes}}分後に再スキャンできます。医療トピックについて質問がありますか？待機中にチャットアシスタントにお聞きください！",
+    "mixedMediaNotAllowed": "精度を高めるため、異なるメディアファイルを混在させてアップロードしないでください。画像、動画、またはPDFのみをアップロードしてください — すべて一緒にはしないでください。",
+    "multipleVideosNotAllowed": "精度を高めるため、一度に1つの動画のみアップロードしてください。",
+    "mediaFilesUploadFiles": "メディアファイルのアップロード中にエラーが発生しました。もう一度お試しください。",
+    "chatAndMediaFilesLimit": "ユーザーの皆様、無制限チャット、無制限スキャン、複数画像分析などの利点を得るには、プランをアップグレードする必要があります。🔓"
+  },
+  "deleteApp": {
+    "title": "待って！削除しないで！",
+    "subtitle": "代わりにフィードバックを送信してください"
+  }
+}

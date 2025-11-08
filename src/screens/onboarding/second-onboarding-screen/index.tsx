@@ -34,7 +34,7 @@ const SecondOnboardingScreen = ({
           />
 
           <View className="mt-14">
-            <Text className="font-bold-work-sans text-3xl">
+            <Text className="font-bold-poppins text-3xl">
               {translate(
                 'rootLayout.screens.onboarding.secondOnboarding.title'
               )}
@@ -52,7 +52,7 @@ const SecondOnboardingScreen = ({
           label={translate('general.continue')}
           variant="default"
           className="h-[55px] rounded-full bg-primary-900 pl-5 dark:bg-primary-900"
-          textClassName="font-semibold-work-sans text-lg dark:text-white "
+          textClassName="font-semibold-poppins text-lg dark:text-white "
           iconPosition="right"
           icon={<ArrowRightSharp color={colors.white} />}
           onPress={goToNextScreen}

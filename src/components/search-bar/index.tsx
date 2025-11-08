@@ -38,7 +38,7 @@ const SearchBar: React.FC<ISearchBar> = ({
           />
         </View>
         <TextInput
-          className="ml-2 flex-1 font-medium-work-sans text-gray-800 dark:text-white"
+          className="ml-2 flex-1 font-medium-poppins text-gray-800 dark:text-white"
           placeholder={placeholder}
           placeholderTextColor={
             isDark ? colors.charcoal[200] : colors.charcoal[800]
@@ -47,6 +47,7 @@ const SearchBar: React.FC<ISearchBar> = ({
           onChangeText={onChangeText}
           autoCapitalize="none"
           autoCorrect={false}
+          allowFontScaling={true}
         />
         {value.length > 0 && (
           <TouchableOpacity onPress={handleClear} className="mr-2">

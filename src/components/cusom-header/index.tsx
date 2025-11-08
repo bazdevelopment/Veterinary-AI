@@ -42,12 +42,12 @@ const CustomHeader = ({
           </TouchableOpacity>
         )}
         {titlePosition === 'left' && !onGoBack && (
-          <Text className="ml-4 font-bold-work-sans text-3xl text-gray-800">
+          <Text className="ml-4 font-bold-poppins text-3xl text-gray-800">
             {title}
           </Text>
         )}
         {titlePosition === 'left' && onGoBack && (
-          <Text className="ml-20 font-bold-work-sans text-2xl text-gray-800">
+          <Text className="ml-20 font-bold-poppins text-2xl text-gray-800">
             {title}
           </Text>
         )}
@@ -66,7 +66,7 @@ const CustomHeader = ({
       >
         {titlePosition !== 'left' && (
           <Text
-            className={`max-w-[70%] text-center font-bold-work-sans text-2xl text-gray-800 z-10 ${titleClassName}`}
+            className={`max-w-[70%] text-center font-bold-poppins text-2xl text-gray-800 z-10 ${titleClassName}`}
           >
             {title}
           </Text>

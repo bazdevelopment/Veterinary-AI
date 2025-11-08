@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Kembali",
+    "welcome": "Hai",
+    "welcomeBack": "Selamat Datang Kembali!",
+    "welcomeMessage": "Selamat Datang!",
+    "continue": "Lanjutkan",
+    "retry": "Coba Lagi",
+    "close": "Tutup",
+    "gallery": "Galeri",
+    "files": "File",
+    "seeAll": "Lihat Semua",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "attention": "Perhatian!",
+    "new": "Baru",
+    "activeSubscription": "Langganan aktif",
+    "agreeingMessage": "Dengan melanjutkan, Anda menyetujui",
+    "and": "dan",
+    "askAssistant": "Tanya asisten AI",
+    "chatbotPlaceholder": "Tanya saya apa saja...",
+    "completedScans": "Pemindaian selesai",
+    "conversationHistory": "Riwayat percakapan",
+    "medicalAssistants": "Asisten Medis",
+    "searchAssistant": "Cari Asisten...",
+    "analyzingMediaFilesPlaceholder": "Menganalisis File Media...",
+    "copyText": {
+      "copied": "Tersalin!",
+      "copy": "Salin Tautan",
+      "loading": "Menyalin..."
+    },
+    "createdAt": "Dibuat Pada",
+    "download": "Unduh",
+    "free": "GRATIS",
+    "freeTrial": "Uji coba gratis",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Memindai pencitraan medis Anda, harap tunggu...",
+        "fourth": "Hampir selesai, menyelesaikan pemindaian...",
+        "second": "Menganalisis detail, ini mungkin membutuhkan waktu...",
+        "third": "Meningkatkan akurasi untuk hasil terbaik..."
+      },
+      "initialAppLoad": {
+        "first": "Memuat pengalaman pribadi Anda...",
+        "fourth": "Hampir siap, sebentar lagi...",
+        "second": "Menyinkronkan sistem...",
+        "third": "Memproses data Anda..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med sedang bersiap untuk membantu Anda...",
+        "second": "Tunggu! Dr. Med sedang mempersiapkan respons Anda...",
+        "third": "Berpikir...asisten Anda Dr. Med sedang menanganinya!"
+      }
+    },
+    "tabs": {
+      "home": "Beranda",
+      "chat": "Chat",
+      "aiDoctors": "Dokter AI",
+      "settings": "Pengaturan"
+    },
+    "medicalDisclaimer": "Penyangkalan Medis",
+    "next": "Berikutnya",
+    "noPaymentNow": "Tidak Ada Pembayaran Sekarang. Batal kapan saja.",
+    "online": "Online",
+    "openSettings": "Buka Pengaturan",
+    "or": "atau",
+    "perMonth": "per bulan",
+    "perWeek": "per minggu",
+    "perYear": "per tahun",
+    "privacyPolicy": "Kebijakan Privasi",
+    "restorePurchase": "Pulihkan pembelian",
+    "termsOfUse": "Syarat Penggunaan",
+    "saveDiscount": "HEMAT",
+    "seeNotifications": "Lihat notifikasi",
+    "share": "Bagikan",
+    "shareLink": "Bagikan Tautan",
+    "skip": "Lewati",
+    "termsAndConditions": "Syarat & Ketentuan",
+    "then": "lalu",
+    "tryAgain": "Coba lagi",
+    "tryForFree": "Mulai Uji Coba Gratis",
+    "typing": "Mengetik...",
+    "unlockNow": "Buka Sekarang",
+    "update": "Perbarui",
+    "upgradePlan": "Tingkatkan Paket",
+    "viewProfile": "Lihat Profil",
+    "yes": "Ya",
+    "chatBotPlaceholder": "Hai. Jika Anda memiliki pertanyaan, saya dapat membantu Anda menjelajahi domain {{topic}}. Hanya untuk penggunaan edukasi."
+  },
+  "weekDays": {
+    "today": "Hari Ini",
+    "yesterday": "Kemarin"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Dapatkan analisis dari berbagai pemindaian medis, termasuk X-RAY, CT, MRI, EKG dan lainnya",
+      "second": "Akses ke semua fitur premium",
+      "fourth": "Obrolan tak terbatas dengan asisten medis AI 24/7",
+      "third": "Tidak ada iklan"
+    },
+    "UpgradeBanner": {
+      "heading": "Buka Sekarang",
+      "subheading": "Nikmati semua manfaat tanpa batasan"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Analisis Gambar Medis",
+      "askMedicalAssistant": "Tanya Asisten Medis AI",
+      "medicalAssistant": "Asisten Medis",
+      "imageTypes": {
+        "xray": "X-Ray",
+        "ct": "CT",
+        "mri": "MRI",
+        "ultrasound": "Ultrasonografi",
+        "ecg": "EKG",
+        "skinLesion": "Lesi Kulit",
+        "mammogram": "Mamogram",
+        "retinalScan": "Pemindaian Retina",
+        "bloodSmear": "Apusan Darah",
+        "dental": "Gigi",
+        "pet": "PET",
+        "dexa": "DEXA / Pemindaian Kepadatan Tulang",
+        "angiography": "Angiografi",
+        "echo": "Ekokardiografi (ECHO)",
+        "fluoroscopy": "Fluoroskopi"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Kedokteran Keluarga",
+          "subtitle": "Praktik Umum"
+        },
+        "internalMedicine": {
+          "title": "Penyakit Dalam"
+        },
+        "pediatrics": {
+          "title": "Ilmu Kesehatan Anak"
+        },
+        "dermatology": {
+          "title": "Dermatologi"
+        },
+        "cardiology": {
+          "title": "Kardiologi"
+        },
+        "orthopedics": {
+          "title": "Orthopedi"
+        },
+        "psychiatry": {
+          "title": "Psikiatri",
+          "subtitle": "Kesehatan Mental"
+        },
+        "obstetricsGynecology": {
+          "title": "Kebidanan & Ginekologi",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "Neurologi"
+        },
+        "ophthalmology": {
+          "title": "Oftalmologi"
+        },
+        "otolaryngology": {
+          "title": "Otolaringologi",
+          "subtitle": "THT"
+        },
+        "dentistry": {
+          "title": "Kedokteran Gigi"
+        },
+        "radiology": {
+          "title": "Radiologi",
+          "subtitle": "Pencitraan"
+        },
+        "oncology": {
+          "title": "Onkologi"
+        },
+        "endocrinology": {
+          "title": "Endokrinologi"
+        },
+        "nephrology": {
+          "title": "Nefrologi"
+        },
+        "pulmonology": {
+          "title": "Pulmonologi"
+        },
+        "gastroenterology": {
+          "title": "Gastroenterologi"
+        },
+        "allergyImmunology": {
+          "title": "Alergi & Imunologi"
+        },
+        "hematology": {
+          "title": "Hematologi"
+        },
+        "rheumatology": {
+          "title": "Reumatologi"
+        },
+        "urology": {
+          "title": "Urologi"
+        },
+        "emergencyMedicine": {
+          "title": "Kedokteran Darurat"
+        },
+        "surgery": {
+          "title": "Bedah"
+        },
+        "anesthesiology": {
+          "title": "Anestesiologi"
+        },
+        "rehabilitationMedicine": {
+          "title": "Kedokteran Rehabilitasi",
+          "subtitle": "Fisioterapi"
+        },
+        "geriatrics": {
+          "title": "Geriatri"
+        },
+        "publicHealth": {
+          "title": "Kesehatan Masyarakat",
+          "subtitle": "Kedokteran Preventif"
+        },
+        "microscopy": {
+          "title": "Mikroskopi"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Galeri Foto",
+      "takePhoto": "Ambil Foto",
+      "chooseFile": "Pilih File"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Saya sudah memiliki akun",
+        "heading": "Selamat Datang di Doctor Med AI!",
+        "startButton": "Mari kita mulai!"
+      },
+      "freeTrialPreview": {
+        "heading": "Nikmati uji coba gratis Anda! 🎉",
+        "review": "Saya menggunakan aplikasi ini untuk pertanyaan medis, pemindaian radiologi, dan belajar — ini luar biasa!",
+        "reviewTrust": "📈 Dipercaya oleh 5.212+ pengguna"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Bahasa apa yang Anda sukai untuk analisis AI?",
+        "languageSelection": "Pilih bahasa untuk respons AI",
+        "languageSearchCriteria": "Cari berdasarkan bahasa, kode negara, atau bendera",
+        "noLanguageFound": "Bahasa Tidak Ditemukan",
+        "noLanguageFoundSubtitle": "Coba ubah istilah pencarian Anda"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Apa yang ditunjukkan oleh rontgen dada?",
+          "two": "Apa gejala umum serangan jantung?",
+          "three": "Bagaimana cara menurunkan tekanan darah secara alami?",
+          "four": "Apa perbedaan antara MRI dan CT scan?",
+          "five": "Apa tanda-tanda awal diabetes?",
+          "six": "Bagaimana cara menafsirkan hasil tes darah dasar saya?",
+          "seven": "Apa pengobatan untuk infeksi saluran kemih (ISK)?",
+          "eight": "Bisakah Anda jelaskan untuk apa ekokardiogram digunakan?",
+          "nine": "Apa pedoman untuk diet sehat?",
+          "ten": "Apa penyebab kolesterol tinggi?",
+          "eleven": "Bagaimana tumor otak terdeteksi pada MRI?",
+          "twelve": "Apa peran kedokteran keluarga?",
+          "thirteen": "Apa faktor risiko stroke?",
+          "fourteen": "Bagaimana mengelola kecemasan dan stres?",
+          "fifteen": "Apa pedoman terbaru untuk mengelola hipertensi?"
+        }
+      },
+      "notifications": {
+        "title": "Notifikasi",
+        "noNotifications": "Tidak ada notifikasi untuk saat ini — pantau terus untuk pembaruan!"
+      },
+      "rateAppScreen": {
+        "heading": "Apakah Anda merasa aplikasi ini berharga dan menarik?",
+        "like": "Ya, saya menyukainya!",
+        "dislike": "Saya tidak menyukainya"
+      },
+      "profile": {
+        "title": "Profil",
+        "edit": "Edit Profil",
+        "placeholderPreferredName": "Mis. Kapten Keren, Ratu Lebah, atau hanya Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Anda sedang offline",
+        "subheading": "Koneksi Anda tampak tidak stabil. Harap verifikasi status jaringan Anda"
+      },
+      "newAppVersionScreen": {
+        "heading": "Versi baru Doctor Med AI tersedia",
+        "subheading": "Perbarui ke versi terbaru untuk terus menikmati semua fitur aplikasi — hanya butuh 5 detik!",
+        "action": "Dapatkan Sekarang!"
+      },
+      "disclaimerScreen": {
+        "heading": "Penyangkalan Medis Penting",
+        "subheading": "Doctor Med AI dirancang untuk profesional radiologi, pakar perawatan kesehatan, mahasiswa kedokteran, dan penggemar",
+        "consentAgreement": "Saya telah membaca dan menyetujui penyangkalan.",
+        "firstConsent": "Doctor Med AI tidak memberikan pengukuran kesehatan atau saran pengobatan, dan tidak dimaksudkan untuk tujuan tersebut. Pengguna Doctor Med AI harus menerapkan penilaian klinis mereka dan memverifikasi informasi dari sumber otoritatif sebelum membuat keputusan klinis.",
+        "secondConsent": "Doctor Med AI bukan alat diagnostik, platform pengobatan, atau pengganti saran medis profesional. Ini menawarkan wawasan yang dihasilkan AI untuk membantu profesional perawatan kesehatan mengakses pengetahuan medis dan menganalisis gambar dan dokumen medis. Doctor Med AI adalah aplikasi informasi dan edukasi berbasis AI yang dirancang lebih untuk mendukung profesional perawatan kesehatan berlisensi.",
+        "thirdConsent": "Doctor Med AI tidak dirancang untuk penggunaan pasien. Ini tidak memberikan diagnosis medis langsung, rekomendasi perawatan, atau fungsionalitas manajemen pasien.",
+        "fourthConsent": "Doctor Med AI tidak diklasifikasikan sebagai perangkat medis dan tidak mengklaim persetujuan peraturan. Ini dimaksudkan untuk tujuan pendidikan dan informasi untuk melengkapi keahlian profesional.",
+        "fifthConsent": "Doctor Med AI tidak mengumpulkan, menyimpan, atau memproses data pribadi atau pasien. Semua interaksi pengguna bersifat rahasia dan terbatas pada ruang lingkup aplikasi."
+      },
+      "contactUs": {
+        "heading": "Jangan ragu untuk mengirim email langsung kepada kami, dan tim kami akan menghubungi Anda sesegera mungkin",
+        "customerSupport": "Dukungan Pelanggan",
+        "emailAddress": "Alamat Email"
+      },
+      "rate": {
+        "title": "Berikan kami masukan!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Tidak Ada Hasil Ditemukan — Tapi Jangan Khawatir!",
+          "notFoundSubtitle": "Coba gunakan kata kunci yang berbeda, atau tanyakan langsung kepada asisten medis AI kami",
+          "askAssistant": "Tanya Asisten Medis"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Uji Coba Gratis Diaktifkan",
+          "heading": "Akses Tak Terbatas",
+          "title": "Buka Fitur Premium Hari Ini!",
+          "firstOffering": "Akses Semua Fitur Premium",
+          "secondOffering": "Pengalaman Bebas Iklan",
+          "thirdOffering": "Analisis tak terbatas gambar medis, video, pemindaian PDF + laporan",
+          "fourthOffering": "Obrolan tak terbatas dengan asisten medis AI 24/7"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Pendamping Kesehatan Berbasis AI Anda",
+          "subtitle": "Dapatkan wawasan medis instan dan panduan dari dokter AI khusus, kapan saja, di mana saja."
+        },
+        "secondOnboarding": {
+          "title": "Tanya, Unggah, dan Dapatkan Wawasan Medis",
+          "subtitle": "Chat dengan dokter AI dari berbagai spesialisasi, atau unggah gambar medis untuk analisis medis cepat."
+        },
+        "thirdOnboarding": {
+          "title": "Privasi Anda Penting",
+          "subtitle": "Kami berkomitmen untuk melindungi privasi Anda. Kami tidak mengumpulkan data pribadi. File apa pun yang Anda unggah tetap bersifat pribadi dan tidak pernah dibagikan."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Buka Fitur Premium Hari Ini!",
+        "firstOffering": {
+          "title": "Mulai Uji Coba Gratis",
+          "subtitle": "Nikmati {{freeScans}} pemindaian gratis – tidak ada pembayaran"
+        },
+        "secondOffering": {
+          "title": "Paket Bulanan",
+          "subtitle": "{{ price }}/bulan"
+        },
+        "thirdOffering": {
+          "title": "Paket Tahunan",
+          "subtitle": "{{ price }} per tahun"
+        },
+        "fourthOffering": {
+          "title": "Uji Coba {{trialDays}}-Hari",
+          "subtitle": "{{ price }} per tahun",
+          "plan": "Paket Mingguan"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Tentang",
+    "app_name": "Nama Aplikasi",
+    "citations": "Kutipan untuk informasi medis",
+    "contactUs": "Hubungi Kami",
+    "devMode": {
+      "componentsLibrary": "Pustaka UI",
+      "title": "Mode pengembang"
+    },
+    "faq": "FAQ",
+    "generale": "Umum",
+    "github": "Github",
+    "language": "Bahasa",
+    "languages": {
+      "arabic": "Arab",
+      "catalan": "Katalan",
+      "croatian": "Kroasia",
+      "czech": "Ceko",
+      "danish": "Denmark",
+      "dutch": "Belanda",
+      "english": "Inggris",
+      "finnish": "Finlandia",
+      "french": "Prancis",
+      "french_canada": "Prancis (Kanada)",
+      "german": "Jerman",
+      "greek": "Yunani",
+      "hebrew": "Ibrani",
+      "hindi": "Hindi",
+      "hungarian": "Hungaria",
+      "indonesian": "Indonesia",
+      "italian": "Italia",
+      "japanese": "Jepang",
+      "korean": "Korea",
+      "malay": "Melayu",
+      "mandarin_chinese": "Cina",
+      "norwegian": "Norwegia",
+      "polish": "Polandia",
+      "portuguese_brazil": "Portugis (Brasil)",
+      "portuguese_portugal": "Portugis (Portugal)",
+      "romanian": "Rumania",
+      "russian": "Rusia",
+      "slovak": "Slovakia",
+      "spanish_mexico": "Spanyol (Meksiko)",
+      "spanish_spain": "Spanyol (Spanyol)",
+      "swedish": "Swedia",
+      "thai": "Thailand",
+      "turkish": "Turki",
+      "ukrainian": "Ukraina",
+      "vietnamese": "Vietnam"
+    },
+    "links": "Tautan",
+    "logout": "Keluar",
+    "more": "Lainnya",
+    "privacy": "Kebijakan Privasi",
+    "profile": "Profil",
+    "rate": "Masukan",
+    "share": "Bagikan",
+    "support": "Dukungan",
+    "support_us": "Dukung Kami",
+    "tab": "Pengaturan",
+    "terms": "Syarat Layanan",
+    "theme": {
+      "dark": "Gelap",
+      "light": "Terang",
+      "system": "Sistem",
+      "title": "Tema"
+    },
+    "title": "Pengaturan",
+    "version": "Versi",
+    "website": "Situs Web"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Maaf, kami memerlukan izin kamera untuk membuat ini bekerja!",
+    "errorSelectingImagePicker": "Terjadi kesalahan saat memilih gambar. Silakan coba lagi.",
+    "errorSelectingDocumentPicker": "Terjadi kesalahan saat memilih dokumen. Silakan coba lagi.",
+    "errorTakingPicture": "Terjadi kesalahan saat mengambil foto. Silakan coba lagi.",
+    "enableNotifications": {
+      "heading": "Aktifkan Notifikasi",
+      "subHeading": "Notifikasi saat ini dimatikan. Untuk tetap diperbarui, harap aktifkan di pengaturan perangkat Anda."
+    },
+    "enableNotificationFailed": "Notifikasi push dinonaktifkan. Aktifkan di pengaturan untuk menerima pembaruan penting!",
+    "enableNotificationError": "Terjadi kesalahan saat mengaktifkan notifikasi",
+    "notificationDisabledSuccess": "Notifikasi berhasil dinonaktifkan.",
+    "notificationDisabledRegisterError": "Gagal menghapus pendaftaran perangkat untuk notifikasi.",
+    "notificationDisabledError": "Terjadi kesalahan saat menonaktifkan notifikasi.",
+    "checkNotificationStatusError": "Kesalahan memeriksa status notifikasi.",
+    "projectIdNotFound": "ID proyek notifikasi tidak ditemukan.",
+    "imageSizeLarge": "Gambar terlalu besar! Ukuran file adalah {{fileSize}} MB, tetapi batasnya adalah {{imageLimit}} MB.",
+    "videoSizeLarge": "Video terlalu besar! Ukuran file adalah {{fileSize}} MB, tetapi batasnya adalah {{videoLimit}} MB.",
+    "loggedInSuccess": "Berhasil masuk",
+    "loggedOutSuccess": "Anda telah berhasil keluar!",
+    "sendVerificationCodeError": "Kesalahan saat mengirim kode verifikasi",
+    "validateAuthCodeError": "Kesalahan saat memvalidasi kode auth",
+    "anonymousSignInError": "Kesalahan masuk secara anonim",
+    "emailLoginError": "Kesalahan saat masuk",
+    "preferredLanguageError": "Kesalahan saat memperbarui bahasa pilihan pengguna",
+    "sharingNotAvailable": "Berbagi saat ini tidak tersedia di perangkat Anda",
+    "sharingLinkError": "Gagal membagikan tautan.",
+    "individualPushNotificationSuccess": "Notifikasi push individu berhasil dikirim!",
+    "globalPushNotificationSuccess": "Notifikasi push global berhasil dikirim! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Gagal memperbarui bidang interpretasi! ❌",
+    "deleteScanReportFail": "Tidak dapat menghapus laporan pemindaian. Silakan coba lagi",
+    "onboardingUnsuccessful": "Onboarding tidak berhasil. Silakan coba lagi",
+    "logoutUnsuccessful": "Keluar tidak berhasil. Silakan coba lagi",
+    "deleteScanReportQuestion": "Apakah Anda yakin ingin menghapus laporan ini secara permanen?",
+    "videoLimitExceeds": "Video Anda melebihi batas {{videoSecondsLimit}}-detik. Harap pangkas dan unggah ulang",
+    "subscriptionActivated": "Langganan Anda telah berhasil diaktifkan! Nikmati manfaat eksklusif Anda!",
+    "subscriptionCancelledByUser": "Anda telah membatalkan transaksi. Jangan ragu untuk mencoba lagi!",
+    "subscriptionActivationFailed": "Gagal mengaktifkan langganan Anda. Silakan coba lagi",
+    "logoutQuestion": "Apakah Anda yakin ingin keluar?",
+    "noSubscriptionToRestore": "Ups! Sepertinya Anda tidak memiliki langganan aktif saat ini. Untuk terus menikmati akses penuh, harap pilih salah satu paket langganan kami.",
+    "restorationSuccessful": "Pemulihan berhasil! Selamat menikmati!",
+    "restorationError": "Terjadi kesalahan saat memulihkan pembelian.",
+    "medicalDisclaimerAlert": "Aplikasi Doctor Med AI tidak menggantikan konsultasi medis. Beberapa diagnosis hanya untuk tujuan informasi/edukasi. Untuk rekomendasi medis, selalu konsultasikan dengan dokter atau spesialis berlisensi.",
+    "scanLimitReached": "Kami mengoptimalkan kualitas pemindaian untuk Anda! Anda akan dapat memindai lagi dalam sekitar {{hours}} jam dan {{minutes}} menit. Ada pertanyaan tentang topik medis? Tanya asisten chat kami sambil menunggu!",
+    "mixedMediaNotAllowed": "Untuk akurasi yang lebih baik, jangan unggah campuran file media yang berbeda. Harap unggah hanya gambar, video, atau pdf — tidak semuanya bersama-sama.",
+    "multipleVideosNotAllowed": "Untuk akurasi yang lebih baik, harap unggah hanya satu video sekaligus.",
+    "mediaFilesUploadFiles": "Terjadi kesalahan saat mengunggah file media Anda. Silakan coba lagi.",
+    "chatAndMediaFilesLimit": "Pengguna yang terhormat, Anda perlu meningkatkan paket Anda untuk mendapatkan manfaat dari obrolan tak terbatas, pemindaian tak terbatas, analisis multi-gambar, dan lainnya. 🔓"
+  },
+  "deleteApp": {
+    "title": "Tunggu! Jangan hapus saya!",
+    "subtitle": "Berikan masukan saja"
+  }
+}

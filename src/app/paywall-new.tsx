@@ -3,7 +3,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useColorScheme } from 'nativewind';
 import React, { useState } from 'react';
-import { ScrollView, TouchableOpacity, View } from 'react-native';
+import { Linking, ScrollView, TouchableOpacity, View } from 'react-native';
 import { type CustomerInfo } from 'react-native-purchases';
 
 import {
@@ -105,7 +105,7 @@ const FeatureRow = ({ icon, text }: { icon: string; text: string }) => (
       {/* <Ionicons name={icon as any} size={14} color="white" /> */}
       <CheckIcon color={colors.white} strokeWidth={3} width={14} height={14} />
     </View>
-    <Text className="flex-1 font-semibold-work-sans text-lg">{text}</Text>
+    <Text className="flex-1 font-semibold-poppins text-lg">{text}</Text>
   </View>
 );
 
@@ -140,12 +140,12 @@ const PricingCard = ({
     <View className="flex-row items-center justify-between">
       <View className="flex-1">
         <View className="flex-row items-center">
-          <Text className="font-bold-work-sans text-lg text-gray-900">
+          <Text className="font-bold-poppins text-lg text-gray-900">
             {title}
           </Text>
           {badge && (
             <View className="ml-3 rounded-lg bg-red-500 px-3 py-1">
-              <Text className="font-bold-work-sans text-[13px] text-white">
+              <Text className="font-bold-poppins text-[13px] text-white">
                 {badge}
               </Text>
             </View>
@@ -155,10 +155,10 @@ const PricingCard = ({
         <View>
           {originalPrice && (
             <View className="mt-1 flex-row">
-              <Text className="mr-2 font-semibold-work-sans text-base text-gray-600 line-through">
+              <Text className="mr-2 font-semibold-poppins text-lg text-gray-600 line-through">
                 {originalPrice}
               </Text>
-              <Text className="font-semibold-work-sans text-base text-gray-900">
+              <Text className="font-semibold-poppins text-lg text-gray-900">
                 {price} {translate('general.perYear')}
               </Text>
               {/* {isFree && (
@@ -170,7 +170,7 @@ const PricingCard = ({
           )}
           {isFree && (
             <View className="absolute -top-6 right-3 self-end rounded px-2 py-1">
-              <Text className="font-extra-bold-work-sans text-xl text-black">
+              <Text className="font-extra-bold-poppins text-xl text-black">
                 {translate('general.free')}
               </Text>
             </View>
@@ -178,7 +178,7 @@ const PricingCard = ({
         </View>
 
         {subtitle && (
-          <Text className="text-md font-medium-work-sans text-charcoal-900">
+          <Text className="text-lg font-medium-poppins text-black">
             {subtitle}
           </Text>
         )}
@@ -378,7 +378,7 @@ const PaywallNew = () => {
             </View>
 
             {/* Title */}
-            <Text className="mb-6 text-center font-extra-bold-work-sans text-3xl text-gray-900">
+            <Text className="mb-6 text-center font-extra-bold-poppins text-3xl text-gray-900">
               {translate(
                 'rootLayout.screens.paywallOnboarding.freeTierOfferings.heading'
               )}
@@ -424,8 +424,8 @@ const PaywallNew = () => {
                     isFree={true}
                   />
 
-                  <Text className="ml-2 -top-2 text-center font-medium-work-sans text-sm text-gray-900">
-                    {translate('general.noPaymentNow')}
+                  <Text className="ml-2 -top-2 text-center font-medium-poppins text-sm text-gray-900">
+                    {freeTrialEnabled ? translate('general.noPaymentNow') : ''}
                   </Text>
                 </>
               )}
@@ -433,7 +433,7 @@ const PaywallNew = () => {
 
             {/* Free Trial Toggle */}
             <View className="mb-8 flex-row items-center justify-between rounded-2xl bg-gray-100 p-4 dark:bg-charcoal-800">
-              <Text className="font-bold-work-sans text-lg text-gray-900 flex-1 mr-2">
+              <Text className="font-bold-poppins text-lg text-gray-900 flex-1 mr-2">
                 {translate(
                   'rootLayout.screens.paywallOnboarding.freeTierOfferings.freeTrialEnabled'
                 )}
@@ -448,12 +448,12 @@ const PaywallNew = () => {
             {/* Try for Free Button */}
             <TouchableOpacity
               onPress={handlePurchase}
-              className="mb-2 h-14 items-center justify-center rounded-xl bg-blue-500 shadow-lg"
+              className="mb-2 h-16 items-center justify-center rounded-xl bg-blue-500 shadow-lg"
               activeOpacity={0.8}
               disabled={isPendingUpdateUser}
             >
               <View className="flex-row items-center">
-                <Text className="mr-2 font-bold-work-sans text-xl text-white">
+                <Text className="mr-2 font-bold-poppins text-xl text-white">
                   {freeTrialEnabled
                     ? translate('general.tryForFree')
                     : translate('general.unlockNow')}
@@ -464,12 +464,24 @@ const PaywallNew = () => {
 
             {/* Footer Links */}
             <View className="items-center">
-              <View className="flex-row flex-wrap items-center justify-center">
+              <View className="flex-row flex-wrap w-full items-center justify-between">
+                <Button
+                  label={translate('general.termsOfUse')}
+                  variant="ghost"
+                  className="self-center active:opacity-70"
+                  textClassName="text-black dark:text-white font-semibold-poppins"
+                  onPress={() =>
+                    Linking.openURL(
+                      'https://doctormedaitermsconditions.netlify.app/'
+                    )
+                  }
+                />
+
                 <Button
                   label={translate('general.restorePurchase')}
                   variant="ghost"
                   className="self-center active:opacity-70"
-                  textClassName="text-black dark:text-white font-semibold-work-sans"
+                  textClassName="text-black dark:text-white font-semibold-poppins"
                   onPress={restorePurchase}
                   loading={isPendingRestorePurchase}
                 />
@@ -477,14 +489,14 @@ const PaywallNew = () => {
                 {/* <Text className="mx-4 text-base text-gray-400">•</Text>
 
                 <TouchableOpacity activeOpacity={0.7}>
-                  <Text className="text-base font-medium-work-sans text-gray-600 underline">
+                  <Text className="text-base font-medium-poppins text-gray-600 underline">
                     Terms of Use
                   </Text>
                 </TouchableOpacity>
                 <Text className="mx-4 text-base text-gray-400">•</Text>
 
                 <TouchableOpacity activeOpacity={0.7}>
-                  <Text className="text-base font-medium-work-sans text-gray-600 underline">
+                  <Text className="text-base font-medium-poppins text-gray-600 underline">
                     Privacy Policy
                   </Text>
                 </TouchableOpacity> */}

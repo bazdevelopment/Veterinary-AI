@@ -66,6 +66,8 @@ import { KeyboardAvoidingView } from 'react-native-keyboard-controller';
 import { CloseIcon } from '@/components/ui/icons/close';
 import Toast from '@/components/toast';
 import MessageMediaAttachments from '@/components/message-media-attachments';
+import useRemoteConfig from '@/lib/hooks/use-remote-config';
+import { Env } from '@/lib/env';
 
 type MessageType = {
   role: string;
@@ -150,7 +152,7 @@ const BlurredMessageOverlay = ({
           </Animated.View>
         </View>
 
-        <Text className="mt-2 rounded-full bg-white p-2 text-center font-semibold-work-sans text-base text-gray-800 dark:bg-blackEerie dark:text-white">
+        <Text className="mt-2 rounded-full bg-white p-2 text-center font-semibold-poppins text-base text-gray-800 dark:bg-blackEerie dark:text-white">
           {translate('general.unlockNow')} 🔓
         </Text>
       </TouchableOpacity>
@@ -264,7 +266,13 @@ export const ChatBubble = ({
           {!isUser && (
             <TouchableOpacity
               className="rounded-full p-1"
-              onPress={() => copyToClipboard(message.content)}
+              onPress={() => {
+                copyToClipboard(message.content);
+                Toast.success(translate('general.copyText.copied'), {
+                  style: { marginTop: 50 },
+                  closeButton: true,
+                });
+              }}
             >
               {!!copiedText ? (
                 <CopiedIcon
@@ -427,6 +435,8 @@ const ChatScreen = () => {
 
   const { data, isPending: isFetchingAllConversationsPending } =
     useAllUserConversations();
+  const { AI_ANALYSIS_PROMPT_FIREBASE } = useRemoteConfig();
+
   const conversationsCount = data?.count || 0;
   // Hooks for messaging
   const { sendStreamingMessage } = useSendStreamingMessage();
@@ -467,6 +477,8 @@ const ChatScreen = () => {
       }));
 
       await sendStreamingMessage({
+        prompt:
+          AI_ANALYSIS_PROMPT_FIREBASE || Env.EXPO_PUBLIC_AI_ANALYSIS_PROMPT,
         userMessage: message.content
           ? message.content
           : mediaFiles.length
@@ -569,6 +581,8 @@ const ChatScreen = () => {
 
     try {
       await sendStreamingMessage({
+        prompt:
+          AI_ANALYSIS_PROMPT_FIREBASE || Env.EXPO_PUBLIC_AI_ANALYSIS_PROMPT,
         userMessage: !!userMsg?.trim()
           ? userMsg
           : !!mediaFiles?.length
@@ -723,7 +737,7 @@ const ChatScreen = () => {
                 className="mr-2 h-8 w-8 rounded-full"
               />
               <View className="ml-2">
-                <Text className="font-bold-work-sans text-xl dark:text-white">
+                <Text className="font-bold-poppins text-xl dark:text-white">
                   Dr. Med
                 </Text>
                 {isStreaming ? (
@@ -828,7 +842,7 @@ const ChatScreen = () => {
           />
 
           {/* File Preview */}
-          {!!files?.length && (
+          {!!files?.length && !isStreaming && (
             <ImagePreviewGallery files={files} onRemoveFile={onRemoveFile} />
           )}
 
@@ -886,6 +900,7 @@ const ChatScreen = () => {
                 }
                 multiline
                 maxLength={400}
+                allowFontScaling={true}
               />
             </View>
             <TouchableOpacity

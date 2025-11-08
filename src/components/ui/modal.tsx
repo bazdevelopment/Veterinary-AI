@@ -163,7 +163,7 @@ const ModalHeader = React.memo(({ title, dismiss }: ModalHeaderProps) => {
     <View className="mx-6 -mt-2 mb-4  flex-row items-center justify-between">
       {title && (
         <View className="w-[90%]">
-          <Text className="font-semibold-work-sans text-xl text-black dark:text-white">
+          <Text className="font-semibold-poppins text-xl text-black dark:text-white">
             {title}
           </Text>
         </View>

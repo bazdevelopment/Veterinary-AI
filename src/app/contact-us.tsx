@@ -27,7 +27,7 @@ const ContactUs = () => {
       </Text>
 
       <View className="rounded-2xl bg-gray-100 px-4 py-6 shadow-xl shadow-gray-100 dark:bg-black dark:shadow-none">
-        <Text className="mb-6 font-semibold-work-sans text-lg text-charcoal-600">
+        <Text className="mb-6 font-semibold-poppins text-lg text-charcoal-600">
           {translate('rootLayout.screens.contactUs.customerSupport')}
         </Text>
 

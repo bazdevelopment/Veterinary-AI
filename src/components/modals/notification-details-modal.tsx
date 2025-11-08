@@ -54,7 +54,7 @@ export const NotificationDetailsModal = React.forwardRef<
         {/* Title */}
         <View className="m-6 rounded-xl bg-primary-100 p-4 dark:bg-blackEerie">
           <View className="flex-row items-center gap-2">
-            <Text className="font-semibold-work-sans text-lg">{title}</Text>
+            <Text className="font-semibold-poppins text-lg">{title}</Text>
           </View>
 
           {/* Body */}

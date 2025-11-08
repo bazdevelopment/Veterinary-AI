@@ -8,7 +8,7 @@ import { Text } from '@/components/ui';
 const disclaimerTexts = [
   {
     text: translate('rootLayout.screens.disclaimerScreen.heading'),
-    className: 'mb-6 font-bold-work-sans text-xl',
+    className: 'mb-6 font-bold-poppins text-xl',
   },
 
   // {
@@ -26,7 +26,7 @@ const disclaimerTexts = [
   },
   {
     text: translate('rootLayout.screens.disclaimerScreen.fourthConsent'),
-    className: 'mb-8 font-bold-work-sans text-base',
+    className: 'mb-8 font-bold-poppins text-base',
   },
   // {
   //   text: translate('rootLayout.screens.disclaimerScreen.thirdConsent'),

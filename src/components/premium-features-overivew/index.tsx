@@ -17,7 +17,7 @@ const FeatureCard = ({ icon, title }) => (
       {icon}
     </View>
     <View className="flex-1">
-      <Text className="mb-1 text-base font-semibold-work-sans text-gray-900">
+      <Text className="mb-1 text-base font-semibold-poppins text-gray-900">
         {title}
       </Text>
     </View>

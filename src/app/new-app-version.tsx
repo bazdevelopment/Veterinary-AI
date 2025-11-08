@@ -28,7 +28,7 @@ const NewAppVersion = () => {
     <View className="flex-1 items-center justify-between bg-primary-900 dark:bg-transparent">
       <View className="top-[-10%] mt-10 flex-1 items-center justify-center">
         <Icon icon={<MobileIcon />} />
-        <Text className="mt-14 px-6 text-center font-bold-work-sans text-[32px] text-white">
+        <Text className="mt-14 px-6 text-center font-bold-poppins text-[32px] text-white">
           {translate('rootLayout.screens.newAppVersionScreen.heading')}
         </Text>
         <Text className="mt-8 px-10 text-center text-lg text-white">

@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Tillbaka",
+    "welcome": "Hej",
+    "welcomeBack": "Välkommen tillbaka!",
+    "welcomeMessage": "Välkommen!",
+    "continue": "Fortsätt",
+    "retry": "Försök igen",
+    "close": "Stäng",
+    "gallery": "Galleri",
+    "files": "Filer",
+    "seeAll": "Se alla",
+    "cancel": "Avbryt",
+    "delete": "Radera",
+    "attention": "Uppmärksamhet!",
+    "new": "Ny",
+    "activeSubscription": "Prenumeration aktiv",
+    "agreeingMessage": "Genom att fortsätta godkänner du vår",
+    "and": "och",
+    "askAssistant": "Fråga AI-assistenten",
+    "chatbotPlaceholder": "Fråga mig vad som helst...",
+    "completedScans": "Genomförda skanningar",
+    "conversationHistory": "Konversationshistorik",
+    "medicalAssistants": "Medicinska assistenter",
+    "searchAssistant": "Sök assistent...",
+    "analyzingMediaFilesPlaceholder": "Analyserar mediafiler...",
+    "copyText": {
+      "copied": "Kopierad!",
+      "copy": "Kopiera länk",
+      "loading": "Kopierar..."
+    },
+    "createdAt": "Skapad den",
+    "download": "Ladda ner",
+    "free": "GRATIS",
+    "freeTrial": "Gratis provperiod",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Skannar dina medicinska bilder, var god vänta...",
+        "fourth": "Nästan klar, avslutar skanningen...",
+        "second": "Analyserar detaljer, detta kan ta en stund...",
+        "third": "Förbättrar noggrannheten för bästa resultat..."
+      },
+      "initialAppLoad": {
+        "first": "Laddar din personliga upplevelse...",
+        "fourth": "Nästan klar, bara ett ögonblick...",
+        "second": "Synkroniserar system...",
+        "third": "Bearbetar dina data..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med förbereder sig för att assistera dig...",
+        "second": "Vänta! Dr. Med förbereder ditt svar...",
+        "third": "Tänker... din assistent Dr. Med jobbar på det!"
+      }
+    },
+    "tabs": {
+      "home": "Hem",
+      "chat": "Chatt",
+      "aiDoctors": "AI-läkare",
+      "settings": "Inställningar"
+    },
+    "medicalDisclaimer": "Medicinsk ansvarsfriskrivning",
+    "next": "Nästa",
+    "noPaymentNow": "Ingen betalning nu. Avbryt när som helst.",
+    "online": "Online",
+    "openSettings": "Öppna inställningar",
+    "or": "eller",
+    "perMonth": "per månad",
+    "perWeek": "per vecka",
+    "perYear": "per år",
+    "privacyPolicy": "Integritetspolicy",
+    "restorePurchase": "Återställ köp",
+    "termsOfUse": "Användarvillkor",
+    "saveDiscount": "SPARA",
+    "seeNotifications": "Se aviseringar",
+    "share": "Dela",
+    "shareLink": "Dela länk",
+    "skip": "Hoppa över",
+    "termsAndConditions": "Villkor & Villkor",
+    "then": "sedan",
+    "tryAgain": "Försök igen",
+    "tryForFree": "Starta gratis provperiod",
+    "typing": "Skriver...",
+    "unlockNow": "Lås upp nu",
+    "update": "Uppdatera",
+    "upgradePlan": "Uppgradera plan",
+    "viewProfile": "Visa profil",
+    "yes": "Ja",
+    "chatBotPlaceholder": "Hej. Om du har några frågor kan jag hjälpa dig att utforska {{topic}}-domänen. Endast för utbildningsändamål."
+  },
+  "weekDays": {
+    "today": "Idag",
+    "yesterday": "Igår"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Få analyser från olika medicinska skanningar, inklusive RÖNTGEN, DT, MR, EKG och mer",
+      "second": "Tillgång till alla premiumfunktioner",
+      "fourth": "Obegränsade chattar med medicinska AI-assistenter dygnet runt",
+      "third": "Inga annonser"
+    },
+    "UpgradeBanner": {
+      "heading": "Lås upp nu",
+      "subheading": "Njut av alla fördelar utan begränsningar"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Medicinsk bildanalys",
+      "askMedicalAssistant": "Fråga Medicinsk AI-assistent",
+      "medicalAssistant": "Medicinsk assistent",
+      "imageTypes": {
+        "xray": "Röntgen",
+        "ct": "DT",
+        "mri": "MR",
+        "ultrasound": "Ultraljud",
+        "ecg": "EKG",
+        "skinLesion": "Hudläsion",
+        "mammogram": "Mammografi",
+        "retinalScan": "Näthinnescanning",
+        "bloodSmear": "Blodutslag",
+        "dental": "Tandvård",
+        "pet": "PET",
+        "dexa": "DEXA / Bentäthetsskanning",
+        "angiography": "Angiografi",
+        "echo": "Ekokardiografi (ECHO)",
+        "fluoroscopy": "Fluoroskopi"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Allmänmedicin",
+          "subtitle": "Allmän praxis"
+        },
+        "internalMedicine": {
+          "title": "Internmedicin"
+        },
+        "pediatrics": {
+          "title": "Pediatrik"
+        },
+        "dermatology": {
+          "title": "Dermatologi"
+        },
+        "cardiology": {
+          "title": "Kardiologi"
+        },
+        "orthopedics": {
+          "title": "Ortopedi"
+        },
+        "psychiatry": {
+          "title": "Psykiatri",
+          "subtitle": "Mental hälsa"
+        },
+        "obstetricsGynecology": {
+          "title": "Obstetrik & Gynekologi",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "Neurologi"
+        },
+        "ophthalmology": {
+          "title": "Oftalmologi"
+        },
+        "otolaryngology": {
+          "title": "Öron-näsa-hals",
+          "subtitle": "ÖNH"
+        },
+        "dentistry": {
+          "title": "Tandvård"
+        },
+        "radiology": {
+          "title": "Radiologi",
+          "subtitle": "Bilddiagnostik"
+        },
+        "oncology": {
+          "title": "Onkologi"
+        },
+        "endocrinology": {
+          "title": "Endokrinologi"
+        },
+        "nephrology": {
+          "title": "Nefrologi"
+        },
+        "pulmonology": {
+          "title": "Pulmonologi"
+        },
+        "gastroenterology": {
+          "title": "Gastroenterologi"
+        },
+        "allergyImmunology": {
+          "title": "Allergi & Immunologi"
+        },
+        "hematology": {
+          "title": "Hematologi"
+        },
+        "rheumatology": {
+          "title": "Reumatologi"
+        },
+        "urology": {
+          "title": "Urologi"
+        },
+        "emergencyMedicine": {
+          "title": "Akutmedicin"
+        },
+        "surgery": {
+          "title": "Kirurgi"
+        },
+        "anesthesiology": {
+          "title": "Anestesiologi"
+        },
+        "rehabilitationMedicine": {
+          "title": "Rehabiliteringsmedicin",
+          "subtitle": "Fysioterapi"
+        },
+        "geriatrics": {
+          "title": "Geriatrik"
+        },
+        "publicHealth": {
+          "title": "Folkhälsa",
+          "subtitle": "Förebyggande medicin"
+        },
+        "microscopy": {
+          "title": "Mikroskopi"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Fotobibliotek",
+      "takePhoto": "Ta foto",
+      "chooseFile": "Välj fil"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Jag har redan ett konto",
+        "heading": "Välkommen till Doctor Med AI!",
+        "startButton": "Låt oss börja!"
+      },
+      "freeTrialPreview": {
+        "heading": "Njut av din gratis provperiod! 🎉",
+        "review": "Jag använder denna app för medicinska frågor, röntgenskanningar och studier - den är fantastisk!",
+        "reviewTrust": "📈 Anförtros av 5 212+ användare"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Vilket språk föredrar du för AI-analysen?",
+        "languageSelection": "Välj ett språk för AI-svar",
+        "languageSearchCriteria": "Sök efter språk, landskod eller flagga",
+        "noLanguageFound": "Inget språk hittades",
+        "noLanguageFoundSubtitle": "Försök att ändra dina söktermer"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Vad visar ett bröströntgen?",
+          "two": "Vilka är de vanliga symptomen på en hjärtattack?",
+          "three": "Hur kan jag sänka mitt blodtryck naturligt?",
+          "four": "Vad är skillnaden mellan MR och DT?",
+          "five": "Vilka är de tidiga tecknen på diabetes?",
+          "six": "Hur tolkar jag mina grundläggande blodprovsresultat?",
+          "seven": "Vad är behandlingen för urinvägsinfektion?",
+          "eight": "Kan du förklara vad ett ekkardiogram används för?",
+          "nine": "Vilka är riktlinjerna för en hälsosam diet?",
+          "ten": "Vad orsakar högt kolesterol?",
+          "eleven": "Hur upptäcks en hjärntumör på MR?",
+          "twelve": "Vad är allmänmedicinens roll?",
+          "thirteen": "Vilka är riskfaktorerna för stroke?",
+          "fourteen": "Hur hanterar man ångest och stress?",
+          "fifteen": "Vilka är de senaste riktlinjerna för att hantera högt blodtryck?"
+        }
+      },
+      "notifications": {
+        "title": "Aviseringar",
+        "noNotifications": "Inga aviseringar för nu - håll utkik efter uppdateringar!"
+      },
+      "rateAppScreen": {
+        "heading": "Tycker du att appen är värdefull och engagerande?",
+        "like": "Ja, jag gillar den!",
+        "dislike": "Jag gillar den inte"
+      },
+      "profile": {
+        "title": "Profil",
+        "edit": "Redigera profil",
+        "placeholderPreferredName": "T.ex. Captain Cool, Queen Bee, eller bara Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Du är offline",
+        "subheading": "Din anslutning verkar vara instabil. Vänligen verifiera din nätverksstatus"
+      },
+      "newAppVersionScreen": {
+        "heading": "En ny version av Doctor Med AI är tillgänglig",
+        "subheading": "Uppdatera till den senaste versionen för att fortsätta njuta av alla appfunktioner - det tar bara 5 sekunder!",
+        "action": "Skaffa den nu!"
+      },
+      "disclaimerScreen": {
+        "heading": "Viktigt medicinskt ansvarsfriskrivning",
+        "subheading": "Doctor Med AI är designad för röntgenpersonal, hälso- och sjukvårdsexperter, medicinstudenter och entusiaster",
+        "consentAgreement": "Jag har läst och samtycker till ansvarsfriskrivningen.",
+        "firstConsent": "Doctor Med AI tillhandahåller inte hälsoåtgärder eller behandlingsråd, och är inte avsett för sådana ändamål. Användare av Doctor Med AI måste tillämpa sitt kliniska omdöme och verifiera information från auktoritativa källor innan de fattar kliniska beslut.",
+        "secondConsent": "Doctor Med AI är inte ett diagnostiskt verktyg, behandlingsplattform eller ersättning för professionellt medicinskt råd. Den erbjuder AI-genererade insikter för att hjälpa hälso- och sjukvårdspersonal att komma åt medicinsk kunskap och analysera medicinska bilder och dokument. Doctor Med AI är en AI-driven informativ och pedagogisk app designad mer för att stödja legitimerad hälso- och sjukvårdspersonal.",
+        "thirdConsent": "Doctor Med AI är inte designad för patientanvändning. Den tillhandahåller inte direkta medicinska diagnoser, behandlingsrekommendationer eller patienthanteringsfunktioner.",
+        "fourthConsent": "Doctor Med AI klassificeras inte som en medicinsk apparat och gör inte anspråk på regulatoriskt godkännande. Den är avsedd för utbildnings- och informationsändamål för att komplettera professionell expertis.",
+        "fifthConsent": "Doctor Med AI samlar inte in, lagrar eller bearbetar person- eller patientdata. Alla användarinteraktioner är konfidentiella och begränsade till appens omfattning."
+      },
+      "contactUs": {
+        "heading": "Tveka inte att maila oss direkt, och vårt team återkommer till dig så snart som möjligt",
+        "customerSupport": "Kundsupport",
+        "emailAddress": "E-postadress"
+      },
+      "rate": {
+        "title": "Ge oss feedback!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Inga resultat hittades - men oroa dig inte!",
+          "notFoundSubtitle": "Försök använda olika sökord, eller fråga vår AI-medicinska assistent direkt",
+          "askAssistant": "Fråga medicinsk assistent"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Gratis provperiod aktiverad",
+          "heading": "Obegränsad åtkomst",
+          "title": "Lås upp premiumfunktioner idag!",
+          "firstOffering": "Tillgång till alla premiumfunktioner",
+          "secondOffering": "Annonsfri upplevelse",
+          "thirdOffering": "Obegränsad analys av medicinska bilder, videor, PDF-skanningar + rapporter",
+          "fourthOffering": "Obegränsade chattar med medicinska AI-assistenter dygnet runt"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Din AI-drivna hälsoföljeslagare",
+          "subtitle": "Få omedelbara medicinska insikter och vägledning från specialiserade AI-läkare, när som helst, var som helst."
+        },
+        "secondOnboarding": {
+          "title": "Fråga, ladda upp och få medicinska insikter",
+          "subtitle": "Chatta med AI-läkare från olika specialiteter, eller ladda upp medicinska bilder för snabb medicinsk analys."
+        },
+        "thirdOnboarding": {
+          "title": "Din integritet är viktig",
+          "subtitle": "Vi är engagerade i att skydda din integritet. Vi samlar inte in personuppgifter. Alla filer du laddar upp förblir privata och delas aldrig."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Lås upp premiumfunktioner idag!",
+        "firstOffering": {
+          "title": "Starta gratis provperiod",
+          "subtitle": "Njut av {{freeScans}} gratis skanningar – ingen betalning"
+        },
+        "secondOffering": {
+          "title": "Månadsplan",
+          "subtitle": "{{ price }}/månad"
+        },
+        "thirdOffering": {
+          "title": "Årsplan",
+          "subtitle": "{{ price }} per år"
+        },
+        "fourthOffering": {
+          "title": "{{trialDays}}-dagars provperiod",
+          "subtitle": "{{ price }} per år",
+          "plan": "Veckoplan"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Om",
+    "app_name": "Appnamn",
+    "citations": "Citeringar för medicinsk information",
+    "contactUs": "Kontakta oss",
+    "devMode": {
+      "componentsLibrary": "UI-bibliotek",
+      "title": "Utvecklarläge"
+    },
+    "faq": "FAQ",
+    "generale": "Allmänt",
+    "github": "Github",
+    "language": "Språk",
+    "languages": {
+      "arabic": "Arabiska",
+      "catalan": "Katalanska",
+      "croatian": "Kroatiska",
+      "czech": "Tjeckiska",
+      "danish": "Danska",
+      "dutch": "Nederländska",
+      "english": "Engelska",
+      "finnish": "Finska",
+      "french": "Franska",
+      "french_canada": "Franska (Kanada)",
+      "german": "Tyska",
+      "greek": "Grekiska",
+      "hebrew": "Hebreiska",
+      "hindi": "Hindi",
+      "hungarian": "Ungerska",
+      "indonesian": "Indonesiska",
+      "italian": "Italienska",
+      "japanese": "Japanska",
+      "korean": "Koreanska",
+      "malay": "Malajiska",
+      "mandarin_chinese": "Kinesiska",
+      "norwegian": "Norska",
+      "polish": "Polska",
+      "portuguese_brazil": "Portugisiska (Brasilien)",
+      "portuguese_portugal": "Portugisiska (Portugal)",
+      "romanian": "Rumänska",
+      "russian": "Ryska",
+      "slovak": "Slovakiska",
+      "spanish_mexico": "Spanska (Mexiko)",
+      "spanish_spain": "Spanska (Spanien)",
+      "swedish": "Svenska",
+      "thai": "Thailändska",
+      "turkish": "Turkiska",
+      "ukrainian": "Ukrainska",
+      "vietnamese": "Vietnamesiska"
+    },
+    "links": "Länkar",
+    "logout": "Logga ut",
+    "more": "Mer",
+    "privacy": "Integritetspolicy",
+    "profile": "Profil",
+    "rate": "Feedback",
+    "share": "Dela",
+    "support": "Support",
+    "support_us": "Stöd oss",
+    "tab": "Inställningar",
+    "terms": "Användarvillkor",
+    "theme": {
+      "dark": "Mörkt",
+      "light": "Ljust",
+      "system": "System",
+      "title": "Tema"
+    },
+    "title": "Inställningar",
+    "version": "Version",
+    "website": "Webbplats"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Ledsen, vi behöver kamerabehörigheter för att detta ska fungera!",
+    "errorSelectingImagePicker": "Något gick fel när bilden valdes. Vänligen försök igen.",
+    "errorSelectingDocumentPicker": "Något gick fel när dokumentet valdes. Vänligen försök igen.",
+    "errorTakingPicture": "Något gick fel när fotot togs. Vänligen försök igen.",
+    "enableNotifications": {
+      "heading": "Aktivera aviseringar",
+      "subHeading": "Aviseringar är för närvarande avstängda. För att hålla dig uppdaterad, vänligen aktivera dem i din enhets inställningar."
+    },
+    "enableNotificationFailed": "Push-aviseringar är inaktiverade. Aktivera dem i inställningar för att få viktiga uppdateringar!",
+    "enableNotificationError": "Ett fel uppstod när aviseringar aktiverades",
+    "notificationDisabledSuccess": "Aviseringar inaktiverades framgångsrikt.",
+    "notificationDisabledRegisterError": "Misslyckades med att avregistrera enheten för aviseringar.",
+    "notificationDisabledError": "Ett fel uppstod när aviseringar inaktiverades.",
+    "checkNotificationStatusError": "Fel vid kontroll av aviseringsstatus.",
+    "projectIdNotFound": "Aviseringsprojekt-ID hittades inte.",
+    "imageSizeLarge": "Bilden är för stor! Filstorleken är {{fileSize}} MB, men gränsen är {{imageLimit}} MB.",
+    "videoSizeLarge": "Videon är för stor! Filstorleken är {{fileSize}} MB, men gränsen är {{videoLimit}} MB.",
+    "loggedInSuccess": "Inloggning lyckades",
+    "loggedOutSuccess": "Du har loggat ut framgångsrikt!",
+    "sendVerificationCodeError": "Fel när verifieringskod skickades",
+    "validateAuthCodeError": "Fel när auth-kod validerades",
+    "anonymousSignInError": "Fel vid anonym inloggning",
+    "emailLoginError": "Fel vid inloggning",
+    "preferredLanguageError": "Fel vid uppdatering av användarens föredragna språk",
+    "sharingNotAvailable": "Delning är för närvarande inte tillgänglig på din enhet",
+    "sharingLinkError": "Misslyckades med att dela länk.",
+    "individualPushNotificationSuccess": "Individuella push-aviseringar skickades framgångsrikt!",
+    "globalPushNotificationSuccess": "Globala push-aviseringar skickades framgångsrikt! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Misslyckades med att uppdatera tolkningsfält! ❌",
+    "deleteScanReportFail": "Kunde inte radera skanningsrapporten. Vänligen försök igen",
+    "onboardingUnsuccessful": "Onboarding misslyckades. Vänligen försök igen",
+    "logoutUnsuccessful": "Utloggning misslyckades. Vänligen försök igen",
+    "deleteScanReportQuestion": "Är du säker på att du vill radera denna rapport permanent?",
+    "videoLimitExceeds": "Din video överskrider {{videoSecondsLimit}}-sekunders gränsen. Vänligen klipp till och ladda upp igen",
+    "subscriptionActivated": "Din prenumeration har aktiverats framgångsrikt! Njut av dina exklusiva förmåner!",
+    "subscriptionCancelledByUser": "Du har avbrutit transaktionen. Tveka inte att försöka igen!",
+    "subscriptionActivationFailed": "Misslyckades med att aktivera din prenumeration. Vänligen försök igen",
+    "logoutQuestion": "Är du säker på att du vill logga ut?",
+    "noSubscriptionToRestore": "Hoppsan! Det verkar som om du inte har en aktiv prenumeration för tillfället. För att fortsätta njuta av full tillgång, vänligen välj en av våra prenumerationsplaner.",
+    "restorationSuccessful": "Återställningen lyckades! Njut!",
+    "restorationError": "Ett fel uppstod när köpet återställdes.",
+    "medicalDisclaimerAlert": "Doctor Med AI-appen ersätter inte medicinsk konsultation. Vissa diagnoser är endast för informations-/utbildningsändamål. För medicinska rekommendationer, konsultera alltid en läkare eller auktoriserad specialist.",
+    "scanLimitReached": "Vi optimerar skanningskvaliteten för dig! Du kommer att kunna skanna igen om cirka {{hours}} timmar och {{minutes}} minuter. Har du några frågor om något medicinskt ämne? Fråga vår chattassistent medan du väntar!",
+    "mixedMediaNotAllowed": "För bättre noggrannhet, ladda inte upp en blandning av olika mediafiler. Vänligen ladda upp endast bilder, videor eller pdf - inte alla tillsammans.",
+    "multipleVideosNotAllowed": "För bättre noggrannhet, vänligen ladda upp endast en video åt gången.",
+    "mediaFilesUploadFiles": "Det uppstod ett fel när dina mediafiler laddades upp. Vänligen försök igen.",
+    "chatAndMediaFilesLimit": "Kära användare, du behöver uppgradera din plan för att dra nytta av obegränsade chattar, obegränsade skanningar, flerbildsanalys och mer. 🔓"
+  },
+  "deleteApp": {
+    "title": "Vänta! Radera mig inte!",
+    "subtitle": "Skicka feedback istället"
+  }
+}

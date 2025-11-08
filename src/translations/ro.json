@@ -1,0 +1,488 @@
+{
+  "general": {
+    "back": "Înapoi",
+    "welcome": "Bună",
+    "welcomeBack": "Bun venit înapoi!",
+    "welcomeMessage": "Bun venit!",
+    "continue": "Continuă",
+    "retry": "Reîncearcă",
+    "close": "Închide",
+    "gallery": "Galerie",
+    "files": "Fișiere",
+    "seeAll": "Vezi tot",
+    "cancel": "Anulează",
+    "delete": "Șterge",
+    "attention": "Atenție!",
+    "new": "Nou",
+    "activeSubscription": "Abonament activ",
+    "agreeingMessage": "Prin continuare, ești de acord cu",
+    "and": "și",
+    "askAssistant": "Întreabă asistentul AI",
+    "chatbotPlaceholder": "Întreabă-mă orice...",
+    "completedScans": "Scanări finalizate",
+    "conversationHistory": "Istoric conversații",
+    "medicalAssistants": "Asistenți medicali",
+    "searchAssistant": "Caută asistent...",
+    "analyzingMediaFilesPlaceholder": "Analizez fișiere media...",
+    "copyText": {
+      "copied": "Copiat!",
+      "copy": "Copiază link",
+      "loading": "Se copiază..."
+    },
+    "createdAt": "Creat la",
+    "download": "Descarcă",
+    "free": "GRATUIT",
+    "freeTrial": "Perioadă de probă gratuită",
+    "loadingMessages": {
+      "imageScanningLoading": {
+        "first": "Scanăm imaginile dumneavoastră medicale, vă rugăm așteptați...",
+        "fourth": "Aproape gata, finalizăm scanarea...",
+        "second": "Analizăm detaliile, acest lucru poate dura un moment...",
+        "third": "Îmbunătățim acuratețea pentru cele mai bune rezultate..."
+      },
+      "initialAppLoad": {
+        "first": "Încărcăm experiența dumneavoastră personalizată...",
+        "fourth": "Aproape gata, doar un moment...",
+        "second": "Sincronizăm sistemele...",
+        "third": "Procesăm datele dumneavoastră..."
+      },
+      "loadingChatbot": {
+        "first": "Dr. Med se pregătește să vă ajute...",
+        "second": "Așteptați! Dr. Med vă pregătește răspunsul...",
+        "third": "Gândesc...asistentul dumneavoastră Dr. Med se ocupă!"
+      }
+    },
+    "tabs": {
+      "home": "Acasă",
+      "chat": "Chat",
+      "aiDoctors": "Doctori AI",
+      "settings": "Setări"
+    },
+    "medicalDisclaimer": "Disclaimer medical",
+    "next": "Următorul",
+    "noPaymentNow": "Fără plată acum. Anulează oricând.",
+    "online": "Online",
+    "openSettings": "Deschide setări",
+    "or": "sau",
+    "perMonth": "pe lună",
+    "perWeek": "pe săptămână",
+    "perYear": "pe an",
+    "privacyPolicy": "Politica de confidențialitate",
+    "restorePurchase": "Restaurează cumpărăturile",
+    "termsOfUse": "Termenii de utilizare",
+    "saveDiscount": "ECONOMISEȘTE",
+    "seeNotifications": "Vezi notificări",
+    "share": "Distribuie",
+    "shareLink": "Distribuie link",
+    "skip": "Sari peste",
+    "termsAndConditions": "Termeni și condiții",
+    "then": "apoi",
+    "tryAgain": "Încearcă din nou",
+    "tryForFree": "Începe perioada de probă gratuită",
+    "typing": "Scriu...",
+    "unlockNow": "Deblochează acum",
+    "update": "Actualizează",
+    "upgradePlan": "Actualizează planul",
+    "viewProfile": "Vezi profil",
+    "yes": "Da",
+    "chatBotPlaceholder": "Bună. Dacă ai întrebări, te pot ajuta să explorezi domeniul {{topic}}. Doar pentru uz educațional."
+  },
+  "weekDays": {
+    "today": "Astăzi",
+    "yesterday": "Ieri"
+  },
+  "components": {
+    "PremiumFeaturesOverview": {
+      "first": "Primește analize de la diverse scanări medicale, inclusiv RAY-X, CT, MRI, EKG și multe altele",
+      "second": "Acces la toate funcțiile premium",
+      "fourth": "Conversații nelimitate cu asistenți medicali AI non-stop",
+      "third": "Fără reclame"
+    },
+    "UpgradeBanner": {
+      "heading": "Deblochează acum",
+      "subheading": "Bucură-te de toate beneficiile fără restricții"
+    },
+    "MedicalCard": {
+      "medicalImagesAnalyzer": "Analizor imagini medicale",
+      "askMedicalAssistant": "Întreabă asistentul medical AI",
+      "medicalAssistant": "Asistent medical",
+      "imageTypes": {
+        "xray": "Ray-X",
+        "ct": "CT",
+        "mri": "RMN",
+        "ultrasound": "Ecografie",
+        "ecg": "ECG",
+        "skinLesion": "Leziune cutanată",
+        "mammogram": "Mamografie",
+        "retinalScan": "Scanare retinală",
+        "bloodSmear": "Frotiu sanguin",
+        "dental": "Dentar",
+        "pet": "PET",
+        "dexa": "DEXA / Scanare densitate osoasă",
+        "angiography": "Angiografie",
+        "echo": "Ecocardiografie (ECHO)",
+        "fluoroscopy": "Fluoroscopie"
+      }
+    },
+    "SpecializationCard": {
+      "specialization": {
+        "familyMedicine": {
+          "title": "Medicină de familie",
+          "subtitle": "Practică generală"
+        },
+        "internalMedicine": {
+          "title": "Medicină internă"
+        },
+        "pediatrics": {
+          "title": "Pediatrie"
+        },
+        "dermatology": {
+          "title": "Dermatologie"
+        },
+        "cardiology": {
+          "title": "Cardiologie"
+        },
+        "orthopedics": {
+          "title": "Ortopedie"
+        },
+        "psychiatry": {
+          "title": "Psihiatrie",
+          "subtitle": "Sănătate mintală"
+        },
+        "obstetricsGynecology": {
+          "title": "Obstetrică și Ginecologie",
+          "subtitle": "OB/GYN"
+        },
+        "neurology": {
+          "title": "Neurologie"
+        },
+        "ophthalmology": {
+          "title": "Oftalmologie"
+        },
+        "otolaryngology": {
+          "title": "Otorinolaringologie",
+          "subtitle": "ORL"
+        },
+        "dentistry": {
+          "title": "Stomatologie"
+        },
+        "radiology": {
+          "title": "Radiologie",
+          "subtitle": "Imagistică"
+        },
+        "oncology": {
+          "title": "Oncologie"
+        },
+        "endocrinology": {
+          "title": "Endocrinologie"
+        },
+        "nephrology": {
+          "title": "Nefrologie"
+        },
+        "pulmonology": {
+          "title": "Pneumologie"
+        },
+        "gastroenterology": {
+          "title": "Gastroenterologie"
+        },
+        "allergyImmunology": {
+          "title": "Alergologie și Imunologie"
+        },
+        "hematology": {
+          "title": "Hematologie"
+        },
+        "rheumatology": {
+          "title": "Reumatologie"
+        },
+        "urology": {
+          "title": "Urologie"
+        },
+        "emergencyMedicine": {
+          "title": "Medicină de urgență"
+        },
+        "surgery": {
+          "title": "Chirurgie"
+        },
+        "anesthesiology": {
+          "title": "Anesteziologie"
+        },
+        "rehabilitationMedicine": {
+          "title": "Medicină de recuperare",
+          "subtitle": "FT"
+        },
+        "geriatrics": {
+          "title": "Geriatrie"
+        },
+        "publicHealth": {
+          "title": "Sănătate publică",
+          "subtitle": "Medicină preventivă"
+        },
+        "microscopy": {
+          "title": "Microscopie"
+        }
+      }
+    },
+    "ImagePickerModal": {
+      "photoLibrary": "Bibliotecă foto",
+      "takePhoto": "Fă o poză",
+      "chooseFile": "Alege fișier"
+    }
+  },
+  "rootLayout": {
+    "screens": {
+      "welcome": {
+        "accountButton": "Am deja un cont",
+        "heading": "Bun venit la Doctor Med AI!",
+        "startButton": "Să începem!"
+      },
+      "freeTrialPreview": {
+        "heading": "Bucură-te de perioada ta de probă gratuită! 🎉",
+        "review": "Folosesc această aplicație pentru întrebări medicale, scanări radiologice și studiu — este uimitoare!",
+        "reviewTrust": "📈 Încredere de peste 5.212 utilizatori"
+      },
+      "languageAnalysisModal": {
+        "languagePreferenceQuestion": "Ce limbă preferi pentru analiza AI?",
+        "languageSelection": "Alege o limbă pentru răspunsurile AI",
+        "languageSearchCriteria": "Caută după limbă, cod țară sau steag",
+        "noLanguageFound": "Limbă negăsită",
+        "noLanguageFoundSubtitle": "Încearcă să modifici termenii de căutare"
+      },
+      "chatScreen": {
+        "randomQuestions": {
+          "one": "Ce arată o radiografie toracică?",
+          "two": "Care sunt simptomele comune ale unui infarct?",
+          "three": "Cum pot scădea tensiunea arterială în mod natural?",
+          "four": "Care este diferența dintre RMN și CT?",
+          "five": "Care sunt semnele timpurii ale diabetului?",
+          "six": "Cum îmi interpretez rezultatele analizelor de sânge de bază?",
+          "seven": "Care este tratamentul pentru infecția urinară (UTI)?",
+          "eight": "Poți explica la ce se folosește un ecocardiogram?",
+          "nine": "Care sunt recomandările pentru o dietă sănătoasă?",
+          "ten": "Ce cauzează colesterolul ridicat?",
+          "eleven": "Cum este detectat un tumor cerebral la RMN?",
+          "twelve": "Care este rolul medicinei de familie?",
+          "thirteen": "Care sunt factorii de risc pentru accident vascular cerebral?",
+          "fourteen": "Cum să gestionezi anxietatea și stresul?",
+          "fifteen": "Care sunt ultimele recomandări pentru gestionarea hipertensiunii?"
+        }
+      },
+      "notifications": {
+        "title": "Notificări",
+        "noNotifications": "Nicio notificare momentan — rămâi conectat pentru actualizări!"
+      },
+      "rateAppScreen": {
+        "heading": "Consideri aplicația valoroasă și interesantă?",
+        "like": "Da, îmi place!",
+        "dislike": "Nu îmi place"
+      },
+      "profile": {
+        "title": "Profil",
+        "edit": "Editează profil",
+        "placeholderPreferredName": "Ex: Căpitan Cool, Regina Albine, sau doar Alex!"
+      },
+      "noInternetScreen": {
+        "heading": "Ești offline",
+        "subheading": "Conexiunea ta pare instabilă. Verifică-ți starea rețelei"
+      },
+      "newAppVersionScreen": {
+        "heading": "O versiune nouă a Doctor Med AI este disponibilă",
+        "subheading": "Actualizează la ultima versiune pentru a continua să te bucuri de toate funcțiile aplicației — durează doar 5 secunde!",
+        "action": "Obține-o acum!"
+      },
+      "disclaimerScreen": {
+        "heading": "Disclaimer medical important",
+        "subheading": "Doctor Med AI este conceput pentru profesioniști în radiologie, experți în sănătate, studenți la medicină și entuziaști",
+        "consentAgreement": "Am citit și sunt de acord cu disclaimer-ul.",
+        "firstConsent": "Doctor Med AI nu oferă măsurători de sănătate sau sfaturi de tratament și nu este destinat unor astfel de scopuri. Utilizatorii Doctor Med AI trebuie să își aplice judecata clinică și să verifice informațiile din surse autoritative înainte de a lua decizii clinice.",
+        "secondConsent": "Doctor Med AI nu este un instrument de diagnostic, platformă de tratament sau înlocuitor pentru sfaturi medicale profesionale. Oferă perspective generate de AI pentru a ajuta profesioniștii din sănătate să acceseze cunoștințe medicale și să analizeze imagini și documente medicale. Doctor Med AI este o aplicație informațională și educațională condusă de AI concepută mai mult pentru a sprijini profesioniștii din sănătate autorizați.",
+        "thirdConsent": "Doctor Med AI nu este conceput pentru utilizarea pacienților. Nu oferă diagnostice medicale directe, recomandări de tratament sau funcționalități de management al pacienților.",
+        "fourthConsent": "Doctor Med AI nu este clasificat ca dispozitiv medical și nu pretinde aprobări de reglementare. Este destinat scopurilor educaționale și informaționale pentru a completa expertiza profesională.",
+        "fifthConsent": "Doctor Med AI nu colectează, stochează sau procesează date personale sau ale pacienților. Toate interacțiunile utilizatorilor sunt confidențiale și limitate la domeniul de aplicare al aplicației."
+      },
+      "contactUs": {
+        "heading": "Nu ezita să ne trimiți un email direct, iar echipa noastră te va contacta cât mai curând posibil",
+        "customerSupport": "Suport clienți",
+        "emailAddress": "Adresă de email"
+      },
+      "rate": {
+        "title": "Dă-ne un feedback!"
+      },
+      "doctorsScreen": {
+        "searchResults": {
+          "notFoundTitle": "Niciun rezultat găsit — dar nu-ți face griji!",
+          "notFoundSubtitle": "Încearcă să folosești alte cuvinte cheie sau întreabă direct asistentul nostru medical AI",
+          "askAssistant": "Întreabă asistentul medical"
+        }
+      },
+      "paywallOnboarding": {
+        "freeTierOfferings": {
+          "freeTrialEnabled": "Perioadă de probă gratuită activată",
+          "heading": "Acces nelimitat",
+          "title": "Deblochează funcțiile premium astăzi!",
+          "firstOffering": "Acces la toate funcțiile premium",
+          "secondOffering": "Experiență fără reclame",
+          "thirdOffering": "Analiză nelimitată a imaginilor medicale, videoclipurilor, scanărilor PDF + rapoarte",
+          "fourthOffering": "Conversații nelimitate cu asistenți medicali AI non-stop"
+        }
+      },
+      "onboarding": {
+        "firstOnboarding": {
+          "title": "Partenerul tău de sănătate alimentat cu AI",
+          "subtitle": "Primește perspective medicale instantanee și îndrumare de la doctori AI specializați, oricând, oriunde."
+        },
+        "secondOnboarding": {
+          "title": "Întreabă, încarcă și obține perspective medicale",
+          "subtitle": "Conversaționează cu doctori AI din diferite specialități sau încarcă imagini medicale pentru analiză medicală rapidă."
+        },
+        "thirdOnboarding": {
+          "title": "Confidențialitatea ta contează",
+          "subtitle": "Suntem dedicați să protejăm confidențialitatea ta. Nu colectăm date personale. Orice fișiere pe care le încarci rămân private și nu sunt niciodată distribuite."
+        }
+      },
+      "paywallUpgradeScreen": {
+        "heading": "Deblochează funcțiile premium astăzi!",
+        "firstOffering": {
+          "title": "Începe perioada de probă gratuită",
+          "subtitle": "Bucură-te de {{freeScans}} scanări gratuite – fără plată"
+        },
+        "secondOffering": {
+          "title": "Plan lunar",
+          "subtitle": "{{ price }}/lună"
+        },
+        "thirdOffering": {
+          "title": "Plan anual",
+          "subtitle": "{{ price }} pe an"
+        },
+        "fourthOffering": {
+          "title": "Probă de {{trialDays}} zile",
+          "subtitle": "{{ price }} pe an",
+          "plan": "Plan săptămânal"
+        }
+      }
+    }
+  },
+  "settings": {
+    "about": "Despre",
+    "app_name": "Nume aplicație",
+    "citations": "Citări pentru informații medicale",
+    "contactUs": "Contactează-ne",
+    "devMode": {
+      "componentsLibrary": "Bibliotecă UI",
+      "title": "Mod developer"
+    },
+    "faq": "Întrebări frecvente",
+    "generale": "General",
+    "github": "Github",
+    "language": "Limba",
+    "languages": {
+      "arabic": "Arabă",
+      "catalan": "Catalană",
+      "croatian": "Croată",
+      "czech": "Cehă",
+      "danish": "Daneză",
+      "dutch": "Olandeză",
+      "english": "Engleză",
+      "finnish": "Finlandeză",
+      "french": "Franceză",
+      "french_canada": "Franceză (Canada)",
+      "german": "Germană",
+      "greek": "Greacă",
+      "hebrew": "Ebraică",
+      "hindi": "Hindi",
+      "hungarian": "Maghiară",
+      "indonesian": "Indoneziană",
+      "italian": "Italiană",
+      "japanese": "Japoneză",
+      "korean": "Coreeană",
+      "malay": "Malaeză",
+      "mandarin_chinese": "Chineză",
+      "norwegian": "Norvegiană",
+      "polish": "Poloneză",
+      "portuguese_brazil": "Portugheză (Brazilia)",
+      "portuguese_portugal": "Portugheză (Portugalia)",
+      "romanian": "Română",
+      "russian": "Rusă",
+      "slovak": "Slovacă",
+      "spanish_mexico": "Spaniolă (Mexic)",
+      "spanish_spain": "Spaniolă (Spania)",
+      "swedish": "Suedeză",
+      "thai": "Thai",
+      "turkish": "Turcă",
+      "ukrainian": "Ucraineană",
+      "vietnamese": "Vietnameză"
+    },
+    "links": "Link-uri",
+    "logout": "Deconectare",
+    "more": "Mai mult",
+    "privacy": "Politica de confidențialitate",
+    "profile": "Profil",
+    "rate": "Feedback",
+    "share": "Distribuie",
+    "support": "Suport",
+    "support_us": "Sprijină-ne",
+    "tab": "Setări",
+    "terms": "Termenii serviciului",
+    "theme": {
+      "dark": "Întunecat",
+      "light": "Luminos",
+      "system": "Sistem",
+      "title": "Temă"
+    },
+    "title": "Setări",
+    "version": "Versiune",
+    "website": "Site web"
+  },
+  "alerts": {
+    "mediaPickerPermissions": "Scuze, avem nevoie de permisiuni pentru cameră ca acest lucru să funcționeze!",
+    "errorSelectingImagePicker": "Ceva a mers greșit la selectarea imaginii. Vă rugăm să încercați din nou.",
+    "errorSelectingDocumentPicker": "Ceva a mers greșit la selectarea documentului. Vă rugăm să încercați din nou.",
+    "errorTakingPicture": "Ceva a mers greșit la realizarea fotografiei. Vă rugăm să încercați din nou.",
+    "enableNotifications": {
+      "heading": "Activează notificările",
+      "subHeading": "Notificările sunt momentan dezactivate. Pentru a rămâne la curent, te rugăm să le activezi în setările dispozitivului."
+    },
+    "enableNotificationFailed": "Notificările push sunt dezactivate. Activează-le în setări pentru a primi actualizări importante!",
+    "enableNotificationError": "A apărut o eroare la activarea notificărilor",
+    "notificationDisabledSuccess": "Notificări dezactivate cu succes.",
+    "notificationDisabledRegisterError": "Nu s-a putut anula înregistrarea dispozitivului pentru notificări.",
+    "notificationDisabledError": "A apărut o eroare la dezactivarea notificărilor.",
+    "checkNotificationStatusError": "Eroare la verificarea stării notificărilor.",
+    "projectIdNotFound": "ID-ul proiectului de notificări nu a fost găsit.",
+    "imageSizeLarge": "Imaginea este prea mare! Dimensiunea fișierului este {{fileSize}} MB, dar limita este {{imageLimit}} MB.",
+    "videoSizeLarge": "Videoclipul este prea mare! Dimensiunea fișierului este {{fileSize}} MB, dar limita este {{videoLimit}} MB.",
+    "loggedInSuccess": "Autentificare reușită",
+    "loggedOutSuccess": "Te-ai deconectat cu succes!",
+    "sendVerificationCodeError": "Eroare la trimiterea codului de verificare",
+    "validateAuthCodeError": "Eroare la validarea codului de autentificare",
+    "anonymousSignInError": "Eroare la autentificarea anonimă",
+    "emailLoginError": "Eroare la autentificare",
+    "preferredLanguageError": "Eroare la actualizarea limbii preferate a utilizatorului",
+    "sharingNotAvailable": "Distribuirea nu este disponibilă momentan pe dispozitivul dvs.",
+    "sharingLinkError": "Nu s-a putut distribui linkul.",
+    "individualPushNotificationSuccess": "Notificări push individuale trimise cu succes!",
+    "globalPushNotificationSuccess": "Notificări push globale trimise cu succes! 🌍🚀",
+    "interpretationFieldsUpdateFail": "Nu s-au putut actualiza câmpurile de interpretare! ❌",
+    "deleteScanReportFail": "Nu se poate șterge raportul de scanare. Vă rugăm să încercați din nou",
+    "onboardingUnsuccessful": "Onboarding nereușit. Vă rugăm să încercați din nou",
+    "logoutUnsuccessful": "Deconectare nereușită. Vă rugăm să încercați din nou",
+    "deleteScanReportQuestion": "Ești sigur că vrei să ștergi permanent acest raport?",
+    "videoLimitExceeds": "Videoclipul tău depășește limita de {{videoSecondsLimit}} secunde. Te rugăm să îl trimiți și să îl încarci din nou",
+    "subscriptionActivated": "Abonamentul tău a fost activat cu succes! Bucură-te de beneficiile exclusive!",
+    "subscriptionCancelledByUser": "Ai anulat tranzacția. Poți încerca din nou oricând!",
+    "subscriptionActivationFailed": "Nu s-a putut activa abonamentul tău. Vă rugăm să încercați din nou",
+    "logoutQuestion": "Ești sigur că vrei să te deconectezi?",
+    "noSubscriptionToRestore": "Ups! Se pare că nu ai un abonament activ momentan. Pentru a continua să te bucuri de acces complet, te rugăm să alegi unul dintre planurile noastre de abonament.",
+    "restorationSuccessful": "Restaurarea a fost reușită! Bucură-te!",
+    "restorationError": "A apărut o eroare la restaurarea achiziției.",
+    "medicalDisclaimerAlert": "Aplicația Doctor Med AI nu înlocuiește consultația medicală. Unele diagnostice sunt doar în scop informativ/educațional. Pentru recomandări medicale, consultă întotdeauna un medic sau un specialist autorizat.",
+    "scanLimitReached": "Optimizăm calitatea scanării pentru tine! Vei putea scana din nou în aproximativ {{hours}} ore și {{minutes}} minute. Ai întrebări despre vreun subiect medical? Întreabă asistentul nostru de chat în timp ce aștepți!",
+    "mixedMediaNotAllowed": "Pentru o acuratețe mai bună, nu încărca un amestec de fișiere media diferite. Te rugăm să încarci doar imagini, videoclipuri sau pdf-uri — nu toate împreună.",
+    "multipleVideosNotAllowed": "Pentru o acuratețe mai bună, te rugăm să încarci doar un videoclip pe rând.",
+    "mediaFilesUploadFiles": "A apărut o eroare la încărcarea fișierelor media. Vă rugăm să încercați din nou.",
+    "chatAndMediaFilesLimit": "Dragă utilizator, trebuie să îți actualizezi planul pentru a beneficia de conversații nelimitate, scanări nelimitate, analiză multi-imagine și multe altele. 🔓"
+  },
+  "deleteApp": {
+    "title": "Stai! Nu mă șterge!",
+    "subtitle": "Trimite feedback în schimb"
+  }
+}

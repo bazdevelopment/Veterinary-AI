@@ -86,14 +86,14 @@ const CustomAlert = ({
           <View className="elevation-5 dark:bg-blackEerie mx-[15%] mt-[-50] items-center justify-center rounded-3xl bg-white p-7">
             {/* Title (bold) */}
             {title && (
-              <Text className="mb-2 text-center font-bold-work-sans text-xl dark:text-white">
+              <Text className="mb-2 text-center font-bold-poppins text-xl dark:text-white">
                 {title}
               </Text>
             )}
 
             {/* Subtitle (normal weight) */}
             {subtitle && (
-              <Text className="mb-2 text-center font-medium-work-sans text-lg dark:text-white">
+              <Text className="mb-2 text-center font-medium-poppins text-lg dark:text-white">
                 {subtitle}
               </Text>
             )}
