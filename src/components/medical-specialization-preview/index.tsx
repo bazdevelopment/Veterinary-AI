@@ -118,18 +118,18 @@ export const medicalSpecializationsData: MedicalSpecialization[] = [
     searchRank: 6,
     description: 'Bones, joints, ligaments, and musculoskeletal system',
   },
-  {
-    id: '7',
-    title: translate(
-      'components.SpecializationCard.specialization.psychiatry.title'
-    ),
-    subtitle: translate(
-      'components.SpecializationCard.specialization.psychiatry.subtitle'
-    ),
-    icon: require('../../assets/images/specializations/psychiatry.png'),
-    color: '#00ACC1',
-    description: 'Mental health and behavioral disorders',
-  },
+  // {
+  //   id: '7',
+  //   title: translate(
+  //     'components.SpecializationCard.specialization.psychiatry.title'
+  //   ),
+  //   subtitle: translate(
+  //     'components.SpecializationCard.specialization.psychiatry.subtitle'
+  //   ),
+  //   icon: require('../../assets/images/specializations/psychiatry.png'),
+  //   color: '#00ACC1',
+  //   description: 'Mental health and behavioral disorders',
+  // },
   {
     id: '8',
     title: translate(

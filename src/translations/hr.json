@@ -85,7 +85,7 @@
     "upgradePlan": "Nadogradi plan",
     "viewProfile": "Pogledaj profil",
     "yes": "Da",
-    "chatBotPlaceholder": "Bok. Ako imate pitanja, mogu vam pomoći da istražite {{topic}} domenu. Samo za edukativnu upotrebu."
+    "chatBotPlaceholder": "Bok 👋 Zanima te {{topic}}? Tu sam da ti pomognem istražiti i saznati više — pitaj što god želiš!"
   },
   "weekDays": {
     "today": "Danas",

@@ -85,7 +85,7 @@
     "upgradePlan": "Uppgradera plan",
     "viewProfile": "Visa profil",
     "yes": "Ja",
-    "chatBotPlaceholder": "Hej. Om du har några frågor kan jag hjälpa dig att utforska {{topic}}-domänen. Endast för utbildningsändamål."
+    "chatBotPlaceholder": "Hej 👋 Nyfiken på {{topic}}? Jag är här för att hjälpa dig utforska och lära dig mer — fråga mig vad som helst!"
   },
   "weekDays": {
     "today": "Idag",

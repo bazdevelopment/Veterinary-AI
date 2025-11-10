@@ -85,7 +85,7 @@
     "upgradePlan": "プランをアップグレード",
     "viewProfile": "プロフィールを表示",
     "yes": "はい",
-    "chatBotPlaceholder": "こんにちは。ご質問があれば、{{topic}}分野の探求をお手伝いします。教育目的のみに使用してください。"
+    "chatBotPlaceholder": "こんにちは 👋 {{topic}} に興味がありますか？一緒に学んで探っていきましょう — 何でも聞いてください！"
   },
   "weekDays": {
     "today": "今日",

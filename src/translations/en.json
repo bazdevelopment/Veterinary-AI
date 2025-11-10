@@ -85,7 +85,7 @@
     "upgradePlan": "Upgrade Plan",
     "viewProfile": "View Profile",
     "yes": "Yes",
-    "chatBotPlaceholder": "Hi. If you have any question, I can help you explore the {{topic}} domain. For educational use only."
+    "chatBotPlaceholder": "Hey there 👋 Curious about {{topic}}? I’m here to help you explore and learn more — ask me anything!"
   },
   "weekDays": {
     "today": "Today",

@@ -158,7 +158,7 @@ const PricingCard = ({
               <Text className="mr-2 font-semibold-poppins text-lg text-gray-600 line-through">
                 {originalPrice}
               </Text>
-              <Text className="font-semibold-poppins text-lg text-gray-900">
+              <Text className="text-lg font-medium-poppins text-gray-900">
                 {price} {translate('general.perYear')}
               </Text>
               {/* {isFree && (
@@ -337,6 +337,7 @@ const PaywallNew = () => {
           <Icon
             size={28}
             containerStyle="right-4 top-3 self-end p-2 z-10"
+            disabled={isPendingUpdateUser}
             onPress={() => {
               if (allowAppAccess === 'true') {
                 updateUserAndNavigate({

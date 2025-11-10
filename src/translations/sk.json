@@ -85,7 +85,7 @@
     "upgradePlan": "Inovovať plán",
     "viewProfile": "Zobraziť profil",
     "yes": "Áno",
-    "chatBotPlaceholder": "Ahoj. Ak máte nejaké otázky, môžem vám pomôcť preskúmať doménu {{topic}}. Iba na vzdelávacie účely."
+    "chatBotPlaceholder": "Ahoj 👋 Zaujíma ťa {{topic}}? Som tu, aby som ti pomohol preskúmať a dozvedieť sa viac — spýtaj sa na čokoľvek!"
   },
   "weekDays": {
     "today": "Dnes",

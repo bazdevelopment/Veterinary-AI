@@ -85,7 +85,7 @@
     "upgradePlan": "Planı Yükselt",
     "viewProfile": "Profili Görüntüle",
     "yes": "Evet",
-    "chatBotPlaceholder": "Merhaba. Herhangi bir sorunuz varsa, {{topic}} alanını keşfetmenize yardımcı olabilirim. Sadece eğitim amaçlıdır."
+    "chatBotPlaceholder": "Merhaba 👋 {{topic}} hakkında meraklı mısın? Keşfetmene ve daha fazlasını öğrenmene yardımcı olabilirim — bana istediğini sor!"
   },
   "weekDays": {
     "today": "Bugün",

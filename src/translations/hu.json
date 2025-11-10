@@ -85,7 +85,7 @@
     "upgradePlan": "Csomag frissítése",
     "viewProfile": "Profil megtekintése",
     "yes": "Igen",
-    "chatBotPlaceholder": "Üdvözöljük. Ha kérdése van, segíthetek felfedezni a {{topic}} területét. Csak oktatási célra."
+    "chatBotPlaceholder": "Szia 👋 Érdekel a {{topic}}? Itt vagyok, hogy segítsek felfedezni és többet megtudni — kérdezz bátran!"
   },
   "weekDays": {
     "today": "Ma",

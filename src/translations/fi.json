@@ -85,7 +85,7 @@
     "upgradePlan": "Päivitä suunnitelma",
     "viewProfile": "Näytä profiili",
     "yes": "Kyllä",
-    "chatBotPlaceholder": "Hei. Jos sinulla on kysymyksiä, voin auttaa sinua tutkimaan {{topic}}-aluetta. Vain koulutuskäyttöön."
+    "chatBotPlaceholder": "Moikka 👋 Kiinnostaako {{topic}}? Olen täällä auttamassa sinua tutkimaan ja oppimaan lisää — kysy mitä vain!"
   },
   "weekDays": {
     "today": "Tänään",

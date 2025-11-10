@@ -85,7 +85,7 @@
     "upgradePlan": "Oppgrader abonnement",
     "viewProfile": "Vis profil",
     "yes": "Ja",
-    "chatBotPlaceholder": "Hei. Hvis du har spørsmål, kan jeg hjelpe deg med å utforske {{topic}}-domenet. Kun til utdanningsbruk."
+    "chatBotPlaceholder": "Hei 👋 Nysgjerrig på {{topic}}? Jeg er her for å hjelpe deg å utforske og lære mer — spør meg om hva som helst!"
   },
   "weekDays": {
     "today": "I dag",

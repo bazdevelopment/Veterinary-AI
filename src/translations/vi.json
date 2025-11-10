@@ -85,7 +85,7 @@
     "upgradePlan": "Nâng cấp gói",
     "viewProfile": "Xem hồ sơ",
     "yes": "Có",
-    "chatBotPlaceholder": "Xin chào. Nếu bạn có bất kỳ câu hỏi nào, tôi có thể giúp bạn khám phá lĩnh vực {{topic}}. Chỉ dùng cho mục đích giáo dục."
+    "chatBotPlaceholder": "Chào bạn 👋 Bạn tò mò về {{topic}} à? Mình ở đây để giúp bạn khám phá và tìm hiểu thêm — cứ hỏi bất cứ điều gì nhé!"
   },
   "weekDays": {
     "today": "Hôm nay",

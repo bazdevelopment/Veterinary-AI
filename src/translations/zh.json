@@ -85,7 +85,7 @@
     "upgradePlan": "升级计划",
     "viewProfile": "查看个人资料",
     "yes": "是",
-    "chatBotPlaceholder": "您好。如果您有任何问题，我可以帮助您探索{{topic}}领域。仅供教育用途。"
+    "chatBotPlaceholder": "嗨 👋 对 {{topic}} 感到好奇吗？我在这里帮你一起探索和了解更多 — 随时问我吧！"
   },
   "weekDays": {
     "today": "今天",
