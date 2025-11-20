@@ -21,7 +21,7 @@
     "chatbotPlaceholder": "Ask me anything...",
     "completedScans": "Scans completed",
     "conversationHistory": "Conversation history",
-    "medicalAssistants": "Medical Specialties Explorer",
+    "medicalAssistants": "General AI Medical Assistants",
     "searchAssistant": "Search Assistant...",
     "analyzingMediaFilesPlaceholder": "Analyzing Media Files...",
     "copyText": {
@@ -127,23 +127,23 @@
     "SpecializationCard": {
       "specialization": {
         "familyMedicine": {
-          "title": "Family Medicine",
+          "title": "Family Medicine Study",
           "subtitle": "General Practice"
         },
         "internalMedicine": {
-          "title": "Internal Medicine"
+          "title": "Internal Medicine Basics"
         },
         "pediatrics": {
-          "title": "Pediatrics"
+          "title": "Pediatrics Handbook AI"
         },
         "dermatology": {
-          "title": "Dermatology"
+          "title": "Dermatology Learning"
         },
         "cardiology": {
-          "title": "Cardiology"
+          "title": "Cardiology Studies"
         },
         "orthopedics": {
-          "title": "Orthopedics"
+          "title": "Orthopedics Reference"
         },
         "psychiatry": {
           "title": "Psychiatry",
@@ -167,7 +167,7 @@
           "title": "Dentistry"
         },
         "radiology": {
-          "title": "Radiology",
+          "title": "Radiology Research",
           "subtitle": "Imaging"
         },
         "oncology": {
@@ -218,7 +218,7 @@
           "subtitle": "Preventive Medicine"
         },
         "microscopy": {
-          "title": "Microscopy"
+          "title": "Microscopy Knowledge AI"
         }
       }
     },

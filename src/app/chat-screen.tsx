@@ -1,12 +1,11 @@
 import { Ionicons } from '@expo/vector-icons';
+import { BlurView } from '@react-native-community/blur';
 import { FlashList } from '@shopify/flash-list';
 import { router, useLocalSearchParams } from 'expo-router';
 import LottieView from 'lottie-react-native';
 import { useColorScheme } from 'nativewind';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { BlurView } from '@react-native-community/blur';
-
 import {
   Animated,
   Image,
@@ -17,6 +16,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import { KeyboardAvoidingView } from 'react-native-keyboard-controller';
 import Markdown from 'react-native-markdown-display';
 import { Toaster } from 'sonner-native';
 import { twMerge } from 'tailwind-merge';
@@ -27,47 +27,44 @@ import {
   useSendStreamingMessage,
 } from '@/api/conversation/conversation.hooks';
 import { useUser } from '@/api/user/user.hooks';
-
-import Icon from '@/components/icon';
-
 import AnimatedChatQuestions from '@/components/animated-questions';
 import CustomAlert from '@/components/custom-alert';
-
-import { LockerIcon } from '@/components/ui/icons/locker';
-import { wait } from '@/utilities/wait';
-import {
-  MAX_CONVERSATIONS_ALLOWED_FREE_TRIAL,
-  BLURRING_CONTENT_CONVERSATIONS_LIMIT,
-} from '@/constants/constants/limits';
-import { colors, SafeAreaView, Text } from '@/components/ui';
-import { shuffleArray } from '@/utilities/shuffle-array';
-import { useTextToSpeech } from '@/lib/hooks/use-text-to-speech';
-import { translate, useSelectedLanguage } from '@/lib';
-import useBackHandler from '@/lib/hooks/use-back-handler';
-import { DEVICE_TYPE } from '@/utilities/device-type';
-import { generateUniqueId } from '@/utilities/generate-unique-id';
-import { useClipboard } from '@/lib/hooks/use-clipboard';
-import { SoundOn } from '@/components/ui/icons/sound-on';
-import { StopIcon } from '@/components/ui/icons/stop';
-import CopyIcon from '@/components/ui/icons/copy';
-import { CopiedIcon } from '@/components/ui/icons/copied';
-import { AddMediaPicker } from '@/components/ui/icons/add-media-picker';
+import DisclaimerBanner from '@/components/disclaimer-banner';
+import Icon from '@/components/icon';
 import { ImagePickerModal } from '@/components/image-picker-modal';
-import { useMediaPiker } from '@/lib/hooks/use-media-picker';
 import ImagePreviewGallery from '@/components/image-preview-gallery';
+import MessageMediaAttachments from '@/components/message-media-attachments';
+import Toast from '@/components/toast';
+import { colors, SafeAreaView, Text } from '@/components/ui';
+import { AddMediaPicker } from '@/components/ui/icons/add-media-picker';
+import { CloseIcon } from '@/components/ui/icons/close';
+import { CopiedIcon } from '@/components/ui/icons/copied';
+import CopyIcon from '@/components/ui/icons/copy';
+import { LockerIcon } from '@/components/ui/icons/locker';
 import { RobotIcon } from '@/components/ui/icons/robot';
 import { SendIcon } from '@/components/ui/icons/send';
+import { SoundOn } from '@/components/ui/icons/sound-on';
+import { StopIcon } from '@/components/ui/icons/stop';
 import {
-  shouldRequestInAppRating,
-  requestAppRatingWithDelayStorage,
-} from '@/utilities/request-app-review';
-import useSubscriptionAlert from '@/lib/hooks/use-subscription-banner';
-import { KeyboardAvoidingView } from 'react-native-keyboard-controller';
-import { CloseIcon } from '@/components/ui/icons/close';
-import Toast from '@/components/toast';
-import MessageMediaAttachments from '@/components/message-media-attachments';
-import useRemoteConfig from '@/lib/hooks/use-remote-config';
+  BLURRING_CONTENT_CONVERSATIONS_LIMIT,
+  MAX_CONVERSATIONS_ALLOWED_FREE_TRIAL,
+} from '@/constants/constants/limits';
+import { translate, useSelectedLanguage } from '@/lib';
 import { Env } from '@/lib/env';
+import useBackHandler from '@/lib/hooks/use-back-handler';
+import { useClipboard } from '@/lib/hooks/use-clipboard';
+import { useMediaPiker } from '@/lib/hooks/use-media-picker';
+import useRemoteConfig from '@/lib/hooks/use-remote-config';
+import useSubscriptionAlert from '@/lib/hooks/use-subscription-banner';
+import { useTextToSpeech } from '@/lib/hooks/use-text-to-speech';
+import { DEVICE_TYPE } from '@/utilities/device-type';
+import { generateUniqueId } from '@/utilities/generate-unique-id';
+import {
+  requestAppRatingWithDelayStorage,
+  shouldRequestInAppRating,
+} from '@/utilities/request-app-review';
+import { shuffleArray } from '@/utilities/shuffle-array';
+import { wait } from '@/utilities/wait';
 
 type MessageType = {
   role: string;
@@ -232,7 +229,7 @@ export const ChatBubble = ({
           ) : (
             <Image
               source={require('../assets/images/random/assistant-avatar-3.jpg')}
-              className="mr-2 h-8 w-8 self-start rounded-full"
+              className="mr-2 size-8 self-start rounded-full"
             />
           ))}
         {/* <Text
@@ -389,6 +386,8 @@ const ChatScreen = () => {
   const [currentlySpeakingId, setCurrentlySpeakingId] = useState<string | null>(
     null
   );
+
+  const { SHOW_MEDICAL_DISCLAIMER_BANNER } = useRemoteConfig();
 
   const [lastUserMessageIndex, setLastUserMessageIndex] = useState<
     number | null
@@ -731,10 +730,10 @@ const ChatScreen = () => {
                 />
               }
             />
-            <View className="justify-center items-center flex-1 flex-row -left-2">
+            <View className="-left-2 flex-1 flex-row items-center justify-center">
               <Image
                 source={require('../assets/images/random/assistant-avatar-3.jpg')}
-                className="mr-2 h-8 w-8 rounded-full"
+                className="mr-2 size-8 rounded-full"
               />
               <View className="ml-2">
                 <Text className="font-bold-poppins text-xl dark:text-white">
@@ -746,7 +745,7 @@ const ChatScreen = () => {
                   </Text>
                 ) : (
                   <View className="flex-row items-center gap-2">
-                    <View className="h-2 w-2 rounded-full bg-success-400" />
+                    <View className="size-2 rounded-full bg-success-400" />
                     <Text className="text-xs text-gray-500 dark:text-white">
                       {translate('general.online')}
                     </Text>
@@ -755,6 +754,9 @@ const ChatScreen = () => {
               </View>
             </View>
           </View>
+          {!messages?.length && SHOW_MEDICAL_DISCLAIMER_BANNER && (
+            <DisclaimerBanner />
+          )}
 
           {/* Random Questions for New Conversations (only if no topic) */}
           {!topic && !messages.length && !!RANDOM_QUESTIONS.length && (
@@ -847,9 +849,9 @@ const ChatScreen = () => {
           )}
 
           {/* Input Area */}
-          <View className="border-t border-gray-200 bg-white px-4 pb-2 pt-4 dark:border-blackEerie dark:bg-transparent flex-row">
+          <View className="flex-row border-t border-gray-200 bg-white px-4 pb-2 pt-4 dark:border-blackEerie dark:bg-transparent">
             <View
-              className={`flex-row items-center rounded-full border-2 border-primary-900/60 bg-gray-100 px-4 py-1.5 dark:bg-transparent flex-1 ${userMessage.length > 30 && 'rounded-lg'}`}
+              className={`flex-1 flex-row items-center rounded-full border-2 border-primary-900/60 bg-gray-100 px-4 py-1.5 dark:bg-transparent ${userMessage.length > 30 && 'rounded-lg'}`}
             >
               <Icon
                 icon={<AddMediaPicker />}
