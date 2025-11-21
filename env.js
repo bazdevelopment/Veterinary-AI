@@ -35,12 +35,12 @@ require('dotenv').config({
 
 // TODO: Replace these values with your own
 
-const BUNDLE_ID = 'com.doctormedai'; // ios bundle id
-const PACKAGE = 'com.doctormedai'; // android package name
-const NAME = 'Doctor Med AI'; // app name //or 'Doctor Med AI' or //"Medical Doctor" //"Medical DoctorAI"
+const BUNDLE_ID = 'com.veterinaryai'; // ios bundle id
+const PACKAGE = 'com.veterinaryai'; // android package name
+const NAME = 'Veterinary AI'; // app name //or 'Veterinary AI' or //"Medical Doctor" //"Medical DoctorAI"
 const EXPO_ACCOUNT_OWNER = 'bazdevelopment'; // expo account owner
-const EAS_PROJECT_ID = '4a0df3e2-5039-4365-9850-5265605498ab'; // eas project id
-const SCHEME = 'doctormedai'; // app scheme
+const EAS_PROJECT_ID = ''; // eas project id
+const SCHEME = 'veterinaryai'; // app scheme
 
 /**
  * We declare a function withEnvSuffix that will add a suffix to the variable name based on the APP_ENV
@@ -111,7 +111,7 @@ const _clientEnv = {
   EXPO_PUBLIC_GEMINI_API_KEY: process.env.EXPO_PUBLIC_GEMINI_API_KEY,
   EXPO_PUBLIC_AI_ANALYSIS_PROMPT:process.env.EXPO_PUBLIC_AI_ANALYSIS_PROMPT,
   EXPO_PUBLIC_REVENUE_CAT_API_KEYS_GOOGLE:process.env.EXPO_PUBLIC_REVENUE_CAT_API_KEYS_GOOGLE,
-  EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE:process.env.  EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE
+  EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE:process.env.EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE
 };
 
 /**

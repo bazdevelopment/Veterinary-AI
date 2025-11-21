@@ -82,7 +82,7 @@ const CitationsScreen: React.FC = () => {
       >
         {/* Introductory Text */}
         <Text className="mb-6 text-base">
-          Doctor Med AI app provides educational insights based on established
+          Veterinary AI app provides educational insights based on established
           medical and scientific standards. Below are the sources and guidelines
           referenced by Dr. Med, our AI Medical Assistant. These citations
           ensure transparency and accuracy for your learning experience. For
@@ -115,7 +115,7 @@ const CitationsScreen: React.FC = () => {
         ))}
         <View className="my-4 border-t border-gray-200 pt-4">
           <Text className="font-poppins-bold text-center text-sm">
-            Information provided by the Doctor Med AI is for informational
+            Information provided by the Veterinary AI is for informational
             purposes only and does not constitute medical advice, diagnosis, or
             treatment. Always consult a qualified healthcare professional for
             any health concerns or before making any decisions related to your

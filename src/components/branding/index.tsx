@@ -27,7 +27,7 @@ const Branding = ({
         <Text
           className={`text-center font-bold-poppins text-[22px] tracking-[2px] text-black dark:text-white`}
         >
-          Doctor Med
+          Veterinary
         </Text>
         <Text
           className={`ml-2 text-center font-bold-poppins text-[22px] tracking-[2px] text-primary-900 dark:text-primary-900 ${textColor}`}
