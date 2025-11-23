@@ -4,6 +4,7 @@ import { ScrollView, View } from 'react-native';
 import { Button, colors, Image, ProgressBar, Text } from '@/components/ui';
 import { ArrowRightSharp } from '@/components/ui/icons/arrow-right-sharp';
 import { translate } from '@/lib';
+import { DEVICE_TYPE } from '@/utilities/device-type';
 import getDeviceSizeCategory from '@/utilities/get-device-size-category';
 
 const FirstOnboardingScreen = ({
@@ -15,13 +16,13 @@ const FirstOnboardingScreen = ({
   totalSteps: number;
   currentScreenIndex: number;
 }) => {
-  const { isVerySmallDevice, isLargeDevice } = getDeviceSizeCategory();
+  const { isVerySmallDevice } = getDeviceSizeCategory();
 
   const progress = ((currentScreenIndex + 1) / totalSteps) * 100;
   return (
     <>
       <ScrollView
-        contentContainerClassName="bg-white dark:bg-transparent mt-10"
+        contentContainerClassName={`bg-white dark:bg-transparent ${DEVICE_TYPE.ANDROID ? 'mt-16' : 'mt-10'}`}
         showsVerticalScrollIndicator={false}
       >
         <View className="mb-[100] items-center justify-center px-6 dark:bg-transparent">
