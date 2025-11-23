@@ -1,6 +1,6 @@
 {
   "name": "veterinary-ai",
-  "version": "25.11.8",
+  "version": "25.11.9",
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
