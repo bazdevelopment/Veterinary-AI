@@ -2,7 +2,7 @@ import { Platform } from 'react-native';
 
 export const SUBSCRIPTIONS_PLANS_ANDROID = {
   MONTHLY: 'veterinary_ai_1month_subscription:monthly-subscription',
-  YEARLY: 'veterinary_ai_1year_subscription:yearly-subscription',
+  YEARLY: 'veterinary_ai_1year_subscription_v2:yearly-subscription',
   WEEKLY: 'veterinary_ai_1week_subscription:weekly-subscription',
 };
 

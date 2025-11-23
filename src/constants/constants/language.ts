@@ -1,5 +1,6 @@
 export const ACCEPTED_LANGUAGES_CODES = [
   { value: 'en' }, // English (U.S.) - Primary
+  /** 
   { value: 'ar' }, // Arabic
   { value: 'ca' }, // Catalan
   { value: 'zh' }, // Chinese (Simplified)
@@ -34,6 +35,8 @@ export const ACCEPTED_LANGUAGES_CODES = [
   { value: 'tr' }, // Turkish
   { value: 'uk' }, // Ukrainian
   { value: 'vi' }, // Vietnamese
+
+  */
 ];
 
 export const IETF_BCP_47_FORMAT_LANGUAGE = {

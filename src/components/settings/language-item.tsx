@@ -29,6 +29,9 @@ export const LanguageItem = () => {
         label: `${translate('settings.languages.english')} 🇺🇸 🇬🇧`,
         value: 'en',
       },
+      /**
+       * 
+     
       // Mandarin Chinese - Largest number of native speakers
       {
         label: `${translate('settings.languages.mandarin_chinese')} 🇨🇳`,
@@ -196,7 +199,9 @@ export const LanguageItem = () => {
         label: `${translate('settings.languages.catalan')} 🏴`,
         value: 'ca',
       },
+        */
     ],
+
     []
   );
 

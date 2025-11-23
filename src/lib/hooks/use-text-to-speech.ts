@@ -2,12 +2,13 @@
 import * as Speech from 'expo-speech';
 import { useEffect, useState } from 'react';
 
-import { useSelectedLanguage } from '../i18n';
-import { getStorageItem } from '../storage';
 import {
   AI_ANALYSIS_LANGUAGE_SELECTION,
   IETF_BCP_47_FORMAT_LANGUAGE,
 } from '@/constants/constants/language';
+
+import { useSelectedLanguage } from '../i18n';
+import { getStorageItem } from '../storage';
 
 interface UseTextToSpeechProps {
   preferredGender?: 'female' | 'male';

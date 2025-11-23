@@ -7,11 +7,12 @@ import { I18nManager, NativeModules, Platform } from 'react-native';
 import { useMMKVString } from 'react-native-mmkv';
 import RNRestart from 'react-native-restart';
 
+import { ACCEPTED_LANGUAGES_CODES } from '@/constants/constants/language';
+
 /* eslint-disable import/no-cycle */
 import { storage } from '../storage';
 import { type Language, type resources } from './resources';
 import type { RecursiveKeyOf } from './types';
-import { ACCEPTED_LANGUAGES_CODES } from '@/constants/constants/language';
 
 type DefaultLocale = typeof resources.en.translation;
 export type TxKeyPath = RecursiveKeyOf<DefaultLocale>;

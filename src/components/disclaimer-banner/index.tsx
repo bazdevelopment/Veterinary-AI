@@ -13,9 +13,8 @@ const DisclaimerBanner = ({ className }: IDisclaimerBanner) => {
       <View className="gap-2">
         <Text className="font-medium-poppins text-sm text-amber-900 dark:text-black">
           This app never provides medical related data, health related
-          measurements, diagnoses or treatment advice. For any medical or
-          health-related concerns, please consult a licensed healthcare
-          professional.
+          measurements, diagnoses or treatment advice. Always consult a licensed
+          veterinarian for any medical concerns.
         </Text>
       </View>
     </View>
