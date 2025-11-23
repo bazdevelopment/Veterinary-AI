@@ -32,8 +32,8 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="doctormedai"/>
-        <data android:scheme="exp+doctormedai"/>
+        <data android:scheme="veterinaryai"/>
+        <data android:scheme="exp+veterinary-ai"/>
       </intent-filter>
     </activity>
   </application>

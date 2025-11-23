@@ -2,17 +2,17 @@ import React from 'react';
 import { Linking, View } from 'react-native';
 
 import Icon from '@/components/icon';
-import { DEVICE_TYPE } from '@/utilities/device-type';
-import { MobileIcon } from '@/components/ui/icons/mobile-icon';
 import { Button, Text } from '@/components/ui';
+import { MobileIcon } from '@/components/ui/icons/mobile-icon';
 import { translate } from '@/lib';
+import { DEVICE_TYPE } from '@/utilities/device-type';
 
 const NewAppVersion = () => {
   const openAppStore = () => {
     // Determine the URL based on device type
     const storeUrl = DEVICE_TYPE.IOS
-      ? 'https://apps.apple.com/us/app/medical-assistant-ai-doctor/id6754875987'
-      : 'https://play.google.com/store/apps/details?id=com.doctormedai';
+      ? ''
+      : 'https://play.google.com/store/apps/details?id=com.veterinaryai';
 
     // Try opening the appropriate URL
     Linking.openURL(storeUrl).catch((err) => {

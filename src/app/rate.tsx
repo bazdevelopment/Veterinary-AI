@@ -2,18 +2,18 @@ import React from 'react';
 import { Linking, View } from 'react-native';
 
 import EdgeCaseTemplate from '@/components/edge-case-template';
-import { DEVICE_TYPE } from '@/utilities/device-type';
-import { translate } from '@/lib';
 import { Button } from '@/components/ui';
 import { RatingIllustration } from '@/components/ui/illustrations/rating';
+import { translate } from '@/lib';
+import { DEVICE_TYPE } from '@/utilities/device-type';
 
 const Rate = () => {
   const handleFeedback = (isPositive: boolean) => {
     if (isPositive) {
       // Redirect happy users to the App Store
       const storeUrl = DEVICE_TYPE.IOS
-        ? 'itms-apps://itunes.apple.com/app/viewContentsUserReviews/id6754875987?action=write-review'
-        : 'market://details?id=com.doctormedai&showAllReviews=true';
+        ? 'itms-apps://itunes.apple.com/app/viewContentsUserReviews/id...?action=write-review' //!change id..
+        : 'market://details?id=com.veterinaryai&showAllReviews=true';
 
       Linking.openURL(storeUrl).catch((err) =>
         console.error('Error opening URL', err)

@@ -29,7 +29,6 @@ import {
 import { useUser } from '@/api/user/user.hooks';
 import AnimatedChatQuestions from '@/components/animated-questions';
 import CustomAlert from '@/components/custom-alert';
-import DisclaimerBanner from '@/components/disclaimer-banner';
 import Icon from '@/components/icon';
 import { ImagePickerModal } from '@/components/image-picker-modal';
 import ImagePreviewGallery from '@/components/image-preview-gallery';
@@ -387,7 +386,7 @@ const ChatScreen = () => {
     null
   );
 
-  const { SHOW_MEDICAL_DISCLAIMER_BANNER } = useRemoteConfig();
+  // const { SHOW_MEDICAL_DISCLAIMER_BANNER } = useRemoteConfig();
 
   const [lastUserMessageIndex, setLastUserMessageIndex] = useState<
     number | null
@@ -580,8 +579,7 @@ const ChatScreen = () => {
 
     try {
       await sendStreamingMessage({
-        prompt:
-          AI_ANALYSIS_PROMPT_FIREBASE || Env.EXPO_PUBLIC_AI_ANALYSIS_PROMPT,
+        prompt: AI_ANALYSIS_PROMPT_FIREBASE,
         userMessage: !!userMsg?.trim()
           ? userMsg
           : !!mediaFiles?.length
@@ -737,7 +735,7 @@ const ChatScreen = () => {
               />
               <View className="ml-2">
                 <Text className="font-bold-poppins text-xl dark:text-white">
-                  Dr. Med
+                  Dr. Vet
                 </Text>
                 {isStreaming ? (
                   <Text className="text-xs text-gray-500 dark:text-white">
@@ -754,9 +752,9 @@ const ChatScreen = () => {
               </View>
             </View>
           </View>
-          {!messages?.length && SHOW_MEDICAL_DISCLAIMER_BANNER && (
+          {/* {!messages?.length && SHOW_MEDICAL_DISCLAIMER_BANNER && (
             <DisclaimerBanner />
-          )}
+          )} */}
 
           {/* Random Questions for New Conversations (only if no topic) */}
           {!topic && !messages.length && !!RANDOM_QUESTIONS.length && (

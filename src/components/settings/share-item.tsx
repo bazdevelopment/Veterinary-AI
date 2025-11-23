@@ -23,8 +23,8 @@ export const ShareItem = () => {
   const { colorScheme } = useColorScheme();
   const isDark = colorScheme === 'dark';
   const appLink = DEVICE_TYPE.IOS
-    ? 'https://apps.apple.com/us/app/...'
-    : 'https://play.google.com/store/apps/details?id=com.doctormedai';
+    ? ''
+    : 'https://play.google.com/store/apps/details?id=com.veterinaryai';
 
   const iconColor = isDark ? colors.neutral[50] : colors.black;
 
@@ -48,7 +48,7 @@ export const ShareItem = () => {
           backgroundColor: isDark ? colors.blackBeauty : colors.white,
         }}
       >
-        <ScrollView className="dark:bg-blackEerie flex-1 bg-gray-50">
+        <ScrollView className="flex-1 bg-gray-50 dark:bg-blackEerie">
           <View className="p-6">
             {/* Header Section */}
             <View className="mb-8 mt-4 items-center">
@@ -96,7 +96,7 @@ export const ShareItem = () => {
                     title: translate('rootLayout.screens.share.heading'),
                   })
                 }
-                className="dark:bg-blackBeauty border-4 border-gray-300 bg-slate-100 dark:border-gray-500"
+                className="border-4 border-gray-300 bg-slate-100 dark:border-gray-500 dark:bg-blackBeauty"
                 textClassName="text-sm dark:text-white"
               />
 
@@ -116,7 +116,7 @@ export const ShareItem = () => {
                       : `${copiedText ? translate('general.copyText.copied') : translate('general.copyText.copy')}`
                 }
                 onPress={() => copyToClipboard(appLink)}
-                className="dark:bg-blackBeauty border-4 border-gray-300 bg-slate-100 dark:border-gray-500"
+                className="border-4 border-gray-300 bg-slate-100 dark:border-gray-500 dark:bg-blackBeauty"
                 textClassName="text-sm dark:text-white"
               />
             </View>

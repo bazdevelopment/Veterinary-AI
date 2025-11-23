@@ -4,7 +4,6 @@ import '../../global.css';
 import {
   Poppins_300Light,
   Poppins_400Regular,
-  Poppins_500Medium,
   Poppins_600SemiBold,
   Poppins_700Bold,
   Poppins_800ExtraBold,
@@ -14,18 +13,18 @@ import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import { ThemeProvider } from '@react-navigation/native';
 import { router, Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
+import { useColorScheme } from 'nativewind';
 import React, { useEffect, useState } from 'react';
 import { StyleSheet } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { KeyboardProvider } from 'react-native-keyboard-controller';
+import { Toaster } from 'sonner-native';
 
 import { APIProvider } from '@/api';
+import CustomHeader from '@/components/cusom-header';
+import { colors } from '@/components/ui';
 import { hydrateAuth, loadSelectedTheme, translate } from '@/lib';
 import { useThemeConfig } from '@/lib/use-theme-config';
-import { colors } from '@/components/ui';
-import CustomHeader from '@/components/cusom-header';
-import { Toaster } from 'sonner-native';
-import { useColorScheme } from 'nativewind';
 
 export { ErrorBoundary } from 'expo-router';
 

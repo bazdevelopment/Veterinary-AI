@@ -9,8 +9,7 @@ import {
 
 import { useCreateAnonymousAccount } from '@/api/user/user.hooks';
 import Branding from '@/components/branding';
-import { Button, SafeAreaView, Text } from '@/components/ui';
-import { WelcomeIllustration } from '@/components/ui/illustrations/welcome';
+import { Button, Image, SafeAreaView, Text } from '@/components/ui';
 import { firebaseAuth } from '@/firebase/config';
 import { translate, useIsFirstTime, useSelectedLanguage } from '@/lib';
 import { useStoreUserId } from '@/lib/hooks/use-store-user-id';
@@ -46,11 +45,15 @@ const Welcome = () => {
           <Text className="my-10 text-center font-bold-poppins text-[30px] text-primary-900">
             {translate('rootLayout.screens.welcome.heading')}
           </Text>
+          <Image
+            source={require('../assets/images/random/welcome11.png')}
+            className={isVerySmallDevice ? 'size-[250]' : 'size-[340]'}
+          />
 
-          <WelcomeIllustration
+          {/* <WelcomeIllustration
             width={isVerySmallDevice ? 250 : 300}
             height={isVerySmallDevice ? 250 : 300}
-          />
+          /> */}
           <View
             className={`mt-16 ${isLargeDevice ? 'mt-20 w-[50%]' : 'w-full'}`}
           >
@@ -91,7 +94,7 @@ const Welcome = () => {
             <TouchableOpacity
               onPress={() =>
                 Linking.openURL(
-                  'https://doctormedaitermsconditions.netlify.app/'
+                  'https://veterinaryaitermsconditions.netlify.app/'
                 )
               }
             >
@@ -102,7 +105,7 @@ const Welcome = () => {
             <Text className="text-sm"> {translate('general.and')} </Text>
             <TouchableOpacity
               onPress={() =>
-                Linking.openURL('https://doctormedaiprivacy.netlify.app/')
+                Linking.openURL('https://veterinaryai-privacy.netlify.app/')
               }
             >
               <Text className="text-sm text-primary-900 dark:text-primary-900">

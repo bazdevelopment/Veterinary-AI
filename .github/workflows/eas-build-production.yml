@@ -39,7 +39,7 @@ jobs:
     steps:
       - name: Check for EXPO_TOKEN
         run: |
-          if [ -z "${{ secrets.EXPO_TOKEN_DOCTOR_MED_AI }}" ]; then
+          if [ -z "${{ secrets.EXPO_TOKEN_VETERINARY_AI }}" ]; then
             echo "You must provide an EXPO_TOKEN secret linked to this project's Expo account in this repo's secrets. Learn more: https://docs.expo.dev/eas-update/github-actions"
             exit 1
           fi
@@ -85,7 +85,6 @@ jobs:
           echo "GOOGLE_SERVICES_JSON_PATH=${{ vars.GOOGLE_SERVICES_JSON_PATH }}" >> $ENV_FILE
           echo "GOOGLE_SERVICES_PLIST_PATH=${{ vars.GOOGLE_SERVICES_PLIST_PATH }}" >> $ENV_FILE
           echo "EXPO_PUBLIC_GEMINI_API_KEY=${{secrets.EXPO_PUBLIC_GEMINI_API_KEY}}" >> $ENV_FILE
-          echo "EXPO_PUBLIC_AI_ANALYSIS_PROMPT=${{secrets.EXPO_PUBLIC_AI_ANALYSIS_PROMPT}}" >> $ENV_FILE
           echo "REVENUE_CAT_API_KEYS_GOOGLE=${{secrets.REVENUE_CAT_API_KEYS_GOOGLE}}" >> $ENV_FILE
           echo "REVENUE_CAT_API_KEYS_APPLE=${{secrets.REVENUE_CAT_API_KEYS_APPLE}}" >> $ENV_FILE
 
@@ -96,7 +95,7 @@ jobs:
         uses: ./.github/actions/eas-build
         with:
           APP_ENV: production
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_DOCTOR_MED_AI }}
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_VETERINARY_AI }}
           VERSION: ${{ inputs.version }}
           FIREBASE_APP_ID_IOS: ${{ secrets.FIREBASE_APP_ID_IOS }}
           FIREBASE_APP_ID_ANDROID: ${{ secrets.FIREBASE_APP_ID_ANDROID }}
@@ -107,7 +106,6 @@ jobs:
           REVENUE_CAT_API_KEYS_GOOGLE: ${{ secrets.REVENUE_CAT_API_KEYS_GOOGLE }}
           REVENUE_CAT_API_KEYS_APPLE: ${{ secrets.REVENUE_CAT_API_KEYS_APPLE }}
           EXPO_PUBLIC_GEMINI_API_KEY: ${{ secrets.EXPO_PUBLIC_GEMINI_API_KEY }}
-          EXPO_PUBLIC_AI_ANALYSIS_PROMPT: ${{ secrets.EXPO_PUBLIC_AI_ANALYSIS_PROMPT }}
 
   android_build:
     needs: setup
@@ -136,7 +134,6 @@ jobs:
           echo "GOOGLE_SERVICES_JSON_PATH=${{ vars.GOOGLE_SERVICES_JSON_PATH }}" >> $ENV_FILE
           echo "GOOGLE_SERVICES_PLIST_PATH=${{ vars.GOOGLE_SERVICES_PLIST_PATH }}" >> $ENV_FILE
           echo "EXPO_PUBLIC_GEMINI_API_KEY=${{secrets.EXPO_PUBLIC_GEMINI_API_KEY}}" >> $ENV_FILE
-          echo "EXPO_PUBLIC_AI_ANALYSIS_PROMPT=${{secrets.EXPO_PUBLIC_AI_ANALYSIS_PROMPT}}" >> $ENV_FILE
           echo "REVENUE_CAT_API_KEYS_GOOGLE=${{secrets.REVENUE_CAT_API_KEYS_GOOGLE}}" >> $ENV_FILE
           echo "REVENUE_CAT_API_KEYS_APPLE=${{secrets.REVENUE_CAT_API_KEYS_APPLE}}" >> $ENV_FILE
 
@@ -152,7 +149,7 @@ jobs:
         uses: ./.github/actions/eas-build
         with:
           APP_ENV: production
-          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_DOCTOR_MED_AI }}
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_VETERINARY_AI }}
           VERSION: ${{ inputs.version }}
           FIREBASE_APP_ID_IOS: ${{ secrets.FIREBASE_APP_ID_IOS }}
           FIREBASE_APP_ID_ANDROID: ${{ secrets.FIREBASE_APP_ID_ANDROID }}
@@ -163,4 +160,3 @@ jobs:
           REVENUE_CAT_API_KEYS_GOOGLE: ${{ secrets.REVENUE_CAT_API_KEYS_GOOGLE }}
           REVENUE_CAT_API_KEYS_APPLE: ${{ secrets.REVENUE_CAT_API_KEYS_APPLE }}
           EXPO_PUBLIC_GEMINI_API_KEY: ${{ secrets.EXPO_PUBLIC_GEMINI_API_KEY }}
-          EXPO_PUBLIC_AI_ANALYSIS_PROMPT: ${{ secrets.EXPO_PUBLIC_AI_ANALYSIS_PROMPT }}

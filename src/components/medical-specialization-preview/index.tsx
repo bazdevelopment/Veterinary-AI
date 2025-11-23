@@ -58,302 +58,204 @@ export const medicalSpecializationsData: MedicalSpecialization[] = [
   {
     id: '1',
     title: translate(
-      'components.SpecializationCard.specialization.familyMedicine.title'
+      'components.SpecializationCard.specialization.veterinaryGeneralMedicine.title'
     ),
-    subtitle: translate(
-      'components.SpecializationCard.specialization.familyMedicine.subtitle'
-    ),
-    icon: require('../../assets/images/specializations/family-medicine.png'),
+    icon: require('../../assets/images/specializations/vet-general.png'),
     color: '#4DD0E1',
+    description: 'Primary veterinary care for animals of all ages and species.',
     searchRank: 1,
-    description: 'Primary care for all ages and general health concerns',
   },
   {
     id: '2',
     title: translate(
-      'components.SpecializationCard.specialization.internalMedicine.title'
+      'components.SpecializationCard.specialization.veterinaryInternalMedicine.title'
     ),
     icon: require('../../assets/images/specializations/internal-medicine.png'),
     color: '#4FC3F7',
-    searchRank: 2,
-    description: 'Adult medicine and complex disease management',
+    description: 'Complex diseases affecting organs and internal body systems.',
+    searchRank: 6,
   },
   {
     id: '3',
     title: translate(
-      'components.SpecializationCard.specialization.pediatrics.title'
+      'components.SpecializationCard.specialization.veterinaryDermatology.title'
     ),
-
-    icon: require('../../assets/images/specializations/pediatrics.png'),
-    color: '#29B6F6',
-    searchRank: 8,
-    description: 'Medical care for infants, children, and adolescents',
+    icon: require('../../assets/images/specializations/vet-dermatology.png'),
+    color: '#26C6DA',
+    description: 'Conditions involving skin, coat, allergies, and parasites.',
+    searchRank: 3,
   },
   {
     id: '4',
     title: translate(
-      'components.SpecializationCard.specialization.dermatology.title'
+      'components.SpecializationCard.specialization.veterinaryCardiology.title'
     ),
-    icon: require('../../assets/images/specializations/dermatology.png'),
-    color: '#26C6DA',
+    icon: require('../../assets/images/specializations/vet-cardiology.png'),
+    color: '#00BCD4',
+    description:
+      'Heart, blood vessels, arrhythmias, murmurs, and cardiac imaging.',
     searchRank: 4,
-    description: 'Skin, hair, and nail conditions',
   },
   {
     id: '5',
     title: translate(
-      'components.SpecializationCard.specialization.cardiology.title'
+      'components.SpecializationCard.specialization.veterinaryOrthopedics.title'
     ),
-    icon: require('../../assets/images/specializations/cardiology.png'),
-    color: '#00BCD4',
-    searchRank: 5,
-    description: 'Heart and cardiovascular system',
+    icon: require('../../assets/images/specializations/orthopedics.png'),
+    color: '#0097A7',
+    description:
+      'Bones, joints, fractures, gait abnormalities, and mobility issues.',
   },
   {
     id: '6',
     title: translate(
-      'components.SpecializationCard.specialization.orthopedics.title'
+      'components.SpecializationCard.specialization.veterinaryNeurology.title'
     ),
-    icon: require('../../assets/images/specializations/orthopedics.png'),
-    color: '#0097A7',
-    searchRank: 6,
-    description: 'Bones, joints, ligaments, and musculoskeletal system',
+    icon: require('../../assets/images/specializations/neurology.png'),
+    color: '#009688',
+    description: 'Brain, spine, nerves, seizures, and neurological disorders.',
   },
-  // {
-  //   id: '7',
-  //   title: translate(
-  //     'components.SpecializationCard.specialization.psychiatry.title'
-  //   ),
-  //   subtitle: translate(
-  //     'components.SpecializationCard.specialization.psychiatry.subtitle'
-  //   ),
-  //   icon: require('../../assets/images/specializations/psychiatry.png'),
-  //   color: '#00ACC1',
-  //   description: 'Mental health and behavioral disorders',
-  // },
+  {
+    id: '7',
+    title: translate(
+      'components.SpecializationCard.specialization.veterinaryOphthalmology.title'
+    ),
+    icon: require('../../assets/images/specializations/ophthalmology.png'),
+    color: '#00897B',
+    description: 'Eye conditions, vision issues, and ophthalmoscopic imaging.',
+  },
   {
     id: '8',
     title: translate(
-      'components.SpecializationCard.specialization.obstetricsGynecology.title'
+      'components.SpecializationCard.specialization.veterinaryDentistry.title'
     ),
-    subtitle: translate(
-      'components.SpecializationCard.specialization.obstetricsGynecology.subtitle'
-    ),
-    icon: require('../../assets/images/specializations/obstetrics-ginecology.png'),
-    color: '#26A69A',
-    description: "Women's reproductive health and pregnancy",
+    icon: require('../../assets/images/specializations/dentstry.png'),
+    color: '#4DB6AC',
+    description: 'Oral health, dental radiographs, periodontal disease.',
   },
   {
     id: '9',
     title: translate(
-      'components.SpecializationCard.specialization.neurology.title'
+      'components.SpecializationCard.specialization.veterinaryRadiology.title'
     ),
-
-    icon: require('../../assets/images/specializations/neurology.png'),
-    color: '#009688',
-    description: 'Brain, spinal cord, and nervous system disorders',
+    icon: require('../../assets/images/specializations/radiology.png'),
+    color: '#80CBC4',
+    description:
+      'Diagnostic imaging including X-ray, ultrasound, CT, MRI, and more.',
+    searchRank: 3,
   },
   {
     id: '10',
     title: translate(
-      'components.SpecializationCard.specialization.ophthalmology.title'
+      'components.SpecializationCard.specialization.veterinaryOncology.title'
     ),
-
-    icon: require('../../assets/images/specializations/ophthalmology.png'),
-    color: '#00897B',
-    description: 'Eye care and vision problems',
+    icon: require('../../assets/images/specializations/vet-oncology.png'),
+    color: '#4DD0E1',
+    description: 'Cancer detection, tumor evaluation, and treatment guidance.',
   },
   {
     id: '11',
     title: translate(
-      'components.SpecializationCard.specialization.otolaryngology.title'
+      'components.SpecializationCard.specialization.veterinaryEndocrinology.title'
     ),
-    subtitle: translate(
-      'components.SpecializationCard.specialization.otolaryngology.subtitle'
-    ),
-    icon: require('../../assets/images/specializations/otolaryngology.png'),
-    color: '#00796B',
-    description: 'Ear, nose, and throat conditions',
+    icon: require('../../assets/images/specializations/endocrinology.png'),
+    color: '#26C6DA',
+    description:
+      'Hormonal and metabolic conditions such as diabetes or thyroid disorders.',
   },
   {
     id: '12',
     title: translate(
-      'components.SpecializationCard.specialization.dentistry.title'
+      'components.SpecializationCard.specialization.veterinaryNephrologyUrology.title'
     ),
-
-    icon: require('../../assets/images/specializations/dentstry.png'),
-    color: '#4DB6AC',
-    description: 'Oral health and dental care',
+    icon: require('../../assets/images/specializations/nephrology.png'),
+    color: '#00BCD4',
+    description: 'Kidney, bladder, urinary tract issues, and fluid balance.',
   },
   {
     id: '13',
     title: translate(
-      'components.SpecializationCard.specialization.radiology.title'
+      'components.SpecializationCard.specialization.veterinaryRespiratory.title'
     ),
-    subtitle: translate(
-      'components.SpecializationCard.specialization.radiology.subtitle'
-    ),
-    icon: require('../../assets/images/specializations/radiology.png'),
-    searchRank: 3,
-    color: '#80CBC4',
-    description: 'Medical imaging and diagnostic procedures',
+    icon: require('../../assets/images/specializations/vet-respiratory.png'),
+    color: '#0097A7',
+    description:
+      'Lung disorders, infections, asthma-like conditions, and breathing problems.',
   },
   {
     id: '14',
     title: translate(
-      'components.SpecializationCard.specialization.oncology.title'
+      'components.SpecializationCard.specialization.veterinaryGastroenterology.title'
     ),
-
-    icon: require('../../assets/images/specializations/oncology.png'),
-    color: '#4DD0E1',
-    description: 'Cancer diagnosis and treatment',
+    icon: require('../../assets/images/specializations/gastroenterology.png'),
+    color: '#00ACC1',
+    description: 'Stomach, intestines, digestion, liver, and GI disorders.',
   },
   {
     id: '15',
     title: translate(
-      'components.SpecializationCard.specialization.endocrinology.title'
+      'components.SpecializationCard.specialization.veterinaryImmunology.title'
     ),
-
-    icon: require('../../assets/images/specializations/endocrinology.png'),
-    color: '#26C6DA',
-    description: 'Hormones and metabolic disorders',
+    icon: require('../../assets/images/specializations/allergy-immunology.png'),
+    color: '#26A69A',
+    description: 'Immune system diseases, infections, parasites, and zoonoses.',
   },
   {
     id: '16',
     title: translate(
-      'components.SpecializationCard.specialization.nephrology.title'
+      'components.SpecializationCard.specialization.veterinaryHematology.title'
     ),
-
-    icon: require('../../assets/images/specializations/nephrology.png'),
-    color: '#00BCD4',
-    description: 'Kidney diseases and disorders',
+    icon: require('../../assets/images/specializations/hematology.png'),
+    color: '#009688',
+    description: 'Blood disorders, anemia, clotting issues, and microscopy.',
   },
   {
     id: '17',
     title: translate(
-      'components.SpecializationCard.specialization.pulmonology.title'
+      'components.SpecializationCard.specialization.veterinarySurgery.title'
     ),
-
-    icon: require('../../assets/images/specializations/pulmonology.png'),
-    color: '#0097A7',
-    description: 'Respiratory system and lung diseases',
+    icon: require('../../assets/images/specializations/surgery.png'),
+    color: '#42A5F5',
+    description: 'Soft tissue, orthopedic, and advanced surgical procedures.',
   },
   {
     id: '18',
     title: translate(
-      'components.SpecializationCard.specialization.gastroenterology.title'
+      'components.SpecializationCard.specialization.veterinaryAnesthesiology.title'
     ),
-    icon: require('../../assets/images/specializations/gastroenterology.png'),
-    color: '#00ACC1',
-    description: 'Digestive system and GI tract disorders',
+    icon: require('../../assets/images/specializations/anesthesiology.png'),
+    color: '#AB47BC',
+    description: 'Safe anesthesia, analgesia, sedation, and pain control.',
   },
   {
     id: '19',
     title: translate(
-      'components.SpecializationCard.specialization.allergyImmunology.title'
+      'components.SpecializationCard.specialization.veterinaryRehabilitation.title'
     ),
-
-    icon: require('../../assets/images/specializations/allergy-immunology.png'),
-    color: '#26A69A',
-    description: 'Allergies and immune system disorders',
+    icon: require('../../assets/images/specializations/rehabilitation-medicine.png'),
+    color: '#66BB6A',
+    description:
+      'Recovery therapy, hydrotherapy, mobility training, and strength building.',
   },
   {
     id: '20',
     title: translate(
-      'components.SpecializationCard.specialization.hematology.title'
+      'components.SpecializationCard.specialization.veterinaryExotics.title'
     ),
-    icon: require('../../assets/images/specializations/hematology.png'),
-    color: '#009688',
-    description: 'Blood disorders and diseases',
+    icon: require('../../assets/images/specializations/vet-exotics.png'),
+    color: '#FFA726',
+    description:
+      'Care for birds, reptiles, small mammals, and wildlife species.',
+    searchRank: 5,
   },
   {
     id: '21',
     title: translate(
-      'components.SpecializationCard.specialization.rheumatology.title'
+      'components.SpecializationCard.specialization.veterinaryLivestock.title'
     ),
-
-    icon: require('../../assets/images/specializations/rheumatology.png'),
-    color: '#00897B',
-    description: 'Autoimmune and joint diseases',
-  },
-  {
-    id: '22',
-    title: translate(
-      'components.SpecializationCard.specialization.urology.title'
-    ),
-    icon: require('../../assets/images/specializations/urology.png'),
-    color: '#00796B',
-    description: 'Urinary tract and male reproductive system',
-  },
-  {
-    id: '23',
-    title: translate(
-      'components.SpecializationCard.specialization.emergencyMedicine.title'
-    ),
-    icon: require('../../assets/images/specializations/emergency-medicine.png'),
-    color: '#EF5350',
-    description: 'Acute and emergency medical care',
-  },
-  {
-    id: '24',
-    title: translate(
-      'components.SpecializationCard.specialization.surgery.title'
-    ),
-    icon: require('../../assets/images/specializations/surgery.png'),
-    color: '#42A5F5',
-    description: 'Surgical procedures and operations',
-  },
-  {
-    id: '25',
-    title: translate(
-      'components.SpecializationCard.specialization.anesthesiology.title'
-    ),
-    icon: require('../../assets/images/specializations/anesthesiology.png'),
-    color: '#AB47BC',
-    description: 'Anesthesia and pain management',
-  },
-  {
-    id: '26',
-    title: translate(
-      'components.SpecializationCard.specialization.rehabilitationMedicine.title'
-    ),
-    subtitle: translate(
-      'components.SpecializationCard.specialization.rehabilitationMedicine.subtitle'
-    ),
-    icon: require('../../assets/images/specializations/rehabilitation-medicine.png'),
-    color: '#66BB6A',
-    description: 'Physical therapy and rehabilitation',
-  },
-  {
-    id: '27',
-    title: translate(
-      'components.SpecializationCard.specialization.geriatrics.title'
-    ),
-    icon: require('../../assets/images/specializations/geriatrics.png'),
-    color: '#FFA726',
-    description: 'Healthcare for elderly patients',
-  },
-  {
-    id: '28',
-    title: translate(
-      'components.SpecializationCard.specialization.publicHealth.title'
-    ),
-    subtitle: translate(
-      'components.SpecializationCard.specialization.publicHealth.subtitle'
-    ),
-    icon: require('../../assets/images/specializations/public-health.png'),
+    icon: require('../../assets/images/specializations/vet-livestock.png'),
     color: '#26A69A',
-    description: 'Population health and disease prevention',
-  },
-  {
-    id: '29',
-    title: translate(
-      'components.SpecializationCard.specialization.microscopy.title'
-    ),
-
-    icon: require('../../assets/images/specializations/microscopy.png'),
-    color: '#00ACC1',
-    description: 'Mental health and behavioral disorders',
-    searchRank: 7,
+    description:
+      'Health management for farm animals including cattle, horses, goats, and sheep.',
   },
 ];

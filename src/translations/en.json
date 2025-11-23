@@ -21,7 +21,7 @@
     "chatbotPlaceholder": "Ask me anything...",
     "completedScans": "Scans completed",
     "conversationHistory": "Conversation history",
-    "medicalAssistants": "General AI Medical Assistants",
+    "medicalAssistants": "General AI Veterinary Assistants",
     "searchAssistant": "Search Assistant...",
     "analyzingMediaFilesPlaceholder": "Analyzing Media Files...",
     "copyText": {
@@ -93,9 +93,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Get analysis from various medical scans, including X-RAY, CT, MRI, ECG and more",
+      "first": "Get AI insights of pet medical scans like X-ray, CT, MRI, ECG, and others.",
       "second": "Access to all premium features",
-      "fourth": "Unlimited chats with a 24/7 medical AI assistants",
+      "fourth": "Unlimited chats with 24/7 veterinary AI assistants",
       "third": "No ads"
     },
     "UpgradeBanner": {
@@ -103,18 +103,19 @@
       "subheading": "Enjoy all benefits without restrictions"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Medical Image Learning Lab",
+      "veterinaryImaging": "Veterinary Imaging",
+      "medicalImagesAnalyzer": "Veterinary Imaging Learning Lab",
       "askMedicalAssistant": "Ask AI Assistant",
       "medicalAssistant": "Medical Assistant",
       "imageTypes": {
         "xray": "X-Ray",
-        "ct": "CT",
+        "ct": "CT Scan",
         "mri": "MRI",
         "ultrasound": "Ultrasound",
-        "ecg": "ECG",
+        "ecg": "ECG / EKG",
         "skinLesion": "Skin Lesion",
         "mammogram": "Mammogram",
-        "retinalScan": "Retinal Scan",
+        "retinalScan": "Retinal / Eye Scan",
         "bloodSmear": "Blood Smear",
         "dental": "Dental",
         "pet": "PET",
@@ -126,99 +127,71 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Family Medicine Study",
-          "subtitle": "General Practice"
+        "veterinaryGeneralMedicine": {
+          "title": "Introduction to Veterinary Medicine",
+          "subtitle": "General Veterinary Practice"
         },
-        "internalMedicine": {
-          "title": "Internal Medicine Basics"
+        "veterinaryInternalMedicine": {
+          "title": "Veterinary Internal Medicine Fundamentals"
         },
-        "pediatrics": {
-          "title": "Pediatrics Handbook AI"
+        "veterinaryDermatology": {
+          "title": "Veterinary Dermatology Basics"
         },
-        "dermatology": {
-          "title": "Dermatology Learning"
+        "veterinaryCardiology": {
+          "title": "Learning Veterinary Cardiology"
         },
-        "cardiology": {
-          "title": "Cardiology Studies"
+        "veterinaryOrthopedics": {
+          "title": "Veterinary Orthopedics & Musculoskeletal"
         },
-        "orthopedics": {
-          "title": "Orthopedics Reference"
+        "veterinaryNeurology": {
+          "title": "Veterinary Neurology"
         },
-        "psychiatry": {
-          "title": "Psychiatry",
-          "subtitle": "Mental Health"
+        "veterinaryOphthalmology": {
+          "title": "Veterinary Ophthalmology"
         },
-        "obstetricsGynecology": {
-          "title": "Obstetrics & Gynecology",
-          "subtitle": "OB/GYN"
+        "veterinaryDentistry": {
+          "title": "Veterinary Dentistry"
         },
-        "neurology": {
-          "title": "Neurology"
+        "veterinaryRadiology": {
+          "title": "Veterinary Radiology & Imaging",
+          "subtitle": "Diagnostic Imaging"
         },
-        "ophthalmology": {
-          "title": "Ophthalmology"
+        "veterinaryOncology": {
+          "title": "Veterinary Oncology"
         },
-        "otolaryngology": {
-          "title": "Otolaryngology",
-          "subtitle": "ENT"
+        "veterinaryEndocrinology": {
+          "title": "Veterinary Endocrinology"
         },
-        "dentistry": {
-          "title": "Dentistry"
+        "veterinaryNephrologyUrology": {
+          "title": "Veterinary Nephrology & Urology"
         },
-        "radiology": {
-          "title": "Radiology Research",
-          "subtitle": "Imaging"
+        "veterinaryRespiratory": {
+          "title": "Veterinary Respiratory Medicine"
         },
-        "oncology": {
-          "title": "Oncology"
+        "veterinaryGastroenterology": {
+          "title": "Veterinary Gastroenterology"
         },
-        "endocrinology": {
-          "title": "Endocrinology"
+        "veterinaryImmunology": {
+          "title": "Immunology & Infectious Diseases"
         },
-        "nephrology": {
-          "title": "Nephrology"
+        "veterinaryHematology": {
+          "title": "Veterinary Hematology"
         },
-        "pulmonology": {
-          "title": "Pulmonology"
+        "veterinarySurgery": {
+          "title": "Veterinary Surgery"
         },
-        "gastroenterology": {
-          "title": "Gastroenterology"
+        "veterinaryAnesthesiology": {
+          "title": "Anesthesiology & Pain Management"
         },
-        "allergyImmunology": {
-          "title": "Allergy & Immunology"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitation & Physiotherapy",
+          "subtitle": "Veterinary PT"
         },
-        "hematology": {
-          "title": "Hematology"
+        "veterinaryExotics": {
+          "title": "Exotic & Wildlife Medicine"
         },
-        "rheumatology": {
-          "title": "Rheumatology"
-        },
-        "urology": {
-          "title": "Urology"
-        },
-        "emergencyMedicine": {
-          "title": "Emergency Medicine"
-        },
-        "surgery": {
-          "title": "Surgery"
-        },
-        "anesthesiology": {
-          "title": "Anesthesiology"
-        },
-        "rehabilitationMedicine": {
-          "title": "Rehabilitation Medicine",
-          "subtitle": "PT"
-        },
-        "geriatrics": {
-          "title": "Geriatrics"
-        },
-        "publicHealth": {
-          "title": "Public Health",
-          "subtitle": "Preventive Medicine"
-        },
-        "microscopy": {
-          "title": "Microscopy Knowledge AI"
+        "veterinaryLivestock": {
+          "title": "Large Animal & Livestock Medicine"
         }
       }
     },
@@ -249,20 +222,20 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "What does a chest X-ray show?",
-          "two": "What are the common symptoms of a heart attack?",
-          "three": "How can I lower my blood pressure naturally?",
-          "four": "What is the difference between an MRI and a CT scan?",
-          "five": "What are the early signs of diabetes?",
-          "six": "How do I interpret my basic blood test results?",
-          "eight": "Can you explain what an echocardiogram is used for?",
-          "nine": "What are the guidelines for a healthy diet?",
-          "ten": "What causes high cholesterol?",
-          "eleven": "How is a brain tumor detected on an MRI?",
-          "twelve": "What is the role of family medicine?",
-          "thirteen": "What are the risk factors for a stroke?",
-          "fourteen": "How to manage anxiety and stress?",
-          "fifteen": "What are the latest guidelines for managing hypertension?"
+          "one": "What can a veterinary chest X-ray show in animals?",
+          "two": "What are common signs of heart disease in pets?",
+          "three": "How can I support my pet’s cardiovascular health?",
+          "four": "What is the difference between a veterinary MRI and CT scan?",
+          "five": "What are early indicators of metabolic issues in animals?",
+          "six": "How do veterinarians interpret basic blood test findings?",
+          "eight": "What is an echocardiogram used for in veterinary care?",
+          "nine": "What does a balanced diet look like for pets?",
+          "ten": "What factors can influence cholesterol or lipid levels in animals?",
+          "eleven": "How are neurological conditions detected using veterinary imaging?",
+          "twelve": "What is the role of general veterinary practice?",
+          "thirteen": "What are common risk factors for stroke-like conditions in animals?",
+          "fourteen": "How can stress or anxiety present in pets?",
+          "fifteen": "What are general guidelines for supporting healthy blood pressure in animals?"
         }
       },
       "notifications": {
@@ -309,7 +282,7 @@
       "doctorsScreen": {
         "searchResults": {
           "notFoundTitle": "No Results Found — But Don’t Worry!",
-          "notFoundSubtitle": "Try using different keywords, or ask our AI medical assistant directly",
+          "notFoundSubtitle": "Try using different keywords, or ask our AI veterinary assistant directly",
           "askAssistant": "Ask Medical Assistant"
         }
       },
@@ -320,22 +293,22 @@
           "title": "Unlock Premium Features Today!",
           "firstOffering": "Access All Premium Features",
           "secondOffering": "Ad-Free Experience",
-          "thirdOffering": "Unlimited analysis of medical images, videos, PDF scans + reports",
-          "fourthOffering": "Unlimited chats with a 24/7 AI medical assistants"
+          "thirdOffering": "Unlimited analysis of veterinary images, videos, PDF scans + reports",
+          "fourthOffering": "Unlimited chats with 24/7 AI veterinary assistants"
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Your AI-Powered Healthcare Companion",
-          "subtitle": "Explore general health information and insights powered by AI — designed for educational use only, not medical advice."
+          "title": "Your AI-Powered Pet Care Companion",
+          "subtitle": "Explore general pet wellness information and AI-generated insights — for educational purposes only, not a substitute for professional veterinary advice."
         },
         "secondOnboarding": {
-          "title": "Ask, Learn, and Explore Health Topics",
-          "subtitle": "Chat about health topics with AI-powered explanations. Always seek a healthcare professional for medical concerns."
+          "title": "Ask, Learn, and Explore Pet Health Topics",
+          "subtitle": "Learn about animal health topics with AI-powered explanations. Always consult a licensed veterinarian for any medical concerns."
         },
         "thirdOnboarding": {
           "title": "Your Privacy Matters",
-          "subtitle": "We are committed to protect your privacy. We do not collect personal data. Any files you upload remain private and are never shared."
+          "subtitle": "We’re committed to protect your privacy. We do not collect personal data, and any files you upload stay private and are never shared."
         }
       },
       "paywallUpgradeScreen": {

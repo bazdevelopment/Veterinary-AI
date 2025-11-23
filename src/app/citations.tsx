@@ -1,7 +1,8 @@
 /* eslint-disable max-lines-per-function */
-import { Text } from '@/components/ui';
 import React from 'react';
 import { Linking, ScrollView, TouchableOpacity, View } from 'react-native';
+
+import { Text } from '@/components/ui';
 
 // Define the type for a source category
 interface SourceCategory {
@@ -57,7 +58,63 @@ const sourceCategories: SourceCategory[] = [
       'Recommendations for clinical care developed by professional organizations based on systematic reviews of evidence.',
     link: 'https://www.heart.org/', // Example link for AHA, you can change this to a relevant organization
   },
-  // Add more source categories as needed based on the potential topics in your app
+  {
+    id: 'major_vet_databases',
+    category: 'Major Veterinary Research Databases',
+    examplesDescription:
+      'Databases containing peer-reviewed veterinary literature, case studies, and research used by veterinary professionals.',
+    link: 'https://www.cabdirect.org/', // CABI VetMed Resource
+  },
+  {
+    id: 'avma_resources',
+    category: 'American Veterinary Medical Association (AVMA) Resources',
+    examplesDescription:
+      'Professional guidelines, educational materials, and scientific resources provided by the AVMA.',
+    link: 'https://www.avma.org/',
+  },
+  {
+    id: 'wsava_guidelines',
+    category: 'WSAVA Global Guidelines',
+    examplesDescription:
+      'Global, evidence-based guidelines for companion animal veterinary care developed by the World Small Animal Veterinary Association.',
+    link: 'https://wsava.org/education/wsava-guidelines/',
+  },
+  {
+    id: 'national_vet_orgs',
+    category: 'National Veterinary Associations & Regulatory Bodies',
+    examplesDescription:
+      'Organizations responsible for veterinary standards, education, and animal health policies (e.g., RCVS in the UK, CVMA in Canada).',
+    link: 'https://www.rcvs.org.uk/', // Example: Royal College of Veterinary Surgeons
+  },
+  {
+    id: 'peer_reviewed_vet_journals',
+    category: 'Peer-Reviewed Veterinary Journals',
+    examplesDescription:
+      'Research studies and clinical findings reviewed by experts in veterinary medicine (e.g., Journal of Veterinary Internal Medicine, JAVMA).',
+    link: 'https://avmajournals.avma.org/', // JAVMA
+  },
+  {
+    id: 'vet_textbooks',
+    category: 'Standard Veterinary Textbooks and References',
+    examplesDescription:
+      'Authoritative educational material widely used in veterinary training and practice.',
+    reference:
+      "Examples: Ettinger's Textbook of Veterinary Internal Medicine, Fossum's Small Animal Surgery, Cunningham's Textbook of Veterinary Physiology.",
+  },
+  {
+    id: 'vet_clinical_guidelines',
+    category: 'Veterinary Clinical Practice Guidelines',
+    examplesDescription:
+      'Evidence-based guidelines from professional veterinary groups, such as AAHA (American Animal Hospital Association).',
+    link: 'https://www.aaha.org/guidelines/',
+  },
+  {
+    id: 'animal_health_orgs',
+    category: 'International Animal Health Organizations',
+    examplesDescription:
+      'Global authorities providing research, animal health standards, and disease management information (e.g., WOAH – formerly OIE).',
+    link: 'https://www.woah.org/',
+  },
 ];
 
 const CitationsScreen: React.FC = () => {
@@ -84,7 +141,7 @@ const CitationsScreen: React.FC = () => {
         <Text className="mb-6 text-base">
           Veterinary AI app provides educational insights based on established
           medical and scientific standards. Below are the sources and guidelines
-          referenced by Dr. Med, our AI Medical Assistant. These citations
+          referenced by Dr. Vet, our AI Veterinary Assistant. These citations
           ensure transparency and accuracy for your learning experience. For
           medical advice, always consult a qualified healthcare professional.
         </Text>

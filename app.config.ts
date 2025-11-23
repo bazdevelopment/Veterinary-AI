@@ -25,7 +25,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   description: `${Env.NAME} Mobile App`,
   owner: Env.EXPO_ACCOUNT_OWNER,
   scheme: Env.SCHEME,
-  slug: 'doctormedai',
+  slug: 'veterinary-ai',
   version: Env.VERSION.toString(),
   orientation: 'portrait',
   icon: './assets/icon.png',
@@ -36,8 +36,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   assetBundlePatterns: ['**/*'],
   ios: {
-    appStoreUrl:
-      'https://apps.apple.com/us/app/medical-assistant-ai-doctor/id6754875987',
+    appStoreUrl: '',
     supportsTablet: true,
     bundleIdentifier: Env.BUNDLE_ID,
     googleServicesFile: ClientEnv.GOOGLE_SERVICES_PLIST_PATH,
@@ -50,7 +49,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   android: {
     playStoreUrl:
-      'https://play.google.com/store/apps/details?id=com.doctormedai',
+      'https://play.google.com/store/apps/details?id=com.veterinaryai',
     googleServicesFile: ClientEnv.GOOGLE_SERVICES_JSON_PATH,
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',

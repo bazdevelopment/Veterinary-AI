@@ -30,16 +30,16 @@ require('dotenv').config({
  * Such as: bundle id, package name, app name.
  *
  * You can add them to the .env file but we think it's better to keep them here as as we use prefix to generate this values based on the APP_ENV
- * for example: if the APP_ENV is staging, the bundle id will be com.doctor-med-ai.staging
+ * for example: if the APP_ENV is staging, the bundle id will be com.veterinaryai.staging
  */
 
 // TODO: Replace these values with your own
 
 const BUNDLE_ID = 'com.veterinaryai'; // ios bundle id
 const PACKAGE = 'com.veterinaryai'; // android package name
-const NAME = 'Veterinary AI'; // app name //or 'Veterinary AI' or //"Medical Doctor" //"Medical DoctorAI"
+const NAME = 'Veterinary AI'; // app name 
 const EXPO_ACCOUNT_OWNER = 'bazdevelopment'; // expo account owner
-const EAS_PROJECT_ID = ''; // eas project id
+const EAS_PROJECT_ID = '476393ec-e0c7-4dbb-bb80-875e82fce65b'; // eas project id
 const SCHEME = 'veterinaryai'; // app scheme
 
 /**
@@ -83,7 +83,6 @@ const client = z.object({
   GOOGLE_SERVICES_JSON_PATH: z.string().optional(),
   GOOGLE_SERVICES_PLIST_PATH: z.string().optional(),
   EXPO_PUBLIC_GEMINI_API_KEY:z.string().optional(),
-  EXPO_PUBLIC_AI_ANALYSIS_PROMPT:z.string().optional(),
   EXPO_PUBLIC_REVENUE_CAT_API_KEYS_GOOGLE:z.string().optional(),
   EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE:z.string().optional()
 });
@@ -109,7 +108,6 @@ const _clientEnv = {
   GOOGLE_SERVICES_JSON_PATH: process.env.GOOGLE_SERVICES_JSON_PATH,
   GOOGLE_SERVICES_PLIST_PATH: process.env.GOOGLE_SERVICES_PLIST_PATH,
   EXPO_PUBLIC_GEMINI_API_KEY: process.env.EXPO_PUBLIC_GEMINI_API_KEY,
-  EXPO_PUBLIC_AI_ANALYSIS_PROMPT:process.env.EXPO_PUBLIC_AI_ANALYSIS_PROMPT,
   EXPO_PUBLIC_REVENUE_CAT_API_KEYS_GOOGLE:process.env.EXPO_PUBLIC_REVENUE_CAT_API_KEYS_GOOGLE,
   EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE:process.env.EXPO_PUBLIC_REVENUE_CAT_API_KEYS_APPLE
 };
