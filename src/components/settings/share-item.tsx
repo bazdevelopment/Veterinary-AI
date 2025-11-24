@@ -23,7 +23,7 @@ export const ShareItem = () => {
   const { colorScheme } = useColorScheme();
   const isDark = colorScheme === 'dark';
   const appLink = DEVICE_TYPE.IOS
-    ? ''
+    ? 'https://apps.apple.com/us/app/veterinary-medical-assistant/id6755653125'
     : 'https://play.google.com/store/apps/details?id=com.veterinaryai';
 
   const iconColor = isDark ? colors.neutral[50] : colors.black;

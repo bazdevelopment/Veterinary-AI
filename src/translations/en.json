@@ -326,7 +326,7 @@
           "subtitle": "{{ price }} per year"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}-Day Trial",
+          "title": "{{trialDays}}-Day Free Trial",
           "subtitle": "{{ price }} per year",
           "plan": "Weekly Plan"
         }

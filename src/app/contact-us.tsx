@@ -10,7 +10,7 @@ import { translate } from '@/lib';
 import { useClipboard } from '@/lib/hooks/use-clipboard';
 
 const ContactUs = () => {
-  const emailAddress = 'veterinaryaiapp@gmail.com';
+  const emailAddress = 'veterinaryaiapp@yahoo.com';
   const { copyToClipboard } = useClipboard();
   const handleCopyEmail = () => {
     copyToClipboard(emailAddress);

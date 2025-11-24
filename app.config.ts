@@ -36,7 +36,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   assetBundlePatterns: ['**/*'],
   ios: {
-    appStoreUrl: '',
+    appStoreUrl:
+      'https://apps.apple.com/us/app/veterinary-medical-assistant/id6755653125',
     supportsTablet: true,
     bundleIdentifier: Env.BUNDLE_ID,
     googleServicesFile: ClientEnv.GOOGLE_SERVICES_PLIST_PATH,

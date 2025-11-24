@@ -11,7 +11,7 @@ const NewAppVersion = () => {
   const openAppStore = () => {
     // Determine the URL based on device type
     const storeUrl = DEVICE_TYPE.IOS
-      ? ''
+      ? 'https://apps.apple.com/us/app/veterinary-medical-assistant/id6755653125'
       : 'https://play.google.com/store/apps/details?id=com.veterinaryai';
 
     // Try opening the appropriate URL

@@ -12,7 +12,7 @@ const Rate = () => {
     if (isPositive) {
       // Redirect happy users to the App Store
       const storeUrl = DEVICE_TYPE.IOS
-        ? 'itms-apps://itunes.apple.com/app/viewContentsUserReviews/id...?action=write-review' //!change id..
+        ? 'itms-apps://itunes.apple.com/app/viewContentsUserReviews/id6755653125?action=write-review'
         : 'market://details?id=com.veterinaryai&showAllReviews=true';
 
       Linking.openURL(storeUrl).catch((err) =>
@@ -20,7 +20,7 @@ const Rate = () => {
       );
     } else {
       // Redirect unhappy users to a Google Form
-      const googleFormUrl = 'https://forms.gle/3QfS27ykxEKAPofR7';
+      const googleFormUrl = 'https://forms.gle/B5Dw7gkBt8oYZr1A7';
       Linking.openURL(googleFormUrl).catch((err) =>
         console.error('Error opening URL', err)
       );

@@ -201,7 +201,7 @@ export default function Settings() {
                             'Hinweis zu persönlichen medizinischen Bildern',
                           body: '',
                           // title: 'Notice About Personal microscopy Images',
-                          // body: 'We DO NOT encourage uploading personal microscopy images to MicroScan AI for individual analysis, as the results should not be considered final. Our AI models are still being researched and refined, and potential inaccuracies may occur. It’s great for learning and get general insights, but for in-depth reviews, consult a specialist. If you have any questions contact us via email - veterinaryaiapp@gmail.com',
+                          // body: 'We DO NOT encourage uploading personal microscopy images to MicroScan AI for individual analysis, as the results should not be considered final. Our AI models are still being researched and refined, and potential inaccuracies may occur. It’s great for learning and get general insights, but for in-depth reviews, consult a specialist. If you have any questions contact us via email - veterinaryaiapp@yahoo.com',
                           userId: '',
                           language,
                         })
