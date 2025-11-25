@@ -17,7 +17,8 @@ import useRemoteConfig from '@/lib/hooks/use-remote-config';
 
 export default function Home() {
   const { language } = useSelectedLanguage();
-  const { SHOW_MEDICAL_DISCLAIMER_BANNER } = useRemoteConfig();
+  const { SHOW_MEDICAL_DISCLAIMER_BANNER, SHOW_MEDICAL_IMAGES_GALLERY } =
+    useRemoteConfig();
   const [isManualRefreshing, setIsManualRefreshing] = useState(false);
   const { data: userInfo, refetch: refetchUserInfo } = useUser(language);
   const scrollViewRef = useRef(null);
@@ -72,7 +73,7 @@ export default function Home() {
       <CustomHomeHeader unReadMessages={unReadMessages} />
       {SHOW_MEDICAL_DISCLAIMER_BANNER && <DisclaimerBanner />}
       <MedicalCardsList className="p-3" />
-      <MedicalImagesGallery className="mt-2" />
+      {SHOW_MEDICAL_IMAGES_GALLERY && <MedicalImagesGallery className="mt-2" />}
       <MedicalSpecializationsPreview />
     </ScrollView>
   );

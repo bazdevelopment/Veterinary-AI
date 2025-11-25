@@ -52,7 +52,7 @@ const FirstOnboardingScreen = ({
           </View>
         </View>
       </ScrollView>
-      <View className={`bottom-8 px-6 `}>
+      <View className="bottom-16 px-6">
         <Button
           label={translate('general.continue')}
           variant="default"
