@@ -88,6 +88,21 @@ const RANDOM_QUESTIONS = [
   translate('rootLayout.screens.chatScreen.randomQuestions.thirteen'),
   translate('rootLayout.screens.chatScreen.randomQuestions.fourteen'),
   translate('rootLayout.screens.chatScreen.randomQuestions.fifteen'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.sixteen'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.seventeen'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.eighteen'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.nineteen'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twenty'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentyOne'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentyTwo'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentyThree'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentyFour'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentyFive'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentySix'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentySeven'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentyEight'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.twentyNine'),
+  translate('rootLayout.screens.chatScreen.randomQuestions.thirty'),
 ];
 
 const BlurredMessageOverlay = ({
@@ -729,22 +744,22 @@ const ChatScreen = () => {
               }
             />
             <View className="-left-2 flex-1 flex-row items-center justify-center">
-              <Image
+              {/* <Image
                 source={require('../assets/images/random/assistant-avatar-3.jpg')}
                 className="mr-2 size-8 rounded-full"
-              />
+              /> */}
               <View className="ml-2">
                 <Text className="font-bold-poppins text-xl dark:text-white">
-                  Dr. Vet
+                  Vet Assistant
                 </Text>
                 {isStreaming ? (
-                  <Text className="text-xs text-gray-500 dark:text-white">
+                  <Text className="text-center text-xs text-gray-500 dark:text-white">
                     {translate('general.typing')}
                   </Text>
                 ) : (
-                  <View className="flex-row items-center gap-2">
+                  <View className="flex-row items-center justify-center gap-2">
                     <View className="size-2 rounded-full bg-success-400" />
-                    <Text className="text-xs text-gray-500 dark:text-white">
+                    <Text className="text-center text-xs text-gray-500 dark:text-white">
                       {translate('general.online')}
                     </Text>
                   </View>

@@ -38,7 +38,7 @@ const SpecializationCard: React.FC<SpecializationCardProps> = ({
 
         {/* Title and Subtitle */}
         <View className="flex-1">
-          <Text className="font-semibold-poppins text-lg text-gray-800 dark:text-white">
+          <Text className="font-semibold-poppins text-base text-gray-800 dark:text-white">
             {item.title}
           </Text>
           {item.subtitle && (

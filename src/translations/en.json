@@ -58,7 +58,7 @@
       "aiDoctors": "AI Assistants",
       "settings": "Settings"
     },
-    "medicalDisclaimer": "Medical Disclaimer",
+    "medicalDisclaimer": "Veterinary Disclaimer",
     "next": "Next",
     "noPaymentNow": "No Payment Now. Cancel anytime.",
     "online": "Online",
@@ -93,7 +93,7 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Explore AI explanations of animal imaging such as X-ray, CT, MRI, ECG, and more.",
+      "first": "Discover veterinary concepts and animal topics through AI-powered learning",
       "second": "Access to all premium features",
       "fourth": "Unlimited chats with 24/7 veterinary AI assistants",
       "third": "No ads"
@@ -103,7 +103,7 @@
       "subheading": "Enjoy all benefits without restrictions"
     },
     "MedicalCard": {
-      "veterinaryImaging": "Veterinary Imaging",
+      "veterinaryImaging": "Veterinary Imaging / Breed",
       "medicalImagesAnalyzer": "Veterinary Imaging Learning Lab",
       "askMedicalAssistant": "Ask AI Assistant",
       "medicalAssistant": "Medical Assistant",
@@ -128,70 +128,70 @@
     "SpecializationCard": {
       "specialization": {
         "veterinaryGeneralMedicine": {
-          "title": "Introduction to Veterinary Medicine",
-          "subtitle": "General Veterinary Practice"
+          "title": "Intro to Veterinary",
+          "subtitle": "General Study Overview"
         },
         "veterinaryInternalMedicine": {
-          "title": "Veterinary Internal Medicine Fundamentals"
+          "title": "Internal Medicine (Study Guide)"
         },
         "veterinaryDermatology": {
-          "title": "Veterinary Dermatology Basics"
+          "title": "Dermatology Basics (Learning)"
         },
         "veterinaryCardiology": {
-          "title": "Learning Veterinary Cardiology"
+          "title": "Cardiology for Vet Students"
         },
         "veterinaryOrthopedics": {
-          "title": "Veterinary Orthopedics & Musculoskeletal"
+          "title": "Orthopedics & Musculoskeletal (Study)"
         },
         "veterinaryNeurology": {
-          "title": "Veterinary Neurology"
+          "title": "Neurology – Learning Module"
         },
         "veterinaryOphthalmology": {
-          "title": "Veterinary Ophthalmology"
+          "title": "Ophthalmology – Study Guide"
         },
         "veterinaryDentistry": {
-          "title": "Veterinary Dentistry"
+          "title": "Veterinary Dentistry Basics"
         },
         "veterinaryRadiology": {
-          "title": "Veterinary Radiology & Imaging",
-          "subtitle": "Diagnostic Imaging"
+          "title": "Radiology & Imaging (Educational)",
+          "subtitle": "Imaging Overview"
         },
         "veterinaryOncology": {
-          "title": "Veterinary Oncology"
+          "title": "Oncology – Educational Module"
         },
         "veterinaryEndocrinology": {
-          "title": "Veterinary Endocrinology"
+          "title": "Endocrinology – Study Topics"
         },
         "veterinaryNephrologyUrology": {
-          "title": "Veterinary Nephrology & Urology"
+          "title": "Nephrology & Urology (Learning)"
         },
         "veterinaryRespiratory": {
-          "title": "Veterinary Respiratory Medicine"
+          "title": "Respiratory Medicine Overview"
         },
         "veterinaryGastroenterology": {
-          "title": "Veterinary Gastroenterology"
+          "title": "Gastroenterology – Study Guide"
         },
         "veterinaryImmunology": {
-          "title": "Immunology & Infectious Diseases"
+          "title": "Immunology & Infectious Disease (Study)"
         },
         "veterinaryHematology": {
-          "title": "Veterinary Hematology"
+          "title": "Hematology – Learning Module"
         },
         "veterinarySurgery": {
-          "title": "Veterinary Surgery"
+          "title": "Surgery Concepts for Students"
         },
         "veterinaryAnesthesiology": {
-          "title": "Anesthesiology & Pain Management"
+          "title": "Anesthesiology & Pain Mgmt (Study)"
         },
         "veterinaryRehabilitation": {
           "title": "Rehabilitation & Physiotherapy",
-          "subtitle": "Veterinary PT"
+          "subtitle": "Educational Guide"
         },
         "veterinaryExotics": {
-          "title": "Exotic & Wildlife Medicine"
+          "title": "Exotic & Wildlife Medicine (Overview)"
         },
         "veterinaryLivestock": {
-          "title": "Large Animal & Livestock Medicine"
+          "title": "Large Animal & Livestock Studies"
         }
       }
     },
@@ -222,20 +222,35 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "What can a veterinary chest X-ray show in animals?",
-          "two": "What are common signs of heart disease in pets?",
-          "three": "How can I support my pet’s cardiovascular health?",
-          "four": "What is the difference between a veterinary MRI and CT scan?",
-          "five": "What are early indicators of metabolic issues in animals?",
-          "six": "How do veterinarians interpret basic blood test findings?",
-          "eight": "What is an echocardiogram used for in veterinary care?",
-          "nine": "What does a balanced diet look like for pets?",
-          "ten": "What factors can influence cholesterol or lipid levels in animals?",
-          "eleven": "How are neurological conditions detected using veterinary imaging?",
-          "twelve": "What is the role of general veterinary practice?",
-          "thirteen": "What are common risk factors for stroke-like conditions in animals?",
-          "fourteen": "How can stress or anxiety present in pets?",
-          "fifteen": "What are general guidelines for supporting healthy blood pressure in animals?"
+          "one": "What can chest X-rays help students learn about animal anatomy?",
+          "two": "What are common study topics related to heart function in animals?",
+          "three": "What factors influence cardiovascular health in different species?",
+          "four": "How do MRI and CT technologies differ in veterinary imaging studies?",
+          "five": "What are key concepts in understanding metabolic processes in animals?",
+          "six": "How are basic blood test parameters interpreted in veterinary education?",
+          "eight": "What does an echocardiogram help illustrate about cardiac function?",
+          "nine": "What principles guide balanced nutrition for companion animals?",
+          "ten": "What influences lipid and cholesterol levels in various animal species?",
+          "eleven": "How is imaging used to study neurological structures in animals?",
+          "twelve": "What topics are typically covered in general veterinary medicine?",
+          "thirteen": "What are common academic concepts behind stroke-like conditions?",
+          "fourteen": "How can stress or anxiety-related behaviors be recognized in animals?",
+          "fifteen": "What factors are studied in relation to blood pressure regulation in animals?",
+          "sixteen": "What traits are commonly studied in different dog breeds?",
+          "seventeen": "How do feline behaviors vary among cat breeds?",
+          "eighteen": "What are key anatomy differences between dogs and cats?",
+          "nineteen": "How do genetics influence breed-specific characteristics?",
+          "twenty": "What environmental factors affect animal behavior and learning?",
+          "twentyOne": "How do wildlife species adapt to their ecosystems?",
+          "twentyTwo": "What are common principles in breeding and genetics studies?",
+          "twentyThree": "How is animal social behavior studied in domestic species?",
+          "twentyFour": "What foundational topics are included in companion animal studies?",
+          "twentyFive": "How do students approach evaluating animal body condition scores?",
+          "twentySix": "What factors influence growth and development in young animals?",
+          "twentySeven": "How is enrichment used to support animal welfare?",
+          "twentyEight": "What major health concepts are commonly explored in cat care studies?",
+          "twentyNine": "What dietary needs differ among small, medium, and large dog breeds?",
+          "thirty": "How do zoology and wildlife biology contribute to veterinary education?"
         }
       },
       "notifications": {
@@ -299,12 +314,12 @@
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Your AI-Powered Pet Care Companion",
-          "subtitle": "Explore general pet wellness information and AI-generated insights — for educational purposes only, not a substitute for professional veterinary advice."
+          "title": "Your AI-Powered Veterinary Study Companion",
+          "subtitle": "Explore veterinary concepts with clear, AI-generated educational insights"
         },
         "secondOnboarding": {
-          "title": "Ask, Learn, and Explore Pet Health Topics",
-          "subtitle": "Learn about animal health topics with AI-powered explanations. Always consult a licensed veterinarian for any medical concerns."
+          "title": "Ask, Learn, Study Veterinary Topics",
+          "subtitle": "Discover simplified explanations on animal behavior, anatomy, and general veterinary concepts."
         },
         "thirdOnboarding": {
           "title": "Your Privacy Matters",

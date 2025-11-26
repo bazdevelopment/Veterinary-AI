@@ -1,4 +1,5 @@
 import { router } from 'expo-router';
+import React from 'react';
 import { View } from 'react-native';
 
 import { translate } from '@/lib';
@@ -59,6 +60,9 @@ export const medicalSpecializationsData: MedicalSpecialization[] = [
     id: '1',
     title: translate(
       'components.SpecializationCard.specialization.veterinaryGeneralMedicine.title'
+    ),
+    subtitle: translate(
+      'components.SpecializationCard.specialization.veterinaryGeneralMedicine.subtitle'
     ),
     icon: require('../../assets/images/specializations/vet-general.png'),
     color: '#4DD0E1',
@@ -137,6 +141,9 @@ export const medicalSpecializationsData: MedicalSpecialization[] = [
     id: '9',
     title: translate(
       'components.SpecializationCard.specialization.veterinaryRadiology.title'
+    ),
+    subtitle: translate(
+      'components.SpecializationCard.specialization.veterinaryRadiology.subtitle'
     ),
     icon: require('../../assets/images/specializations/radiology.png'),
     color: '#80CBC4',
@@ -231,6 +238,9 @@ export const medicalSpecializationsData: MedicalSpecialization[] = [
     id: '19',
     title: translate(
       'components.SpecializationCard.specialization.veterinaryRehabilitation.title'
+    ),
+    subtitle: translate(
+      'components.SpecializationCard.specialization.veterinaryRehabilitation.subtitle'
     ),
     icon: require('../../assets/images/specializations/rehabilitation-medicine.png'),
     color: '#66BB6A',
