@@ -142,21 +142,21 @@ const PricingCard = ({
             {title}
           </Text>
 
-          {badge && (
+          {/* {badge && (
             <View className="ml-3 rounded-lg bg-red-500 px-3 py-1">
               <Text className="font-semibold-poppins text-[13px] text-white">
                 {badge}
               </Text>
             </View>
-          )}
+          )} */}
         </View>
 
         <View>
           {originalPrice && (
             <View className="mt-1 flex-row items-center">
-              <Text className="mr-2 font-semibold-poppins text-lg text-gray-600 line-through">
+              {/* <Text className="mr-2 font-semibold-poppins text-lg text-gray-600 line-through">
                 {originalPrice}
-              </Text>
+              </Text> */}
               <Text className="font-medium-poppins text-lg text-gray-900">
                 {price} {translate('general.perYear')}
               </Text>
