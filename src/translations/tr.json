@@ -14,16 +14,17 @@
     "delete": "Sil",
     "attention": "Dikkat!",
     "new": "Yeni",
-    "activeSubscription": "Aktif abonelik",
+    "activeSubscription": "Aktif Abonelik",
     "agreeingMessage": "Devam ederek, şunları kabul etmiş olursunuz",
     "and": "ve",
-    "askAssistant": "AI asistanına sor",
+    "askAssistant": "AI Asistan'a Sor",
     "chatbotPlaceholder": "Bana her şeyi sorabilirsin...",
-    "completedScans": "Tamamlanan taramalar",
-    "conversationHistory": "Sohbet geçmişi",
-    "medicalAssistants": "Tıbbi asistanlar",
-    "searchAssistant": "Asistan ara...",
-    "analyzingMediaFilesPlaceholder": "Medya dosyaları analiz ediliyor...",
+    "completedScans": "Tamamlanan Taramalar",
+    "conversationHistory": "Sohbet Geçmişi",
+    "medicalAssistants": "Genel AI Veteriner Asistanları",
+    "searchAssistant": "Asistan Ara...",
+    "analyzingMediaFilesPlaceholder": "Medya Dosyaları Analiz Ediliyor...",
+    "mainDisclaimer": "Bu uygulama asla sağlıkla ilgili ölçümler, teşhisler veya tedavi tavsiyeleri sağlamaz. Tıbbi endişeleriniz için daima lisanslı bir uzmana danışın.",
     "copyText": {
       "copied": "Kopyalandı!",
       "copy": "Bağlantıyı Kopyala",
@@ -36,31 +37,31 @@
     "loadingMessages": {
       "imageScanningLoading": {
         "first": "Tıbbi görüntüleriniz taranıyor, lütfen bekleyin...",
-        "fourth": "Neredeyse bitti, tarama sonlandırılıyor...",
+        "fourth": "Neredeyse bitti, tarama tamamlanıyor...",
         "second": "Detaylar analiz ediliyor, bu biraz zaman alabilir...",
         "third": "En iyi sonuçlar için doğruluk artırılıyor..."
       },
       "initialAppLoad": {
         "first": "Kişiselleştirilmiş deneyiminiz yükleniyor...",
-        "fourth": "Neredeyse hazır, sadece bir dakika...",
+        "fourth": "Neredeyse hazır, sadece bir saniye...",
         "second": "Sistemler senkronize ediliyor...",
         "third": "Verileriniz işleniyor..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med size yardım etmek için hazırlanıyor...",
-        "second": "Bekleyin! Dr. Med yanıtınızı hazırlıyor...",
-        "third": "Düşünüyor... asistanınız Dr. Med üzerinde çalışıyor!"
+        "first": "Dr. Vet size yardımcı olmak için hazırlanıyor...",
+        "second": "Bekleyin! Dr. Vet yanıtınızı hazırlıyor...",
+        "third": "Düşünüyor... asistanınız Dr. Vet üzerinde çalışıyor!"
       }
     },
     "tabs": {
       "home": "Ana Sayfa",
       "chat": "Sohbet",
-      "aiDoctors": "AI Doktorlar",
+      "aiDoctors": "AI Asistanlar",
       "settings": "Ayarlar"
     },
-    "medicalDisclaimer": "Tıbbi Sorumluluk Reddi",
+    "medicalDisclaimer": "Veteriner Sorumluluk Reddi",
     "next": "İleri",
-    "noPaymentNow": "Şimdi ödeme yok. İstediğiniz zaman iptal edin.",
+    "noPaymentNow": "Şimdi Ödeme Yok. İstediğiniz Zaman İptal Edin.",
     "online": "Çevrimiçi",
     "openSettings": "Ayarları Aç",
     "or": "veya",
@@ -68,10 +69,10 @@
     "perWeek": "haftalık",
     "perYear": "yıllık",
     "privacyPolicy": "Gizlilik Politikası",
-    "restorePurchase": "Satın almayı geri yükle",
+    "restorePurchase": "Satın Alımı Geri Yükle",
     "termsOfUse": "Kullanım Şartları",
-    "saveDiscount": "TASARRUF ET",
-    "seeNotifications": "Bildirimleri gör",
+    "saveDiscount": "TASARRUF",
+    "seeNotifications": "Bildirimleri Gör",
     "share": "Paylaş",
     "shareLink": "Bağlantıyı Paylaş",
     "skip": "Atla",
@@ -79,13 +80,13 @@
     "then": "sonra",
     "tryAgain": "Yeniden Dene",
     "tryForFree": "Ücretsiz Denemeyi Başlat",
-    "typing": "Yazıyor...",
+    "typing": "Yazılıyor...",
     "unlockNow": "Şimdi Kilidi Aç",
     "update": "Güncelle",
     "upgradePlan": "Planı Yükselt",
     "viewProfile": "Profili Görüntüle",
     "yes": "Evet",
-    "chatBotPlaceholder": "Merhaba 👋 {{topic}} hakkında meraklı mısın? Keşfetmene ve daha fazlasını öğrenmene yardımcı olabilirim — bana istediğini sor!"
+    "chatBotPlaceholder": "Merhaba 👋 {{topic}} hakkında merak mı ettiniz? Keşfetmenize ve daha fazla öğrenmenize yardımcı olmak için buradayım — bana her şeyi sorabilirsiniz!"
   },
   "weekDays": {
     "today": "Bugün",
@@ -93,32 +94,33 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Röntgen, BT, MR, EKG ve daha fazlası dahil olmak üzere çeşitli tıbbi taramalardan analiz alın",
+      "first": "AI destekli öğrenme ile veterinerlik kavramlarını ve hayvan konularını keşfedin",
       "second": "Tüm premium özelliklere erişim",
-      "fourth": "7/24 tıbbi AI asistanlarıyla sınırsız sohbet",
-      "third": "Reklam yok"
+      "fourth": "7/24 AI veteriner asistanları ile sınırsız sohbet",
+      "third": "Reklamsız"
     },
     "UpgradeBanner": {
       "heading": "Şimdi Kilidi Aç",
-      "subheading": "Tüm avantajlardan kısıtlama olmadan yararlanın"
+      "subheading": "Kısıtlama olmadan tüm avantajlardan yararlanın"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Tıbbi Görüntü Analizcisi",
-      "askMedicalAssistant": "Tıbbi AI Asistanına Sor",
+      "veterinaryImaging": "Veteriner Görüntüleme / Irk",
+      "medicalImagesAnalyzer": "Veteriner Görüntüleme Çalışma Laboratuvarı",
+      "askMedicalAssistant": "AI Asistan'a Sor",
       "medicalAssistant": "Tıbbi Asistan",
       "imageTypes": {
         "xray": "Röntgen",
-        "ct": "BT",
+        "ct": "BT Tarama",
         "mri": "MR",
         "ultrasound": "Ultrason",
         "ecg": "EKG",
         "skinLesion": "Cilt Lezyonu",
         "mammogram": "Mamografi",
-        "retinalScan": "Retina Taraması",
+        "retinalScan": "Retina / Göz Taraması",
         "bloodSmear": "Kan Yayması",
         "dental": "Diş",
         "pet": "PET",
-        "dexa": "DEXA / Kemik Yoğunluğu Taraması",
+        "dexa": "Kemik Yoğunluğu Taraması",
         "angiography": "Anjiyografi",
         "echo": "Ekokardiyografi (ECHO)",
         "fluoroscopy": "Floroskopi"
@@ -126,99 +128,71 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Aile Hekimliği",
-          "subtitle": "Genel Pratisyen"
+        "veterinaryGeneralMedicine": {
+          "title": "Veterinerliğe Giriş",
+          "subtitle": "Genel Çalışma Özeti"
         },
-        "internalMedicine": {
-          "title": "İç Hastalıkları"
+        "veterinaryInternalMedicine": {
+          "title": "İç Hastalıkları (Çalışma Rehberi)"
         },
-        "pediatrics": {
-          "title": "Pediatri"
+        "veterinaryDermatology": {
+          "title": "Dermatoloji Temelleri (Öğrenme)"
         },
-        "dermatology": {
-          "title": "Dermatoloji"
+        "veterinaryCardiology": {
+          "title": "Veteriner Kardiyoloji Çalışması"
         },
-        "cardiology": {
-          "title": "Kardiyoloji"
+        "veterinaryOrthopedics": {
+          "title": "Ortopedi ve Kas-İskelet Sistemi (Çalışma)"
         },
-        "orthopedics": {
-          "title": "Ortopedi"
+        "veterinaryNeurology": {
+          "title": "Nöroloji – Öğrenme"
         },
-        "psychiatry": {
-          "title": "Psikiyatri",
-          "subtitle": "Zihinsel Sağlık"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmoloji – Çalışma Rehberi"
         },
-        "obstetricsGynecology": {
-          "title": "Kadın Hastalıkları ve Doğum",
-          "subtitle": "Kadın Doğum"
+        "veterinaryDentistry": {
+          "title": "Veteriner Diş Hekimliği Temelleri"
         },
-        "neurology": {
-          "title": "Nöroloji"
+        "veterinaryRadiology": {
+          "title": "Radyoloji ve Görüntüleme",
+          "subtitle": "Görüntüleme Özeti"
         },
-        "ophthalmology": {
-          "title": "Oftalmoloji"
+        "veterinaryOncology": {
+          "title": "Onkoloji – Eğitici"
         },
-        "otolaryngology": {
-          "title": "Kulak Burun Boğaz",
-          "subtitle": "KBB"
+        "veterinaryEndocrinology": {
+          "title": "Endokrinoloji – Çalışma Konuları"
         },
-        "dentistry": {
-          "title": "Diş Hekimliği"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefroloji ve Üroloji (Öğrenme)"
         },
-        "radiology": {
-          "title": "Radyoloji",
-          "subtitle": "Görüntüleme"
+        "veterinaryRespiratory": {
+          "title": "Solunum Sistemi Hastalıkları Özeti"
         },
-        "oncology": {
-          "title": "Onkoloji"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenteroloji – Çalışma Rehberi"
         },
-        "endocrinology": {
-          "title": "Endokrinoloji"
+        "veterinaryImmunology": {
+          "title": "İmmünoloji ve Enfeksiyon Hastalıkları (Çalışma)"
         },
-        "nephrology": {
-          "title": "Nefroloji"
+        "veterinaryHematology": {
+          "title": "Hematoloji – Öğrenme"
         },
-        "pulmonology": {
-          "title": "Göğüs Hastalıkları"
+        "veterinarySurgery": {
+          "title": "Cerrahi Kavramlar ve Çalışma"
         },
-        "gastroenterology": {
-          "title": "Gastroenteroloji"
+        "veterinaryAnesthesiology": {
+          "title": "Anesteziyoloji ve Ağrı Yönetimi (Çalışma)"
         },
-        "allergyImmunology": {
-          "title": "Alerji ve İmmünoloji"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitasyon ve Fizyoterapi",
+          "subtitle": "Eğitici Rehber"
         },
-        "hematology": {
-          "title": "Hematoloji"
+        "veterinaryExotics": {
+          "title": "Egzotik ve Yaban Hayatı Tıbbı (Genel Bakış)"
         },
-        "rheumatology": {
-          "title": "Romatoloji"
-        },
-        "urology": {
-          "title": "Üroloji"
-        },
-        "emergencyMedicine": {
-          "title": "Acil Tıp"
-        },
-        "surgery": {
-          "title": "Cerrahi"
-        },
-        "anesthesiology": {
-          "title": "Anesteziyoloji"
-        },
-        "rehabilitationMedicine": {
-          "title": "Rehabilitasyon Tıbbı",
-          "subtitle": "Fizik Tedavi"
-        },
-        "geriatrics": {
-          "title": "Geriatri"
-        },
-        "publicHealth": {
-          "title": "Halk Sağlığı",
-          "subtitle": "Koruyucu Hekimlik"
-        },
-        "microscopy": {
-          "title": "Mikroskopi"
+        "veterinaryLivestock": {
+          "title": "Büyük Baş Hayvan ve Çiftlik Hayvanları Çalışmaları"
         }
       }
     },
@@ -236,8 +210,8 @@
         "startButton": "Hadi Başlayalım!"
       },
       "freeTrialPreview": {
-        "heading": "Ücretsiz deneme sürümünüzün tadını çıkarın! 🎉",
-        "review": "Bu uygulamayı tıbbi sorular, radyoloji taramaları ve çalışma için kullanıyorum - harika!",
+        "heading": "Ücretsiz denemenizin tadını çıkarın! 🎉",
+        "review": "Bu uygulamayı veteriner soruları, hayvan görüntü taramaları ve çalışma için kullanıyorum - harika!",
         "reviewTrust": "📈 5.212+ kullanıcı tarafından güveniliyor"
       },
       "languageAnalysisModal": {
@@ -249,26 +223,40 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Göğüs röntgeni ne gösterir?",
-          "two": "Kalp krizinin yaygın belirtileri nelerdir?",
-          "three": "Tansiyonumu doğal yollarla nasıl düşürebilirim?",
-          "four": "MR ve BT taraması arasındaki fark nedir?",
-          "five": "Diyabetin erken belirtileri nelerdir?",
-          "six": "Temel kan testi sonuçlarımı nasıl yorumlarım?",
-          "seven": "İdrar yolu enfeksiyonu (İYE) tedavisi nedir?",
-          "eight": "Ekokardiyogramın ne için kullanıldığını açıklayabilir misiniz?",
-          "nine": "Sağlıklı bir diyet için yönergeler nelerdir?",
-          "ten": "Yüksek kolesterole ne sebep olur?",
-          "eleven": "MR'da beyin tümörü nasıl tespit edilir?",
-          "twelve": "Aile hekimliğinin rolü nedir?",
-          "thirteen": "İnme risk faktörleri nelerdir?",
-          "fourteen": "Kaygı ve stres nasıl yönetilir?",
-          "fifteen": "Hipertansiyon yönetimi için en son yönergeler nelerdir?"
+          "one": "Göğüs röntgenleri hayvan anatomisi hakkında ne öğrenmeye yardımcı olabilir?",
+          "two": "Hayvanlarda kalp fonksiyonu ile ilgili yaygın çalışma konuları nelerdir?",
+          "three": "Farklı türlerde kardiyovasküler sağlığı etkileyen faktörler nelerdir?",
+          "four": "Veteriner görüntüleme çalışmalarında MRI ve CT teknolojileri nasıl farklılık gösterir?",
+          "five": "Hayvanlarda metabolik süreçleri anlamada temel kavramlar nelerdir?",
+          "six": "Veteriner eğitiminde temel kan testi parametreleri nasıl yorumlanır?",
+          "eight": "Ekokardiyogram kalp fonksiyonu hakkında neyi göstermeye yardımcı olur?",
+          "nine": "Evcil hayvanlar için dengeli beslenmeyi yönlendiren prensipler nelerdir?",
+          "ten": "Çeşitli hayvan türlerinde lipid ve kolesterol seviyelerini ne etkiler?",
+          "eleven": "Görüntüleme, hayvanlarda nörolojik yapıları incelemek için nasıl kullanılır?",
+          "twelve": "Genel veterinerlikte tipik olarak hangi konular ele alınır?",
+          "thirteen": "Felç benzeri durumların arkasındaki yaygın akademik kavramlar nelerdir?",
+          "fourteen": "Hayvanlarda stres veya kaygı ile ilişkili davranışlar nasıl tanınabilir?",
+          "fifteen": "Hayvanlarda kan basıncı düzenlemesi ile ilgili hangi faktörler incelenir?",
+          "sixteen": "Farklı köpek ırklarında yaygın olarak hangi özellikler incelenir?",
+          "seventeen": "Kedi ırkları arasında kedi davranışları nasıl değişir?",
+          "eighteen": "Köpekler ve kediler arasındaki temel anatomik farklılıklar nelerdir?",
+          "nineteen": "Genetik, ırka özgü özellikleri nasıl etkiler?",
+          "twenty": "Hangi çevresel faktörler hayvan davranışını ve öğrenmeyi etkiler?",
+          "twentyOne": "Yaban hayatı türleri ekosistemlerine nasıl uyum sağlar?",
+          "twentyTwo": "Yetiştirme ve genetik çalışmalarındaki ortak prensipler nelerdir?",
+          "twentyThree": "Evcil türlerde hayvan sosyal davranışı nasıl incelenir?",
+          "twentyFour": "Evcil hayvan çalışmalarında hangi temel konular yer alır?",
+          "twentyFive": "Öğrenciler hayvan vücut kondisyon skorlarını değerlendirmeye nasıl yaklaşır?",
+          "twentySix": "Genç hayvanlarda büyüme ve gelişmeyi etkileyen faktörler nelerdir?",
+          "twentySeven": "Zenginleştirme, hayvan refahını desteklemek için nasıl kullanılır?",
+          "twentyEight": "Kedi bakımı çalışmalarında yaygın olarak hangi önemli sağlık kavramları incelenir?",
+          "twentyNine": "Küçük, orta ve büyük köpek ırkları arasında beslenme ihtiyaçları nasıl farklılık gösterir?",
+          "thirty": "Zooloji ve yaban hayatı biyolojisi veteriner eğitimine nasıl katkıda bulunur?"
         }
       },
       "notifications": {
         "title": "Bildirimler",
-        "noNotifications": "Şu anda bildirim yok - güncellemeler için bizi takip edin!"
+        "noNotifications": "Şu anda bildirim yok — güncellemeler için bekleyin!"
       },
       "rateAppScreen": {
         "heading": "Uygulamayı değerli ve ilgi çekici buluyor musunuz?",
@@ -278,7 +266,7 @@
       "profile": {
         "title": "Profil",
         "edit": "Profili Düzenle",
-        "placeholderPreferredName": "Örn., Süper Kahraman, Kraliçe Arı veya sadece Alex!"
+        "placeholderPreferredName": "Örn: Süper Kahraman, Kraliçe Arı veya sadece Alex!"
       },
       "noInternetScreen": {
         "heading": "Çevrimdışısınız",
@@ -286,17 +274,16 @@
       },
       "newAppVersionScreen": {
         "heading": "Veterinary AI'nın yeni bir sürümü mevcut",
-        "subheading": "Tüm uygulama özelliklerinden yararlanmaya devam etmek için en son sürüme güncelleyin - sadece 5 saniye sürüyor!",
+        "subheading": "Tüm uygulama özelliklerinden yararlanmaya devam etmek için en son sürüme güncelleyin — sadece 5 saniye sürüyor!",
         "action": "Hemen Alın!"
       },
       "disclaimerScreen": {
         "heading": "Önemli Tıbbi Sorumluluk Reddi",
         "subheading": "Veterinary AI, radyoloji profesyonelleri, sağlık uzmanları, tıp öğrencileri ve meraklılar için tasarlanmıştır",
         "consentAgreement": "Sorumluluk reddini okudum ve kabul ediyorum.",
-        "firstConsent": "Veterinary AI sağlık ölçümleri veya tedavi tavsiyesi sağlamaz, ne de bu amaçlar için tasarlanmıştır. Veterinary AI kullanıcıları, herhangi bir klinik karar vermeden önce kendi klinik yargılarını uygulamalı ve yetkili kaynaklardan bilgi doğrulamalıdır.",
-        "secondConsent": "Veterinary AI bir teşhis aracı, tedavi platformu veya profesyonel tıbbi tavsiyenin yerine geçmez. Sağlık uzmanlarının tıbbi bilgiye erişmelerine ve tıbbi görüntüleri ve belgeleri analiz etmelerine yardımcı olmak için AI tarafından oluşturulmuş içgörüler sunar. Veterinary AI, lisanslı sağlık uzmanlarını desteklemek için tasarlanmış AI destekli bilgilendirici ve eğitici bir uygulamadır.",
-        "thirdConsent": "Veterinary AI hasta kullanımı için tasarlanmamıştır. Doğrudan tıbbi teşhisler, tedavi önerileri veya hasta yönetimi işlevselliği sağlamaz.",
-        "fourthConsent": "Veterinary AI tıbbi cihaz olarak sınıflandırılmamıştır ve düzenleyici onay iddiasında bulunmaz. Profesyonel uzmanlığı tamamlamak için eğitim ve bilgilendirme amaçlıdır.",
+        "firstConsent": "Veterinary AI sağlık ölçümleri veya tedavi tavsiyeleri sağlamaz ve bu amaçlar için tasarlanmamıştır. Veterinary AI kullanıcıları, herhangi bir klinik karar vermeden önce kendi klinik yargılarını uygulamalı ve bilgileri yetkili kaynaklardan doğrulamalıdır.",
+        "secondConsent": "Veterinary AI bir teşhis aracı, tedavi platformu veya profesyonel tıbbi tavsiyenin yerine geçmez. Veteriner profesyonellere yardımcı olmak için AI tarafından oluşturulan içgörüler sunar. Veterinary AI, lisanslı veteriner profesyonelleri desteklemek için tasarlanmış AI destekli bilgilendirici ve eğitici bir uygulamadır.",
+        "fourthConsent": "Veterinary AI tıbbi cihaz olarak sınıflandırılmaz ve düzenleyici onay iddiasında bulunmaz. Profesyonel uzmanlığı tamamlamak için eğitim ve bilgilendirme amaçlıdır.",
         "fifthConsent": "Veterinary AI kişisel veya hasta verilerini toplamaz, saklamaz veya işlemez. Tüm kullanıcı etkileşimleri gizlidir ve uygulamanın kapsamıyla sınırlıdır."
       },
       "contactUs": {
@@ -309,41 +296,42 @@
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "Sonuç Bulunamadı - Ama Endişelenmeyin!",
-          "notFoundSubtitle": "Farklı anahtar kelimeler kullanmayı deneyin veya doğrudan AI tıp asistanımıza sorun",
-          "askAssistant": "Tıp Asistanına Sor"
+          "notFoundTitle": "Sonuç Bulunamadı — Ama Endişelenmeyin!",
+          "notFoundSubtitle": "Farklı anahtar kelimeler kullanmayı deneyin veya doğrudan AI veteriner asistanımıza sorun",
+          "askAssistant": "Tıbbi Asistan'a Sor"
         }
       },
       "paywallOnboarding": {
         "freeTierOfferings": {
           "freeTrialEnabled": "Ücretsiz Deneme Etkin",
           "heading": "Sınırsız Erişim",
-          "title": "Premium Özellikleri Bugün Açın!",
+          "title": "Premium Özelliklerin Kilidini Bugün Açın!",
           "firstOffering": "Tüm Premium Özelliklere Erişim",
           "secondOffering": "Reklamsız Deneyim",
-          "thirdOffering": "Tıbbi görüntüler, videolar, PDF taramaları + raporların sınırsız analizi",
-          "fourthOffering": "7/24 AI tıp asistanlarıyla sınırsız sohbet"
+          "thirdOffering": "Veteriner görüntüleri, videolar, PDF taramaları + raporların sınırsız analizi",
+          "fourthOffering": "7/24 AI veteriner asistanları ile sınırsız sohbet",
+          "renewalInfo": "*Aboneliğiniz {{store}} hesabınızdan tahsil edilecek ve mevcut abonelik döneminin sonundan en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenecektir. Hesap ayarlarınızdan istediğiniz zaman yönetebilir veya iptal edebilirsiniz. Abonelik, değiştirmediğiniz veya iptal etmediğiniz sürece seçtiğiniz aynı fiyat ve planda yenilenecektir."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "AI Destekli Sağlık Yardımcınız",
-          "subtitle": "Uzman AI doktorlardan anında tıbbi içgörü ve rehberlik alın, istediğiniz zaman, istediğiniz yerde."
+          "title": "AI Destekli Veterinerlik ve Çalışma Yoldaşınız",
+          "subtitle": "AI tarafından oluşturulan net, eğitici içgörülerle veterinerlik kavramlarını keşfedin"
         },
         "secondOnboarding": {
-          "title": "Sorun, Yükleyin ve Tıbbi İçgörü Elde Edin",
-          "subtitle": "Farklı uzmanlıklardaki AI doktorlarla sohbet edin veya hızlı tıbbi analiz için tıbbi görüntüler yükleyin."
+          "title": "Veterinerlik Konularını Sorun, Öğrenin, İnceleyin",
+          "subtitle": "Hayvan davranışı, ırk, anatomi ve genel veterinerlik kavramları hakkında basitleştirilmiş açıklamalar keşfedin."
         },
         "thirdOnboarding": {
           "title": "Gizliliğiniz Önemli",
-          "subtitle": "Gizliliğinizi korumaya kararlıyız. Kişisel veri toplamıyoruz. Yüklediğiniz dosyalar gizli kalır ve asla paylaşılmaz."
+          "subtitle": "Gizliliğinizi korumaya kararlıyız. Kişisel veri toplamıyoruz ve yüklediğiniz tüm dosyalar gizli kalır ve asla paylaşılmaz."
         }
       },
       "paywallUpgradeScreen": {
-        "heading": "Premium Özellikleri Bugün Açın!",
+        "heading": "Premium Özelliklerin Kilidini Bugün Açın!",
         "firstOffering": {
           "title": "Ücretsiz Denemeyi Başlat",
-          "subtitle": "{{freeScans}} ücretsiz taramadan yararlanın - ödeme yok"
+          "subtitle": "{{freeScans}} ücretsiz taramadan yararlanın — ödeme yok"
         },
         "secondOffering": {
           "title": "Aylık Plan",
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} yıllık"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}-Günlük Deneme",
+          "title": "{{trialDays}} Günlük Ücretsiz Deneme",
           "subtitle": "{{ price }} yıllık",
           "plan": "Haftalık Plan"
         }
@@ -364,8 +352,9 @@
   "settings": {
     "about": "Hakkında",
     "app_name": "Uygulama Adı",
-    "citations": "Tıbbi bilgi için alıntılar",
+    "citations": "Tıbbi bilgi alıntıları",
     "contactUs": "Bize Ulaşın",
+    "cancelSubscription": "Aboneliği İptal Et",
     "devMode": {
       "componentsLibrary": "UI kütüphanesi",
       "title": "Geliştirici modu"
@@ -444,45 +433,45 @@
     "enableNotificationFailed": "Push bildirimleri devre dışı. Önemli güncellemeleri almak için ayarlardan etkinleştirin!",
     "enableNotificationError": "Bildirimler etkinleştirilirken bir hata oluştu",
     "notificationDisabledSuccess": "Bildirimler başarıyla devre dışı bırakıldı.",
-    "notificationDisabledRegisterError": "Bildirimler için cihaz kaydı kaldırılamadı.",
+    "notificationDisabledRegisterError": "Cihazın bildirimler için kaydı silinemedi.",
     "notificationDisabledError": "Bildirimler devre dışı bırakılırken bir hata oluştu.",
-    "checkNotificationStatusError": "Bildirim durumu kontrol edilirken hata.",
+    "checkNotificationStatusError": "Bildirim durumu kontrol edilirken hata oluştu.",
     "projectIdNotFound": "Bildirim proje kimliği bulunamadı.",
     "imageSizeLarge": "Görsel çok büyük! Dosya boyutu {{fileSize}} MB, ancak limit {{imageLimit}} MB.",
     "videoSizeLarge": "Video çok büyük! Dosya boyutu {{fileSize}} MB, ancak limit {{videoLimit}} MB.",
     "loggedInSuccess": "Başarıyla giriş yapıldı",
     "loggedOutSuccess": "Başarıyla çıkış yaptınız!",
-    "sendVerificationCodeError": "Doğrulama kodu gönderilirken hata",
-    "validateAuthCodeError": "Auth kodu doğrulanırken hata",
-    "anonymousSignInError": "Anonim giriş yapılırken hata",
-    "emailLoginError": "Giriş yapılırken hata",
-    "preferredLanguageError": "Kullanıcının tercih edilen dili güncellenirken hata",
+    "sendVerificationCodeError": "Doğrulama kodu gönderilirken hata oluştu",
+    "validateAuthCodeError": "Kimlik doğrulama kodu doğrulanırken hata oluştu",
+    "anonymousSignInError": "Anonim giriş yapılırken hata oluştu",
+    "emailLoginError": "Giriş yapılırken hata oluştu",
+    "preferredLanguageError": "Kullanıcının tercih ettiği dil güncellenirken hata oluştu",
     "sharingNotAvailable": "Paylaşım şu anda cihazınızda kullanılamıyor",
     "sharingLinkError": "Bağlantı paylaşılamadı.",
     "individualPushNotificationSuccess": "Bireysel push bildirimleri başarıyla gönderildi!",
     "globalPushNotificationSuccess": "Küresel push bildirimleri başarıyla gönderildi! 🌍🚀",
-    "interpretationFieldsUpdateFail": "Yorumlama alanları güncellenemedi! ❌",
-    "deleteScanReportFail": "Tarama raporu silinemedi. Lütfen tekrar deneyin",
-    "onboardingUnsuccessful": "Hoş geldiniz işlemi başarısız. Lütfen tekrar deneyin",
-    "logoutUnsuccessful": "Çıkış başarısız. Lütfen tekrar deneyin",
+    "interpretationFieldsUpdateFail": "Yorum alanları güncellenemedi! ❌",
+    "deleteScanReportFail": "Tarama raporu silinemiyor. Lütfen tekrar deneyin",
+    "onboardingUnsuccessful": "Hoş geldiniz süreci başarısız oldu. Lütfen tekrar deneyin",
+    "logoutUnsuccessful": "Çıkış başarısız oldu. Lütfen tekrar deneyin",
     "deleteScanReportQuestion": "Bu raporu kalıcı olarak silmek istediğinizden emin misiniz?",
     "videoLimitExceeds": "Videonuz {{videoSecondsLimit}} saniyelik limiti aşıyor. Lütfen kırpın ve yeniden yükleyin",
     "subscriptionActivated": "Aboneliğiniz başarıyla etkinleştirildi! Özel avantajlarınızın tadını çıkarın!",
     "subscriptionCancelledByUser": "İşlemi iptal ettiniz. Tekrar denemekten çekinmeyin!",
     "subscriptionActivationFailed": "Aboneliğiniz etkinleştirilemedi. Lütfen tekrar deneyin",
     "logoutQuestion": "Çıkış yapmak istediğinizden emin misiniz?",
-    "noSubscriptionToRestore": "Oops! Görünüşe göre şu anda aktif bir aboneliğiniz yok. Tam erişimin keyfini çıkarmaya devam etmek için lütfen abonelik planlarımızdan birini seçin.",
+    "noSubscriptionToRestore": "Oops! Görünüşe göre şu anda aktif bir aboneliğiniz yok. Tam erişimden yararlanmaya devam etmek için lütfen abonelik planlarımızdan birini seçin.",
     "restorationSuccessful": "Geri yükleme başarılı oldu! Keyfini çıkarın!",
     "restorationError": "Satın alma geri yüklenirken bir hata oluştu.",
-    "medicalDisclaimerAlert": "Veterinary AI uygulaması tıbbi danışmanın yerine geçmez. Bazı teşhisler yalnızca bilgilendirme/eğitim amaçlıdır. Tıbbi öneriler için her zaman bir doktora veya lisanslı uzmana danışın.",
+    "medicalDisclaimerAlert": "Veterinary AI uygulaması tıbbi danışmanın yerine geçmez. Bazı teşhisler yalnızca bilgilendirme/eğitim amaçlıdır. Tıbbi öneriler için daima bir doktora veya lisanslı uzmana danışın.",
     "scanLimitReached": "Sizin için tarama kalitesini optimize ediyoruz! Yaklaşık {{hours}} saat {{minutes}} dakika sonra tekrar tarama yapabileceksiniz. Herhangi bir tıbbi konu hakkında sorunuz var mı? Beklerken sohbet asistanımıza sorun!",
-    "mixedMediaNotAllowed": "Daha iyi doğruluk için farklı medya dosyalarının karışımını yüklemeyin. Lütfen yalnızca görseller, videolar veya pdf'ler yükleyin - hepsini birlikte değil.",
-    "multipleVideosNotAllowed": "Daha iyi doğruluk için lütfen aynı anda yalnızca bir video yükleyin.",
+    "mixedMediaNotAllowed": "Daha iyi doğruluk için farklı medya dosyalarının karışımını yüklemeyin. Lütfen yalnızca görseller, videolar veya pdf'ler yükleyin — hepsini birlikte değil.",
+    "multipleVideosNotAllowed": "Daha iyi doğruluk için lütfen her seferinde yalnızca bir video yükleyin.",
     "mediaFilesUploadFiles": "Medya dosyalarınız yüklenirken bir hata oluştu. Lütfen tekrar deneyin.",
     "chatAndMediaFilesLimit": "Sayın kullanıcı, sınırsız sohbet, sınırsız tarama, çoklu görsel analiz ve daha fazlasından yararlanmak için planınızı yükseltmeniz gerekiyor. 🔓"
   },
   "deleteApp": {
-    "title": "Bekle! Beni silme!",
-    "subtitle": "Bunun yerine geri bildirim gönder"
+    "title": "Bekleyin! Beni silmeyin!",
+    "subtitle": "Bunun yerine geri bildirim gönderin"
   }
 }

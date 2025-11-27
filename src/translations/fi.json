@@ -21,9 +21,10 @@
     "chatbotPlaceholder": "Kysy minulta mitä vain...",
     "completedScans": "Skannaukset suoritettu",
     "conversationHistory": "Keskusteluhistoria",
-    "medicalAssistants": "Lääketieteelliset avustajat",
+    "medicalAssistants": "Yleiset eläinlääketieteen tekoälyavustajat",
     "searchAssistant": "Etsi avustajaa...",
     "analyzingMediaFilesPlaceholder": "Analysoidaan mediatiedostoja...",
+    "mainDisclaimer": "Tämä sovellus ei koskaan tarjoa terveyteen liittyviä mittauksia, diagnooseja tai hoitoneuvoja. Ota aina yhteyttä lisensoituun asiantuntijaan terveyteen liittyvissä kysymyksissä.",
     "copyText": {
       "copied": "Kopioitu!",
       "copy": "Kopioi linkki",
@@ -35,30 +36,30 @@
     "freeTrial": "Ilmainen kokeilu",
     "loadingMessages": {
       "imageScanningLoading": {
-        "first": "Skannataan lääketieteellisiä kuviasi, odota hetki...",
-        "fourth": "Melkein valmis, viimeistellään skannausta...",
+        "first": "Skannataan eläinlääketieteellisiä kuviasi, odota hetki...",
+        "fourth": "Melkein valmista, viimeistellään skannausta...",
         "second": "Analysoidaan yksityiskohtia, tämä voi kestää hetken...",
         "third": "Parannetaan tarkkuutta parhaita tuloksia varten..."
       },
       "initialAppLoad": {
         "first": "Ladataan henkilökohtaista kokemustasi...",
-        "fourth": "Melkein valmis, vain hetki...",
+        "fourth": "Melkein valmista, vain hetki...",
         "second": "Synkronoidaan järjestelmiä...",
         "third": "Käsitellään tietojasi..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med valmistautuu auttamaan sinua...",
-        "second": "Odota! Dr. Med valmistelee vastaustasi...",
-        "third": "Ajattelee...avustajasi Dr. Med on asialla!"
+        "first": "Tri Med valmistautuu auttamaan sinua...",
+        "second": "Odota! Tri Med valmistelee vastaustasi...",
+        "third": "Ajatellaan... avustajasi Tri Med työskentelee asian parissa!"
       }
     },
     "tabs": {
       "home": "Koti",
       "chat": "Keskustelu",
-      "aiDoctors": "Tekoälylääkärit",
+      "aiDoctors": "Tekoälyavustajat",
       "settings": "Asetukset"
     },
-    "medicalDisclaimer": "Lääketieteellinen vastuuvapauslauseke",
+    "medicalDisclaimer": "Eläinlääketieteellinen vastuuvapauslauseke",
     "next": "Seuraava",
     "noPaymentNow": "Ei maksua nyt. Peruuta milloin vain.",
     "online": "Online",
@@ -79,13 +80,13 @@
     "then": "sitten",
     "tryAgain": "Yritä uudelleen",
     "tryForFree": "Aloita ilmainen kokeilu",
-    "typing": "Kirjoittaa...",
+    "typing": "Kirjoitetaan...",
     "unlockNow": "Avaa nyt",
     "update": "Päivitä",
     "upgradePlan": "Päivitä suunnitelma",
     "viewProfile": "Näytä profiili",
     "yes": "Kyllä",
-    "chatBotPlaceholder": "Moikka 👋 Kiinnostaako {{topic}}? Olen täällä auttamassa sinua tutkimaan ja oppimaan lisää — kysy mitä vain!"
+    "chatBotPlaceholder": "Hei siellä 👋 Oletko utelias aiheesta {{topic}}? Olen täällä auttamasi tutkimaan ja oppimaan lisää - kysy minulta mitä vain!"
   },
   "weekDays": {
     "today": "Tänään",
@@ -93,9 +94,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Saat analyysin erilaisista lääketieteellisistä kuvauksista, mukaan lukien RÖNTGEN, CT, MRI, EKG ja enemmän",
+      "first": "Tutki eläinlääketieteellisiä käsitteitä ja eläinaiheita tekoälyavusteisen oppimisen kautta",
       "second": "Pääsy kaikkiin premium-ominaisuuksiin",
-      "fourth": "Rajoittamattomat keskustelut 24/7 lääketieteellisten tekoälyavustajien kanssa",
+      "fourth": "Rajoittamattomat keskustelut 24/7 eläinlääketieteen tekoälyavustajien kanssa",
       "third": "Ei mainoksia"
     },
     "UpgradeBanner": {
@@ -103,122 +104,95 @@
       "subheading": "Nauti kaikista eduista ilman rajoituksia"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Lääketieteellisten kuvien analysoija",
-      "askMedicalAssistant": "Kysy lääketieteelliseltä tekoälyavustajalta",
+      "veterinaryImaging": "Eläinlääketieteellinen kuvantaminen / Rotu",
+      "medicalImagesAnalyzer": "Eläinlääketieteellisen kuvantamisen tutkimuslaboratorio",
+      "askMedicalAssistant": "Kysy tekoälyavustajalta",
       "medicalAssistant": "Lääketieteellinen avustaja",
       "imageTypes": {
         "xray": "Röntgen",
-        "ct": "CT",
-        "mri": "MRI",
+        "ct": "TT-kuvaus",
+        "mri": "Magneettikuvaus",
         "ultrasound": "Ultraääni",
         "ecg": "EKG",
-        "skinLesion": "Ihopoimuke",
+        "skinLesion": "Ihon muutos",
         "mammogram": "Mammografia",
-        "retinalScan": "Verkkalaitetutka",
+        "retinalScan": "Verkkalaukan / Silmän skannaus",
         "bloodSmear": "Verinäyte",
-        "dental": "Hammas",
+        "dental": "Hammaslääketieteellinen",
         "pet": "PET",
-        "dexa": "DEXA / Luuntiheysmittaus",
+        "dexa": "Luuntiheysmittaus",
         "angiography": "Angiografia",
         "echo": "Ekokardiografia (ECHO)",
-        "fluoroscopy": "Fluoroskopia"
+        "fluoroscopy": "Läpivalaisu"
       }
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Perhelääketiede",
-          "subtitle": "Yleislääketiede"
+        "veterinaryGeneralMedicine": {
+          "title": "Johdatus eläinlääketieteeseen",
+          "subtitle": "Yleinen opintojen yleiskatsaus"
         },
-        "internalMedicine": {
-          "title": "Sisätaudit"
+        "veterinaryInternalMedicine": {
+          "title": "Sisäinen lääketiede (Opinto-opas)"
         },
-        "pediatrics": {
-          "title": "Lastentaudit"
+        "veterinaryDermatology": {
+          "title": "Dermatologian perusteet (Oppiminen)"
         },
-        "dermatology": {
-          "title": "Ihotaudit"
+        "veterinaryCardiology": {
+          "title": "Eläinlääketieteen kardiologian opinto"
         },
-        "cardiology": {
-          "title": "Kardiologia"
+        "veterinaryOrthopedics": {
+          "title": "Ortopedia ja liikuntaelinopisto (Opinto)"
         },
-        "orthopedics": {
-          "title": "Ortopedia"
+        "veterinaryNeurology": {
+          "title": "Neurologia – Oppiminen"
         },
-        "psychiatry": {
-          "title": "Psykiatria",
-          "subtitle": "Mielenterveys"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmologia – Opinto-opas"
         },
-        "obstetricsGynecology": {
-          "title": "Synnytysoppi & Gynekologia",
-          "subtitle": "NAIS"
+        "veterinaryDentistry": {
+          "title": "Eläinlääketieteen hammaslääketieteen perusteet"
         },
-        "neurology": {
-          "title": "Neurologia"
+        "veterinaryRadiology": {
+          "title": "Radiologia ja kuvantaminen",
+          "subtitle": "Kuvantamisen yleiskatsaus"
         },
-        "ophthalmology": {
-          "title": "Oftalmologia"
+        "veterinaryOncology": {
+          "title": "Onkologia – Koulutus"
         },
-        "otolaryngology": {
-          "title": "Korva-, nenä- ja kurkkutaudit",
-          "subtitle": "Korva-Nenä-Kurkku"
+        "veterinaryEndocrinology": {
+          "title": "Endokrinologia – Opintoaiheet"
         },
-        "dentistry": {
-          "title": "Hammaslääketiede"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefrologia ja urologia (Oppiminen)"
         },
-        "radiology": {
-          "title": "Radiologia",
-          "subtitle": "Kuvantaminen"
+        "veterinaryRespiratory": {
+          "title": "Hengityselinten lääketieteen yleiskatsaus"
         },
-        "oncology": {
-          "title": "Onkologia"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterologia – Opinto-opas"
         },
-        "endocrinology": {
-          "title": "Endokrinologia"
+        "veterinaryImmunology": {
+          "title": "Immunologia ja tartuntataudit (Opinto)"
         },
-        "nephrology": {
-          "title": "Nefrologia"
+        "veterinaryHematology": {
+          "title": "Hematologia – Oppiminen"
         },
-        "pulmonology": {
-          "title": "Pulmonologia"
+        "veterinarySurgery": {
+          "title": "Kirurgian käsitteet ja opinto"
         },
-        "gastroenterology": {
-          "title": "Gastroenterologia"
+        "veterinaryAnesthesiology": {
+          "title": "Anestesiologia ja kivunhallinta (Opinto)"
         },
-        "allergyImmunology": {
-          "title": "Allergia & Immunologia"
+        "veterinaryRehabilitation": {
+          "title": "Kuntoutus ja fysioterapia",
+          "subtitle": "Koulutusopas"
         },
-        "hematology": {
-          "title": "Hematologia"
+        "veterinaryExotics": {
+          "title": "Eksoottisten ja villieläinten lääketiede (Yleiskatsaus)"
         },
-        "rheumatology": {
-          "title": "Reumatologia"
-        },
-        "urology": {
-          "title": "Urologia"
-        },
-        "emergencyMedicine": {
-          "title": "Päivystyslääketiede"
-        },
-        "surgery": {
-          "title": "Kirurgia"
-        },
-        "anesthesiology": {
-          "title": "Anestesiologia"
-        },
-        "rehabilitationMedicine": {
-          "title": "Kuntoutuslääketiede",
-          "subtitle": "FT"
-        },
-        "geriatrics": {
-          "title": "Geriatria"
-        },
-        "publicHealth": {
-          "title": "Terveydenhuolto",
-          "subtitle": "Ennaltaehkäisevä lääketiede"
-        },
-        "microscopy": {
-          "title": "Mikroskopia"
+        "veterinaryLivestock": {
+          "title": "Suurten eläinten ja karjan tutkimukset"
         }
       }
     },
@@ -232,46 +206,60 @@
     "screens": {
       "welcome": {
         "accountButton": "Minulla on jo tili",
-        "heading": "Tervetuloa Veterinary AI:hin!",
+        "heading": "Tervetuloa Eläinlääketieteen tekoälyyn!",
         "startButton": "Aloitetaan!"
       },
       "freeTrialPreview": {
         "heading": "Nauti ilmaisesta kokeilustasi! 🎉",
-        "review": "Käytän tätä sovellusta lääketieteellisiin kysymyksiin, radiologian skannauksiin ja opiskeluun — se on mahtava!",
-        "reviewTrust": "📈 5 212+ käyttäjän luottama"
+        "review": "Käytän tätä sovellusta eläinlääketieteellisiin kysymyksiin, lemmikkieläinten kuvien skannauksiin ja opiskeluun - se on mahtava!",
+        "reviewTrust": "📈 Yli 5 212 käyttäjän luottama"
       },
       "languageAnalysisModal": {
-        "languagePreferenceQuestion": "Mitä kieltä haluaisit tekoälyanalyysiä varten?",
-        "languageSelection": "Valitse kieli tekoälyvasteita varten",
+        "languagePreferenceQuestion": "Mitä kieltä suositt tekoälyanalyysiä varten?",
+        "languageSelection": "Valitse kieli tekoälyvasteille",
         "languageSearchCriteria": "Hae kielen, maakoodin tai lipun perusteella",
         "noLanguageFound": "Kieltä ei löytynyt",
         "noLanguageFoundSubtitle": "Yritä muokata hakuehtojasi"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Mitä rintäröntgen osoittaa?",
-          "two": "Mitkä ovat sydänkohtauksen yleisimmät oireet?",
-          "three": "Miten voin alentaa verenpainettani luonnollisesti?",
-          "four": "Mitä eroa on MRI:llä ja CT-skannauksella?",
-          "five": "Mitkä ovat diabeteksen varhaiset merkit?",
-          "six": "Miten tulkitsen perusverikokeiden tulokset?",
-          "seven": "Mikä on virtsatietulehduksen (UTI) hoito?",
-          "eight": "Voitko selittää, mihin ekokardiografiaa käytetään?",
-          "nine": "Mitkä ovat terveellisen ruokavalion ohjeet?",
-          "ten": "Mikä aiheuttaa korkean kolesteroli?",
-          "eleven": "Miten aivokasvain havaitaan MRI:lla?",
-          "twelve": "Mikä on perhelääketieteen rooli?",
-          "thirteen": "Mitkä ovat aivohalvauksen riskitekijät?",
-          "fourteen": "Miten hallita ahdistusta ja stressiä?",
-          "fifteen": "Mitkä ovat uusimmat ohjeet korkean verenpaineen hoidossa?"
+          "one": "Mitä rintakehän röntgenkuvat voivat auttaa oppimaan eläinten anatomiasta?",
+          "two": "Mitkä ovat yleisiä opintoaiheita, jotka liittyvät sydämen toimintaan eläimillä?",
+          "three": "Mitä tekijöitä vaikuttaa sydän- ja verisuoniterveyteen eri lajeilla?",
+          "four": "Miten magneettikuvaus ja TT-teknologiat eroavat toisistaan eläinlääketieteellisissä kuvantamistutkimuksissa?",
+          "five": "Mitkä ovat keskeiset käsitteet eläinten aineenvaihduntaprosessien ymmärtämisessä?",
+          "six": "Miten perustason verikokeen parametrit tulkitaan eläinlääketieteellisessä koulutuksessa?",
+          "eight": "Mitä ekokardiogrammi auttaa havainnollistamaan sydämen toiminnasta?",
+          "nine": "Mitkä periaatteet ohjaavat tasapainoista ravitsemusta lemmikkieläimille?",
+          "ten": "Mitä tekijöitä vaikuttaa lipidien ja kolesterolin tasoihin eri eläinlajeilla?",
+          "eleven": "Miten kuvantamista käytetään neurologisten rakenteiden tutkimiseen eläimillä?",
+          "twelve": "Mitkä aiheet kattavat tyypillisesti yleisen eläinlääketieteen?",
+          "thirteen": "Mitkä ovat yleisiä akateemisia käsitteitä aivohalvauksen kaltaisissa tiloissa?",
+          "fourteen": "Miten stressiin tai ahdistukseen liittyvät käyttäytymismallit voidaan tunnistaa eläimillä?",
+          "fifteen": "Mitä tekijöitä tutkitaan verenpaineen säätelyyn liittyen eläimillä?",
+          "sixteen": "Mitkä piirteet tutkitaan yleisesti eri koiraroduilla?",
+          "seventeen": "Miten kissojen käyttäytyminen vaihtelee eri kissaroduilla?",
+          "eighteen": "Mitkä ovat tärkeimmät anatomiset erot koirien ja kissojen välillä?",
+          "nineteen": "Miten genetiikka vaikuttaa rodun spesifisiin piirteisiin?",
+          "twenty": "Mitä ympäristötekijöitä vaikuttavat eläinten käyttäytymiseen ja oppimiseen?",
+          "twentyOne": "Miten villieläinlajit sopeutuvat ekosysteemeihinsä?",
+          "twentyTwo": "Mitkä ovat yleisiä periaatteita jalostus- ja genetiikkatutkimuksissa?",
+          "twentyThree": "Miten eläinten sosiaalista käyttäytymistä tutkitaan kotieläinlajeilla?",
+          "twentyFour": "Mitkä perusaiheet sisältyvät lemmikkieläintutkimuksiin?",
+          "twentyFive": "Miten opiskelijat lähestyvät eläinten kehon kunnon arviointia?",
+          "twentySix": "Mitä tekijöitä vaikuttaa nuorten eläinten kasvuun ja kehitykseen?",
+          "twentySeven": "Miten rikastamista käytetään eläinten hyvinvoinnin tukemiseen?",
+          "twentyEight": "Mitkä suuret terveyskäsitteet tutkitaan yleisesti kissanhoito-opinnoissa?",
+          "twentyNine": "Miten ravinnontarpeet eroavat pienten, keskikokoisten ja suurten koirarotujen välillä?",
+          "thirty": "Miten eläintiede ja villieläinbiologia edesauttavat eläinlääketieteellistä koulutusta?"
         }
       },
       "notifications": {
         "title": "Ilmoitukset",
-        "noNotifications": "Ei ilmoituksia tällä hetkellä — pysy kuulolla päivityksistä!"
+        "noNotifications": "Ei ilmoituksia tällä hetkellä - pysy kuulolla päivityksistä!"
       },
       "rateAppScreen": {
-        "heading": "Koetko sovelluksen arvokkaaksi ja kiinnostavaksi?",
+        "heading": "Pidätkö sovelluksesta arvokkaana ja mukaansatempaavana?",
         "like": "Kyllä, pidän siitä!",
         "dislike": "En pidä siitä"
       },
@@ -282,22 +270,21 @@
       },
       "noInternetScreen": {
         "heading": "Olet offline-tilassa",
-        "subheading": "Yhteytesi vaikuttaa epävakailta. Tarkista verkkotilasi"
+        "subheading": "Yhteytesi vaikuttaa epävakailta. Tarkista verkon tila"
       },
       "newAppVersionScreen": {
-        "heading": "Veterinary AI:n uusi versio on saatavilla",
-        "subheading": "Päivitä uusimpaan versioon jatkaaksesi kaikkien sovellusominaisuuksien nauttimista — se kestää vain 5 sekuntia!",
+        "heading": "Eläinlääketieteen tekoälyn uusi versio on saatavilla",
+        "subheading": "Päivitä uusimpaan versioon jatkaaksesi kaikkien sovellusominaisuuksien nauttimista - se kestää vain 5 sekuntia!",
         "action": "Hae se nyt!"
       },
       "disclaimerScreen": {
         "heading": "Tärkeä lääketieteellinen vastuuvapauslauseke",
-        "subheading": "Veterinary AI on suunniteltu radiologia-ammattilaisille, terveydenhuoltoasiantuntijoille, lääketieteen opiskelijoille ja harrastajille",
+        "subheading": "Eläinlääketieteen tekoäly on suunniteltu radiologian ammattilaisille, terveydenhuollon asiantuntijoille, lääketieteen opiskelijoille ja harrastajille",
         "consentAgreement": "Olen lukenut ja hyväksyn vastuuvapauslausekkeen.",
-        "firstConsent": "Veterinary AI ei tarjoa terveysmittauksia tai hoitoneuvoja, eikä se ole tarkoitettu sellaisiin tarkoituksiin. Veterinary AI:n käyttäjien on sovellettava kliinistä harkintaansa ja varmennettava tiedot auktoritatiivisista lähteistä ennen kliinisiä päätöksiä.",
-        "secondConsent": "Veterinary AI ei ole diagnostinen työkalu, hoitoalusta tai korvaus ammattimaiselle lääketieteelliselle neuvonnalle. Se tarjoaa tekoälyllä luotuja oivalluksia auttaakseen terveydenhuoltoammattilaisia pääsemään käsiksi lääketieteelliseen tietoon ja analysoimaan lääketieteellisiä kuvia ja asiakirjoja. Veterinary AI on tekoälyyn perustuva informatiivinen ja koulutussovellus, joka on suunniteltu tukemaan lisensoidumpia terveydenhuoltoammattilaisia.",
-        "thirdConsent": "Veterinary AI ei ole suunniteltu potilaskäyttöön. Se ei tarjoa suoria lääketieteellisiä diagnooseja, hoitosuosituksia tai potilashallintatoimintoja.",
-        "fourthConsent": "Veterinary AI:ta ei luokitella lääketieteelliseksi laitteeksi, eikä se vaadi sääntelyhyväksyntää. Se on tarkoitettu koulutus- ja informaatiotarkoituksiin täydentämään ammattitaitoa.",
-        "fifthConsent": "Veterinary AI ei kerää, tallenna tai käsittele henkilö- tai potilastietoja. Kaikki käyttäjävuorovaikutukset ovat luottamuksellisia ja rajoittuvat sovelluksen laajuuteen."
+        "firstConsent": "Eläinlääketieteen tekoäly ei tarjoa terveysmittauksia tai hoitoneuvoja, eikä se ole tarkoitettu sellaisiin tarkoituksiin. Eläinlääketieteen tekoälyn käyttäjien on käytettävä kliinistä harkintaansa ja varmennettava tiedot auktoritatiivisista lähteistä ennen kliinisiä päätöksiä.",
+        "secondConsent": "Eläinlääketieteen tekoäly ei ole diagnostinen työkalu, hoitoalusta tai korvaus ammattimaiselle lääketieteelliselle neuvonannolle. Se tarjoaa tekoälyn tuottamia oivalluksia eläinlääketieteen ammattilaisten auttamiseksi. Eläinlääketieteen tekoäly on tekoälyavusteinen informatiivinen ja koulutussovellus, joka on suunniteltu tukemaan lisensoituja eläinlääketieteen ammattilaisia.",
+        "fourthConsent": "Eläinlääketieteen tekoälyä ei luokitella lääketieteelliseksi laitteeksi, eikä se vaadi sääntelyhyväksyntää. Se on tarkoitettu koulutus- ja informaatiotarkoituksiin ammattitaidon täydentämiseksi.",
+        "fifthConsent": "Eläinlääketieteen tekoäly ei kerää, tallenna tai käsittele henkilö- tai potilastietoja. Kaikki käyttäjävuorovaikutukset ovat luottamuksellisia ja rajoittuvat sovelluksen laajuuteen."
       },
       "contactUs": {
         "heading": "Voit vapaasti lähettää meille sähköpostia suoraan, ja tiimimme vastaa sinulle mahdollisimman pian",
@@ -309,8 +296,8 @@
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "Tuloksia ei löytynyt — mutta älä huoli!",
-          "notFoundSubtitle": "Kokeile käyttää eri hakusanoja tai kysy suoraan tekoälylääketieteelliseltä avustajaltamme",
+          "notFoundTitle": "Tuloksia ei löytynyt - Mutta älä huoli!",
+          "notFoundSubtitle": "Kokeile käyttää eri hakusanoja tai kysy suoraan tekoälyavustajaltamme",
           "askAssistant": "Kysy lääketieteelliseltä avustajalta"
         }
       },
@@ -321,42 +308,43 @@
           "title": "Avaa premium-ominaisuudet tänään!",
           "firstOffering": "Pääsy kaikkiin premium-ominaisuuksiin",
           "secondOffering": "Mainokseton kokemus",
-          "thirdOffering": "Rajoittamaton analyysi lääketieteellisistä kuvista, videoista, PDF-skannauksista + raporteista",
-          "fourthOffering": "Rajoittamattomat keskustelut 24/7 tekoälylääketieteellisten avustajien kanssa"
+          "thirdOffering": "Rajoittamaton analyysi eläinlääketieteellisistä kuvista, videoista, PDF-skannauksista + raporteista",
+          "fourthOffering": "Rajoittamattomat keskustelut 24/7 eläinlääketieteen tekoälyavustajien kanssa",
+          "renewalInfo": "*Tilauksesi veloitetaan {{store}}-tililtäsi ja uusiutuu automaattisesti, ellei sitä peruuta vähintään 24 tuntia ennen nykyisen tilausjakson päättymistä. Voit hallita tai peruuttaa tilauksen milloin tahansa tilisi asetuksissa. Tilaus uusiutuu samaan hintaan ja suunnitelmaan, jonka valitsit, ellet muuta tai peru sitä."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Tekoälyavusteinen terveydenhuoltokumppanisi",
-          "subtitle": "Saat välittömästi lääketieteellisiä oivalluksia ja ohjausta erikoistuneilta tekoälylääkäreiltä milloin vain, missä vain."
+          "title": "Sinun tekoälyavusteinen eläinlääkäri- ja opiskeluseura",
+          "subtitle": "Tutki eläinlääketieteellisiä käsitteitä selkeiden, tekoälyn tuottamien koulutusnäkemyksien avulla"
         },
         "secondOnboarding": {
-          "title": "Kysy, lataa ja saat lääketieteellisiä oivalluksia",
-          "subtitle": "Keskustele tekoälylääkäreiden kanssa eri erikoisaloilta tai lataa lääketieteellisiä kuvia nopeaa lääketieteellistä analyysiä varten."
+          "title": "Kysy, opi, tutki eläinlääketieteellisiä aiheita",
+          "subtitle": "Löydä yksinkertaistettuja selityksiä eläinten käyttäytymisestä, rodusta, anatomiasta ja yleisistä eläinlääketieteellisistä käsitteistä."
         },
         "thirdOnboarding": {
           "title": "Yksityisyytesi on tärkeää",
-          "subtitle": "Olemme sitoutuneet suojelemaan yksityisyyttäsi. Emme kerää henkilötietoja. Kaikki lataamasi tiedostot pysyvät yksityisinä eikä niitä koskaan jaeta."
+          "subtitle": "Sitoudumme suojelemaan yksityisyyttäsi. Emme kerää henkilötietoja, ja kaikki lataamasi tiedostot pysyvät yksityisinä eivätkä koskaan jaeta."
         }
       },
       "paywallUpgradeScreen": {
         "heading": "Avaa premium-ominaisuudet tänään!",
         "firstOffering": {
           "title": "Aloita ilmainen kokeilu",
-          "subtitle": "Nauti {{freeScans}} ilmaisesta skannauksesta – ei maksua"
+          "subtitle": "Nauti {{freeScans}} ilmaisesta skannauksesta - ei maksua"
         },
         "secondOffering": {
           "title": "Kuukausisuunnitelma",
           "subtitle": "{{ price }}/kuukausi"
         },
         "thirdOffering": {
-          "title": "Vuosittainen suunnitelma",
+          "title": "Vuosisuunnitelma",
           "subtitle": "{{ price }} vuodessa"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}-päivän kokeilu",
+          "title": "{{trialDays}}-päivän ilmainen kokeilu",
           "subtitle": "{{ price }} vuodessa",
-          "plan": "Viikoittainen suunnitelma"
+          "plan": "Viikkosuunnitelma"
         }
       }
     }
@@ -364,13 +352,14 @@
   "settings": {
     "about": "Tietoja",
     "app_name": "Sovelluksen nimi",
-    "citations": "Viittaukset lääketieteelliseen tietoon",
-    "contactUs": "Ota meihin yhteyttä",
+    "citations": "Lääketieteellisten tietojen lähteet",
+    "contactUs": "Ota yhteyttä",
+    "cancelSubscription": "Peruuta tilaus",
     "devMode": {
       "componentsLibrary": "Käyttöliittymäkirjasto",
       "title": "Kehittäjätila"
     },
-    "faq": "UKK",
+    "faq": "Usein kysytyt kysymykset",
     "generale": "Yleinen",
     "github": "Github",
     "language": "Kieli",
@@ -402,7 +391,7 @@
       "portuguese_portugal": "Portugali (Portugali)",
       "romanian": "Romania",
       "russian": "Venäjä",
-      "slovak": "Slovakki",
+      "slovak": "Slovakia",
       "spanish_mexico": "Espanja (Meksiko)",
       "spanish_spain": "Espanja (Espanja)",
       "swedish": "Ruotsi",
@@ -434,55 +423,55 @@
   },
   "alerts": {
     "mediaPickerPermissions": "Anteeksi, tarvitsemme kameran käyttöoikeudet, jotta tämä toimii!",
-    "errorSelectingImagePicker": "Jotain meni pieleen kuvan valinnassa. Yritä uudelleen.",
-    "errorSelectingDocumentPicker": "Jotain meni pieleen asiakirjan valinnassa. Yritä uudelleen.",
-    "errorTakingPicture": "Jotain meni pieleen valokuvan ottamisessa. Yritä uudelleen.",
+    "errorSelectingImagePicker": "Kuvan valinnassa tapahtui virhe. Yritä uudelleen.",
+    "errorSelectingDocumentPicker": "Asiakirjan valinnassa tapahtui virhe. Yritä uudelleen.",
+    "errorTakingPicture": "Valokuvan ottamisessa tapahtui virhe. Yritä uudelleen.",
     "enableNotifications": {
       "heading": "Ota ilmoitukset käyttöön",
-      "subHeading": "Ilmoitukset ovat tällä hetkellä pois käytöstä. Pysyäksesi ajan tasalla, ota ne käyttöön laitteen asetuksista."
+      "subHeading": "Ilmoitukset ovat tällä hetkellä pois käytöstä. Pysyäksesi ajan tasalla, ota ne käyttöön laitteesi asetuksista."
     },
     "enableNotificationFailed": "Push-ilmoitukset on poistettu käytöstä. Ota ne käyttöön asetuksista saadaksesi tärkeitä päivityksiä!",
     "enableNotificationError": "Ilmoitusten käyttöönotossa tapahtui virhe",
     "notificationDisabledSuccess": "Ilmoitukset poistettu käytöstä onnistuneesti.",
-    "notificationDisabledRegisterError": "Laitteen poistaminen ilmoitusrekisteröinnistä epäonnistui.",
+    "notificationDisabledRegisterError": "Laitteen ilmoitusten rekisteröinnin poistaminen epäonnistui.",
     "notificationDisabledError": "Ilmoitusten poistamisessa käytöstä tapahtui virhe.",
-    "checkNotificationStatusError": "Virhe ilmoitustilan tarkistuksessa.",
-    "projectIdNotFound": "Ilmoitusprojektin ID:tä ei löytynyt.",
-    "imageSizeLarge": "Kuva on liian suuri! Tiedostokoko on {{fileSize}} MB, mutta raja on {{imageLimit}} MB.",
-    "videoSizeLarge": "Video on liian suuri! Tiedostokoko on {{fileSize}} MB, mutta raja on {{videoLimit}} MB.",
+    "checkNotificationStatusError": "Virhe ilmoitustilan tarkistamisessa.",
+    "projectIdNotFound": "Ilmoitusprojektin tunnusta ei löytynyt.",
+    "imageSizeLarge": "Kuva on liian suuri! Tiedostokoko on {{fileSize}} Mt, mutta raja on {{imageLimit}} Mt.",
+    "videoSizeLarge": "Video on liian suuri! Tiedostokoko on {{fileSize}} Mt, mutta raja on {{videoLimit}} Mt.",
     "loggedInSuccess": "Kirjautuminen onnistui",
     "loggedOutSuccess": "Olet kirjautunut ulos onnistuneesti!",
-    "sendVerificationCodeError": "Virhe vahvistuskoodin lähettämisessä",
-    "validateAuthCodeError": "Virhe auth-koodin vahvistamisessa",
+    "sendVerificationCodeError": "Virhe vahvistuskoodia lähetettäessä",
+    "validateAuthCodeError": "Virhe todennuskoodia vahvistettaessa",
     "anonymousSignInError": "Virhe anonyymissä kirjautumisessa",
-    "emailLoginError": "Virhe kirjautumisessa",
+    "emailLoginError": "Virhe kirjautuessa sisään",
     "preferredLanguageError": "Virhe käyttäjän ensisijaisen kielen päivittämisessä",
     "sharingNotAvailable": "Jakaminen ei ole tällä hetkellä saatavilla laitteessasi",
     "sharingLinkError": "Linkin jakaminen epäonnistui.",
     "individualPushNotificationSuccess": "Yksittäiset push-ilmoitukset lähetetty onnistuneesti!",
-    "globalPushNotificationSuccess": "Globaalit push-ilmoitukset lähetetty onnistuneesti! 🌍🚀",
+    "globalPushNotificationSuccess": "Maailmanlaajuiset push-ilmoitukset lähetetty onnistuneesti! 🌍🚀",
     "interpretationFieldsUpdateFail": "Tulkintakenttien päivitys epäonnistui! ❌",
     "deleteScanReportFail": "Skannausraporttia ei voi poistaa. Yritä uudelleen",
-    "onboardingUnsuccessful": "Esittely epäonnistui. Yritä uudelleen",
+    "onboardingUnsuccessful": "Käyttöönotto epäonnistui. Yritä uudelleen",
     "logoutUnsuccessful": "Uloskirjautuminen epäonnistui. Yritä uudelleen",
-    "deleteScanReportQuestion": "Oletko varma, että haluat poistaa tämän raportin pysyvästi?",
+    "deleteScanReportQuestion": "Haluatko varmasti poistaa tämän raportin pysyvästi?",
     "videoLimitExceeds": "Videosi ylittää {{videoSecondsLimit}} sekunnin rajan. Rajaa se ja lataa uudelleen",
-    "subscriptionActivated": "Tilauksesi on aktivoitu onnistuneesti! Nauti eksklusiivisista eduistasi!",
+    "subscriptionActivated": "Tilauksesi on aktivoitu onnistuneesti! Nauti ainutlaatuisista eduistasi!",
     "subscriptionCancelledByUser": "Olet peruuttanut kaupan. Voit vapaasti yrittää uudelleen!",
-    "subscriptionActivationFailed": "Tilauksen aktivointi epäonnistui. Yritä uudelleen",
+    "subscriptionActivationFailed": "Tilauksesi aktivointi epäonnistui. Yritä uudelleen",
     "logoutQuestion": "Haluatko varmasti kirjautua ulos?",
-    "noSubscriptionToRestore": "Hups! Näyttää siltä, että sinulla ei ole aktiivista tilausta tällä hetkellä. Jatkaaksesi täyden pääsyn nauttimista, valitse jokin tilaussuunnitelmistamme.",
+    "noSubscriptionToRestore": "Hups! Näyttää siltä, että sinulla ei ole tällä hetkellä aktiivista tilausta. Jatkaaksesi täyden pääsyn nauttimista, valitse jokin tilaussuunnitelmistamme.",
     "restorationSuccessful": "Palautus onnistui! Nauti!",
     "restorationError": "Oston palautuksessa tapahtui virhe.",
-    "medicalDisclaimerAlert": "Veterinary AI -sovellus ei korvaa lääketieteellistä konsultaatiota. Jotkin diagnoosit ovat vain tiedon- ja opetuskäyttöä varten. Lääketieteellisiä suosituksia varten ota aina yhteyttä lääkäriin tai lisensoituun asiantuntijaan.",
-    "scanLimitReached": "Optimoidaan skannauslaatua puolestasi! Voit skannata uudelleen noin {{hours}} tunnin ja {{minutes}} minuutin kuluttua. Onko sinulla kysymyksiä lääketieteellisistä aiheista? Kysy chat-avustajaltamme odotellessasi!",
-    "mixedMediaNotAllowed": "Parempaa tarkkuutta varten älä lataa erilaisten mediatiedostojen sekoitusta. Lataa vain kuvia, videoita tai pdf-tiedostoja — ei kaikkia yhdessä.",
-    "multipleVideosNotAllowed": "Parempaa tarkkuutta varten lataa vain yksi video kerrallaan.",
+    "medicalDisclaimerAlert": "Eläinlääketieteen tekoälysovellus ei korvaa lääketieteellistä konsultaatiota. Jotkut diagnoosit ovat vain tiedon- ja opetustarkoituksia varten. Lääketieteellisiä suosituksia varten ota aina yhteyttä lääkäriin tai lisensoituun asiantuntijaan.",
+    "scanLimitReached": "Optimoidaan skannauksen laatua puolestasi! Voit skannata uudelleen noin {{hours}} tunnin ja {{minutes}} minuutin kuluttua. Onko sinulla kysyttävää lääketieteellisestä aiheesta? Kysy chat-avustajaltamme odotellessasi!",
+    "mixedMediaNotAllowed": "Parempaan tarkkuuteen älä lataa erilaisten mediatiedostojen sekoitusta. Lataa vain kuvia, videoita tai pdf-tiedostoja - ei kaikkia yhdessä.",
+    "multipleVideosNotAllowed": "Parempaan tarkkuuteen lataa vain yksi video kerrallaan.",
     "mediaFilesUploadFiles": "Mediatiedostojesi lataamisessa tapahtui virhe. Yritä uudelleen.",
-    "chatAndMediaFilesLimit": "Hyvä käyttäjä, sinun on päivitettävä suunnitelmasi hyötyäksesi rajoittamattomista keskusteluista, rajoittamattomista skannauksista, useiden kuvien analyysistä ja enemmän. 🔓"
+    "chatAndMediaFilesLimit": "Hyvä käyttäjä, sinun on päivitettävä suunnitelmasi saadaksesi hyödyn rajoittamattomista keskusteluista, rajoittamattomista skannauksista, useiden kuvien analyysistä ja muusta. 🔓"
   },
   "deleteApp": {
     "title": "Odota! Älä poista minua!",
-    "subtitle": "Lähetä palautetta sen sijaan"
+    "subtitle": "Anna palautetta sen sijaan"
   }
 }

@@ -4,7 +4,7 @@
     "welcome": "안녕하세요",
     "welcomeBack": "다시 오신 것을 환영합니다!",
     "welcomeMessage": "환영합니다!",
-    "continue": "계속",
+    "continue": "계속하기",
     "retry": "다시 시도",
     "close": "닫기",
     "gallery": "갤러리",
@@ -14,18 +14,19 @@
     "delete": "삭제",
     "attention": "주의!",
     "new": "새로운",
-    "activeSubscription": "구독 활성화",
+    "activeSubscription": "활성화된 구독",
     "agreeingMessage": "계속하면 다음에 동의하는 것입니다",
     "and": "및",
-    "askAssistant": "AI 어시스턴트에게 질문",
+    "askAssistant": "AI 어시스턴트에게 질문하기",
     "chatbotPlaceholder": "무엇이든 물어보세요...",
     "completedScans": "완료된 스캔",
     "conversationHistory": "대화 기록",
-    "medicalAssistants": "의료 어시스턴트",
+    "medicalAssistants": "일반 수의학 AI 어시스턴트",
     "searchAssistant": "어시스턴트 검색...",
     "analyzingMediaFilesPlaceholder": "미디어 파일 분석 중...",
+    "mainDisclaimer": "이 앱은 건강 관련 측정, 진단 또는 치료 조언을 제공하지 않습니다. 의학적 문제가 있을 경우 항상 면허를 보유한 전문가와 상담하십시오.",
     "copyText": {
-      "copied": "복사됨!",
+      "copied": "복사되었습니다!",
       "copy": "링크 복사",
       "loading": "복사 중..."
     },
@@ -35,30 +36,30 @@
     "freeTrial": "무료 체험",
     "loadingMessages": {
       "imageScanningLoading": {
-        "first": "의료 영상 스캔 중, 잠시만 기다려주세요...",
-        "fourth": "거의 다 왔습니다, 스캔 마무리 중...",
-        "second": "세부 사항 분석 중, 잠시 시간이 걸릴 수 있습니다...",
-        "third": "최상의 결과를 위해 정확도 향상 중..."
+        "first": "의료 영상을 스캔 중입니다. 잠시만 기다려 주세요...",
+        "fourth": "거의 완료되었습니다. 스캔을 마무리 중...",
+        "second": "세부 사항을 분석 중입니다. 잠시 시간이 걸릴 수 있습니다...",
+        "third": "최상의 결과를 위해 정확도를 높이는 중..."
       },
       "initialAppLoad": {
-        "first": "맞춤형 경험을 불러오는 중...",
-        "fourth": "거의 준비되었습니다, 잠시만 기다려주세요...",
+        "first": "개인 맞춤 경험을 로드하는 중...",
+        "fourth": "거의 준비되었습니다. 잠시만 기다려 주세요...",
         "second": "시스템 동기화 중...",
         "third": "데이터 처리 중..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med가 도움을 드릴 준비를 하고 있습니다...",
-        "second": "잠시만 기다려주세요! Dr. Med가 답변을 준비 중입니다...",
-        "third": "생각 중... 어시스턴트 Dr. Med가 작업 중입니다!"
+        "first": "Dr. Vet가 도움을 드릴 준비를 하고 있습니다...",
+        "second": "잠시만 기다려 주세요! Dr. Vet가 답변을 준비 중입니다...",
+        "third": "생각 중... 어시스턴트 Dr. Vet가 처리 중입니다!"
       }
     },
     "tabs": {
       "home": "홈",
       "chat": "채팅",
-      "aiDoctors": "AI 의사",
+      "aiDoctors": "AI 어시스턴트",
       "settings": "설정"
     },
-    "medicalDisclaimer": "의학적 면책 조항",
+    "medicalDisclaimer": "수의학 면책 조항",
     "next": "다음",
     "noPaymentNow": "지금 결제 없음. 언제든지 취소 가능.",
     "online": "온라인",
@@ -69,7 +70,7 @@
     "perYear": "연간",
     "privacyPolicy": "개인정보 처리방침",
     "restorePurchase": "구매 복원",
-    "termsOfUse": "이용약관",
+    "termsOfUse": "이용 약관",
     "saveDiscount": "할인",
     "seeNotifications": "알림 보기",
     "share": "공유",
@@ -85,7 +86,7 @@
     "upgradePlan": "플랜 업그레이드",
     "viewProfile": "프로필 보기",
     "yes": "예",
-    "chatBotPlaceholder": "안녕하세요 👋 {{topic}}이(가) 궁금하신가요? 함께 탐구하고 배워봐요 — 뭐든 물어보세요!"
+    "chatBotPlaceholder": "안녕하세요 👋 {{topic}}에 대해 궁금하신가요? 탐색하고 더 알아보도록 도와드리겠습니다 — 무엇이든 물어보세요!"
   },
   "weekDays": {
     "today": "오늘",
@@ -93,132 +94,105 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "X-RAY, CT, MRI, ECG 등을 포함한 다양한 의료 스캔 분석 제공",
-      "second": "모든 프리미엄 기능에 접근",
-      "fourth": "24/7 의료 AI 어시스턴트와 무제한 채팅",
+      "first": "AI 기반 학습을 통해 수의학 개념과 동물 주제 탐색",
+      "second": "모든 프리미엄 기능에 액세스",
+      "fourth": "24/7 수의학 AI 어시스턴트와 무제한 채팅",
       "third": "광고 없음"
     },
     "UpgradeBanner": {
       "heading": "지금 잠금 해제",
-      "subheading": "제한 없이 모든 혜택을 즐기세요"
+      "subheading": "제한 없이 모든 혜택을 누리세요"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "의료 영상 분석기",
-      "askMedicalAssistant": "의료 AI 어시스턴트에게 질문",
+      "veterinaryImaging": "수의학 영상 / 품종",
+      "medicalImagesAnalyzer": "수의학 영상 연구실",
+      "askMedicalAssistant": "AI 어시스턴트에게 질문하기",
       "medicalAssistant": "의료 어시스턴트",
       "imageTypes": {
-        "xray": "X-선",
-        "ct": "CT",
+        "xray": "X-Ray",
+        "ct": "CT 스캔",
         "mri": "MRI",
         "ultrasound": "초음파",
-        "ecg": "심전도",
+        "ecg": "심전도 (ECG/EKG)",
         "skinLesion": "피부 병변",
         "mammogram": "유방촬영",
-        "retinalScan": "망막 스캔",
+        "retinalScan": "망막 / 안구 스캔",
         "bloodSmear": "혈액 도말",
         "dental": "치과",
         "pet": "PET",
-        "dexa": "골밀도 검사",
+        "dexa": "DEXA / 골밀도 스캔",
         "angiography": "혈관조영술",
-        "echo": "심초음파",
-        "fluoroscopy": "투시검사"
+        "echo": "심초음파 (ECHO)",
+        "fluoroscopy": "투시촬영"
       }
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "가정의학",
-          "subtitle": "일반 진료"
+        "veterinaryGeneralMedicine": {
+          "title": "수의학 입문",
+          "subtitle": "일반 연구 개요"
         },
-        "internalMedicine": {
-          "title": "내과"
+        "veterinaryInternalMedicine": {
+          "title": "내과학 (학습 가이드)"
         },
-        "pediatrics": {
-          "title": "소아과"
+        "veterinaryDermatology": {
+          "title": "피부학 기초 (학습)"
         },
-        "dermatology": {
-          "title": "피부과"
+        "veterinaryCardiology": {
+          "title": "수의학 심장학 연구"
         },
-        "cardiology": {
-          "title": "심장내과"
+        "veterinaryOrthopedics": {
+          "title": "정형외과 및 근골격계 (연구)"
         },
-        "orthopedics": {
-          "title": "정형외과"
+        "veterinaryNeurology": {
+          "title": "신경학 – 학습"
         },
-        "psychiatry": {
-          "title": "정신건강의학과",
-          "subtitle": "정신 건강"
+        "veterinaryOphthalmology": {
+          "title": "안과학 – 학습 가이드"
         },
-        "obstetricsGynecology": {
-          "title": "산부인과",
-          "subtitle": "산부인과"
+        "veterinaryDentistry": {
+          "title": "수의학 치과 기초"
         },
-        "neurology": {
-          "title": "신경과"
+        "veterinaryRadiology": {
+          "title": "영상의학 및 영상",
+          "subtitle": "영상 개요"
         },
-        "ophthalmology": {
-          "title": "안과"
+        "veterinaryOncology": {
+          "title": "종양학 – 교육용"
         },
-        "otolaryngology": {
-          "title": "이비인후과",
-          "subtitle": "이비인후과"
+        "veterinaryEndocrinology": {
+          "title": "내분비학 – 연구 주제"
         },
-        "dentistry": {
-          "title": "치과"
+        "veterinaryNephrologyUrology": {
+          "title": "신장학 및 비뇨기학 (학습)"
         },
-        "radiology": {
-          "title": "영상의학과",
-          "subtitle": "영상"
+        "veterinaryRespiratory": {
+          "title": "호흡기 의학 개요"
         },
-        "oncology": {
-          "title": "종양내과"
+        "veterinaryGastroenterology": {
+          "title": "소화기학 – 학습 가이드"
         },
-        "endocrinology": {
-          "title": "내분비내과"
+        "veterinaryImmunology": {
+          "title": "면역학 및 감염병 (연구)"
         },
-        "nephrology": {
-          "title": "신장내과"
+        "veterinaryHematology": {
+          "title": "혈액학 – 학습"
         },
-        "pulmonology": {
-          "title": "호흡기내과"
+        "veterinarySurgery": {
+          "title": "외과학 개념 및 연구"
         },
-        "gastroenterology": {
-          "title": "소화기내과"
+        "veterinaryAnesthesiology": {
+          "title": "마취통증의학 및 통증 관리 (연구)"
         },
-        "allergyImmunology": {
-          "title": "알레르기 및 면역학"
+        "veterinaryRehabilitation": {
+          "title": "재활 및 물리치료",
+          "subtitle": "교육 가이드"
         },
-        "hematology": {
-          "title": "혈액내과"
+        "veterinaryExotics": {
+          "title": "특수동물 및 야생동물 의학 (개요)"
         },
-        "rheumatology": {
-          "title": "류마티스내과"
-        },
-        "urology": {
-          "title": "비뇨의학과"
-        },
-        "emergencyMedicine": {
-          "title": "응급의학과"
-        },
-        "surgery": {
-          "title": "외과"
-        },
-        "anesthesiology": {
-          "title": "마취통증의학과"
-        },
-        "rehabilitationMedicine": {
-          "title": "재활의학과",
-          "subtitle": "물리치료"
-        },
-        "geriatrics": {
-          "title": "노년내과"
-        },
-        "publicHealth": {
-          "title": "공중보건",
-          "subtitle": "예방의학"
-        },
-        "microscopy": {
-          "title": "현미경 검사"
+        "veterinaryLivestock": {
+          "title": "대동물 및 가축 연구"
         }
       }
     },
@@ -237,7 +211,7 @@
       },
       "freeTrialPreview": {
         "heading": "무료 체험을 즐기세요! 🎉",
-        "review": "의학 질문, 영상의학 스캔, 공부에 이 앱을 사용합니다 — 정말 놀랍습니다!",
+        "review": "저는 이 앱을 수의학 질문, 동물 이미지 스캔 및 학습에 사용합니다 — 정말 놀랍습니다!",
         "reviewTrust": "📈 5,212명 이상의 사용자가 신뢰합니다"
       },
       "languageAnalysisModal": {
@@ -249,30 +223,44 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "흉부 X-선은 무엇을 보여주나요?",
-          "two": "심장 마비의 일반적인 증상은 무엇인가요?",
-          "three": "혈압을 자연적으로 낮추는 방법은 무엇인가요?",
-          "four": "MRI와 CT 스캔의 차이점은 무엇인가요?",
-          "five": "당뇨병의 초기 증상은 무엇인가요?",
-          "six": "기본 혈액 검사 결과를 어떻게 해석하나요?",
-          "seven": "요로 감염(UTI)의 치료법은 무엇인가요?",
-          "eight": "심초음파의 용도에 대해 설명해 주실 수 있나요?",
-          "nine": "건강한 식이 지침은 무엇인가요?",
-          "ten": "고콜레스테롤의 원인은 무엇인가요?",
-          "eleven": "MRI에서 뇌종양은 어떻게 발견되나요?",
-          "twelve": "가정의학의 역할은 무엇인가요?",
-          "thirteen": "뇌졸중의 위험 요소는 무엇인가요?",
-          "fourteen": "불안과 스트레스를 어떻게 관리하나요?",
-          "fifteen": "고혈압 관리 최신 지침은 무엇인가요?"
+          "one": "흉부 X-Ray가 동물 해부학에 대해 무엇을 알려줄 수 있나요?",
+          "two": "동물의 심장 기능과 관련된 일반적인 학습 주제는 무엇인가요?",
+          "three": "다른 종에서 심혈관 건강에 영향을 미치는 요인은 무엇인가요?",
+          "four": "수의학 영상 연구에서 MRI와 CT 기술은 어떻게 다른가요?",
+          "five": "동물의 대사 과정을 이해하는 데 중요한 개념은 무엇인가요?",
+          "six": "수의학 교육에서 기본 혈액 검사 매개변수는 어떻게 해석되나요?",
+          "eight": "심초음파가 심장 기능에 대해 무엇을 보여주나요?",
+          "nine": "반려동물의 균형 잡힌 영양을 위한 원칙은 무엇인가요?",
+          "ten": "다양한 동물 종에서 지질 및 콜레스테롤 수치에 영향을 미치는 요인은 무엇인가요?",
+          "eleven": "영상 기술이 동물의 신경학적 구조 연구에 어떻게 사용되나요?",
+          "twelve": "일반 수의학에서는 일반적으로 어떤 주제를 다루나요?",
+          "thirteen": "뇌졸중과 유사한 상태 뒤에 있는 일반적인 학문적 개념은 무엇인가요?",
+          "fourteen": "동물에서 스트레스나 불안 관련 행동을 어떻게 인식할 수 있나요?",
+          "fifteen": "동물의 혈압 조절과 관련하여 어떤 요인들이 연구되나요?",
+          "sixteen": "다른 개 품종에서 일반적으로 연구되는 특성은 무엇인가요?",
+          "seventeen": "고양이 품종 간에 고양이 행동은 어떻게 다른가요?",
+          "eighteen": "개와 고양이 사이의 주요 해부학적 차이점은 무엇인가요?",
+          "nineteen": "유전학이 품종별 특성에 어떻게 영향을 미치나요?",
+          "twenty": "어떤 환경 요인이 동물의 행동과 학습에 영향을 미치나요?",
+          "twentyOne": "야생 동물 종은 어떻게 생태계에 적응하나요?",
+          "twentyTwo": "번식 및 유전학 연구에서 일반적인 원칙은 무엇인가요?",
+          "twentyThree": "가축 종에서 동물의 사회적 행동은 어떻게 연구되나요?",
+          "twentyFour": "반려동물 연구에는 어떤 기초 주제가 포함되나요?",
+          "twentyFive": "학생들은 어떻게 동물의 체형 점수를 평가하나요?",
+          "twentySix": "어린 동물의 성장과 발달에 영향을 미치는 요인은 무엇인가요?",
+          "twentySeven": "동물 복지를 지원하기 위해 환경 강화는 어떻게 사용되나요?",
+          "twentyEight": "고양이 관리 연구에서 일반적으로 탐구되는 주요 건강 개념은 무엇인가요?",
+          "twentyNine": "소형, 중형, 대형 개 품종 간에 어떤 식이 요구가 다른가요?",
+          "thirty": "동물학과 야생생물학이 수의학 교육에 어떻게 기여하나요?"
         }
       },
       "notifications": {
         "title": "알림",
-        "noNotifications": "현재 알림이 없습니다 — 업데이트를 기다려주세요!"
+        "noNotifications": "현재 알림이 없습니다 — 업데이트를 기다려 주세요!"
       },
       "rateAppScreen": {
-        "heading": "앱이 가치 있고 매력적으로 느껴지나요?",
-        "like": "예, 마음에 들어요!",
+        "heading": "앱이 가치 있고 매력적이라고 생각하시나요?",
+        "like": "네, 마음에 들어요!",
         "dislike": "마음에 들지 않아요"
       },
       "profile": {
@@ -282,7 +270,7 @@
       },
       "noInternetScreen": {
         "heading": "오프라인 상태입니다",
-        "subheading": "연결이 불안정해 보입니다. 네트워크 상태를 확인해주세요"
+        "subheading": "연결이 불안정해 보입니다. 네트워크 상태를 확인해 주세요"
       },
       "newAppVersionScreen": {
         "heading": "Veterinary AI의 새 버전이 있습니다",
@@ -291,59 +279,59 @@
       },
       "disclaimerScreen": {
         "heading": "중요한 의학적 면책 조항",
-        "subheading": "Veterinary AI는 영상의학 전문가, 의료 전문가, 의대생 및 애호가를 위해 설계되었습니다",
+        "subheading": "Veterinary AI는 방사선 전문의, 의료 전문가, 의대생 및 애호가를 위해 설계되었습니다",
         "consentAgreement": "면책 조항을 읽고 동의합니다.",
-        "firstConsent": "Veterinary AI는 건강 측정이나 치료 조언을 제공하지 않으며, 그러한 목적으로 사용되지 않습니다. Veterinary AI 사용자는 임상적 결정을 내리기 전에 자신의 임상적 판단을 적용하고 권위 있는 소스의 정보를 확인해야 합니다.",
-        "secondConsent": "Veterinary AI는 진단 도구, 치료 플랫폼 또는 전문 의학적 조언의 대체품이 아닙니다. 이는 의료 전문가가 의학 지식에 접근하고 의료 영상 및 문서를 분석하는 것을 지원하기 위해 AI 생성 통찰력을 제공합니다. Veterinary AI는 면허를 보유한 의료 전문가를 지원하기 위해 설계된 AI 기반 정보 및 교육 앱입니다.",
-        "thirdConsent": "Veterinary AI는 환자 사용을 위해 설계되지 않았습니다. 직접적인 의학적 진단, 치료 권고 또는 환자 관리 기능을 제공하지 않습니다.",
-        "fourthConsent": "Veterinary AI는 의료 기기로 분류되지 않으며 규제 승인을 주장하지 않습니다. 이는 전문 지식을 보완하기 위해 교육 및 정보 목적으로 사용됩니다.",
-        "fifthConsent": "Veterinary AI는 개인 또는 환자 데이터를 수집, 저장 또는 처리하지 않습니다. 모든 사용자 상호작용은 기밀이며 앱 범위로 제한됩니다."
+        "firstConsent": "Veterinary AI는 건강 측정 또는 치료 조언을 제공하지 않으며 그러한 목적으로 사용되어서는 안 됩니다. Veterinary AI 사용자는 임상적 결정을 내리기 전에 자신의 임상적 판단을 적용하고 권위 있는 출처의 정보를 확인해야 합니다.",
+        "secondConsent": "Veterinary AI는 진단 도구, 치료 플랫폼 또는 전문 의학적 조언의 대체품이 아닙니다. 이는 수의학 전문가를 지원하기 위한 AI 생성 인사이트를 제공합니다. Veterinary AI는 면허를 보유한 수의학 전문가를 지원하도록 설계된 AI 기반 정보 및 교육용 앱입니다.",
+        "fourthConsent": "Veterinary AI는 의료 기기로 분류되지 않으며 규제 승인을 주장하지 않습니다. 이는 전문 지식을 보완하기 위한 교육 및 정보 목적으로 사용됩니다.",
+        "fifthConsent": "Veterinary AI는 개인 또는 환자 데이터를 수집, 저장 또는 처리하지 않습니다. 모든 사용자 상호작용은 기밀로 유지되며 앱 범위로 제한됩니다."
       },
       "contactUs": {
-        "heading": "직접 이메일을 보내주시면, 저희 팀이 최대한 빨리 답변해 드리겠습니다",
+        "heading": "직접 이메일을 보내주시면 저희 팀이 가능한 한 빨리 답변드리겠습니다",
         "customerSupport": "고객 지원",
         "emailAddress": "이메일 주소"
       },
       "rate": {
-        "title": "피드백을 주세요!"
+        "title": "의견을 남겨주세요!"
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "결과를 찾을 수 없습니다 — 하지만 걱정하지 마세요!",
-          "notFoundSubtitle": "다른 키워드를 사용해 보거나 AI 의료 어시스턴트에 직접 질문하세요",
-          "askAssistant": "의료 어시스턴트에게 질문"
+          "notFoundTitle": "결과를 찾을 수 없습니다 — 하지만 걱정 마세요!",
+          "notFoundSubtitle": "다른 키워드를 사용해 보거나 AI 수의학 어시스턴트에게 직접 질문하세요",
+          "askAssistant": "의료 어시스턴트에게 질문하기"
         }
       },
       "paywallOnboarding": {
         "freeTierOfferings": {
-          "freeTrialEnabled": "무료 체험 활성화",
-          "heading": "무제한 접근",
+          "freeTrialEnabled": "무료 체험 활성화됨",
+          "heading": "무제한 액세스",
           "title": "프리미엄 기능을 오늘 잠금 해제하세요!",
-          "firstOffering": "모든 프리미엄 기능 접근",
+          "firstOffering": "모든 프리미엄 기능에 액세스",
           "secondOffering": "광고 없는 경험",
-          "thirdOffering": "의료 영상, 비디오, PDF 스캔 + 리포트 무제한 분석",
-          "fourthOffering": "24/7 AI 의료 어시스턴트와 무제한 채팅"
+          "thirdOffering": "수의학 이미지, 동영상, PDF 스캔 + 보고서 무제한 분석",
+          "fourthOffering": "24/7 AI 수의학 어시스턴트와 무제한 채팅",
+          "renewalInfo": "*귀하의 구독은 {{store}} 계정으로 청구되며 현재 구독 기간이 끝나기 최소 24시간 전에 취소하지 않는 한 자동으로 갱신됩니다. 계정 설정에서 언제든지 관리하거나 취소할 수 있습니다. 구독은 변경 또는 취소하지 않는 한 선택한 동일한 가격 및 플랜으로 갱신됩니다."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "당신의 AI 기반 헬스케어 동반자",
-          "subtitle": "전문 AI 의사들로부터 언제 어디서나 즉각적인 의학적 통찰력과 지침을 얻으세요."
+          "title": "AI 기반 수의학 및 학습 동반자",
+          "subtitle": "명확한 AI 생성 교육 인사이트로 수의학 개념 탐색"
         },
         "secondOnboarding": {
-          "title": "질문, 업로드, 의학적 통찰력 얻기",
-          "subtitle": "다른 전문 분야의 AI 의사들과 채팅하거나, 의료 영상을 업로드하여 빠른 의학적 분석을 받으세요."
+          "title": "수의학 주제 질문, 학습, 연구",
+          "subtitle": "동물 행동, 품종, 해부학 및 일반 수의학 개념에 대한 단순화된 설명 발견."
         },
         "thirdOnboarding": {
-          "title": "당신의 프라이버시가 중요합니다",
-          "subtitle": "우리는 당신의 프라이버시를 보호하기 위해 최선을 다합니다. 우리는 개인 데이터를 수집하지 않습니다. 업로드하는 모든 파일은 비공개로 유지되며 절대 공유되지 않습니다."
+          "title": "귀하의 개인정보가 중요합니다",
+          "subtitle": "우리는 귀하의 개인정보를 보호하기 위해 최선을 다하고 있습니다. 우리는 개인 데이터를 수집하지 않으며, 귀하가 업로드한 모든 파일은 비공개로 유지되고 절대 공유되지 않습니다."
         }
       },
       "paywallUpgradeScreen": {
         "heading": "프리미엄 기능을 오늘 잠금 해제하세요!",
         "firstOffering": {
           "title": "무료 체험 시작",
-          "subtitle": "{{freeScans}} 무료 스캔 즐기기 — 결제 없음"
+          "subtitle": "{{freeScans}}개의 무료 스캔 — 결제 없음"
         },
         "secondOffering": {
           "title": "월간 플랜",
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} 연간"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}일 체험",
+          "title": "{{trialDays}}일 무료 체험",
           "subtitle": "{{ price }} 연간",
           "plan": "주간 플랜"
         }
@@ -366,6 +354,7 @@
     "app_name": "앱 이름",
     "citations": "의학 정보 인용",
     "contactUs": "문의하기",
+    "cancelSubscription": "구독 취소",
     "devMode": {
       "componentsLibrary": "UI 라이브러리",
       "title": "개발자 모드"
@@ -421,7 +410,7 @@
     "support": "지원",
     "support_us": "지원하기",
     "tab": "설정",
-    "terms": "이용약관",
+    "terms": "서비스 약관",
     "theme": {
       "dark": "다크",
       "light": "라이트",
@@ -433,53 +422,53 @@
     "website": "웹사이트"
   },
   "alerts": {
-    "mediaPickerPermissions": "죄송합니다, 이 기능을 사용하려면 카메라 권한이 필요합니다!",
-    "errorSelectingImagePicker": "이미지 선택 중 문제가 발생했습니다. 다시 시도해주세요.",
-    "errorSelectingDocumentPicker": "문서 선택 중 문제가 발생했습니다. 다시 시도해주세요.",
-    "errorTakingPicture": "사진 촬영 중 문제가 발생했습니다. 다시 시도해주세요.",
+    "mediaPickerPermissions": "죄송합니다. 이 기능을 사용하려면 카메라 권한이 필요합니다!",
+    "errorSelectingImagePicker": "이미지를 선택하는 중 문제가 발생했습니다. 다시 시도해 주세요.",
+    "errorSelectingDocumentPicker": "문서를 선택하는 중 문제가 발생했습니다. 다시 시도해 주세요.",
+    "errorTakingPicture": "사진을 찍는 중 문제가 발생했습니다. 다시 시도해 주세요.",
     "enableNotifications": {
       "heading": "알림 활성화",
-      "subHeading": "알림이 현재 꺼져 있습니다. 최신 소식을 받으려면 기기 설정에서 활성화해주세요."
+      "subHeading": "알림이 현재 꺼져 있습니다. 최신 정보를 받으려면 기기 설정에서 활성화해 주세요."
     },
     "enableNotificationFailed": "푸시 알림이 비활성화되었습니다. 중요한 업데이트를 받으려면 설정에서 활성화하세요!",
     "enableNotificationError": "알림 활성화 중 오류 발생",
     "notificationDisabledSuccess": "알림이 성공적으로 비활성화되었습니다.",
     "notificationDisabledRegisterError": "알림에 대한 기기 등록 취소 실패.",
-    "notificationDisabledError": "알림 비활성화 중 오류 발생.",
-    "checkNotificationStatusError": "알림 상태 확인 중 오류.",
-    "projectIdNotFound": "알림 프로젝트 ID를 찾을 수 없습니다.",
-    "imageSizeLarge": "이미지가 너무 큽니다! 파일 크기는 {{fileSize}} MB이지만, 제한은 {{imageLimit}} MB입니다.",
-    "videoSizeLarge": "비디오가 너무 큽니다! 파일 크기는 {{fileSize}} MB이지만, 제한은 {{videoLimit}} MB입니다.",
+    "notificationDisabledError": "알림 비활성화 중 오류 발생",
+    "checkNotificationStatusError": "알림 상태 확인 중 오류 발생",
+    "projectIdNotFound": "알림 프로젝트 ID를 찾을 수 없음",
+    "imageSizeLarge": "이미지가 너무 큽니다! 파일 크기는 {{fileSize}} MB이지만 제한은 {{imageLimit}} MB입니다.",
+    "videoSizeLarge": "동영상이 너무 큽니다! 파일 크기는 {{fileSize}} MB이지만 제한은 {{videoLimit}} MB입니다.",
     "loggedInSuccess": "성공적으로 로그인됨",
     "loggedOutSuccess": "성공적으로 로그아웃되었습니다!",
-    "sendVerificationCodeError": "인증 코드 전송 중 오류",
-    "validateAuthCodeError": "인증 코드 확인 중 오류",
-    "anonymousSignInError": "익명 로그인 중 오류",
-    "emailLoginError": "로그인 중 오류",
-    "preferredLanguageError": "사용자 선호 언어 업데이트 중 오류",
+    "sendVerificationCodeError": "인증 코드 전송 중 오류 발생",
+    "validateAuthCodeError": "인증 코드 확인 중 오류 발생",
+    "anonymousSignInError": "익명 로그인 중 오류 발생",
+    "emailLoginError": "로그인 중 오류 발생",
+    "preferredLanguageError": "사용자 선호 언어 업데이트 중 오류 발생",
     "sharingNotAvailable": "현재 기기에서 공유를 사용할 수 없습니다",
-    "sharingLinkError": "링크 공유 실패.",
-    "individualPushNotificationSuccess": "개별 푸시 알림 전송 성공!",
-    "globalPushNotificationSuccess": "전체 푸시 알림 전송 성공! 🌍🚀",
+    "sharingLinkError": "링크 공유 실패",
+    "individualPushNotificationSuccess": "개별 푸시 알림이 성공적으로 전송되었습니다!",
+    "globalPushNotificationSuccess": "글로벌 푸시 알림이 성공적으로 전송되었습니다! 🌍🚀",
     "interpretationFieldsUpdateFail": "해석 필드 업데이트 실패! ❌",
-    "deleteScanReportFail": "스캔 리포트를 삭제할 수 없습니다. 다시 시도해주세요",
-    "onboardingUnsuccessful": "온보딩이 성공적으로 완료되지 않았습니다. 다시 시도해주세요",
-    "logoutUnsuccessful": "로그아웃이 성공적으로 완료되지 않았습니다. 다시 시도해주세요",
-    "deleteScanReportQuestion": "이 리포트를 영구적으로 삭제하시겠습니까?",
-    "videoLimitExceeds": "비디오가 {{videoSecondsLimit}}초 제한을 초과합니다. 자르고 다시 업로드해주세요",
+    "deleteScanReportFail": "스캔 보고서를 삭제할 수 없습니다. 다시 시도해 주세요",
+    "onboardingUnsuccessful": "온보딩이 성공적으로 완료되지 않았습니다. 다시 시도해 주세요",
+    "logoutUnsuccessful": "로그아웃이 성공적으로 완료되지 않았습니다. 다시 시도해 주세요",
+    "deleteScanReportQuestion": "이 보고서를 영구적으로 삭제하시겠습니까?",
+    "videoLimitExceeds": "동영상이 {{videoSecondsLimit}}초 제한을 초과합니다. 자르고 다시 업로드해 주세요",
     "subscriptionActivated": "구독이 성공적으로 활성화되었습니다! 독점 혜택을 즐기세요!",
-    "subscriptionCancelledByUser": "거래를 취소하셨습니다. 언제든지 다시 시도해주세요!",
-    "subscriptionActivationFailed": "구독 활성화에 실패했습니다. 다시 시도해주세요",
+    "subscriptionCancelledByUser": "거래를 취소하셨습니다. 언제든지 다시 시도해 주세요!",
+    "subscriptionActivationFailed": "구독 활성화에 실패했습니다. 다시 시도해 주세요",
     "logoutQuestion": "로그아웃하시겠습니까?",
-    "noSubscriptionToRestore": "죄송합니다! 현재 활성화된 구독이 없는 것 같습니다. 전체 접속을 계속하려면 구독 플랜 중 하나를 선택해주세요.",
-    "restorationSuccessful": "복원이 성공적으로 완료되었습니다! 즐기세요!",
+    "noSubscriptionToRestore": "죄송합니다! 현재 활성 구독이 없는 것 같습니다. 전체 액세스를 계속 즐기려면 구독 플랜 중 하나를 선택해 주세요.",
+    "restorationSuccessful": "복원이 성공했습니다! 즐기세요!",
     "restorationError": "구매 복원 중 오류가 발생했습니다.",
-    "medicalDisclaimerAlert": "Veterinary AI 앱은 의학적 상담을 대체하지 않습니다. 일부 진단은 정보/교육 목적으로만 제공됩니다. 의학적 권고사항은 항상 의사나 면허를 가진 전문가와 상담하세요.",
+    "medicalDisclaimerAlert": "Veterinary AI 앱은 의학적 상담을 대체하지 않습니다. 일부 진단은 정보/교육 목적으로만 제공됩니다. 의학적 권고 사항은 항상 의사나 면허를 보유한 전문가와 상담하세요.",
     "scanLimitReached": "스캔 품질을 최적화하고 있습니다! 약 {{hours}}시간 {{minutes}}분 후에 다시 스캔할 수 있습니다. 의학 주제에 대한 질문이 있으신가요? 기다리는 동안 채팅 어시스턴트에게 물어보세요!",
-    "mixedMediaNotAllowed": "더 나은 정확도를 위해 서로 다른 미디어 파일을 혼합하여 업로드하지 마세요. 이미지, 비디오 또는 pdf만 업로드하세요 — 모두 함께 업로드하지 마세요.",
-    "multipleVideosNotAllowed": "더 나은 정확도를 위해 한 번에 하나의 비디오만 업로드하세요.",
-    "mediaFilesUploadFiles": "미디어 파일 업로드 중 오류가 발생했습니다. 다시 시도해주세요.",
-    "chatAndMediaFilesLimit": "사용자님, 무제한 채팅, 무제한 스캔, 다중 이미지 분석 등을 이용하려면 플랜을 업그레이드해야 합니다. 🔓"
+    "mixedMediaNotAllowed": "더 나은 정확도를 위해 다른 미디어 파일을 혼합하여 업로드하지 마세요. 이미지, 동영상 또는 pdf만 업로드해 주세요 — 모두 함께 업로드하지 마세요.",
+    "multipleVideosNotAllowed": "더 나은 정확도를 위해 한 번에 하나의 동영상만 업로드해 주세요.",
+    "mediaFilesUploadFiles": "미디어 파일 업로드 중 오류가 발생했습니다. 다시 시도해 주세요.",
+    "chatAndMediaFilesLimit": "사용자님, 무제한 채팅, 무제한 스캔, 다중 이미지 분석 등 더 많은 혜택을 받으려면 플랜을 업그레이드해야 합니다. 🔓"
   },
   "deleteApp": {
     "title": "기다려주세요! 저를 삭제하지 마세요!",

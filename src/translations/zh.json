@@ -14,16 +14,17 @@
     "delete": "删除",
     "attention": "注意！",
     "new": "新",
-    "activeSubscription": "订阅已激活",
+    "activeSubscription": "订阅有效",
     "agreeingMessage": "继续即表示您同意我们的",
     "and": "和",
     "askAssistant": "询问AI助手",
     "chatbotPlaceholder": "问我任何问题...",
     "completedScans": "扫描完成",
     "conversationHistory": "对话历史",
-    "medicalAssistants": "医疗助手",
+    "medicalAssistants": "通用AI兽医助手",
     "searchAssistant": "搜索助手...",
-    "analyzingMediaFilesPlaceholder": "正在分析媒体文件...",
+    "analyzingMediaFilesPlaceholder": "分析媒体文件中...",
+    "mainDisclaimer": "本应用从不提供健康相关的测量、诊断或治疗建议。如有任何医疗问题，请务必咨询持牌专家。",
     "copyText": {
       "copied": "已复制！",
       "copy": "复制链接",
@@ -36,7 +37,7 @@
     "loadingMessages": {
       "imageScanningLoading": {
         "first": "正在扫描您的医学影像，请稍候...",
-        "fourth": "即将完成，正在最终处理扫描...",
+        "fourth": "即将完成，正在最终确定扫描...",
         "second": "正在分析细节，这可能需要一些时间...",
         "third": "正在提高准确性以获得最佳结果..."
       },
@@ -47,18 +48,18 @@
         "third": "正在处理您的数据..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med 正在准备为您提供帮助...",
-        "second": "请稍候！Dr. Med 正在准备您的回复...",
-        "third": "思考中...您的助手 Dr. Med 正在处理！"
+        "first": "兽医博士正在准备为您提供帮助...",
+        "second": "请稍候！兽医博士正在准备您的回复...",
+        "third": "思考中...您的助手兽医博士正在处理！"
       }
     },
     "tabs": {
       "home": "首页",
       "chat": "聊天",
-      "aiDoctors": "AI医生",
+      "aiDoctors": "AI助手",
       "settings": "设置"
     },
-    "medicalDisclaimer": "医疗免责声明",
+    "medicalDisclaimer": "兽医免责声明",
     "next": "下一步",
     "noPaymentNow": "现在无需付款。随时取消。",
     "online": "在线",
@@ -75,17 +76,17 @@
     "share": "分享",
     "shareLink": "分享链接",
     "skip": "跳过",
-    "termsAndConditions": "条款和条件",
+    "termsAndConditions": "条款与条件",
     "then": "然后",
     "tryAgain": "再试一次",
     "tryForFree": "开始免费试用",
-    "typing": "正在输入...",
+    "typing": "输入中...",
     "unlockNow": "立即解锁",
     "update": "更新",
     "upgradePlan": "升级计划",
     "viewProfile": "查看个人资料",
     "yes": "是",
-    "chatBotPlaceholder": "嗨 👋 对 {{topic}} 感到好奇吗？我在这里帮你一起探索和了解更多 — 随时问我吧！"
+    "chatBotPlaceholder": "你好 👋 对{{topic}}感到好奇吗？我在这里帮助您探索和学习更多 - 问我任何问题！"
   },
   "weekDays": {
     "today": "今天",
@@ -93,9 +94,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "获取各种医学扫描的分析，包括X光、CT、MRI、心电图等",
+      "first": "通过AI驱动的学习探索兽医概念和动物主题",
       "second": "访问所有高级功能",
-      "fourth": "与24/7医疗AI助手无限聊天",
+      "fourth": "与24/7兽医AI助手无限聊天",
       "third": "无广告"
     },
     "UpgradeBanner": {
@@ -103,22 +104,23 @@
       "subheading": "无限制享受所有福利"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "医学影像分析器",
-      "askMedicalAssistant": "咨询医疗AI助手",
+      "veterinaryImaging": "兽医影像/品种",
+      "medicalImagesAnalyzer": "兽医影像研究实验室",
+      "askMedicalAssistant": "询问AI助手",
       "medicalAssistant": "医疗助手",
       "imageTypes": {
         "xray": "X光",
-        "ct": "CT",
+        "ct": "CT扫描",
         "mri": "MRI",
         "ultrasound": "超声",
         "ecg": "心电图",
         "skinLesion": "皮肤病变",
         "mammogram": "乳腺X光",
-        "retinalScan": "视网膜扫描",
+        "retinalScan": "视网膜/眼部扫描",
         "bloodSmear": "血涂片",
         "dental": "牙科",
         "pet": "PET",
-        "dexa": "DEXA/骨密度扫描",
+        "dexa": "骨密度扫描",
         "angiography": "血管造影",
         "echo": "超声心动图",
         "fluoroscopy": "荧光透视"
@@ -126,99 +128,71 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "家庭医学",
-          "subtitle": "全科医疗"
+        "veterinaryGeneralMedicine": {
+          "title": "兽医入门",
+          "subtitle": "通用学习概述"
         },
-        "internalMedicine": {
-          "title": "内科"
+        "veterinaryInternalMedicine": {
+          "title": "内科学（学习指南）"
         },
-        "pediatrics": {
-          "title": "儿科"
+        "veterinaryDermatology": {
+          "title": "皮肤病学基础（学习）"
         },
-        "dermatology": {
-          "title": "皮肤科"
+        "veterinaryCardiology": {
+          "title": "兽医心脏病学研究"
         },
-        "cardiology": {
-          "title": "心脏病学"
+        "veterinaryOrthopedics": {
+          "title": "骨科与肌肉骨骼（学习）"
         },
-        "orthopedics": {
-          "title": "骨科"
+        "veterinaryNeurology": {
+          "title": "神经病学 - 学习"
         },
-        "psychiatry": {
-          "title": "精神病学",
-          "subtitle": "心理健康"
+        "veterinaryOphthalmology": {
+          "title": "眼科学 - 学习指南"
         },
-        "obstetricsGynecology": {
-          "title": "妇产科",
-          "subtitle": "OB/GYN"
+        "veterinaryDentistry": {
+          "title": "兽医牙科基础"
         },
-        "neurology": {
-          "title": "神经病学"
+        "veterinaryRadiology": {
+          "title": "放射学与影像学",
+          "subtitle": "影像概述"
         },
-        "ophthalmology": {
-          "title": "眼科"
+        "veterinaryOncology": {
+          "title": "肿瘤学 - 教育"
         },
-        "otolaryngology": {
-          "title": "耳鼻喉科",
-          "subtitle": "ENT"
+        "veterinaryEndocrinology": {
+          "title": "内分泌学 - 学习主题"
         },
-        "dentistry": {
-          "title": "牙科"
+        "veterinaryNephrologyUrology": {
+          "title": "肾病学与泌尿学（学习）"
         },
-        "radiology": {
-          "title": "放射科",
-          "subtitle": "影像学"
+        "veterinaryRespiratory": {
+          "title": "呼吸医学概述"
         },
-        "oncology": {
-          "title": "肿瘤科"
+        "veterinaryGastroenterology": {
+          "title": "胃肠病学 - 学习指南"
         },
-        "endocrinology": {
-          "title": "内分泌科"
+        "veterinaryImmunology": {
+          "title": "免疫学与传染病（学习）"
         },
-        "nephrology": {
-          "title": "肾内科"
+        "veterinaryHematology": {
+          "title": "血液学 - 学习"
         },
-        "pulmonology": {
-          "title": "呼吸科"
+        "veterinarySurgery": {
+          "title": "外科概念与学习"
         },
-        "gastroenterology": {
-          "title": "消化科"
+        "veterinaryAnesthesiology": {
+          "title": "麻醉学与疼痛管理（学习）"
         },
-        "allergyImmunology": {
-          "title": "过敏与免疫学"
+        "veterinaryRehabilitation": {
+          "title": "康复与物理治疗",
+          "subtitle": "教育指南"
         },
-        "hematology": {
-          "title": "血液科"
+        "veterinaryExotics": {
+          "title": "异宠与野生动物医学（概述）"
         },
-        "rheumatology": {
-          "title": "风湿科"
-        },
-        "urology": {
-          "title": "泌尿科"
-        },
-        "emergencyMedicine": {
-          "title": "急诊医学"
-        },
-        "surgery": {
-          "title": "外科"
-        },
-        "anesthesiology": {
-          "title": "麻醉科"
-        },
-        "rehabilitationMedicine": {
-          "title": "康复医学",
-          "subtitle": "物理治疗"
-        },
-        "geriatrics": {
-          "title": "老年医学"
-        },
-        "publicHealth": {
-          "title": "公共卫生",
-          "subtitle": "预防医学"
-        },
-        "microscopy": {
-          "title": "显微镜检查"
+        "veterinaryLivestock": {
+          "title": "大动物与牲畜研究"
         }
       }
     },
@@ -232,43 +206,57 @@
     "screens": {
       "welcome": {
         "accountButton": "我已有账户",
-        "heading": "欢迎使用 Veterinary AI！",
+        "heading": "欢迎使用兽医AI！",
         "startButton": "让我们开始吧！"
       },
       "freeTrialPreview": {
         "heading": "享受您的免费试用！🎉",
-        "review": "我使用此应用处理医疗问题、放射扫描和学习 — 它太棒了！",
-        "reviewTrust": "📈 受5,212+用户信赖"
+        "review": "我使用此应用处理兽医问题、动物图像扫描和学习 - 它太棒了！",
+        "reviewTrust": "📈 受到5,212+用户信赖"
       },
       "languageAnalysisModal": {
-        "languagePreferenceQuestion": "您希望使用哪种语言进行AI分析？",
+        "languagePreferenceQuestion": "您希望AI分析使用什么语言？",
         "languageSelection": "选择AI回复的语言",
         "languageSearchCriteria": "按语言、国家代码或旗帜搜索",
         "noLanguageFound": "未找到语言",
-        "noLanguageFoundSubtitle": "请尝试修改搜索条件"
+        "noLanguageFoundSubtitle": "尝试修改搜索词"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "胸部X光片显示什么？",
-          "two": "心脏病的常见症状有哪些？",
-          "three": "如何自然降低血压？",
-          "four": "MRI和CT扫描有什么区别？",
-          "five": "糖尿病的早期迹象是什么？",
-          "six": "如何解读我的基础血液检查结果？",
-          "seven": "尿路感染(UTI)的治疗方法是什么？",
-          "eight": "您能解释超声心动图的用途吗？",
-          "nine": "健康饮食的指南是什么？",
-          "ten": "高胆固醇的原因是什么？",
-          "eleven": "如何在MRI上检测脑肿瘤？",
-          "twelve": "家庭医学的作用是什么？",
-          "thirteen": "中风的风险因素有哪些？",
-          "fourteen": "如何管理焦虑和压力？",
-          "fifteen": "高血压管理的最新指南是什么？"
+          "one": "胸部X光能帮助了解动物解剖学的哪些方面？",
+          "two": "与动物心脏功能相关的常见学习主题有哪些？",
+          "three": "影响不同物种心血管健康的因素有哪些？",
+          "four": "MRI和CT技术在兽医影像研究中有何不同？",
+          "five": "理解动物代谢过程的关键概念是什么？",
+          "six": "在兽医教育中如何解读基本血液检测参数？",
+          "eight": "超声心动图如何帮助说明心脏功能？",
+          "nine": "伴侣动物均衡营养的指导原则是什么？",
+          "ten": "影响各种动物物种脂质和胆固醇水平的因素有哪些？",
+          "eleven": "影像学如何用于研究动物的神经结构？",
+          "twelve": "普通兽医医学通常涵盖哪些主题？",
+          "thirteen": "中风样病症背后常见的学术概念有哪些？",
+          "fourteen": "如何识别动物的压力或焦虑相关行为？",
+          "fifteen": "研究动物血压调节的相关因素有哪些？",
+          "sixteen": "不同犬种通常研究哪些特征？",
+          "seventeen": "猫的行为在不同品种之间有何差异？",
+          "eighteen": "狗和猫的关键解剖学差异是什么？",
+          "nineteen": "遗传学如何影响品种特异性特征？",
+          "twenty": "哪些环境因素影响动物行为和学习？",
+          "twentyOne": "野生动物物种如何适应其生态系统？",
+          "twentyTwo": "育种和遗传学研究中的常见原则是什么？",
+          "twentyThree": "如何研究家养物种的动物社会行为？",
+          "twentyFour": "伴侣动物研究包含哪些基础主题？",
+          "twentyFive": "学生如何评估动物体况评分？",
+          "twentySix": "影响幼年动物生长和发育的因素有哪些？",
+          "twentySeven": "如何利用丰富化来支持动物福利？",
+          "twentyEight": "猫护理研究中通常探索哪些主要健康概念？",
+          "twentyNine": "小型、中型和大型犬种的饮食需求有何不同？",
+          "thirty": "动物学和野生动物生物学如何促进兽医教育？"
         }
       },
       "notifications": {
         "title": "通知",
-        "noNotifications": "目前没有通知 — 请关注更新！"
+        "noNotifications": "目前没有通知 - 敬请关注更新！"
       },
       "rateAppScreen": {
         "heading": "您觉得这个应用有价值且吸引人吗？",
@@ -278,29 +266,28 @@
       "profile": {
         "title": "个人资料",
         "edit": "编辑个人资料",
-        "placeholderPreferredName": "例如：酷队长、蜂后，或者只是Alex！"
+        "placeholderPreferredName": "例如：酷队长、蜂后，或者就叫Alex！"
       },
       "noInternetScreen": {
-        "heading": "您处于离线状态",
+        "heading": "您已离线",
         "subheading": "您的连接似乎不稳定。请检查网络状态"
       },
       "newAppVersionScreen": {
-        "heading": "Veterinary AI 有新版本可用",
-        "subheading": "更新到最新版本以继续享受所有应用功能 — 只需5秒钟！",
+        "heading": "兽医AI的新版本已可用",
+        "subheading": "更新到最新版本以继续享受所有应用功能 - 只需5秒钟！",
         "action": "立即获取！"
       },
       "disclaimerScreen": {
         "heading": "重要医疗免责声明",
-        "subheading": "Veterinary AI 专为放射科专业人员、医疗专家、医学生和爱好者设计",
+        "subheading": "兽医AI专为放射科专业人员、医疗专家、医学生和爱好者设计",
         "consentAgreement": "我已阅读并同意免责声明。",
-        "firstConsent": "Veterinary AI 不提供健康测量或治疗建议，也不用于此类目的。Veterinary AI 用户必须应用其临床判断，并在做出临床决策前从权威来源验证信息。",
-        "secondConsent": "Veterinary AI 不是诊断工具、治疗平台或专业医疗建议的替代品。它提供AI生成的见解，以帮助医疗专业人员获取医学知识并分析医学影像和文档。Veterinary AI 是一个AI驱动的信息和教育应用，旨在支持持照医疗专业人员。",
-        "thirdConsent": "Veterinary AI 并非为患者使用而设计。它不提供直接的医学诊断、治疗建议或患者管理功能。",
-        "fourthConsent": "Veterinary AI 未被归类为医疗设备，也不声称获得监管批准。它旨在用于教育和信息目的，以补充专业专业知识。",
-        "fifthConsent": "Veterinary AI 不收集、存储或处理个人或患者数据。所有用户互动都是保密的，并限于应用范围。"
+        "firstConsent": "兽医AI不提供健康测量或治疗建议，也不用于此类目的。兽医AI的用户在做出任何临床决策前必须运用其临床判断并核实权威来源的信息。",
+        "secondConsent": "兽医AI不是诊断工具、治疗平台或专业医疗建议的替代品。它提供AI生成的见解以协助兽医专业人员。兽医AI是一个AI驱动的信息和教育应用，更多是为了支持持牌兽医专业人员。",
+        "fourthConsent": "兽医AI不被归类为医疗设备，也不声称获得监管批准。它旨在用于教育和信息目的，以补充专业专业知识。",
+        "fifthConsent": "兽医AI不收集、存储或处理个人或患者数据。所有用户互动都是保密的，并限于应用范围。"
       },
       "contactUs": {
-        "heading": "欢迎直接给我们发送电子邮件，我们的团队会尽快回复您",
+        "heading": "请随时直接给我们发邮件，我们的团队会尽快回复您",
         "customerSupport": "客户支持",
         "emailAddress": "电子邮件地址"
       },
@@ -309,9 +296,9 @@
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "未找到结果 — 但别担心！",
-          "notFoundSubtitle": "尝试使用不同的关键词，或直接询问我们的AI医疗助手",
-          "askAssistant": "咨询医疗助手"
+          "notFoundTitle": "未找到结果 - 但别担心！",
+          "notFoundSubtitle": "尝试使用不同的关键词，或直接询问我们的AI兽医助手",
+          "askAssistant": "询问医疗助手"
         }
       },
       "paywallOnboarding": {
@@ -321,40 +308,41 @@
           "title": "立即解锁高级功能！",
           "firstOffering": "访问所有高级功能",
           "secondOffering": "无广告体验",
-          "thirdOffering": "医学影像、视频、PDF扫描+报告的无限分析",
-          "fourthOffering": "与24/7 AI医疗助手无限聊天"
+          "thirdOffering": "无限分析兽医图像、视频、PDF扫描+报告",
+          "fourthOffering": "与24/7 AI兽医助手无限聊天",
+          "renewalInfo": "*您的订阅将通过您的{{store}}账户收费，并自动续订，除非在当前订阅期结束前至少24小时取消。您可以随时在账户设置中管理或取消。订阅将以您选择的相同价格和计划续订，除非您更改或取消它。"
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "您的AI驱动医疗伴侣",
-          "subtitle": "随时随地获取专业AI医生的即时医疗见解和指导。"
+          "title": "您的AI驱动兽医与学习伴侣",
+          "subtitle": "通过清晰、AI生成的教育见解探索兽医概念"
         },
         "secondOnboarding": {
-          "title": "提问、上传并获取医疗见解",
-          "subtitle": "与不同专业的AI医生聊天，或上传医学影像进行快速医疗分析。"
+          "title": "询问、学习、研究兽医主题",
+          "subtitle": "发现关于动物行为、品种、解剖学和通用兽医概念的简化解释。"
         },
         "thirdOnboarding": {
           "title": "您的隐私很重要",
-          "subtitle": "我们致力于保护您的隐私。我们不收集个人数据。您上传的任何文件都保持私密且永不共享。"
+          "subtitle": "我们致力于保护您的隐私。我们不收集个人数据，您上传的任何文件都是私密的，从不共享。"
         }
       },
       "paywallUpgradeScreen": {
         "heading": "立即解锁高级功能！",
         "firstOffering": {
           "title": "开始免费试用",
-          "subtitle": "享受{{freeScans}}次免费扫描 — 无需付款"
+          "subtitle": "享受{{freeScans}}次免费扫描 - 无需付款"
         },
         "secondOffering": {
-          "title": "月度计划",
+          "title": "月计划",
           "subtitle": "{{ price }}/月"
         },
         "thirdOffering": {
-          "title": "年度计划",
+          "title": "年计划",
           "subtitle": "{{ price }} 每年"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}天试用",
+          "title": "{{trialDays}}天免费试用",
           "subtitle": "{{ price }} 每年",
           "plan": "周计划"
         }
@@ -364,8 +352,9 @@
   "settings": {
     "about": "关于",
     "app_name": "应用名称",
-    "citations": "医学信息引用",
+    "citations": "医疗信息引用",
     "contactUs": "联系我们",
+    "cancelSubscription": "取消订阅",
     "devMode": {
       "componentsLibrary": "UI库",
       "title": "开发者模式"
@@ -439,12 +428,12 @@
     "errorTakingPicture": "拍照时出错。请重试。",
     "enableNotifications": {
       "heading": "启用通知",
-      "subHeading": "通知当前已关闭。请保持更新，在设备设置中启用它们。"
+      "subHeading": "通知当前已关闭。要随时了解最新信息，请在设备设置中启用它们。"
     },
-    "enableNotificationFailed": "推送通知已禁用。在设置中启用以接收重要更新！",
+    "enableNotificationFailed": "推送通知已禁用。在设置中启用它们以接收重要更新！",
     "enableNotificationError": "启用通知时出错",
     "notificationDisabledSuccess": "通知已成功禁用。",
-    "notificationDisabledRegisterError": "无法取消注册设备通知。",
+    "notificationDisabledRegisterError": "取消注册设备通知失败。",
     "notificationDisabledError": "禁用通知时出错。",
     "checkNotificationStatusError": "检查通知状态时出错。",
     "projectIdNotFound": "未找到通知项目ID。",
@@ -453,36 +442,36 @@
     "loggedInSuccess": "登录成功",
     "loggedOutSuccess": "您已成功退出登录！",
     "sendVerificationCodeError": "发送验证码时出错",
-    "validateAuthCodeError": "验证认证码时出错",
+    "validateAuthCodeError": "验证授权码时出错",
     "anonymousSignInError": "匿名登录时出错",
     "emailLoginError": "登录时出错",
     "preferredLanguageError": "更新用户首选语言时出错",
-    "sharingNotAvailable": "共享当前在您的设备上不可用",
+    "sharingNotAvailable": "您的设备当前无法共享",
     "sharingLinkError": "分享链接失败。",
-    "individualPushNotificationSuccess": "个人推送通知发送成功！",
+    "individualPushNotificationSuccess": "个别推送通知发送成功！",
     "globalPushNotificationSuccess": "全局推送通知发送成功！🌍🚀",
-    "interpretationFieldsUpdateFail": "更新解释字段失败！❌",
+    "interpretationFieldsUpdateFail": "更新解读字段失败！❌",
     "deleteScanReportFail": "无法删除扫描报告。请重试",
-    "onboardingUnsuccessful": "引导不成功。请重试",
+    "onboardingUnsuccessful": "入门不成功。请重试",
     "logoutUnsuccessful": "退出登录不成功。请重试",
     "deleteScanReportQuestion": "您确定要永久删除此报告吗？",
-    "videoLimitExceeds": "您的视频超过{{videoSecondsLimit}}秒限制。请修剪后重新上传",
-    "subscriptionActivated": "您的订阅已成功激活！享受专属福利！",
-    "subscriptionCancelledByUser": "您已取消交易。欢迎随时重试！",
+    "videoLimitExceeds": "您的视频超过了{{videoSecondsLimit}}秒的限制。请修剪后重新上传",
+    "subscriptionActivated": "您的订阅已成功激活！享受您的专属福利！",
+    "subscriptionCancelledByUser": "您已取消交易。请随时重试！",
     "subscriptionActivationFailed": "激活订阅失败。请重试",
     "logoutQuestion": "您确定要退出登录吗？",
-    "noSubscriptionToRestore": "糟糕！看起来您目前没有活跃订阅。要继续享受完全访问权限，请选择我们的订阅计划之一。",
-    "restorationSuccessful": "恢复成功！尽情享受！",
+    "noSubscriptionToRestore": "糟糕！看起来您目前没有有效订阅。要继续享受完全访问权限，请选择我们的订阅计划之一。",
+    "restorationSuccessful": "恢复成功！请享受！",
     "restorationError": "恢复购买时出错。",
-    "medicalDisclaimerAlert": "Veterinary AI 应用不能替代医疗咨询。某些诊断仅用于信息/教育目的。对于医疗建议，请务必咨询医生或持照专家。",
-    "scanLimitReached": "我们正在为您优化扫描质量！您将在大约{{hours}}小时{{minutes}}分钟后能够再次扫描。有任何医疗问题吗？在等待时询问我们的聊天助手！",
-    "mixedMediaNotAllowed": "为了更好的准确性，请不要上传不同类型的媒体文件混合。请仅上传图像、视频或pdf — 不要全部一起上传。",
+    "medicalDisclaimerAlert": "兽医AI应用不能替代医疗咨询。某些诊断仅用于信息/教育目的。对于医疗建议，请务必咨询医生或持牌专家。",
+    "scanLimitReached": "我们正在为您优化扫描质量！您将在大约{{hours}}小时{{minutes}}分钟后能够再次扫描。对任何医疗主题有疑问吗？在等待时询问我们的聊天助手！",
+    "mixedMediaNotAllowed": "为了更好的准确性，请勿上传混合的不同媒体文件。请仅上传图像、视频或PDF - 不要一起上传。",
     "multipleVideosNotAllowed": "为了更好的准确性，请一次仅上传一个视频。",
     "mediaFilesUploadFiles": "上传媒体文件时出错。请重试。",
     "chatAndMediaFilesLimit": "亲爱的用户，您需要升级计划才能受益于无限聊天、无限扫描、多图像分析等功能。🔓"
   },
   "deleteApp": {
     "title": "等等！别删除我！",
-    "subtitle": "请提供反馈"
+    "subtitle": "改为发送反馈"
   }
 }

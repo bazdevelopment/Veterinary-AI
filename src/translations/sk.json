@@ -14,16 +14,17 @@
     "delete": "Odstrániť",
     "attention": "Pozor!",
     "new": "Nové",
-    "activeSubscription": "Aktívne predplatné",
+    "activeSubscription": "Predplatné aktívne",
     "agreeingMessage": "Pokračovaním súhlasíte s našimi",
     "and": "a",
     "askAssistant": "Opýtajte sa asistenta AI",
     "chatbotPlaceholder": "Opýtajte sa ma čokoľvek...",
-    "completedScans": "Dokončené skeny",
+    "completedScans": "Skenovania dokončené",
     "conversationHistory": "História konverzácií",
-    "medicalAssistants": "Medickí asistenti",
+    "medicalAssistants": "Všeobecní veterinárni asistenti AI",
     "searchAssistant": "Hľadať asistenta...",
-    "analyzingMediaFilesPlaceholder": "Analýza médií...",
+    "analyzingMediaFilesPlaceholder": "Analyzujú sa mediálne súbory...",
+    "mainDisclaimer": "Táto aplikácia nikdy neposkytuje zdravotné merania, diagnózy alebo liečebné rady. Vždy konzultujte licencovaného špecialistu pri akýchkoľvek zdravotných problémoch.",
     "copyText": {
       "copied": "Skopírované!",
       "copy": "Kopírovať odkaz",
@@ -32,35 +33,35 @@
     "createdAt": "Vytvorené",
     "download": "Stiahnuť",
     "free": "ZADARMO",
-    "freeTrial": "Bezplatná skúšobná verzia",
+    "freeTrial": "Skúšobná verzia zadarmo",
     "loadingMessages": {
       "imageScanningLoading": {
-        "first": "Skenujeme vaše lekárske snímky, čakajte prosím...",
+        "first": "Skenujeme vaše veterinárne snímky, čakajte prosím...",
         "fourth": "Takmer hotovo, dokončujeme skenovanie...",
-        "second": "Analyzujeme detaily, môže to chvíľu trvať...",
-        "third": "Zvyšujeme presnosť pre najlepšie výsledky..."
+        "second": "Analyzujú sa podrobnosti, môže to chvíľu trvať...",
+        "third": "Zlepšuje sa presnosť pre najlepšie výsledky..."
       },
       "initialAppLoad": {
         "first": "Načítava sa váš personalizovaný zážitok...",
         "fourth": "Takmer hotovo, len chvíľu...",
-        "second": "Synchronizácia systémov...",
-        "third": "Spracovávajú sa vaše dáta..."
+        "second": "Synchronizujú sa systémy...",
+        "third": "Spracúvajú sa vaše dáta..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med sa pripravuje na pomoc...",
-        "second": "Počkajte! Dr. Med pripravuje vašu odpoveď...",
-        "third": "Premýšľam... váš asistent Dr. Med na tom pracuje!"
+        "first": "Dr. Vet sa pripravuje, aby vám mohol pomôcť...",
+        "second": "Počkajte! Dr. Vet pripravuje vašu odpoveď...",
+        "third": "Premýšľa... váš asistent Dr. Vet na tom pracuje!"
       }
     },
     "tabs": {
       "home": "Domov",
       "chat": "Chat",
-      "aiDoctors": "AI lekári",
+      "aiDoctors": "Asistenti AI",
       "settings": "Nastavenia"
     },
-    "medicalDisclaimer": "Lekárske vyhlásenie",
+    "medicalDisclaimer": "Veterinárne vyhlásenie",
     "next": "Ďalej",
-    "noPaymentNow": "Žiadna platba teraz. Zrušte kedykoľvek.",
+    "noPaymentNow": "Teraz žiadna platba. Zrušiť kedykoľvek.",
     "online": "Online",
     "openSettings": "Otvoriť nastavenia",
     "or": "alebo",
@@ -75,17 +76,17 @@
     "share": "Zdieľať",
     "shareLink": "Zdieľať odkaz",
     "skip": "Preskočiť",
-    "termsAndConditions": "Všeobecné podmienky",
+    "termsAndConditions": "Podmienky a ujednania",
     "then": "potom",
     "tryAgain": "Skúsiť znova",
-    "tryForFree": "Spustiť bezplatnú skúšobnú verziu",
+    "tryForFree": "Spustiť skúšobnú verziu zadarmo",
     "typing": "Píše sa...",
     "unlockNow": "Odomknúť teraz",
     "update": "Aktualizovať",
     "upgradePlan": "Inovovať plán",
     "viewProfile": "Zobraziť profil",
     "yes": "Áno",
-    "chatBotPlaceholder": "Ahoj 👋 Zaujíma ťa {{topic}}? Som tu, aby som ti pomohol preskúmať a dozvedieť sa viac — spýtaj sa na čokoľvek!"
+    "chatBotPlaceholder": "Ahoj 👋 Zaujíma ťa {{topic}}? Som tu, aby som ti pomohol preskúmať a dozvedieť sa viac — opýtaj sa ma čokoľvek!"
   },
   "weekDays": {
     "today": "Dnes",
@@ -93,9 +94,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Získajte analýzy z rôznych lekárskech vyšetrení vrátane RTG, CT, MRI, EKG a ďalších",
+      "first": "Objavujte veterinárne koncepty a témy o zvieratách prostredníctvom učenia podporovaného AI",
       "second": "Prístup ku všetkým prémiovým funkciám",
-      "fourth": "Neobmedzené konverzácie s 24/7 lekárske AI asistentmi",
+      "fourth": "Neobmedzené chaty s 24/7 veterinárnymi asistentmi AI",
       "third": "Žiadne reklamy"
     },
     "UpgradeBanner": {
@@ -103,167 +104,154 @@
       "subheading": "Užite si všetky výhody bez obmedzení"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Analyzátor Lekárskych Obrázkov",
-      "askMedicalAssistant": "Opýtajte sa Lekárskeho AI Asistenta",
-      "medicalAssistant": "Lekársky Asistent",
+      "veterinaryImaging": "Veterinárne zobrazovanie / Plemeno",
+      "medicalImagesAnalyzer": "Laboratórium pre štúdium veterinárneho zobrazovania",
+      "askMedicalAssistant": "Opýtajte sa asistenta AI",
+      "medicalAssistant": "Medicínsky asistent",
       "imageTypes": {
-        "xray": "RTG",
-        "ct": "CT",
+        "xray": "Röntgen",
+        "ct": "CT vyšetrenie",
         "mri": "MRI",
         "ultrasound": "Ultrazvuk",
         "ecg": "EKG",
         "skinLesion": "Kožná lézia",
-        "mammogram": "Mamografia",
-        "retinalScan": "Sken sietnice",
-        "bloodSmear": "Krvný roztier",
+        "mammogram": "Mammogram",
+        "retinalScan": "Sken sietnice / Oka",
+        "bloodSmear": "Krvný nátier",
         "dental": "Zubné",
         "pet": "PET",
-        "dexa": "DEXA / Hustota kostí",
+        "dexa": "DEXA / Skenovanie hustoty kostí",
         "angiography": "Angiografia",
         "echo": "Echokardiografia (ECHO)",
-        "fluoroscopy": "Fluoroskopia"
+        "fluoroscopy": "Röntgen v reálnom čase"
       }
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Všeobecné lekárstvo",
-          "subtitle": "Všeobecná prax"
+        "veterinaryGeneralMedicine": {
+          "title": "Úvod do veterinárnej medicíny",
+          "subtitle": "Všeobecný prehľad štúdia"
         },
-        "internalMedicine": {
-          "title": "Vnútorné lekárstvo"
+        "veterinaryInternalMedicine": {
+          "title": "Vnútorné lekárstvo (Študijná príručka)"
         },
-        "pediatrics": {
-          "title": "Pediatria"
+        "veterinaryDermatology": {
+          "title": "Základy dermatológie (Učenie)"
         },
-        "dermatology": {
-          "title": "Dermatológia"
+        "veterinaryCardiology": {
+          "title": "Štúdium veterinárnej kardiológie"
         },
-        "cardiology": {
-          "title": "Kardiológia"
+        "veterinaryOrthopedics": {
+          "title": "Štúdium ortopédie a muskuloskeletálneho systému"
         },
-        "orthopedics": {
-          "title": "Ortopédia"
+        "veterinaryNeurology": {
+          "title": "Neurológia – Učenie"
         },
-        "psychiatry": {
-          "title": "Psychiatria",
-          "subtitle": "Duševné zdravie"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmológia – Študijná príručka"
         },
-        "obstetricsGynecology": {
-          "title": "Pôrodníctvo a gynekológia",
-          "subtitle": "GYN/POR"
+        "veterinaryDentistry": {
+          "title": "Základy veterinárnej stomatológie"
         },
-        "neurology": {
-          "title": "Neurológia"
+        "veterinaryRadiology": {
+          "title": "Radiológia a zobrazovanie",
+          "subtitle": "Prehľad zobrazovania"
         },
-        "ophthalmology": {
-          "title": "Oftalmológia"
+        "veterinaryOncology": {
+          "title": "Onkológia – Vzdelávacie"
         },
-        "otolaryngology": {
-          "title": "Otolaryngológia",
-          "subtitle": "ENT"
+        "veterinaryEndocrinology": {
+          "title": "Endokrinológia – Študijné témy"
         },
-        "dentistry": {
-          "title": "Stomatológia"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefrológia a urológia (Učenie)"
         },
-        "radiology": {
-          "title": "Radiológia",
-          "subtitle": "Zobrazovanie"
+        "veterinaryRespiratory": {
+          "title": "Prehľad respiračnej medicíny"
         },
-        "oncology": {
-          "title": "Onkológia"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterológia – Študijná príručka"
         },
-        "endocrinology": {
-          "title": "Endokrinológia"
+        "veterinaryImmunology": {
+          "title": "Imunológia a infekčné choroby (Štúdium)"
         },
-        "nephrology": {
-          "title": "Nefrológia"
+        "veterinaryHematology": {
+          "title": "Hematológia – Učenie"
         },
-        "pulmonology": {
-          "title": "Pneumológia"
+        "veterinarySurgery": {
+          "title": "Chirurgické koncepty a štúdium"
         },
-        "gastroenterology": {
-          "title": "Gastroenterológia"
+        "veterinaryAnesthesiology": {
+          "title": "Anestéziológia a liečba bolesti (Štúdium)"
         },
-        "allergyImmunology": {
-          "title": "Alergológia a Imunológia"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitácia a fyzioterapia",
+          "subtitle": "Vzdelávacia príručka"
         },
-        "hematology": {
-          "title": "Hematológia"
+        "veterinaryExotics": {
+          "title": "Medicína exotických a voľne žijúcich zvierat (Prehľad)"
         },
-        "rheumatology": {
-          "title": "Reumatológia"
-        },
-        "urology": {
-          "title": "Urológia"
-        },
-        "emergencyMedicine": {
-          "title": "Pohotovostná medicína"
-        },
-        "surgery": {
-          "title": "Chirurgia"
-        },
-        "anesthesiology": {
-          "title": "Anestéziológia"
-        },
-        "rehabilitationMedicine": {
-          "title": "Rehabilitačná medicína",
-          "subtitle": "Fyzikálna terapia"
-        },
-        "geriatrics": {
-          "title": "Geriatria"
-        },
-        "publicHealth": {
-          "title": "Verejné zdravotníctvo",
-          "subtitle": "Preventívna medicína"
-        },
-        "microscopy": {
-          "title": "Mikroskopia"
+        "veterinaryLivestock": {
+          "title": "Štúdiá veľkých zvierat a hospodárskych zvierat"
         }
       }
     },
     "ImagePickerModal": {
       "photoLibrary": "Knižnica fotografií",
-      "takePhoto": "Urobiť fotografiu",
-      "chooseFile": "Vybrať súbor"
+      "takePhoto": "Odfoťte",
+      "chooseFile": "Vyberte súbor"
     }
   },
   "rootLayout": {
     "screens": {
       "welcome": {
         "accountButton": "Už mám účet",
-        "heading": "Vitajte v Veterinary AI!",
+        "heading": "Vitajte vo veterinárnej AI!",
         "startButton": "Začnime!"
       },
       "freeTrialPreview": {
-        "heading": "Užite si svoju bezplatnú skúšobnú verziu! 🎉",
-        "review": "Používam túto aplikáciu na lekárske otázky, röntgenové snímky a štúdium - je úžasná!",
-        "reviewTrust": "📈 Dôveruje viac ako 5 212 používateľov"
+        "heading": "Užite si svoju skúšobnú verziu zadarmo! 🎉",
+        "review": "Používam túto aplikáciu pre veterinárne otázky, skeny snímok zvierat a štúdium - je úžasná!",
+        "reviewTrust": "📈 Dôveruje jej 5 212+ používateľov"
       },
       "languageAnalysisModal": {
-        "languagePreferenceQuestion": "Ktorý jazyk preferujete pre analýzu AI?",
+        "languagePreferenceQuestion": "Aký jazyk uprednostňujete pre analýzu AI?",
         "languageSelection": "Vyberte jazyk pre odpovede AI",
-        "languageSearchCriteria": "Hľadať podľa jazyka, kódu krajiny alebo vlajky",
+        "languageSearchCriteria": "Hľadajte podľa jazyka, kódu krajiny alebo vlajky",
         "noLanguageFound": "Nenašiel sa žiadny jazyk",
         "noLanguageFoundSubtitle": "Skúste upraviť svoje vyhľadávacie výrazy"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Čo ukazuje röntgen hrudníka?",
-          "two": "Aké sú bežné príznaky infarktu?",
-          "three": "Ako môžem prirodzene znížiť krvný tlak?",
-          "four": "Aký je rozdiel medzi MRI a CT?",
-          "five": "Aké sú rané príznaky cukrovky?",
-          "six": "Ako interpretovať základné výsledky krvných testov?",
-          "seven": "Aká je liečba infekcie močových ciest (IMC)?",
-          "eight": "Môžete vysvetliť, na čo sa používa echokardiogram?",
-          "nine": "Aké sú pokyny pre zdravú stravu?",
-          "ten": "Čo spôsobuje vysoký cholesterol?",
-          "eleven": "Ako sa zistí nádor na mozgu na MRI?",
-          "twelve": "Aká je úloha všeobecného lekárstva?",
-          "thirteen": "Aké sú rizikové faktory pre mŕtvicu?",
-          "fourteen": "Ako zvládať úzkosť a stres?",
-          "fifteen": "Aké sú najnovšie pokyny pre liečbu hypertenzie?"
+          "one": "Čo môžu rentgenové snímky hrudníka pomôcť naučiť o anatómii zvierat?",
+          "two": "Aké sú bežné študijné témy týkajúce sa funkcie srdca u zvierat?",
+          "three": "Aké faktory ovplyvňujú kardiovaskulárne zdravie u rôznych druhov?",
+          "four": "Ako sa líšia technológie MRI a CT v štúdiách veterinárneho zobrazovania?",
+          "five": "Aké sú kľúčové koncepty pre pochopenie metabolických procesov u zvierat?",
+          "six": "Ako sa interpretujú základné parametre krvných testov vo veterinárnom vzdelávaní?",
+          "eight": "Čo pomáha echokardiogram ilustrovať o funkcii srdca?",
+          "nine": "Aké princípy vedú k vyváženej výžive pre domáce zvieratá?",
+          "ten": "Čo ovplyvňuje hladiny lipidov a cholesterolu u rôznych živočíšnych druhov?",
+          "eleven": "Ako sa zobrazovanie používa na štúdium neurologických štruktúr u zvierat?",
+          "twelve": "Aké témy sú typicky pokryté vo všeobecnej veterinárnej medicíne?",
+          "thirteen": "Aké sú bežné akademické koncepty za stavmi podobnými mŕtvici?",
+          "fourteen": "Ako možno rozpoznať správanie súvisiace so stresom alebo úzkosťou u zvierat?",
+          "fifteen": "Aké faktory sa študujú vo vzťahu k regulácii krvného tlaku u zvierat?",
+          "sixteen": "Aké vlastnosti sa bežne študujú u rôznych plemien psov?",
+          "seventeen": "Ako sa líši správanie mačiek medzi plemenami mačiek?",
+          "eighteen": "Aké sú kľúčové anatomické rozdiely medzi psami a mačkami?",
+          "nineteen": "Ako genetika ovplyvňuje vlastnosti špecifické pre plemeno?",
+          "twenty": "Aké environmentálne faktory ovplyvňujú správanie zvierat a učenie?",
+          "twentyOne": "Ako sa druhy voľne žijúcich zvierat prispôsobujú svojim ekosystémom?",
+          "twentyTwo": "Aké sú bežné princípy v štúdiách chovu a genetiky?",
+          "twentyThree": "Ako sa študuje sociálne správanie zvierat u domácich druhov?",
+          "twentyFour": "Aké základné témy sú zahrnuté v štúdiách domácich zvierat?",
+          "twentyFive": "Ako študenti pristupujú k hodnoteniu skóre telesnej kondície zvierat?",
+          "twentySix": "Aké faktory ovplyvňujú rast a vývoj u mladých zvierat?",
+          "twentySeven": "Ako sa obohacovanie používa na podporu blahobytu zvierat?",
+          "twentyEight": "Aké hlavné zdravotné koncepty sa bežne skúmajú v štúdiách starostlivosti o mačky?",
+          "twentyNine": "Ako sa nutričné potreby líšia medzi malými, strednými a veľkými plemenami psov?",
+          "thirty": "Ako zoológia a biológia voľne žijúcich živočíchov prispievajú k veterinárnemu vzdelávaniu?"
         }
       },
       "notifications": {
@@ -278,29 +266,28 @@
       "profile": {
         "title": "Profil",
         "edit": "Upraviť profil",
-        "placeholderPreferredName": "Napríklad, Kapitán Cool, Kráľovná Včela, alebo jednoducho Alex!"
+        "placeholderPreferredName": "Napr. Kapitán Super, Kráľovná Včela, alebo len Alex!"
       },
       "noInternetScreen": {
         "heading": "Ste offline",
         "subheading": "Vaše pripojenie sa zdá byť nestabilné. Skontrolujte stav siete"
       },
       "newAppVersionScreen": {
-        "heading": "Je k dispozícii nová verzia Veterinary AI",
-        "subheading": "Aktualizujte na najnovšiu verziu, aby ste naďalej využívali všetky funkcie aplikácie - trvá to len 5 sekúnd!",
-        "action": "Získajte teraz!"
+        "heading": "Je k dispozícii nová verzia veterinárnej AI",
+        "subheading": "Aktualizujte na najnovšiu verziu, aby ste mohli naďalej využívať všetky funkcie aplikácie - trvá to len 5 sekúnd!",
+        "action": "Získajte ju teraz!"
       },
       "disclaimerScreen": {
         "heading": "Dôležité lekárske vyhlásenie",
-        "subheading": "Veterinary AI je určený pre rádiológov, zdravotníckych odborníkov, študentov medicíny a nadšencov",
-        "consentAgreement": "Prečítal som si a súhlasím s vyhlásením.",
-        "firstConsent": "Veterinary AI neposkytuje zdravotné merania ani liečebné rady, ani nie je určený na takéto účely. Používatelia Veterinary AI musia uplatniť svoj klinický úsudok a overiť informácie z autoritatívnych zdrojov pred akýmkoľvek klinickým rozhodnutím.",
-        "secondConsent": "Veterinary AI nie je diagnostický nástroj, liečebná platforma ani náhrada za odborné lekárske poradenstvo. Ponúka poznatky generované umelou inteligenciou na pomoc zdravotníckym pracovníkom pri prístupe k lekárskej znalosti a analýze lekárskech obrázkov a dokumentov. Veterinary AI je informačná a vzdelávacia aplikácia poháňaná umelou inteligenciou, ktorá je navrhnutá skôr na podporu licencovaných zdravotníckych pracovníkov.",
-        "thirdConsent": "Veterinary AI nie je navrhnutý pre použitie pacientmi. Neposkytuje priame lekárske diagnózy, odporúčania liečby ani funkcie riadenia pacientov.",
-        "fourthConsent": "Veterinary AI nie je klasifikovaný ako lekársky prístroj a netvrdí, že má regulačné schválenie. Je určený na vzdelávacie a informačné účely na doplnenie profesionálnej odbornosti.",
-        "fifthConsent": "Veterinary AI nezhromažďuje, neukladá ani nespracúva osobné údaje ani údaje pacientov. Všetky interakcie používateľov sú dôverné a obmedzené na rozsah aplikácie."
+        "subheading": "Veterinárna AI je určená pre odborníkov v radiológii, zdravotníckych expertov, študentov medicíny a nadšencov",
+        "consentAgreement": "Prečítal(a) som si a súhlasím s vyhlásením.",
+        "firstConsent": "Veterinárna AI neposkytuje zdravotné merania ani liečebné rady a nie je na takéto účely určená. Používatelia veterinárnej AI musia použiť svoj klinický úsudok a overiť informácie z autoritatívnych zdrojov pred akýmikoľvek klinickými rozhodnutiami.",
+        "secondConsent": "Veterinárna AI nie je diagnostický nástroj, liečebná platforma alebo náhrada odbornej lekárskej pomoci. Ponúka poznatky generované AI na pomoc veterinárnym profesionálom. Veterinárna AI je informačná a vzdelávacia aplikácia poháňaná AI, ktorá je navrhnutá skôr na podporu licencovaných veterinárnych profesionálov.",
+        "fourthConsent": "Veterinárna AI nie je klasifikovaná ako zdravotnícky prostriedok a nepožaduje regulačné schválenie. Je určená na vzdelávacie a informačné účely na doplnenie odborných znalostí.",
+        "fifthConsent": "Veterinárna AI nezhromažďuje, neukladá ani nespracúva osobné údaje alebo údaje o pacientoch. Všetky interakcie používateľov sú dôverné a obmedzené na rozsah aplikácie."
       },
       "contactUs": {
-        "heading": "Kľudne nám napíšte priamo e-mail a náš tím sa vám čoskoro ozve",
+        "heading": "Nevažte sa nám napísať priamo e-mail a náš tím sa vám ozve čo najskôr",
         "customerSupport": "Zákaznícka podpora",
         "emailAddress": "E-mailová adresa"
       },
@@ -310,40 +297,41 @@
       "doctorsScreen": {
         "searchResults": {
           "notFoundTitle": "Nenašli sa žiadne výsledky - Ale nebojte sa!",
-          "notFoundSubtitle": "Skúste použiť iné kľúčové slová alebo sa opýtajte priamo nášho lekárskeho asistenta AI",
-          "askAssistant": "Opýtajte sa Lekárskeho Asistenta"
+          "notFoundSubtitle": "Skúste použiť iné kľúčové slová alebo sa opýtajte nášho veterinárneho asistenta AI priamo",
+          "askAssistant": "Opýtajte sa medicínskeho asistenta"
         }
       },
       "paywallOnboarding": {
         "freeTierOfferings": {
-          "freeTrialEnabled": "Bezplatná skúšobná verzia povolená",
+          "freeTrialEnabled": "Skúšobná verzia zadarmo povolená",
           "heading": "Neobmedzený prístup",
           "title": "Odomknite prémiové funkcie ešte dnes!",
           "firstOffering": "Prístup ku všetkým prémiovým funkciám",
-          "secondOffering": "Zážitok bez reklám",
-          "thirdOffering": "Neobmedzená analýza lekárskech obrázkov, videí, PDF skenov + správ",
-          "fourthOffering": "Neobmedzené konverzácie s 24/7 lekárske AI asistentmi"
+          "secondOffering": "Zážžitok bez reklám",
+          "thirdOffering": "Neobmedzená analýza veterinárnych snímok, videí, PDF skenov + správ",
+          "fourthOffering": "Neobmedzené chaty s 24/7 veterinárnymi asistentmi AI",
+          "renewalInfo": "*Vaše predplatné bude účtované na váš účet {{store}} a automaticky sa obnovuje, pokiaľ nie je zrušené aspoň 24 hodín pred koncom aktuálneho predplatného. Môžete spravovať alebo zrušiť kedykoľvek v nastaveniach účtu. Predplatné sa obnoví za rovnakú cenu a plán, ktorý ste vybrali, pokiaľ ho nezmeníte alebo nezrušíte."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Váš zdravotnícky spoločník poháňaný AI",
-          "subtitle": "Získajte okamžité lekárske poznatky a usmernenie od špecializovaných AI lekárov, kedykoľvek a kdekoľvek."
+          "title": "Váš AI-poháňaný veterinárny a študijný spoločník",
+          "subtitle": "Objavujte veterinárne koncepty s jasnými, AI-generovanými vzdelávacími poznatkami"
         },
         "secondOnboarding": {
-          "title": "Opýtajte sa, nahrajte a získajte lekárske poznatky",
-          "subtitle": "Chatujte s AI lekármi z rôznych špecializácií alebo nahrajte lekárske obrázky pre rýchlu lekárska analýzu."
+          "title": "Pýtajte sa, učte sa, študujte veterinárne témy",
+          "subtitle": "Objavte zjednodušené vysvetlenia o správaní zvierat, plemenách, anatómii a všeobecných veterinárnych konceptoch."
         },
         "thirdOnboarding": {
           "title": "Vaše súkromie je dôležité",
-          "subtitle": "Sme odhodlaní chrániť vaše súkromie. Nezhromažďujeme osobné údaje. Všetky súbory, ktoré nahrajete, zostanú súkromné a nikdy sa nezdieľajú."
+          "subtitle": "Zaviazali sme sa chrániť vaše súkromie. Nezhromažďujeme osobné údaje a akékoľvek súbory, ktoré nahrajete, zostávajú súkromné a nikdy sa nezdieľajú."
         }
       },
       "paywallUpgradeScreen": {
         "heading": "Odomknite prémiové funkcie ešte dnes!",
         "firstOffering": {
-          "title": "Spustiť bezplatnú skúšobnú verziu",
-          "subtitle": "Využite {{freeScans}} bezplatných skenov - žiadna platba"
+          "title": "Spustiť skúšobnú verziu zadarmo",
+          "subtitle": "Užite si {{freeScans}} bezplatných skenov - žiadna platba"
         },
         "secondOffering": {
           "title": "Mesačný plán",
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} ročne"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}-dňová skúšobná verzia",
+          "title": "{{trialDays}}-dňová skúšobná verzia zadarmo",
           "subtitle": "{{ price }} ročne",
           "plan": "Týždenný plán"
         }
@@ -364,13 +352,14 @@
   "settings": {
     "about": "O aplikácii",
     "app_name": "Názov aplikácie",
-    "citations": "Citácie pre lekárske informácie",
+    "citations": "Citácie lekárskej informácie",
     "contactUs": "Kontaktujte nás",
+    "cancelSubscription": "Zrušiť predplatné",
     "devMode": {
-      "componentsLibrary": "Knižnica UI",
+      "componentsLibrary": "UI knižnica",
       "title": "Režim vývojára"
     },
-    "faq": "Často kladené otázky",
+    "faq": "Časté otázky",
     "generale": "Všeobecné",
     "github": "Github",
     "language": "Jazyk",
@@ -430,7 +419,7 @@
     },
     "title": "Nastavenia",
     "version": "Verzia",
-    "website": "Webstránka"
+    "website": "Webová stránka"
   },
   "alerts": {
     "mediaPickerPermissions": "Prepáčte, potrebujeme povolenia kamery, aby to fungovalo!",
@@ -441,9 +430,9 @@
       "heading": "Povoliť upozornenia",
       "subHeading": "Upozornenia sú momentálne vypnuté. Ak chcete zostať v obraze, povoľte ich v nastaveniach zariadenia."
     },
-    "enableNotificationFailed": "Push upozornenia sú vypnuté. Povoľte ich v nastaveniach, aby ste dostávali dôležité aktualizácie!",
+    "enableNotificationFailed": "Push upozornenia sú zakázané. Povoľte ich v nastaveniach, aby ste dostávali dôležité aktualizácie!",
     "enableNotificationError": "Pri povolovaní upozornení sa vyskytla chyba",
-    "notificationDisabledSuccess": "Upozornenia úspešne zakázané.",
+    "notificationDisabledSuccess": "Upozornenia boli úspešne zakázané.",
     "notificationDisabledRegisterError": "Nepodarilo sa zrušiť registráciu zariadenia pre upozornenia.",
     "notificationDisabledError": "Pri zakazovaní upozornení sa vyskytla chyba.",
     "checkNotificationStatusError": "Chyba pri kontrole stavu upozornení.",
@@ -451,9 +440,9 @@
     "imageSizeLarge": "Obrázok je príliš veľký! Veľkosť súboru je {{fileSize}} MB, ale limit je {{imageLimit}} MB.",
     "videoSizeLarge": "Video je príliš veľké! Veľkosť súboru je {{fileSize}} MB, ale limit je {{videoLimit}} MB.",
     "loggedInSuccess": "Úspešne prihlásené",
-    "loggedOutSuccess": "Boli ste úspešne odhlásený!",
+    "loggedOutSuccess": "Boli ste úspešne odhlásení!",
     "sendVerificationCodeError": "Chyba pri odosielaní overovacieho kódu",
-    "validateAuthCodeError": "Chyba pri overovaní auth kódu",
+    "validateAuthCodeError": "Chyba pri overovaní autorizačného kódu",
     "anonymousSignInError": "Chyba pri anonymnom prihlasovaní",
     "emailLoginError": "Chyba pri prihlasovaní",
     "preferredLanguageError": "Chyba pri aktualizácii preferovaného jazyka používateľa",
@@ -461,28 +450,28 @@
     "sharingLinkError": "Nepodarilo sa zdieľať odkaz.",
     "individualPushNotificationSuccess": "Individuálne push upozornenia úspešne odoslané!",
     "globalPushNotificationSuccess": "Globálne push upozornenia úspešne odoslané! 🌍🚀",
-    "interpretationFieldsUpdateFail": "Nepodarilo sa aktualizovať polia interpretácie! ❌",
-    "deleteScanReportFail": "Nepodarilo sa odstrániť správu o skene. Skúste to znova",
-    "onboardingUnsuccessful": "Zavedenie neúspešné. Skúste to znova",
-    "logoutUnsuccessful": "Odhlásenie neúspešné. Skúste to znova",
-    "deleteScanReportQuestion": "Ste si istý, že chcete natrvalo odstrániť túto správu?",
+    "interpretationFieldsUpdateFail": "Aktualizácia interpretačných polí zlyhala! ❌",
+    "deleteScanReportFail": "Nie je možné odstrániť správu o skenovaní. Skúste to znova",
+    "onboardingUnsuccessful": "Úvodné nastavenie bolo neúspešné. Skúste to znova",
+    "logoutUnsuccessful": "Odhlásenie bolo neúspešné. Skúste to znova",
+    "deleteScanReportQuestion": "Ste si istí, že chcete túto správu trvalo odstrániť?",
     "videoLimitExceeds": "Vaše video prekračuje limit {{videoSecondsLimit}} sekúnd. Skráťte ho a znova nahrajte",
-    "subscriptionActivated": "Vaše predplatné bolo úspešne aktivované! Tešte sa zo svojich exkluzívnych výhod!",
-    "subscriptionCancelledByUser": "Zrušili ste transakciu. Pokojne to skúste znova!",
-    "subscriptionActivationFailed": "Nepodarilo sa aktivovať vaše predplatné. Skúste to znova",
-    "logoutQuestion": "Ste si istý, že sa chcete odhlásiť?",
-    "noSubscriptionToRestore": "Ops! Zdá sa, že momentálne nemáte aktívne predplatné. Ak chcete naďalej využívať plný prístup, vyberte si jeden z našich predplatných plánov.",
-    "restorationSuccessful": "Obnovenie bolo úspešné! Tešte sa!",
+    "subscriptionActivated": "Vaše predplatné bolo úspešne aktivované! Užite si svoje exkluzívne výhody!",
+    "subscriptionCancelledByUser": "Zrušili ste transakciu. Kľudne to skúste znova!",
+    "subscriptionActivationFailed": "Aktivácia vášho predplatného zlyhala. Skúste to znova",
+    "logoutQuestion": "Ste si istí, že sa chcete odhlásiť?",
+    "noSubscriptionToRestore": "Ops! Vyzerá to, že momentálne nemáte aktívne predplatné. Ak chcete naďalej využívať plný prístup, vyberte si jeden z našich predplatných plánov.",
+    "restorationSuccessful": "Obnovenie bolo úspešné! Užite si to!",
     "restorationError": "Pri obnovovaní nákupu sa vyskytla chyba.",
-    "medicalDisclaimerAlert": "Aplikácia Veterinary AI nenahradzuje lekárske konzultácie. Niektoré diagnózy sú len na informačné/vzdelávacie účely. Pre lekárske odporúčania sa vždy poraďte s lekárom alebo licencovaným špecialistom.",
-    "scanLimitReached": "Optimalizujeme pre vás kvalitu skenovania! Budete môcť znova skenovať približne o {{hours}} hodín a {{minutes}} minút. Máte nejaké otázky o nejakej lekárskej téme? Opýtajte sa nášho asistenta chatu, kým čakáte!",
-    "mixedMediaNotAllowed": "Pre lepšiu presnosť nenahrávajte zmes rôznych médií. Nahrajte iba obrázky, videá alebo pdf - nie všetky spolu.",
-    "multipleVideosNotAllowed": "Pre lepšiu presnosť nahrajte iba jedno video naraz.",
-    "mediaFilesUploadFiles": "Pri nahrávaní vašich médií sa vyskytla chyba. Skúste to znova.",
-    "chatAndMediaFilesLimit": "Vážený používateľ, musíte inovovať svoj plán, aby ste mohli využívať neobmedzené konverzácie, neobmedzené skeny, analýzu viacerých obrázkov a ďalšie. 🔓"
+    "medicalDisclaimerAlert": "Aplikácia veterinárna AI nenahrádza lekárske konzultácie. Niektoré diagnózy sú len na informačné/vzdelávacie účely. Pre lekárske odporúčania sa vždy poraďte s lekárom alebo licencovaným špecialistom.",
+    "scanLimitReached": "Optimalizujeme pre vás kvalitu skenovania! Budete môcť skenovať znova približne za {{hours}} hodín a {{minutes}} minút. Máte nejaké otázky o lekárskej téme? Opýtajte sa nášho asistenta chatu počas čakania!",
+    "mixedMediaNotAllowed": "Pre lepšiu presnosť nenačítajte zmes rôznych mediálnych súborov. Nahrajte len obrázky, videá alebo pdf - nie všetky spolu.",
+    "multipleVideosNotAllowed": "Pre lepšiu presnosť nahrajte len jedno video naraz.",
+    "mediaFilesUploadFiles": "Pri nahrávaní vašich mediálnych súborov došlo k chybe. Skúste to znova.",
+    "chatAndMediaFilesLimit": "Vážený používateľ, potrebujete inovovať svoj plán, aby ste mohli profitovať z neobmedzených chatov, neobmedzených skenov, analýzy viacerých obrázkov a ďalšieho. 🔓"
   },
   "deleteApp": {
-    "title": "Počkaj! Nemaž ma!",
-    "subtitle": "Namiesto toho pošlite spätnú väzbu"
+    "title": "Počkajte! Nemažte ma!",
+    "subtitle": "Dajte nám radšej spätnú väzbu"
   }
 }

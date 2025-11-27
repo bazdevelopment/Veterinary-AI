@@ -21,9 +21,10 @@
     "chatbotPlaceholder": "Pitajte me bilo što...",
     "completedScans": "Skeniranja završena",
     "conversationHistory": "Povijest razgovora",
-    "medicalAssistants": "Medicinski asistenti",
+    "medicalAssistants": "Opći veterinarski AI asistenti",
     "searchAssistant": "Traži asistenta...",
     "analyzingMediaFilesPlaceholder": "Analiziram medijske datoteke...",
+    "mainDisclaimer": "Ova aplikacija nikada ne pruža mjerenja povezana sa zdravljem, dijagnoze ili savjete o liječenju. Uvijek se konzultirajte s licenciranim stručnjakom za bilo kakve medicinske probleme.",
     "copyText": {
       "copied": "Kopirano!",
       "copy": "Kopiraj vezu",
@@ -35,32 +36,32 @@
     "freeTrial": "Besplatna proba",
     "loadingMessages": {
       "imageScanningLoading": {
-        "first": "Skeniram vaše medicinske snimke, pričekajte...",
+        "first": "Skeniram vaše medicinske slike, molimo pričekajte...",
         "fourth": "Skoro gotovo, završavam skeniranje...",
-        "second": "Analiziram detalje, ovo može potrajati...",
-        "third": "Poboljšavam točnost za najbolje rezultate..."
+        "second": "Analiziram detalje, ovo može potrajati trenutak...",
+        "third": "Poboljšavam preciznost za najbolje rezultate..."
       },
       "initialAppLoad": {
         "first": "Učitavam vaše personalizirano iskustvo...",
-        "fourth": "Skoro spremno, samo trenutak...",
+        "fourth": "Skoro spremno, samo još trenutak...",
         "second": "Sinkroniziram sustave...",
-        "third": "Obradjujem vaše podatke..."
+        "third": "Procesuiram vaše podatke..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med se priprema da vam pomogne...",
-        "second": "Pričekajte! Dr. Med priprema vaš odgovor...",
-        "third": "Razmišljam...vaš asistent Dr. Med je na tome!"
+        "first": "Dr. Vet se priprema da vam pomogne...",
+        "second": "Pričekajte! Dr. Vet priprema vaš odgovor...",
+        "third": "Razmišljam... vaš asistent Dr. Vet je na tome!"
       }
     },
     "tabs": {
       "home": "Početna",
       "chat": "Chat",
-      "aiDoctors": "AI Liječnici",
+      "aiDoctors": "AI asistenti",
       "settings": "Postavke"
     },
-    "medicalDisclaimer": "Medicinska izjava o odricanju od odgovornosti",
+    "medicalDisclaimer": "Veterinarska izjava o odricanju od odgovornosti",
     "next": "Sljedeće",
-    "noPaymentNow": "Nema plaćanja sada. Otkažite bilo kada.",
+    "noPaymentNow": "Bez Plaćanja Sada. Otkažite bilo kada.",
     "online": "Online",
     "openSettings": "Otvori postavke",
     "or": "ili",
@@ -68,14 +69,14 @@
     "perWeek": "tjedno",
     "perYear": "godišnje",
     "privacyPolicy": "Pravila o privatnosti",
-    "restorePurchase": "Vraćanje kupnje",
+    "restorePurchase": "Vrati kupnju",
     "termsOfUse": "Uvjeti korištenja",
     "saveDiscount": "ŠTEDI",
     "seeNotifications": "Vidi obavijesti",
     "share": "Podijeli",
     "shareLink": "Podijeli vezu",
     "skip": "Preskoči",
-    "termsAndConditions": "Uvjeti i odredbe",
+    "termsAndConditions": "Odredbe i uvjeti",
     "then": "zatim",
     "tryAgain": "Pokušaj ponovno",
     "tryForFree": "Započni besplatnu probu",
@@ -83,9 +84,9 @@
     "unlockNow": "Otključaj sada",
     "update": "Ažuriraj",
     "upgradePlan": "Nadogradi plan",
-    "viewProfile": "Pogledaj profil",
+    "viewProfile": "Vidi profil",
     "yes": "Da",
-    "chatBotPlaceholder": "Bok 👋 Zanima te {{topic}}? Tu sam da ti pomognem istražiti i saznati više — pitaj što god želiš!"
+    "chatBotPlaceholder": "Bok 👋 Zanima li te {{topic}}? Ovdje sam da ti pomognem istražiti i naučiti više — pitaj me bilo što!"
   },
   "weekDays": {
     "today": "Danas",
@@ -93,138 +94,111 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Dobijte analizu različitih medicinskih snimki, uključujući X-RAY, CT, MRI, EKG i više",
+      "first": "Otkrij veterinarske koncepte i teme o životinjama kroz učenje potpomognuto AI-om",
       "second": "Pristup svim premium značajkama",
-      "fourth": "Neograničeni razgovori s 24/7 medicinskim AI asistentima",
-      "third": "Nema reklama"
+      "fourth": "Neograničeni razgovori s veterinarskim AI asistentima 24/7",
+      "third": "Bez reklama"
     },
     "UpgradeBanner": {
       "heading": "Otključaj sada",
-      "subheading": "Uživajte u svim prednostima bez ograničenja"
+      "subheading": "Uživaj u svim prednostima bez ograničenja"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Analizator medicinskih slika",
-      "askMedicalAssistant": "Pitaj medicinskog AI asistenta",
+      "veterinaryImaging": "Veterinarska slikovnost / Pasmina",
+      "medicalImagesAnalyzer": "Laboratorij za studiju veterinarske slikovnosti",
+      "askMedicalAssistant": "Pitaj AI asistenta",
       "medicalAssistant": "Medicinski asistent",
       "imageTypes": {
         "xray": "Rendgen",
-        "ct": "CT",
-        "mri": "MRI",
+        "ct": "CT skeniranje",
+        "mri": "MR",
         "ultrasound": "Ultrazvuk",
         "ecg": "EKG",
         "skinLesion": "Kožna lezija",
         "mammogram": "Mamografija",
-        "retinalScan": "Skeniranje mrežnice",
+        "retinalScan": "Retinalno / Očno skeniranje",
         "bloodSmear": "Razmaz krvi",
         "dental": "Dentalno",
         "pet": "PET",
-        "dexa": "DEXA / Mjerenje koštane gustoće",
+        "dexa": "DEXA / Snimanje gustoće kosti",
         "angiography": "Angiografija",
-        "echo": "Ehhokardiografija (ECHO)",
+        "echo": "Ehokardiografija (ECHO)",
         "fluoroscopy": "Fluoroskopija"
       }
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Obiteljska medicina",
-          "subtitle": "Opća praksa"
+        "veterinaryGeneralMedicine": {
+          "title": "Uvod u veterinarstvo",
+          "subtitle": "Opći pregled studija"
         },
-        "internalMedicine": {
-          "title": "Interna medicina"
+        "veterinaryInternalMedicine": {
+          "title": "Interna medicina (Vodič za učenje)"
         },
-        "pediatrics": {
-          "title": "Pedijatrija"
+        "veterinaryDermatology": {
+          "title": "Osnove dermatologije (Učenje)"
         },
-        "dermatology": {
-          "title": "Dermatologija"
+        "veterinaryCardiology": {
+          "title": "Studij veterinarske kardiologije"
         },
-        "cardiology": {
-          "title": "Kardiologija"
+        "veterinaryOrthopedics": {
+          "title": "Ortopedija i mišićno-koštani sustav (Studij)"
         },
-        "orthopedics": {
-          "title": "Ortopedija"
+        "veterinaryNeurology": {
+          "title": "Neurologija – Učenje"
         },
-        "psychiatry": {
-          "title": "Psihijatrija",
-          "subtitle": "Mentalno zdravlje"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmologija – Vodič za učenje"
         },
-        "obstetricsGynecology": {
-          "title": "Ginekologija i opstetricija",
-          "subtitle": "Gin/Op"
+        "veterinaryDentistry": {
+          "title": "Osnove veterinarske dentistrije"
         },
-        "neurology": {
-          "title": "Neurologija"
+        "veterinaryRadiology": {
+          "title": "Radiologija i slikovnost",
+          "subtitle": "Pregled slikovnosti"
         },
-        "ophthalmology": {
-          "title": "Oftalmologija"
+        "veterinaryOncology": {
+          "title": "Onkologija – Obrazovno"
         },
-        "otolaryngology": {
-          "title": "Otorinolaringologija",
-          "subtitle": "ORL"
+        "veterinaryEndocrinology": {
+          "title": "Endokrinologija – Teme za učenje"
         },
-        "dentistry": {
-          "title": "Stomatologija"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefrologija i urologija (Učenje)"
         },
-        "radiology": {
-          "title": "Radiologija",
-          "subtitle": "Snimanje"
+        "veterinaryRespiratory": {
+          "title": "Pregled respiratorne medicine"
         },
-        "oncology": {
-          "title": "Onkologija"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterologija – Vodič za učenje"
         },
-        "endocrinology": {
-          "title": "Endokrinologija"
+        "veterinaryImmunology": {
+          "title": "Imunologija i zarazne bolesti (Studij)"
         },
-        "nephrology": {
-          "title": "Nefrologija"
+        "veterinaryHematology": {
+          "title": "Hematologija – Učenje"
         },
-        "pulmonology": {
-          "title": "Pulmologija"
+        "veterinarySurgery": {
+          "title": "Koncepti i studij kirurgije"
         },
-        "gastroenterology": {
-          "title": "Gastroenterologija"
+        "veterinaryAnesthesiology": {
+          "title": "Anesteziologija i upravljanje boli (Studij)"
         },
-        "allergyImmunology": {
-          "title": "Alergologija i imunologija"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitacija i fizioterapija",
+          "subtitle": "Obrazovni vodič"
         },
-        "hematology": {
-          "title": "Hematologija"
+        "veterinaryExotics": {
+          "title": "Medicina egzotičnih i divljih životinja (Pregled)"
         },
-        "rheumatology": {
-          "title": "Reumatologija"
-        },
-        "urology": {
-          "title": "Urologija"
-        },
-        "emergencyMedicine": {
-          "title": "Hitna medicina"
-        },
-        "surgery": {
-          "title": "Kirurgija"
-        },
-        "anesthesiology": {
-          "title": "Anesteziologija"
-        },
-        "rehabilitationMedicine": {
-          "title": "Rehabilitacijska medicina",
-          "subtitle": "FT"
-        },
-        "geriatrics": {
-          "title": "Gerijatrija"
-        },
-        "publicHealth": {
-          "title": "Javno zdravstvo",
-          "subtitle": "Preventivna medicina"
-        },
-        "microscopy": {
-          "title": "Mikroskopija"
+        "veterinaryLivestock": {
+          "title": "Studije velikih životinja i stoke"
         }
       }
     },
     "ImagePickerModal": {
-      "photoLibrary": "Foto biblioteka",
-      "takePhoto": "Uslikaj fotografiju",
+      "photoLibrary": "Foto galerija",
+      "takePhoto": "Uslikaj",
       "chooseFile": "Odaberi datoteku"
     }
   },
@@ -237,38 +211,52 @@
       },
       "freeTrialPreview": {
         "heading": "Uživajte u besplatnoj probi! 🎉",
-        "review": "Koristim ovu aplikaciju za medicinska pitanja, radiološke snimke i učenje — nevjerojatna je!",
-        "reviewTrust": "📈 Pouzdano od 5.212+ korisnika"
+        "review": "Koristim ovu aplikaciju za veterinarska pitanja, skeniranje slika životinja i učenje — nevjerojatna je!",
+        "reviewTrust": "📈 Povjerenje preko 5.212 korisnika"
       },
       "languageAnalysisModal": {
-        "languagePreferenceQuestion": "Koji jezik biste preferirali za AI analizu?",
+        "languagePreferenceQuestion": "Koji jezik preferirate za AI analizu?",
         "languageSelection": "Odaberite jezik za AI odgovore",
-        "languageSearchCriteria": "Tražite po jeziku, šifri države ili zastavi",
+        "languageSearchCriteria": "Traži po jeziku, šifri države ili zastavi",
         "noLanguageFound": "Jezik nije pronađen",
-        "noLanguageFoundSubtitle": "Pokušajte promijeniti vaše pojmove pretraživanja"
+        "noLanguageFoundSubtitle": "Pokušajte promijeniti uvjete pretraživanja"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Što pokazuje rendgen prsnog koša?",
-          "two": "Koji su uobičajeni simptomi srčanog udara?",
-          "three": "Kako mogu prirodno sniziti krvni tlak?",
-          "four": "Koja je razlika između MRI i CT snimke?",
-          "five": "Koji su rani znakovi dijabetesa?",
-          "six": "Kako protumačiti svoje osnovne rezultate krvnih pretraga?",
-          "seven": "Koji je tretman za infekciju mokraćnog sustava (UTI)?",
-          "eight": "Možete li objasniti za što se koristi ehokardiogram?",
-          "nine": "Koje su smjernice za zdravu prehranu?",
-          "ten": "Što uzrokuje visok kolesterol?",
-          "eleven": "Kako se otkriva tumor mozga na MRI-u?",
-          "twelve": "Koja je uloga obiteljske medicine?",
-          "thirteen": "Koji su čimbenici rizika za moždani udar?",
-          "fourteen": "Kako upravljati anksioznošću i stresom?",
-          "fifteen": "Koje su najnovije smjernice za liječenje hipertenzije?"
+          "one": "Što rendgenske snimke prsnog koša mogu pomoći naučiti o anatomiji životinja?",
+          "two": "Koje su uobičajene teme studija povezane sa srčanom funkcijom kod životinja?",
+          "three": "Koji čimbenici utječu na kardiovaskularno zdravlje kod različitih vrsta?",
+          "four": "Kako se tehnologije MR i CT razlikuju u studijama veterinarske slikovnosti?",
+          "five": "Koji su ključni koncepti za razumijevanje metaboličkih procesa kod životinja?",
+          "six": "Kako se tumače osnovni parametri krvnih pretraga u veterinarskom obrazovanju?",
+          "eight": "Što ehokardiogram pomaže ilustrirati o srčanoj funkciji?",
+          "nine": "Koji principi vode uravnoteženu prehranu za kućne ljubimce?",
+          "ten": "Što utječe na razine lipida i kolesterola kod različitih životinjskih vrsta?",
+          "eleven": "Kako se slikovnost koristi za proučavanje neuroloških struktura kod životinja?",
+          "twelve": "Koje teme se obično pokrivaju u općoj veterinarskoj medicini?",
+          "thirteen": "Koji su uobičajeni akademski koncepti iza stanja sličnih moždanom udaru?",
+          "fourteen": "Kako se mogu prepoznati ponašanja povezana sa stresom ili anksioznošću kod životinja?",
+          "fifteen": "Koji se čimbenici proučavaju u vezi s regulacijom krvnog tlaka kod životinja?",
+          "sixteen": "Koje se osobine obično proučavaju kod različitih pasmina pasa?",
+          "seventeen": "Kako se ponašanja mačaka razlikuju među pasminama mačaka?",
+          "eighteen": "Koje su ključne anatomske razlike između pasa i mačaka?",
+          "nineteen": "Kako genetika utječe na karakteristike specifične za pasminu?",
+          "twenty": "Koji okolišni čimbenici utječu na ponašanje i učenje životinja?",
+          "twentyOne": "Kako se divlje vrste prilagođavaju svojim ekosustavima?",
+          "twentyTwo": "Koji su uobičajeni principi u studijama uzgoja i genetike?",
+          "twentyThree": "Kako se proučava društveno ponašanje životinja kod domaćih vrsta?",
+          "twentyFour": "Koje temeljne teme su uključene u studije kućnih ljubimaca?",
+          "twentyFive": "Kako studenti pristupaju procjeni tjelesne kondicije životinja?",
+          "twentySix": "Koji čimbenici utječu na rast i razvoj kod mladih životinja?",
+          "twentySeven": "Kako se obogaćivanje koristi za podršku dobrobiti životinja?",
+          "twentyEight": "Koji se glavni zdravstveni koncepti obično istražuju u studijama njege mačaka?",
+          "twentyNine": "Koje prehrambene potrebe razlikuju se među malim, srednjim i velikim pasminama pasa?",
+          "thirty": "Kako zoologija i biologija divljih životinja doprinose veterinarskom obrazovanju?"
         }
       },
       "notifications": {
         "title": "Obavijesti",
-        "noNotifications": "Trenutno nema obavijesti — pratite nas za ažuriranja!"
+        "noNotifications": "Trenutno nema obavijesti — ostani u toku za ažuriranja!"
       },
       "rateAppScreen": {
         "heading": "Smatrate li aplikaciju vrijednom i zanimljivom?",
@@ -278,26 +266,25 @@
       "profile": {
         "title": "Profil",
         "edit": "Uredi profil",
-        "placeholderPreferredName": "Npr. Kapetan Cool, Kraljica Pčela, ili samo Alex!"
+        "placeholderPreferredName": "Npr., Kapetan Cool, Kraljica Pčela, ili jednostavno Alex!"
       },
       "noInternetScreen": {
         "heading": "Vi ste offline",
-        "subheading": "Vaša veza se čini nestabilnom. Provjerite status mreže"
+        "subheading": "Vaša veza se čini nestabilnom. Molimo provjerite status vaše mreže"
       },
       "newAppVersionScreen": {
-        "heading": "Nova verzija Veterinary AI je dostupna",
-        "subheading": "Ažurirajte na najnoviju verziju da nastavite uživati u svim značajkama aplikacije — traje samo 5 sekundi!",
+        "heading": "Dostupna je nova verzija Veterinary AI",
+        "subheading": "Ažurirajte na najnoviju verziju kako biste nastavili uživati u svim značajkama aplikacije — traje samo 5 sekundi!",
         "action": "Preuzmi sada!"
       },
       "disclaimerScreen": {
         "heading": "Važna medicinska izjava o odricanju od odgovornosti",
         "subheading": "Veterinary AI je dizajniran za radiološke profesionalce, zdravstvene stručnjake, studente medicine i entuzijaste",
-        "consentAgreement": "Pročitao/la sam i pristajem na izjavu o odricanju od odgovornosti.",
-        "firstConsent": "Veterinary AI ne pruža zdravstvene mjere ili savjete o liječenju, niti je namijenjen za takve svrhe. Korisnici Veterinary AI moraju primijeniti svoju kliničku prosudbu i provjeriti informacije iz autoritativnih izvora prije donošenja kliničkih odluka.",
-        "secondConsent": "Veterinary AI nije dijagnostički alat, platforma za liječenje ili zamjena za profesionalne medicinske savjete. Nudi AI-generirane uvide kako bi pomogao zdravstvenim radnicima u pristupu medicinskom znanju i analizi medicinskih slika i dokumenata. Veterinary AI je AI-pokrenuta informativna i edukativna aplikacija dizajnirana da podrži licencirane zdravstvene profesionalce.",
-        "thirdConsent": "Veterinary AI nije dizajniran za upotrebu pacijenata. Ne pruža izravne medicinske dijagnoze, preporuke za liječenje ili funkcionalnosti upravljanja pacijentima.",
-        "fourthConsent": "Veterinary AI nije klasificiran kao medicinski uređaj i ne traži regulatorno odobrenje. Namijenjen je u obrazovne i informativne svrhe kako bi nadopunio stručnost profesionalaca.",
-        "fifthConsent": "Veterinary AI ne prikuplja, pohranjuje ili obrađuje osobne ili pacijentske podatke. Sve interakcije korisnika su povjerljive i ograničene na opseg aplikacije."
+        "consentAgreement": "Pročitao/la sam i prihvaćam izjavu o odricanju od odgovornosti.",
+        "firstConsent": "Veterinary AI ne pruža mjerenja zdravlja ili savjete o liječenju, niti je namijenjen za takve svrhe. Korisnici Veterinary AI moraju primijeniti svoju kliničku prosudbu i provjeriti informacije iz autoritativnih izvora prije donošenja kliničkih odluka.",
+        "secondConsent": "Veterinary AI nije dijagnostički alat, platforma za liječenje ili zamjena za stručne medicinske savjete. Nudi uvide generirane AI-om za pomoć veterinarskim profesionalcima. Veterinary AI je informativna i obrazovna aplikacija pokrenuta AI-om dizajnirana više za podršku licenciranim veterinarskim profesionalcima.",
+        "fourthConsent": "Veterinary AI nije klasificiran kao medicinski uređaj i ne tvrdi da ima regulatorno odobrenje. Namijenjen je u obrazovne i informativne svrhe kako bi nadopunio stručnost profesionalaca.",
+        "fifthConsent": "Veterinary AI ne prikuplja, pohranjuje ili obrađuje osobne podatke ili podatke o pacijentima. Sve interakcije korisnika su povjerljive i ograničene na opseg aplikacije."
       },
       "contactUs": {
         "heading": "Slobodno nam pošaljite izravnu e-poštu, a naš tim će vam se javiti što je prije moguće",
@@ -309,8 +296,8 @@
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "Nema pronađenih rezultata — ali ne brinite!",
-          "notFoundSubtitle": "Pokušajte koristiti druge ključne riječi ili pitajte izravno našeg AI medicinskog asistenta",
+          "notFoundTitle": "Nema pronađenih rezultata — Ali Ne Brinite!",
+          "notFoundSubtitle": "Pokušajte koristiti druge ključne riječi, ili pitajte izravno našeg veterinarskog AI asistenta",
           "askAssistant": "Pitaj medicinskog asistenta"
         }
       },
@@ -321,29 +308,30 @@
           "title": "Otključajte premium značajke danas!",
           "firstOffering": "Pristup svim premium značajkama",
           "secondOffering": "Iskustvo bez reklama",
-          "thirdOffering": "Neograničena analiza medicinskih slika, videa, PDF skeniranja + izvješća",
-          "fourthOffering": "Neograničeni razgovori s 24/7 AI medicinskim asistentima"
+          "thirdOffering": "Neograničena analiza veterinarskih slika, videa, PDF skeniranja + izvješća",
+          "fourthOffering": "Neograničeni razgovori s veterinarskim AI asistentima 24/7",
+          "renewalInfo": "*Vaša će pretplata biti naplaćena na vaš {{store}} račun i automatski se obnavlja osim ako se otkaže najmanje 24 sata prije kraja trenutnog pretplatničkog razdoblja. Možete upravljati ili otkazati bilo kada u postavkama svog računa. Pretplata će se obnoviti po istoj cijeni i planu koji ste odabrali osim ako ga ne promijenite ili otkažete."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Vaš AI-pokrenut zdravstveni suputnik",
-          "subtitle": "Dobijte trenutne medicinske uvide i smjernice od specijaliziranih AI liječnika, bilo kada, bilo gdje."
+          "title": "Vaš AI-pokrenuti veterinarski i studijski pratitelj",
+          "subtitle": "Istražite veterinarske koncepte s jasnim, AI-generiranim obrazovnim uvidima"
         },
         "secondOnboarding": {
-          "title": "Pitajte, učitajte i dobijte medicinske uvide",
-          "subtitle": "Razgovarajte s AI liječnicima iz različitih specijalnosti ili učitajte medicinske slike za brzu medicinsku analizu."
+          "title": "Pitajte, Učite, Proučavajte Veterinarske Teme",
+          "subtitle": "Otkrijte pojednostavljena objašnjenja o ponašanju životinja, pasminama, anatomiji i općim veterinarskim konceptima."
         },
         "thirdOnboarding": {
-          "title": "Vaša privatnost je važna",
-          "subtitle": "Posvećeni smo zaštiti vaše privatnosti. Ne prikupljamo osobne podatke. Sve datoteke koje učitavate ostaju privatne i nikada se ne dijele."
+          "title": "Vaša Privatnost je Važna",
+          "subtitle": "Predani smo zaštiti vaše privatnosti. Ne prikupljamo osobne podatke, a sve datoteke koje prenesete ostaju privatne i nikada se ne dijele."
         }
       },
       "paywallUpgradeScreen": {
         "heading": "Otključajte premium značajke danas!",
         "firstOffering": {
           "title": "Započni besplatnu probu",
-          "subtitle": "Uživajte u {{freeScans}} besplatnih skeniranja – bez plaćanja"
+          "subtitle": "Uživaj u {{freeScans}} besplatnih skeniranja – bez plaćanja"
         },
         "secondOffering": {
           "title": "Mjesečni plan",
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} godišnje"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}-dnevna proba",
+          "title": "{{trialDays}}-dnevna besplatna proba",
           "subtitle": "{{ price }} godišnje",
           "plan": "Tjedni plan"
         }
@@ -366,11 +354,12 @@
     "app_name": "Naziv aplikacije",
     "citations": "Citati za medicinske informacije",
     "contactUs": "Kontaktirajte nas",
+    "cancelSubscription": "Otkaži pretplatu",
     "devMode": {
       "componentsLibrary": "UI biblioteka",
       "title": "Developer mod"
     },
-    "faq": "FAQ",
+    "faq": "Često postavljana pitanja",
     "generale": "Općenito",
     "github": "Github",
     "language": "Jezik",
@@ -406,12 +395,12 @@
       "spanish_mexico": "Španjolski (Meksiko)",
       "spanish_spain": "Španjolski (Španjolska)",
       "swedish": "Švedski",
-      "thai": "Tajski",
+      "thai": "Tajlandski",
       "turkish": "Turski",
       "ukrainian": "Ukrajinski",
       "vietnamese": "Vijetnamski"
     },
-    "links": "Linkovi",
+    "links": "Poveznice",
     "logout": "Odjava",
     "more": "Više",
     "privacy": "Pravila o privatnosti",
@@ -421,10 +410,10 @@
     "support": "Podrška",
     "support_us": "Podržite nas",
     "tab": "Postavke",
-    "terms": "Uvjeti usluge",
+    "terms": "Uvjeti korištenja",
     "theme": {
-      "dark": "Tamna",
-      "light": "Svijetla",
+      "dark": "Tamno",
+      "light": "Svijetlo",
       "system": "Sustav",
       "title": "Tema"
     },
@@ -433,18 +422,18 @@
     "website": "Web stranica"
   },
   "alerts": {
-    "mediaPickerPermissions": "Oprostite, trebamo dopuštenja za kameru da bi ovo radilo!",
-    "errorSelectingImagePicker": "Nešto je pošlo po zlu pri odabiru slike. Pokušajte ponovno.",
-    "errorSelectingDocumentPicker": "Nešto je pošlo po zlu pri odabiru dokumenta. Pokušajte ponovno.",
-    "errorTakingPicture": "Nešto je pošlo po zlu pri snimanju fotografije. Pokušajte ponovno.",
+    "mediaPickerPermissions": "Nažalost, trebamo dopuštenja za kameru da bi ovo funkcioniralo!",
+    "errorSelectingImagePicker": "Nešto je pošlo po zlu pri odabiru slike. Molimo pokušajte ponovno.",
+    "errorSelectingDocumentPicker": "Nešto je pošlo po zlu pri odabiru dokumenta. Molimo pokušajte ponovno.",
+    "errorTakingPicture": "Nešto je pošlo po zlu pri snimanju fotografije. Molimo pokušajte ponovno.",
     "enableNotifications": {
       "heading": "Omogući obavijesti",
-      "subHeading": "Obavijesti su trenutno isključene. Da biste ostali ažurni, omogućite ih u postavkama uređaja."
+      "subHeading": "Obavijesti su trenutno isključene. Da biste ostali u toku, molimo omogućite ih u postavkama svog uređaja."
     },
     "enableNotificationFailed": "Push obavijesti su onemogućene. Omogućite ih u postavkama da primate važna ažuriranja!",
     "enableNotificationError": "Došlo je do pogreške pri omogućavanju obavijesti",
-    "notificationDisabledSuccess": "Obavijesti su uspješno onemogućene.",
-    "notificationDisabledRegisterError": "Uklanjanje uređaja iz registracije za obavijesti nije uspjelo.",
+    "notificationDisabledSuccess": "Obavijesti uspješno onemogućene.",
+    "notificationDisabledRegisterError": "Neuspješno uklanjanje uređaja iz obavijesti.",
     "notificationDisabledError": "Došlo je do pogreške pri onemogućavanju obavijesti.",
     "checkNotificationStatusError": "Pogreška pri provjeri statusa obavijesti.",
     "projectIdNotFound": "ID projekta obavijesti nije pronađen.",
@@ -453,36 +442,36 @@
     "loggedInSuccess": "Uspješno prijavljeni",
     "loggedOutSuccess": "Uspješno ste se odjavili!",
     "sendVerificationCodeError": "Pogreška pri slanju verifikacijskog koda",
-    "validateAuthCodeError": "Pogreška pri validaciji auth koda",
+    "validateAuthCodeError": "Pogreška pri provjeri autentifikacijskog koda",
     "anonymousSignInError": "Pogreška pri anonimnoj prijavi",
     "emailLoginError": "Pogreška pri prijavi",
     "preferredLanguageError": "Pogreška pri ažuriranju korisničkog preferiranog jezika",
     "sharingNotAvailable": "Dijeljenje trenutno nije dostupno na vašem uređaju",
-    "sharingLinkError": "Dijeljenje veze nije uspjelo.",
+    "sharingLinkError": "Neuspješno dijeljenje veze.",
     "individualPushNotificationSuccess": "Pojedinačne push obavijesti uspješno poslane!",
     "globalPushNotificationSuccess": "Globalne push obavijesti uspješno poslane! 🌍🚀",
-    "interpretationFieldsUpdateFail": "Ažuriranje polja tumačenja nije uspjelo! ❌",
-    "deleteScanReportFail": "Nije moguće izbrisati izvješće skeniranja. Pokušajte ponovno",
-    "onboardingUnsuccessful": "Uvod nije uspješan. Pokušajte ponovno",
-    "logoutUnsuccessful": "Odjava nije uspjela. Pokušajte ponovno",
+    "interpretationFieldsUpdateFail": "Neuspješno ažuriranje polja interpretacije! ❌",
+    "deleteScanReportFail": "Nije moguće izbrisati izvješće skeniranja. Molimo pokušajte ponovno",
+    "onboardingUnsuccessful": "Uvodni proces neuspješan. Molimo pokušajte ponovno",
+    "logoutUnsuccessful": "Odjava neuspješna. Molimo pokušajte ponovno",
     "deleteScanReportQuestion": "Jeste li sigurni da želite trajno izbrisati ovo izvješće?",
-    "videoLimitExceeds": "Vaš video premašuje ograničenje od {{videoSecondsLimit}} sekundi. Skratite ga i ponovno učitajte",
-    "subscriptionActivated": "Vaša pretplata je uspješno aktivirana! Uživajte u ekskluzivnim pogodnostima!",
+    "videoLimitExceeds": "Vaš video premašuje ograničenje od {{videoSecondsLimit}} sekundi. Molimo skratite ga i ponovno prenesite",
+    "subscriptionActivated": "Vaša pretplata je uspješno aktivirana! Uživajte u svojim ekskluzivnim pogodnostima!",
     "subscriptionCancelledByUser": "Otkazali ste transakciju. Slobodno pokušajte ponovno!",
-    "subscriptionActivationFailed": "Aktivacija pretplate nije uspjela. Pokušajte ponovno",
+    "subscriptionActivationFailed": "Neuspješna aktivacija vaše pretplate. Molimo pokušajte ponovno",
     "logoutQuestion": "Jeste li sigurni da se želite odjaviti?",
-    "noSubscriptionToRestore": "Ups! Čini se da trenutno nemate aktivnu pretplatu. Da biste nastavili uživati u punom pristupu, odaberite jedan od naših planova pretplate.",
-    "restorationSuccessful": "Vraćanje je bilo uspješno! Uživajte!",
+    "noSubscriptionToRestore": "Ups! Čini se da trenutno nemate aktivnu pretplatu. Da biste nastavili uživati u potpunom pristupu, molimo odaberite jedan od naših pretplatničkih planova.",
+    "restorationSuccessful": "Vraćanje je uspješno! Uživajte!",
     "restorationError": "Došlo je do pogreške pri vraćanju kupnje.",
-    "medicalDisclaimerAlert": "Aplikacija Veterinary AI ne zamjenjuje medicinsku konzultaciju. Neke dijagnoze su samo u informativne/edukativne svrhe. Za medicinske preporuke, uvijek se konzultirajte s liječnikom ili licenciranim stručnjakom.",
-    "scanLimitReached": "Optimiziramo kvalitetu skeniranja za vas! Moći ćete ponovno skenirati za otprilike {{hours}} sati i {{minutes}} minuta. Imate li pitanja o medicinskim temama? Pitajte našeg chat asistenta dok čekate!",
-    "mixedMediaNotAllowed": "Radi bolje točnosti, ne učitavajte mješavinu različitih medijskih datoteka. Učitajte samo slike, videozapise ili pdf-ove — ne sve zajedno.",
-    "multipleVideosNotAllowed": "Radi bolje točnosti, učitajte samo jedan videozapis odjednom.",
-    "mediaFilesUploadFiles": "Došlo je do pogreške pri učitavanju vaših medijskih datoteka. Pokušajte ponovno.",
+    "medicalDisclaimerAlert": "Aplikacija Veterinary AI ne zamjenjuje medicinsku konzultaciju. Neke dijagnoze su samo u informativne/obrazovne svrhe. Za medicinske preporuke, uvijek se konzultirajte s liječnikom ili licenciranim stručnjakom.",
+    "scanLimitReached": "Optimiziramo kvalitetu skeniranja za vas! Moći ćete ponovno skenirati za otprilike {{hours}} sati i {{minutes}} minuta. Imate li pitanja o medicinskoj temi? Pitajte našeg asistenta za chat dok čekate!",
+    "mixedMediaNotAllowed": "Radi bolje preciznosti, nemojte učitavati mješavinu različitih medijskih datoteka. Molimo učitajte samo slike, videozapise ili pdf-ove — ne sve zajedno.",
+    "multipleVideosNotAllowed": "Radi bolje preciznosti, molimo učitajte samo jedan videozapis odjednom.",
+    "mediaFilesUploadFiles": "Došlo je do pogreške pri učitavanju vaših medijskih datoteka. Molimo pokušajte ponovno.",
     "chatAndMediaFilesLimit": "Poštovani korisniče, trebate nadograditi svoj plan kako biste imali koristi od neograničenih razgovora, neograničenih skeniranja, analize više slika i više. 🔓"
   },
   "deleteApp": {
     "title": "Čekajte! Ne brišite me!",
-    "subtitle": "Umjesto toga pošaljite povratne informacije"
+    "subtitle": "Pošaljite povratne informacije umjesto toga"
   }
 }

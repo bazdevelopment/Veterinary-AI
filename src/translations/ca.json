@@ -4,14 +4,14 @@
     "welcome": "Hola",
     "welcomeBack": "Benvingut/da de nou!",
     "welcomeMessage": "Benvingut/da!",
-    "continue": "Continuar",
-    "retry": "Tornar a intentar",
-    "close": "Tancar",
+    "continue": "Continua",
+    "retry": "Torna-ho a provar",
+    "close": "Tanca",
     "gallery": "Galeria",
-    "files": "Fitxers",
-    "seeAll": "Veure tot",
-    "cancel": "Cancel·lar",
-    "delete": "Eliminar",
+    "files": "Arxius",
+    "seeAll": "Veure-ho tot",
+    "cancel": "Cancel·la",
+    "delete": "Elimina",
     "attention": "Atenció!",
     "new": "Nou",
     "activeSubscription": "Subscripció activa",
@@ -19,73 +19,74 @@
     "and": "i",
     "askAssistant": "Pregunta a l'assistent d'IA",
     "chatbotPlaceholder": "Pregunta'm el que vulguis...",
-    "completedScans": "Escaneigs completats",
+    "completedScans": "Escanejats completats",
     "conversationHistory": "Historial de converses",
-    "medicalAssistants": "Assistents mèdics",
-    "searchAssistant": "Cercar assistent...",
-    "analyzingMediaFilesPlaceholder": "Analitzant fitxers multimèdia...",
+    "medicalAssistants": "Assistents Veterinaris d'IA Generals",
+    "searchAssistant": "Cerca Assistents...",
+    "analyzingMediaFilesPlaceholder": "Analitzant Arxius Multimèdia...",
+    "mainDisclaimer": "Aquesta aplicació no proporciona mai mesures relacionades amb la salut, diagnòstics o consells de tractament. Consulta sempre un especialista llicenciat per a qualsevol qüestió mèdica.",
     "copyText": {
       "copied": "S'ha copiat!",
-      "copy": "Copiar enllaç",
+      "copy": "Copia l'enllaç",
       "loading": "S'està copiant..."
     },
     "createdAt": "Creat el",
-    "download": "Descarregar",
+    "download": "Descarrega",
     "free": "GRATUÏT",
     "freeTrial": "Prova gratuïta",
     "loadingMessages": {
       "imageScanningLoading": {
         "first": "S'estan escanejant les teves imatges mèdiques, si us plau, espera...",
-        "fourth": "Gairebé allà, finalitzant l'escaneig...",
-        "second": "S'estan analitzant els detalls, això pot tardar uns moments...",
+        "fourth": "Gairebé allà, finalitzant l'escaneg...",
+        "second": "Analitzant detalls, això pot prendre un moment...",
         "third": "Millorant la precisió per als millors resultats..."
       },
       "initialAppLoad": {
-        "first": "S'està carregant la teva experiència personalitzada...",
+        "first": "Carregant la teva experiència personalitzada...",
         "fourth": "Gairebé llest, només un moment...",
         "second": "Sincronitzant sistemes...",
         "third": "Processant les teves dades..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med s'està preparant per ajudar-te...",
-        "second": "Espera! Dr. Med està preparant la teva resposta...",
-        "third": "Pensant... el teu assistent Dr. Med hi està treballant!"
+        "first": "El Dr. Vet s'està preparant per ajudar-te...",
+        "second": "Aguanta! El Dr. Vet està preparant la teva resposta...",
+        "third": "Pensant... el teu assistent Dr. Vet hi és!"
       }
     },
     "tabs": {
       "home": "Inici",
       "chat": "Xat",
-      "aiDoctors": "Metges IA",
+      "aiDoctors": "Assistents d'IA",
       "settings": "Configuració"
     },
-    "medicalDisclaimer": "Avís mèdic",
+    "medicalDisclaimer": "Avís Legal Veterinari",
     "next": "Següent",
-    "noPaymentNow": "Sense pagament ara. Cancel·la quan vulguis.",
+    "noPaymentNow": "Sense Pagament Ara. Cancel·la quan vulguis.",
     "online": "En línia",
-    "openSettings": "Obrir configuració",
+    "openSettings": "Obre Configuració",
     "or": "o",
     "perMonth": "per mes",
     "perWeek": "per setmana",
     "perYear": "per any",
-    "privacyPolicy": "Política de privadesa",
-    "restorePurchase": "Restaurar compra",
-    "termsOfUse": "Condicions d'ús",
+    "privacyPolicy": "Política de Privadesa",
+    "restorePurchase": "Restaura la compra",
+    "termsOfUse": "Condicions d'Ús",
     "saveDiscount": "ESTALVIA",
     "seeNotifications": "Veure notificacions",
-    "share": "Compartir",
-    "shareLink": "Compartir enllaç",
-    "skip": "Ometre",
-    "termsAndConditions": "Termes i condicions",
+    "share": "Comparteix",
+    "shareLink": "Comparteix l'enllaç",
+    "skip": "Omet",
+    "termsAndConditions": "Termes i Condicions",
     "then": "després",
-    "tryAgain": "Tornar a provar",
-    "tryForFree": "Començar prova gratuïta",
+    "tryAgain": "Torna-ho a provar",
+    "tryForFree": "Comença la Prova Gratuïta",
     "typing": "Escrivint...",
-    "unlockNow": "Desbloqueja ara",
-    "update": "Actualitzar",
-    "upgradePlan": "Millorar pla",
-    "viewProfile": "Veure perfil",
+    "unlockNow": "Desbloqueja Ara",
+    "update": "Actualitza",
+    "upgradePlan": "Millora el Pla",
+    "viewProfile": "Veure Perfil",
     "yes": "Sí",
-    "chatBotPlaceholder": "Ei 👋 Tens curiositat sobre {{topic}}? Sóc aquí per ajudar-te a explorar i aprendre més — pregunta'm el que vulguis!"
+    "chatBotPlaceholder": "Hola 👋 T'interessa {{topic}}? Estic aquí per ajudar-te a explorar i aprendre més — pregunta'm el que vulguis!"
   },
   "weekDays": {
     "today": "Avui",
@@ -93,32 +94,33 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Obtén anàlisis de diversos escàners mèdics, incloent RAI-X, TC, RM, ECG i més",
+      "first": "Descobreix conceptes veterinaris i temes sobre animals mitjançant l'aprenentatge amb IA",
       "second": "Accés a totes les funcions premium",
-      "fourth": "Xats il·limitats amb assistents mèdics d'IA 24/7",
+      "fourth": "Xats il·limitats amb assistents veterinaris d'IA 24/7",
       "third": "Sense anuncis"
     },
     "UpgradeBanner": {
-      "heading": "Desbloqueja ara",
+      "heading": "Desbloqueja Ara",
       "subheading": "Gaudeix de tots els beneficis sense restriccions"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Analitzador d'Imatges Mèdiques",
-      "askMedicalAssistant": "Pregunta a l'Assistent Mèdic IA",
+      "veterinaryImaging": "Imatgeria Veterinària / Raça",
+      "medicalImagesAnalyzer": "Laboratori d'Estudi d'Imatgeria Veterinària",
+      "askMedicalAssistant": "Pregunta a l'Assistent d'IA",
       "medicalAssistant": "Assistent Mèdic",
       "imageTypes": {
         "xray": "Raigs X",
-        "ct": "TC",
-        "mri": "RM",
+        "ct": "Tomografia Computada (TC)",
+        "mri": "Resonància Magnètica (RM)",
         "ultrasound": "Ecografia",
-        "ecg": "ECG",
-        "skinLesion": "Lesió cutània",
-        "mammogram": "Mamografia",
-        "retinalScan": "Escaneig retinal",
-        "bloodSmear": "Frotis sanguini",
+        "ecg": "Electrocardiograma (ECG/EKG)",
+        "skinLesion": "Lesió Cutània",
+        "mammogram": "Mammografia",
+        "retinalScan": "Escaneig Retinal / Ocular",
+        "bloodSmear": "Frotis Sanguini",
         "dental": "Dental",
-        "pet": "PET",
-        "dexa": "DEXA / Densitometria òssia",
+        "pet": "Tomografia per Emissió de Positrons (PET)",
+        "dexa": "DEXA / Densitometria Òssia",
         "angiography": "Angiografia",
         "echo": "Ecocardiografia (ECHO)",
         "fluoroscopy": "Fluoroscòpia"
@@ -126,106 +128,78 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Medicina Familiar",
-          "subtitle": "Medicina General"
+        "veterinaryGeneralMedicine": {
+          "title": "Introducció a la Veterinària",
+          "subtitle": "Visió General d'Estudi"
         },
-        "internalMedicine": {
-          "title": "Medicina Interna"
+        "veterinaryInternalMedicine": {
+          "title": "Medicina Interna (Guia d'Estudi)"
         },
-        "pediatrics": {
-          "title": "Pediatria"
+        "veterinaryDermatology": {
+          "title": "Bases de la Dermatologia (Aprenentatge)"
         },
-        "dermatology": {
-          "title": "Dermatologia"
+        "veterinaryCardiology": {
+          "title": "Estudi de Cardiologia Veterinària"
         },
-        "cardiology": {
-          "title": "Cardiologia"
+        "veterinaryOrthopedics": {
+          "title": "Ortopèdia i Musculoesquelètic (Estudi)"
         },
-        "orthopedics": {
-          "title": "Ortopèdia"
+        "veterinaryNeurology": {
+          "title": "Neurologia – Aprenentatge"
         },
-        "psychiatry": {
-          "title": "Psiquiatria",
-          "subtitle": "Salut Mental"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmologia – Guia d'Estudi"
         },
-        "obstetricsGynecology": {
-          "title": "Obstetrícia i Ginecologia",
-          "subtitle": "OB/GIN"
+        "veterinaryDentistry": {
+          "title": "Bases de l'Odontologia Veterinària"
         },
-        "neurology": {
-          "title": "Neurologia"
+        "veterinaryRadiology": {
+          "title": "Radiologia i Imatgeria",
+          "subtitle": "Visió General de la Imatgeria"
         },
-        "ophthalmology": {
-          "title": "Oftalmologia"
+        "veterinaryOncology": {
+          "title": "Oncologia – Educatiu"
         },
-        "otolaryngology": {
-          "title": "Otorinolaringologia",
-          "subtitle": "ORL"
+        "veterinaryEndocrinology": {
+          "title": "Endocrinologia – Temes d'Estudi"
         },
-        "dentistry": {
-          "title": "Odontologia"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefrologia i Urologia (Aprenentatge)"
         },
-        "radiology": {
-          "title": "Radiologia",
-          "subtitle": "Imatgeria"
+        "veterinaryRespiratory": {
+          "title": "Visió General de la Medicina Respiratòria"
         },
-        "oncology": {
-          "title": "Oncologia"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterologia – Guia d'Estudi"
         },
-        "endocrinology": {
-          "title": "Endocrinologia"
+        "veterinaryImmunology": {
+          "title": "Immunologia i Malalties Infeccioses (Estudi)"
         },
-        "nephrology": {
-          "title": "Nefrologia"
+        "veterinaryHematology": {
+          "title": "Hematologia – Aprenentatge"
         },
-        "pulmonology": {
-          "title": "Pneumologia"
+        "veterinarySurgery": {
+          "title": "Conceptes i Estudi de Cirurgia"
         },
-        "gastroenterology": {
-          "title": "Gastroenterologia"
+        "veterinaryAnesthesiology": {
+          "title": "Anestesiologia i Gestió del Dolor (Estudi)"
         },
-        "allergyImmunology": {
-          "title": "Al·lèrgia i Immunologia"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitació i Fisioteràpia",
+          "subtitle": "Guia Educatiu"
         },
-        "hematology": {
-          "title": "Hematologia"
+        "veterinaryExotics": {
+          "title": "Medicina d'Exòtics i Fauna Salvatge (Visió General)"
         },
-        "rheumatology": {
-          "title": "Reumatologia"
-        },
-        "urology": {
-          "title": "Urologia"
-        },
-        "emergencyMedicine": {
-          "title": "Medicina d'Emergències"
-        },
-        "surgery": {
-          "title": "Cirurgia"
-        },
-        "anesthesiology": {
-          "title": "Anestesiologia"
-        },
-        "rehabilitationMedicine": {
-          "title": "Medicina de Rehabilitació",
-          "subtitle": "Fisioteràpia"
-        },
-        "geriatrics": {
-          "title": "Geriatria"
-        },
-        "publicHealth": {
-          "title": "Salut Pública",
-          "subtitle": "Medicina Preventiva"
-        },
-        "microscopy": {
-          "title": "Microscòpia"
+        "veterinaryLivestock": {
+          "title": "Estudis de Grans Animals i Bestiar"
         }
       }
     },
     "ImagePickerModal": {
-      "photoLibrary": "Biblioteca de fotos",
-      "takePhoto": "Fer una foto",
-      "chooseFile": "Triar fitxer"
+      "photoLibrary": "Biblioteca de Fotos",
+      "takePhoto": "Fes una Foto",
+      "chooseFile": "Tria un Arxiu"
     }
   },
   "rootLayout": {
@@ -236,144 +210,159 @@
         "startButton": "Comencem!"
       },
       "freeTrialPreview": {
-        "heading": "Gaudiu de la vostra prova gratuïta! 🎉",
-        "review": "Utilitzo aquesta app per a preguntes mèdiques, escàners de radiologia i estudiar - és increïble!",
+        "heading": "Gaudeix de la teva prova gratuïta! 🎉",
+        "review": "Utilitzo aquesta app per a preguntes veterinàries, escaneig d'imatges d'animals i per estudiar — és increïble!",
         "reviewTrust": "📈 Confiat per més de 5.212 usuaris"
       },
       "languageAnalysisModal": {
-        "languagePreferenceQuestion": "Quina llengua preferiu per a l'anàlisi d'IA?",
-        "languageSelection": "Trieu una llengua per a les respostes d'IA",
-        "languageSearchCriteria": "Cerca per llengua, codi de país o bandera",
-        "noLanguageFound": "No s'ha trobat cap llengua",
-        "noLanguageFoundSubtitle": "Prova de modificar els termes de cerca"
+        "languagePreferenceQuestion": "Quin idioma prefereixes per a l'anàlisi d'IA?",
+        "languageSelection": "Tria un idioma per a les respostes de la IA",
+        "languageSearchCriteria": "Cerca per idioma, codi de país o bandera",
+        "noLanguageFound": "No s'ha trobat l'idioma",
+        "noLanguageFoundSubtitle": "Prova de modificar els termes de la teva cerca"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Què mostra una radiografia de tòrax?",
-          "two": "Quins són els símptomes comuns d'un atac de cor?",
-          "three": "Com puc baixar la meva pressió arterial de forma natural?",
-          "four": "Quina és la diferència entre una RM i un TC?",
-          "five": "Quins són els signes inicials de la diabetis?",
-          "six": "Com interpreto els meus resultats bàsics de sang?",
-          "seven": "Quin és el tractament per a una infecció del tracte urinari (ITU)?",
-          "eight": "Pots explicar per a què s'utilitza un ecocardiograma?",
-          "nine": "Quines són les pautes per a una dieta saludable?",
-          "ten": "Què causa el colesterol alt?",
-          "eleven": "Com es detecta un tumor cerebral en una RM?",
-          "twelve": "Quina és la funció de la medicina familiar?",
-          "thirteen": "Quins són els factors de risc d'un ictus?",
-          "fourteen": "Com gestionar l'ansietat i l'estrès?",
-          "fifteen": "Quines són les darreres pautes per al maneig de la hipertensió?"
+          "one": "Què poden ajudar a aprendre les radiografies de tòrax sobre l'anatomia animal?",
+          "two": "Quins són els temes d'estudi comuns relacionats amb la funció cardíaca en els animals?",
+          "three": "Quins factors influeixen en la salut cardiovascular en diferents espècies?",
+          "four": "Com difereixen les tecnologies de RM i TC en els estudis d'imatgeria veterinària?",
+          "five": "Quins són els conceptes clau per entendre els processos metabòlics en els animals?",
+          "six": "Com s'interpreten els paràmetres bàsics de les anàlisis de sang en l'educació veterinària?",
+          "eight": "Què ajuda a il·lustrar un ecocardiograma sobre la funció cardíaca?",
+          "nine": "Quins principis guien una nutrició equilibrada per als animals de companyia?",
+          "ten": "Què influeix en els nivells de lípids i colesterol en diverses espècies animals?",
+          "eleven": "Com s'utilitza la imatgeria per estudiar les estructures neurològiques en els animals?",
+          "twelve": "Quins temes es cobreixen típicament en la medicina veterinària general?",
+          "thirteen": "Quins són els conceptes acadèmics comuns darrere de les condicions similars a un ictus?",
+          "fourteen": "Com es poden reconèixer els comportaments relacionats amb l'estrès o l'ansietat en els animals?",
+          "fifteen": "Quins factors s'estudien en relació amb la regulació de la pressió arterial en els animals?",
+          "sixteen": "Quins trets s'estudien comunament en diferents races de gos?",
+          "seventeen": "Com varien els comportaments felins entre les races de gat?",
+          "eighteen": "Quines són les diferències anatòmiques clau entre gossos i gats?",
+          "nineteen": "Com influeix la genètica en les característiques específiques de la raça?",
+          "twenty": "Quins factors ambientals afecten el comportament i l'aprenentatge dels animals?",
+          "twentyOne": "Com s'adapten les espècies salvatges als seus ecosistemes?",
+          "twentyTwo": "Quins són els principis comuns en els estudis de cria i genètica?",
+          "twentyThree": "Com s'estudia el comportament social animal en les espècies domèstiques?",
+          "twentyFour": "Quins temes fonamentals s'inclouen en els estudis d'animals de companyia?",
+          "twentyFive": "Com s'aproximen els estudiants a avaluar les puntuacions de condició corporal dels animals?",
+          "twentySix": "Quins factors influeixen en el creixement i desenvolupament en animals joves?",
+          "twentySeven": "Com s'utilitza l'enriquiment per donar suport al benestar animal?",
+          "twentyEight": "Quins conceptes principals de salut s'exploren comunament en els estudis de cura de gats?",
+          "twentyNine": "Quines necessitats dietètiques difereixen entre les races de gos petites, mitjanes i grans?",
+          "thirty": "Com contribueixen la zoologia i la biologia de la vida salvatge a l'educació veterinària?"
         }
       },
       "notifications": {
         "title": "Notificacions",
-        "noNotifications": "Cap notificació per ara - estigueu atents per a actualitzacions!"
+        "noNotifications": "Cap notificació per ara — estigues atent/da a les actualitzacions!"
       },
       "rateAppScreen": {
-        "heading": "Trobeu valuosa i atractiva l'aplicació?",
+        "heading": "Trobes que l'aplicació és valuosa i atractiva?",
         "like": "Sí, m'agrada!",
         "dislike": "No m'agrada"
       },
       "profile": {
         "title": "Perfil",
-        "edit": "Editar perfil",
-        "placeholderPreferredName": "P.e., Capità Guai, Reina Abella, o simplement l'Alex!"
+        "edit": "Edita el Perfil",
+        "placeholderPreferredName": "P. ex., Capità Guai, Reina Abella, o simplement l'Alex!"
       },
       "noInternetScreen": {
-        "heading": "Esteu fora de línia",
-        "subheading": "La vostra connexió sembla inestable. Si us plau, verifiqueu l'estat de la xarxa"
+        "heading": "Estàs sense connexió",
+        "subheading": "La teva connexió sembla inestable. Si us plau, verifica l'estat de la teva xarxa"
       },
       "newAppVersionScreen": {
-        "heading": "Hi ha disponible una nova versió de Veterinary AI",
-        "subheading": "Actualitzeu a la darrera versió per continuar gaudint de totes les funcions de l'app - només triga 5 segons!",
-        "action": "Obteniu-la ara!"
+        "heading": "Hi ha una nova versió de Veterinary AI disponible",
+        "subheading": "Actualitza a l'última versió per continuar gaudint de totes les funcions de l'app — només triga 5 segons!",
+        "action": "Obtingue-la ara!"
       },
       "disclaimerScreen": {
-        "heading": "Avís mèdic important",
+        "heading": "Avís Legal Mèdic Important",
         "subheading": "Veterinary AI està dissenyat per a professionals de radiologia, experts en salut, estudiants de medicina i entusiastes",
-        "consentAgreement": "He llegit i accepto l'avís.",
-        "firstConsent": "Veterinary AI no proporciona mesures de salut ni consells de tractament, ni està destinat a aquests propòsits. Els usuaris de Veterinary AI han d'aplicar el seu judici clínic i verificar la informació de fonts autoritzades abans de prendre decisions clíniques.",
-        "secondConsent": "Veterinary AI no és una eina de diagnòstic, una plataforma de tractament o un substitut del consell mèdic professional. Ofereix informació generada per IA per ajudar els professionals de la salut a accedir al coneixement mèdic i analitzar imatges i documents mèdics. Veterinary AI és una aplicació informativa i educativa impulsada per IA dissenyada més per donar suport a professionals de la salut amb llicència.",
-        "thirdConsent": "Veterinary AI no està dissenyat per a l'ús de pacients. No proporciona diagnòstics mèdics directes, recomanacions de tractament o funcionalitats de gestió de pacients.",
-        "fourthConsent": "Veterinary AI no està classificat com a dispositiu mèdic i no pretén aprovació regulatoria. Està destinat a fins educatius i informatius per complementar l'expertesa professional.",
-        "fifthConsent": "Veterinary AI no recull, emmagatzema ni processa dades personals o de pacients. Totes les interaccions dels usuaris són confidencials i limitades a l'abast de l'aplicació."
+        "consentAgreement": "He llegit i accepto l'avís legal.",
+        "firstConsent": "Veterinary AI no proporciona mesures de salut o consells de tractament, ni està destinat a aquests propòsits. Els usuaris de Veterinary AI han d'aplicar el seu judici clínic i verificar la informació de fonts autoritzades abans de prendre decisions clíniques.",
+        "secondConsent": "Veterinary AI no és una eina de diagnòstic, una plataforma de tractament o un substitut del consell mèdic professional. Ofereix informacions generades per IA per ajudar als professionals veterinaris. Veterinary AI és una aplicació informativa i educativa impulsada per IA dissenyada més per donar suport als professionals veterinaris llicenciats.",
+        "fourthConsent": "Veterinary AI no està classificat com a dispositiu mèdic i no afirma tenir aprovació regulatòria. Està destinat a fins educatius i informatius per complementar l'experiència professional.",
+        "fifthConsent": "Veterinary AI no recull, emmagatzema ni processa dades personals o de pacients. Totes les interaccions de l'usuari són confidencials i limitades a l'abast de l'aplicació."
       },
       "contactUs": {
-        "heading": "No dubteu a enviar-nos un correu electrònic directament, i el nostre equip us respondrà tan aviat com sigui possible",
-        "customerSupport": "Suport al client",
-        "emailAddress": "Adreça de correu electrònic"
+        "heading": "No dubtis a enviar-nos un correu electrònic directament, i el nostre equip et respondrà tan aviat com sigui possible",
+        "customerSupport": "Suport al Client",
+        "emailAddress": "Adreça de Correu Electrònic"
       },
       "rate": {
-        "title": "Doneu-nos feedback!"
+        "title": "Dóna'ns la teva opinió!"
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "No s'han trobat resultats - Però no us preocupeu!",
-          "notFoundSubtitle": "Proveu d'utilitzar paraules clau diferents, o pregunteu directament al nostre assistent mèdic d'IA",
+          "notFoundTitle": "No s'han trobat resultats — Però No Et Preocupis!",
+          "notFoundSubtitle": "Prova d'utilitzar paraules clau diferents, o pregunta directament al nostre assistent veterinari d'IA",
           "askAssistant": "Pregunta a l'Assistent Mèdic"
         }
       },
       "paywallOnboarding": {
         "freeTierOfferings": {
-          "freeTrialEnabled": "Prova gratuïta activada",
-          "heading": "Accés il·limitat",
-          "title": "Desbloqueja les funcions premium avui!",
-          "firstOffering": "Accés a totes les funcions premium",
-          "secondOffering": "Experència sense anuncis",
-          "thirdOffering": "Anàlisi il·limitada d'imatges mèdiques, vídeos, escaneigs PDF + informes",
-          "fourthOffering": "Xats il·limitats amb assistents mèdics d'IA 24/7"
+          "freeTrialEnabled": "Prova Gratuïta Activada",
+          "heading": "Accés Il·limitat",
+          "title": "Desbloqueja les Funcions Premium Avui!",
+          "firstOffering": "Accés a Totes les Funcions Premium",
+          "secondOffering": "Experència Sense Anuncis",
+          "thirdOffering": "Anàlisi il·limitada d'imatges veterinàries, vídeos, escanejats PDF + informes",
+          "fourthOffering": "Xats il·limitats amb assistents veterinaris d'IA 24/7",
+          "renewalInfo": "*La teva subscripció es carregarà al teu compte de {{store}} i es renovarà automàticament llevat que es cancel·li com a mínim 24 hores abans de la fi del període de subscripció actual. Pots gestionar o cancel·lar en qualsevol moment des de la configuració del teu compte. La subscripció es renovarà al mateix preu i pla que vas seleccionar llevat que el canviïs o cancel·lis."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "El teu acompanyant de salut amb IA",
-          "subtitle": "Obtén informació i orientació mèdica instantània de metges d'IA especialitzats, en qualsevol moment i lloc."
+          "title": "El teu Acompanyant Veterinari i d'Estudi amb IA",
+          "subtitle": "Explora conceptes veterinaris amb informacions educatives clares, generades per IA"
         },
         "secondOnboarding": {
-          "title": "Pregunta, puja i obtén informació mèdica",
-          "subtitle": "Xateja amb metges d'IA de diferents especialitats, o puja imatges mèdiques per a una anàlisi mèdica ràpida."
+          "title": "Pregunta, Aprèn, Estudia Temes Veterinaris",
+          "subtitle": "Descobreix explicacions simplificades sobre el comportament animal, raça, anatomia i conceptes veterinaris generals."
         },
         "thirdOnboarding": {
-          "title": "La teva privadesa és important",
-          "subtitle": "Estem compromesos a protegir la teva privadesa. No recopilem dades personals. Qualsevol fitxer que puguis roman privat i mai es comparteix."
+          "title": "La Teva Privadesa És Important",
+          "subtitle": "Estem compromesos a protegir la teva privadesa. No recopilem dades personals, i qualsevol arxiu que puguis romandrà privat i mai es compartirà."
         }
       },
       "paywallUpgradeScreen": {
-        "heading": "Desbloqueja les funcions premium avui!",
+        "heading": "Desbloqueja les Funcions Premium Avui!",
         "firstOffering": {
-          "title": "Començar prova gratuïta",
-          "subtitle": "Gaudiu de {{freeScans}} escaneigs gratuïts - sense pagament"
+          "title": "Comença la Prova Gratuïta",
+          "subtitle": "Gaudeix de {{freeScans}} escanejats gratuïts – sense pagament"
         },
         "secondOffering": {
-          "title": "Pla mensual",
+          "title": "Pla Mensual",
           "subtitle": "{{ price }}/mes"
         },
         "thirdOffering": {
-          "title": "Pla anual",
+          "title": "Pla Anual",
           "subtitle": "{{ price }} per any"
         },
         "fourthOffering": {
-          "title": "Prova de {{trialDays}} dies",
+          "title": "Prova Gratuïta de {{trialDays}} Dies",
           "subtitle": "{{ price }} per any",
-          "plan": "Pla setmanal"
+          "plan": "Pla Setmanal"
         }
       }
     }
   },
   "settings": {
     "about": "Quant a",
-    "app_name": "Nom de l'app",
+    "app_name": "Nom de l'Aplicació",
     "citations": "Citacions per a informació mèdica",
     "contactUs": "Contacta'ns",
+    "cancelSubscription": "Cancel·la la Subscripció",
     "devMode": {
-      "componentsLibrary": "Biblioteca d'UI",
+      "componentsLibrary": "Llibreria d'UI",
       "title": "Mode desenvolupador"
     },
     "faq": "PMF",
     "generale": "General",
     "github": "Github",
-    "language": "Llengua",
+    "language": "Idioma",
     "languages": {
       "arabic": "Àrab",
       "catalan": "Català",
@@ -406,22 +395,22 @@
       "spanish_mexico": "Espanyol (Mèxic)",
       "spanish_spain": "Espanyol (Espanya)",
       "swedish": "Suec",
-      "thai": "Tai",
+      "thai": "Thai",
       "turkish": "Turc",
       "ukrainian": "Ucraïnès",
       "vietnamese": "Vietnamita"
     },
     "links": "Enllaços",
-    "logout": "Tancar sessió",
+    "logout": "Tanca la sessió",
     "more": "Més",
-    "privacy": "Política de privadesa",
+    "privacy": "Política de Privadesa",
     "profile": "Perfil",
-    "rate": "Feedback",
-    "share": "Compartir",
+    "rate": "Comentaris",
+    "share": "Comparteix",
     "support": "Suport",
     "support_us": "Suporta'ns",
     "tab": "Configuració",
-    "terms": "Condicions del servei",
+    "terms": "Termes del Servei",
     "theme": {
       "dark": "Fosc",
       "light": "Clar",
@@ -434,55 +423,55 @@
   },
   "alerts": {
     "mediaPickerPermissions": "Ho sentim, necessitem permisos de càmera perquè això funcioni!",
-    "errorSelectingImagePicker": "Alguna cosa ha anat malament en seleccionar la imatge. Si us plau, torneu-ho a intentar.",
-    "errorSelectingDocumentPicker": "Alguna cosa ha anat malament en triar el document. Si us plau, torneu-ho a intentar.",
-    "errorTakingPicture": "Alguna cosa ha anat malament en fer la foto. Si us plau, torneu-ho a intentar.",
+    "errorSelectingImagePicker": "Alguna cosa ha anat malament en seleccionar la imatge. Si us plau, torna-ho a provar.",
+    "errorSelectingDocumentPicker": "Alguna cosa ha anat malament en triar el document. Si us plau, torna-ho a provar.",
+    "errorTakingPicture": "Alguna cosa ha anat malament en fer la foto. Si us plau, torna-ho a provar.",
     "enableNotifications": {
-      "heading": "Activar notificacions",
-      "subHeading": "Les notificacions estan desactivades actualment. Per estar actualitzat, si us plau, activeu-les a la configuració del vostre dispositiu."
+      "heading": "Activa les Notificacions",
+      "subHeading": "Les notificacions estan desactivades actualment. Per estar actualitzat/da, si us plau, activa-les des de la configuració del teu dispositiu."
     },
-    "enableNotificationFailed": "Les notificacions push estan desactivades. Activeu-les a la configuració per rebre actualitzacions importants!",
+    "enableNotificationFailed": "Les notificacions push estan desactivades. Activa-les a la configuració per rebre actualitzacions importants!",
     "enableNotificationError": "S'ha produït un error en activar les notificacions",
     "notificationDisabledSuccess": "Notificacions desactivades correctament.",
-    "notificationDisabledRegisterError": "No s'ha pogut donar de baixar el dispositiu per a notificacions.",
+    "notificationDisabledRegisterError": "No s'ha pogut donar de baixa el dispositiu per a notificacions.",
     "notificationDisabledError": "S'ha produït un error en desactivar les notificacions.",
     "checkNotificationStatusError": "Error en comprovar l'estat de les notificacions.",
     "projectIdNotFound": "No s'ha trobat l'ID del projecte de notificacions.",
-    "imageSizeLarge": "La imatge és massa gran! La mida del fitxer és {{fileSize}} MB, però el límit és {{imageLimit}} MB.",
-    "videoSizeLarge": "El vídeo és massa gran! La mida del fitxer és {{fileSize}} MB, però el límit és {{videoLimit}} MB.",
+    "imageSizeLarge": "La imatge és massa gran! La mida de l'arxiu és {{fileSize}} MB, però el límit és {{imageLimit}} MB.",
+    "videoSizeLarge": "El vídeo és massa gran! La mida de l'arxiu és {{fileSize}} MB, però el límit és {{videoLimit}} MB.",
     "loggedInSuccess": "Sessió iniciada correctament",
-    "loggedOutSuccess": "Heu tancat la sessió correctament!",
+    "loggedOutSuccess": "Has tancat la sessió correctament!",
     "sendVerificationCodeError": "Error en enviar el codi de verificació",
     "validateAuthCodeError": "Error en validar el codi d'autenticació",
-    "anonymousSignInError": "Error en iniciar sessió anònimament",
+    "anonymousSignInError": "Error en iniciar sessió de forma anònima",
     "emailLoginError": "Error en iniciar sessió",
     "preferredLanguageError": "Error en actualitzar l'idioma preferit de l'usuari",
-    "sharingNotAvailable": "La compartició no està disponible actualment al vostre dispositiu",
+    "sharingNotAvailable": "La compartició no està disponible actualment al teu dispositiu",
     "sharingLinkError": "No s'ha pogut compartir l'enllaç.",
     "individualPushNotificationSuccess": "Notificacions push individuals enviades correctament!",
     "globalPushNotificationSuccess": "Notificacions push globals enviades correctament! 🌍🚀",
     "interpretationFieldsUpdateFail": "No s'han pogut actualitzar els camps d'interpretació! ❌",
-    "deleteScanReportFail": "No s'ha pogut eliminar l'informe de l'escaneig. Si us plau, torneu-ho a intentar",
-    "onboardingUnsuccessful": "Onboarding no exitós. Si us plau, torneu-ho a intentar",
-    "logoutUnsuccessful": "Tancament de sessió no exitós. Si us plau, torneu-ho a intentar",
-    "deleteScanReportQuestion": "Esteu segur que voleu eliminar permanentment aquest informe?",
-    "videoLimitExceeds": "El vostre vídeo supera el límit de {{videoSecondsLimit}} segons. Si us plau, retalleu-lo i torneu-lo a pujar",
-    "subscriptionActivated": "La vostra subscripció s'ha activat correctament! Gaudiu dels vostres beneficis exclusius!",
-    "subscriptionCancelledByUser": "Heu cancel·lat la transacció. No dubteu en tornar-ho a provar!",
-    "subscriptionActivationFailed": "No s'ha pogut activar la vostra subscripció. Si us plau, torneu-ho a intentar",
-    "logoutQuestion": "Esteu segur que voleu tancar la sessió?",
-    "noSubscriptionToRestore": "Vaja! Sembla que no teniu cap subscripció activa en aquest moment. Per continuar gaudint d'accés complet, si us plau, trieu un dels nostres plans de subscripció.",
-    "restorationSuccessful": "La restauració ha estat exitosa! Gaudiu!",
+    "deleteScanReportFail": "No es pot eliminar l'informe d'escaneig. Si us plau, torna-ho a provar",
+    "onboardingUnsuccessful": "Onboarding sense èxit. Si us plau, torna-ho a provar",
+    "logoutUnsuccessful": "Tancament de sessió sense èxit. Si us plau, torna-ho a provar",
+    "deleteScanReportQuestion": "Estàs segur/segura que vols eliminar permanentment aquest informe?",
+    "videoLimitExceeds": "El teu vídeo supera el límit de {{videoSecondsLimit}} segons. Si us plau, retalla'l i torna'l a pujar",
+    "subscriptionActivated": "La teva subscripció s'ha activat correctament! Gaudeix dels teus beneficis exclusius!",
+    "subscriptionCancelledByUser": "Has cancel·lat la transacció. No dubtis en tornar-ho a provar!",
+    "subscriptionActivationFailed": "No s'ha pogut activar la teva subscripció. Si us plau, torna-ho a provar",
+    "logoutQuestion": "Estàs segur/segura que vols tancar la sessió?",
+    "noSubscriptionToRestore": "Ups! Sembla que no tens una subscripció activa en aquest moment. Per continuar gaudint d'accés complet, si us plau, tria un dels nostres plans de subscripció.",
+    "restorationSuccessful": "La restauració ha estat exitosa! Gaudeix!",
     "restorationError": "S'ha produït un error en restaurar la compra.",
-    "medicalDisclaimerAlert": "L'aplicació Veterinary AI no substitueix la consulta mèdica. Alguns diagnòstics són només per a fins informatius/educatius. Per a recomanacions mèdiques, consulteu sempre un metge o especialista amb llicència.",
-    "scanLimitReached": "Estem optimitzant la qualitat de l'escaneig per a vosaltres! Podreu escanejar de nou en aproximadament {{hours}} hores i {{minutes}} minuts. Teniu alguna pregunta sobre algun tema mèdic? Pregunteu al nostre assistent de xat mentre espereu!",
-    "mixedMediaNotAllowed": "Per a una millor precisió, no pengeu una barreja de diferents fitxers multimèdia. Si us plau, pengeu només imatges, vídeos o pdfs - no tots junts.",
-    "multipleVideosNotAllowed": "Per a una millor precisió, si us plau, pengeu només un vídeo a la vegada.",
-    "mediaFilesUploadFiles": "Hi ha hagut un error en pujar els vostres fitxers multimèdia. Si us plau, torneu-ho a intentar.",
-    "chatAndMediaFilesLimit": "Estimat usuari, heu de millorar el vostre pla per beneficiar-vos de xats il·limitats, escaneigs il·limitats, anàlisi multi-imatge i més. 🔓"
+    "medicalDisclaimerAlert": "L'aplicació Veterinary AI no substitueix la consulta mèdica. Alguns diagnòstics són només per a fins informatius/educatius. Per a recomanacions mèdiques, consulta sempre un metge o un especialista llicenciat.",
+    "scanLimitReached": "Estem optimitzant la qualitat d'escaneig per a tu! Podràs escanejar de nou en aproximadament {{hours}} hores i {{minutes}} minuts. Tens alguna pregunta sobre algun tema mèdic? Pregunta al nostre assistent de xat mentre esperes!",
+    "mixedMediaNotAllowed": "Per a una millor precisió, no pengeu una barreja de diferents arxius multimèdia. Si us plau, penja només imatges, vídeos o pdfs — no tots junts.",
+    "multipleVideosNotAllowed": "Per a una millor precisió, si us plau, penja només un vídeo a la vegada.",
+    "mediaFilesUploadFiles": "Hi ha hagut un error en pujar els teus arxius multimèdia. Si us plau, torna-ho a provar.",
+    "chatAndMediaFilesLimit": "Estimat/ada usuari/ària, necessites actualitzar el teu pla per beneficiar-te de xats il·limitats, escanejats il·limitats, anàlisi multi-imatge i més. 🔓"
   },
   "deleteApp": {
-    "title": "Espereu! No em suprimeixis!",
-    "subtitle": "Doneu feedback en lloc d'això"
+    "title": "Espera! No em suprimeixis!",
+    "subtitle": "Envia comentaris en lloc d'això"
   }
 }

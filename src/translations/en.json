@@ -24,6 +24,7 @@
     "medicalAssistants": "General AI Veterinary Assistants",
     "searchAssistant": "Search Assistant...",
     "analyzingMediaFilesPlaceholder": "Analyzing Media Files...",
+    "mainDisclaimer": "This app never provides health related measurements, diagnoses or treatment advice. Always consult a licensed specialist for any medical concerns.",
     "copyText": {
       "copied": "Copied!",
       "copy": "Copy Link",
@@ -47,9 +48,9 @@
         "third": "Processing your data..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med is getting ready to assist you...",
-        "second": "Hold on! Dr. Med is preparing your response...",
-        "third": "Thinking...your assistant Dr. Med is on it!"
+        "first": "Dr. Vet is getting ready to assist you...",
+        "second": "Hold on! Dr. Vet is preparing your response...",
+        "third": "Thinking...your assistant Dr. Vet is on it!"
       }
     },
     "tabs": {
@@ -104,7 +105,7 @@
     },
     "MedicalCard": {
       "veterinaryImaging": "Veterinary Imaging / Breed",
-      "medicalImagesAnalyzer": "Veterinary Imaging Learning Lab",
+      "medicalImagesAnalyzer": "Veterinary Imaging Study Lab",
       "askMedicalAssistant": "Ask AI Assistant",
       "medicalAssistant": "Medical Assistant",
       "imageTypes": {
@@ -138,13 +139,13 @@
           "title": "Dermatology Basics (Learning)"
         },
         "veterinaryCardiology": {
-          "title": "Cardiology for Vet Students"
+          "title": "Vet Cardiology Study"
         },
         "veterinaryOrthopedics": {
           "title": "Orthopedics & Musculoskeletal (Study)"
         },
         "veterinaryNeurology": {
-          "title": "Neurology – Learning Module"
+          "title": "Neurology – Learning"
         },
         "veterinaryOphthalmology": {
           "title": "Ophthalmology – Study Guide"
@@ -153,11 +154,11 @@
           "title": "Veterinary Dentistry Basics"
         },
         "veterinaryRadiology": {
-          "title": "Radiology & Imaging (Educational)",
+          "title": "Radiology & Imaging",
           "subtitle": "Imaging Overview"
         },
         "veterinaryOncology": {
-          "title": "Oncology – Educational Module"
+          "title": "Oncology – Educational"
         },
         "veterinaryEndocrinology": {
           "title": "Endocrinology – Study Topics"
@@ -175,10 +176,10 @@
           "title": "Immunology & Infectious Disease (Study)"
         },
         "veterinaryHematology": {
-          "title": "Hematology – Learning Module"
+          "title": "Hematology – Learning"
         },
         "veterinarySurgery": {
-          "title": "Surgery Concepts for Students"
+          "title": "Surgery Concepts & Study"
         },
         "veterinaryAnesthesiology": {
           "title": "Anesthesiology & Pain Mgmt (Study)"
@@ -210,7 +211,7 @@
       },
       "freeTrialPreview": {
         "heading": "Enjoy your free trial! 🎉",
-        "review": "I use this app for veterinary questions, pet images scans, and studying — it’s amazing!",
+        "review": "I use this app for veterinary questions, animal images scans, and studying — it’s amazing!",
         "reviewTrust": "📈 Trusted by 5,212+ users"
       },
       "languageAnalysisModal": {
@@ -222,7 +223,7 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "What can chest X-rays help students learn about animal anatomy?",
+          "one": "What can chest X-rays help learn about animal anatomy?",
           "two": "What are common study topics related to heart function in animals?",
           "three": "What factors influence cardiovascular health in different species?",
           "four": "How do MRI and CT technologies differ in veterinary imaging studies?",
@@ -281,8 +282,7 @@
         "subheading": "Veterinary AI is designed for radiology professionals, healthcare experts, medical students, and enthusiasts",
         "consentAgreement": "I have read and consent to the disclaimer.",
         "firstConsent": "Veterinary AI does not provide health measurements or treatment advice, nor is it intended for such purposes. Users of Veterinary AI must apply their clinical judgment and verify information from authoritative sources before making any clinical decisions.",
-        "secondConsent": "Veterinary AI is not a diagnostic tool, treatment platform, or a replacement for professional medical advice. It offers AI-generated insights to assist healthcare professionals in accessing medical knowledge and analyzing medical images and documents. Veterinary AI is an AI-driven informational and educational app designed more to support licensed healthcare professionals.",
-        "thirdConsent": "Veterinary AI is not designed for patient use. It does not provide direct medical diagnoses, treatment recommendations, or patient management functionalities.",
+        "secondConsent": "Veterinary AI is not a diagnostic tool, treatment platform, or a replacement for professional medical advice. It offers AI-generated insights to assist veterinary professionals. Veterinary AI is an AI-driven informational and educational app designed more to support licensed veterinary professionals.",
         "fourthConsent": "Veterinary AI is not classified as a medical device and does not claim regulatory approval. It is intended for educational and informational purposes to complement professional expertise.",
         "fifthConsent": "Veterinary AI does not collect, store, or process personal or patient data. All user interactions are confidential and limited to the scope of the app."
       },
@@ -309,17 +309,18 @@
           "firstOffering": "Access All Premium Features",
           "secondOffering": "Ad-Free Experience",
           "thirdOffering": "Unlimited analysis of veterinary images, videos, PDF scans + reports",
-          "fourthOffering": "Unlimited chats with 24/7 AI veterinary assistants"
+          "fourthOffering": "Unlimited chats with 24/7 AI veterinary assistants",
+          "renewalInfo": "*Your subscription will be charged to your {{store}} account and renews automatically unless canceled at least 24 hours before the end of the current subscription period. You can manage or cancel anytime in your account settings. The subscription will renew at the same price and plan you selected unless you change or cancel it."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Your AI-Powered Veterinary Study Companion",
+          "title": "Your AI-Powered Veterinary & Study Companion",
           "subtitle": "Explore veterinary concepts with clear, AI-generated educational insights"
         },
         "secondOnboarding": {
           "title": "Ask, Learn, Study Veterinary Topics",
-          "subtitle": "Discover simplified explanations on animal behavior, anatomy, and general veterinary concepts."
+          "subtitle": "Discover simplified explanations on animal behavior, breed, anatomy, and general veterinary concepts."
         },
         "thirdOnboarding": {
           "title": "Your Privacy Matters",
@@ -353,6 +354,7 @@
     "app_name": "App Name",
     "citations": "Citations for medical information",
     "contactUs": "Contact us",
+    "cancelSubscription": "Cancel Subscription",
     "devMode": {
       "componentsLibrary": "UI library",
       "title": "Developer mode"

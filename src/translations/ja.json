@@ -9,11 +9,11 @@
     "close": "閉じる",
     "gallery": "ギャラリー",
     "files": "ファイル",
-    "seeAll": "すべて表示",
+    "seeAll": "すべて見る",
     "cancel": "キャンセル",
     "delete": "削除",
     "attention": "注意！",
-    "new": "新規",
+    "new": "新着",
     "activeSubscription": "サブスクリプション有効",
     "agreeingMessage": "続行することにより、以下に同意したものとみなされます",
     "and": "および",
@@ -21,9 +21,10 @@
     "chatbotPlaceholder": "何でも聞いてください...",
     "completedScans": "スキャン完了",
     "conversationHistory": "会話履歴",
-    "medicalAssistants": "医療アシスタント",
+    "medicalAssistants": "一般AI獣医アシスタント",
     "searchAssistant": "アシスタントを検索...",
     "analyzingMediaFilesPlaceholder": "メディアファイルを分析中...",
+    "mainDisclaimer": "このアプリは健康関連の測定、診断、治療アドバイスを提供することはありません。医療上の懸念がある場合は常に免許を持つ専門家に相談してください。",
     "copyText": {
       "copied": "コピーしました！",
       "copy": "リンクをコピー",
@@ -35,32 +36,32 @@
     "freeTrial": "無料トライアル",
     "loadingMessages": {
       "imageScanningLoading": {
-        "first": "医療画像をスキャンしています。しばらくお待ちください...",
-        "fourth": "もうすぐです。スキャンを終了しています...",
-        "second": "詳細を分析しています。しばらく時間がかかる場合があります...",
+        "first": "医療画像をスキャン中です。しばらくお待ちください...",
+        "fourth": "もうすぐです。スキャンを完了しています...",
+        "second": "詳細を分析中です。しばらく時間がかかる場合があります...",
         "third": "最良の結果を得るために精度を向上させています..."
       },
       "initialAppLoad": {
-        "first": "あなたに合わせたエクスペリエンスを読み込んでいます...",
-        "fourth": "もうすぐです。少々お待ちください...",
-        "second": "システムを同期しています...",
-        "third": "データを処理しています..."
+        "first": "あなたに合わせた体験を読み込み中...",
+        "fourth": "ほぼ完了です。あと少しだけ...",
+        "second": "システムを同期中...",
+        "third": "データを処理中..."
       },
       "loadingChatbot": {
-        "first": "Dr. Medがサポートの準備をしています...",
-        "second": "お待ちください！Dr. Medが回答を準備しています...",
-        "third": "考え中...あなたのアシスタントDr. Medが対応中です！"
+        "first": "獣医師がサポートの準備をしています...",
+        "second": "お待ちください！獣医師が回答を準備しています...",
+        "third": "考え中...あなたのアシスタントが対応しています！"
       }
     },
     "tabs": {
       "home": "ホーム",
       "chat": "チャット",
-      "aiDoctors": "AI医師",
+      "aiDoctors": "AIアシスタント",
       "settings": "設定"
     },
-    "medicalDisclaimer": "医療免責事項",
+    "medicalDisclaimer": "獣医学的免責事項",
     "next": "次へ",
-    "noPaymentNow": "今すぐの支払いはありません。いつでもキャンセル可能。",
+    "noPaymentNow": "今すぐ支払い不要。いつでもキャンセル可能。",
     "online": "オンライン",
     "openSettings": "設定を開く",
     "or": "または",
@@ -70,7 +71,7 @@
     "privacyPolicy": "プライバシーポリシー",
     "restorePurchase": "購入を復元",
     "termsOfUse": "利用規約",
-    "saveDiscount": "節約",
+    "saveDiscount": "お得",
     "seeNotifications": "通知を表示",
     "share": "共有",
     "shareLink": "リンクを共有",
@@ -85,7 +86,7 @@
     "upgradePlan": "プランをアップグレード",
     "viewProfile": "プロフィールを表示",
     "yes": "はい",
-    "chatBotPlaceholder": "こんにちは 👋 {{topic}} に興味がありますか？一緒に学んで探っていきましょう — 何でも聞いてください！"
+    "chatBotPlaceholder": "こんにちは 👋 {{topic}}について知りたいですか？探求し、さらに学ぶお手伝いをします — 何でも聞いてください！"
   },
   "weekDays": {
     "today": "今日",
@@ -93,9 +94,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "X線、CT、MRI、心電図など、さまざまな医療スキャンからの分析を取得",
+      "first": "AIを活用した学習で獣医学の概念と動物に関するトピックを発見",
       "second": "すべてのプレミアム機能にアクセス",
-      "fourth": "24時間365日の医療AIアシスタントとの無制限チャット",
+      "fourth": "24時間365日のAI獣医アシスタントとの無制限チャット",
       "third": "広告なし"
     },
     "UpgradeBanner": {
@@ -103,122 +104,95 @@
       "subheading": "制限なくすべての特典をお楽しみください"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "医療画像分析",
-      "askMedicalAssistant": "医療AIアシスタントに質問",
+      "veterinaryImaging": "獣医学画像 / 品種",
+      "medicalImagesAnalyzer": "獣医学画像研究ラボ",
+      "askMedicalAssistant": "AIアシスタントに質問",
       "medicalAssistant": "医療アシスタント",
       "imageTypes": {
         "xray": "X線",
-        "ct": "CT",
+        "ct": "CTスキャン",
         "mri": "MRI",
         "ultrasound": "超音波",
         "ecg": "心電図",
         "skinLesion": "皮膚病変",
         "mammogram": "マンモグラフィ",
-        "retinalScan": "網膜スキャン",
+        "retinalScan": "網膜 / 眼スキャン",
         "bloodSmear": "血液塗抹",
         "dental": "歯科",
         "pet": "PET",
-        "dexa": "DEXA / 骨密度スキャン",
+        "dexa": "骨密度測定",
         "angiography": "血管造影",
-        "echo": "心エコー図（ECHO）",
-        "fluoroscopy": "透視"
+        "echo": "心エコー図",
+        "fluoroscopy": "透視検査"
       }
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "家庭医療",
-          "subtitle": "総合診療"
+        "veterinaryGeneralMedicine": {
+          "title": "獣医学入門",
+          "subtitle": "一般研究概要"
         },
-        "internalMedicine": {
-          "title": "内科"
+        "veterinaryInternalMedicine": {
+          "title": "内科学（学習ガイド）"
         },
-        "pediatrics": {
-          "title": "小児科"
+        "veterinaryDermatology": {
+          "title": "皮膚科学基礎（学習）"
         },
-        "dermatology": {
-          "title": "皮膚科"
+        "veterinaryCardiology": {
+          "title": "獣医心臓病学研究"
         },
-        "cardiology": {
-          "title": "循環器内科"
+        "veterinaryOrthopedics": {
+          "title": "整形外科と筋骨格系（研究）"
         },
-        "orthopedics": {
-          "title": "整形外科"
+        "veterinaryNeurology": {
+          "title": "神経学 – 学習"
         },
-        "psychiatry": {
-          "title": "精神科",
-          "subtitle": "メンタルヘルス"
+        "veterinaryOphthalmology": {
+          "title": "眼科学 – 学習ガイド"
         },
-        "obstetricsGynecology": {
-          "title": "産婦人科",
-          "subtitle": "OB/GYN"
+        "veterinaryDentistry": {
+          "title": "獣医歯科学基礎"
         },
-        "neurology": {
-          "title": "神経内科"
+        "veterinaryRadiology": {
+          "title": "放射線学と画像診断",
+          "subtitle": "画像診断概要"
         },
-        "ophthalmology": {
-          "title": "眼科"
+        "veterinaryOncology": {
+          "title": "腫瘍学 – 教育用"
         },
-        "otolaryngology": {
-          "title": "耳鼻咽喉科",
-          "subtitle": "ENT"
+        "veterinaryEndocrinology": {
+          "title": "内分泌学 – 研究トピック"
         },
-        "dentistry": {
-          "title": "歯科"
+        "veterinaryNephrologyUrology": {
+          "title": "腎臓学と泌尿器学（学習）"
         },
-        "radiology": {
-          "title": "放射線科",
-          "subtitle": "画像診断"
+        "veterinaryRespiratory": {
+          "title": "呼吸器医学概要"
         },
-        "oncology": {
-          "title": "腫瘍内科"
+        "veterinaryGastroenterology": {
+          "title": "消化器病学 – 学習ガイド"
         },
-        "endocrinology": {
-          "title": "内分泌内科"
+        "veterinaryImmunology": {
+          "title": "免疫学と感染症（研究）"
         },
-        "nephrology": {
-          "title": "腎臓内科"
+        "veterinaryHematology": {
+          "title": "血液学 – 学習"
         },
-        "pulmonology": {
-          "title": "呼吸器内科"
+        "veterinarySurgery": {
+          "title": "外科概念と研究"
         },
-        "gastroenterology": {
-          "title": "消化器内科"
+        "veterinaryAnesthesiology": {
+          "title": "麻酔学と疼痛管理（研究）"
         },
-        "allergyImmunology": {
-          "title": "アレルギー・免疫学"
+        "veterinaryRehabilitation": {
+          "title": "リハビリテーションと理学療法",
+          "subtitle": "教育ガイド"
         },
-        "hematology": {
-          "title": "血液内科"
+        "veterinaryExotics": {
+          "title": "エキゾチック動物と野生動物医学（概要）"
         },
-        "rheumatology": {
-          "title": "リウマチ科"
-        },
-        "urology": {
-          "title": "泌尿器科"
-        },
-        "emergencyMedicine": {
-          "title": "救急医学"
-        },
-        "surgery": {
-          "title": "外科"
-        },
-        "anesthesiology": {
-          "title": "麻酔科"
-        },
-        "rehabilitationMedicine": {
-          "title": "リハビリテーション医学",
-          "subtitle": "理学療法"
-        },
-        "geriatrics": {
-          "title": "老年医学"
-        },
-        "publicHealth": {
-          "title": "公衆衛生",
-          "subtitle": "予防医学"
-        },
-        "microscopy": {
-          "title": "顕微鏡検査"
+        "veterinaryLivestock": {
+          "title": "大型動物と家畜研究"
         }
       }
     },
@@ -231,39 +205,53 @@
   "rootLayout": {
     "screens": {
       "welcome": {
-        "accountButton": "既にアカウントをお持ちの方",
+        "accountButton": "すでにアカウントをお持ちの方",
         "heading": "Veterinary AIへようこそ！",
         "startButton": "始めましょう！"
       },
       "freeTrialPreview": {
         "heading": "無料トライアルをお楽しみください！🎉",
-        "review": "医療質問、放射線スキャン、学習にこのアプリを使用しています — 素晴らしいです！",
+        "review": "獣医学の質問、動物画像のスキャン、学習にこのアプリを使用しています — 素晴らしいです！",
         "reviewTrust": "📈 5,212人以上のユーザーに信頼されています"
       },
       "languageAnalysisModal": {
         "languagePreferenceQuestion": "AI分析にどの言語を希望しますか？",
         "languageSelection": "AI応答の言語を選択",
-        "languageSearchCriteria": "言語、国コード、または国旗で検索",
+        "languageSearchCriteria": "言語、国コード、またはフラグで検索",
         "noLanguageFound": "言語が見つかりません",
-        "noLanguageFoundSubtitle": "検索条件を変更してみてください"
+        "noLanguageFoundSubtitle": "検索語を変更してみてください"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "胸部X線写真は何を示していますか？",
-          "two": "心臓発作の一般的な症状は何ですか？",
-          "three": "自然に血圧を下げる方法は？",
-          "four": "MRIとCTスキャンの違いは何ですか？",
-          "five": "糖尿病の初期症状は何ですか？",
-          "six": "基本的な血液検査結果をどのように解釈しますか？",
-          "seven": "尿路感染症（UTI）の治療法は？",
-          "eight": "心エコー図の用途について説明できますか？",
-          "nine": "健康的な食事のガイドラインは？",
-          "ten": "高コレステロールの原因は？",
-          "eleven": "MRIで脳腫瘍はどのように検出されますか？",
-          "twelve": "家庭医療の役割は何ですか？",
-          "thirteen": "脳卒中の危険因子は何ですか？",
-          "fourteen": "不安やストレスをどのように管理しますか？",
-          "fifteen": "高血圧管理の最新ガイドラインは？"
+          "one": "胸部X線は動物の解剖学について何を学ぶのに役立ちますか？",
+          "two": "動物の心機能に関連する一般的な研究トピックは何ですか？",
+          "three": "異なる種における心血管の健康に影響する要因は何ですか？",
+          "four": "獣医学画像研究においてMRIとCT技術はどのように異なりますか？",
+          "five": "動物の代謝プロセスを理解するための重要な概念は何ですか？",
+          "six": "獣医学教育では基本的な血液検査パラメータをどのように解釈しますか？",
+          "eight": "心エコー図は心機能について何を説明するのに役立ちますか？",
+          "nine": "ペットのバランスの取れた栄養を導く原則は何ですか？",
+          "ten": "様々な動物種における脂質とコレステロール値に影響する要因は何ですか？",
+          "eleven": "画像診断は動物の神経構造を研究するためにどのように使用されますか？",
+          "twelve": "一般的な獣医学では通常どのようなトピックがカバーされますか？",
+          "thirteen": "脳卒中様状態の背後にある一般的な学術的概念は何ですか？",
+          "fourteen": "動物のストレスや不安関連行動をどのように認識できますか？",
+          "fifteen": "動物の血圧調節に関連して研究される要因は何ですか？",
+          "sixteen": "異なる犬種で一般的に研究される特性は何ですか？",
+          "seventeen": "猫種間で猫の行動はどのように異なりますか？",
+          "eighteen": "犬と猫の主な解剖学的違いは何ですか？",
+          "nineteen": "遺伝学は品種特有の特性にどのように影響しますか？",
+          "twenty": "動物の行動と学習に影響する環境要因は何ですか？",
+          "twentyOne": "野生動物種はどのように生態系に適応しますか？",
+          "twentyTwo": "繁殖と遺伝学の研究における一般的な原則は何ですか？",
+          "twentyThree": "家畜種における動物の社会行動はどのように研究されますか？",
+          "twentyFour": "ペット研究にはどのような基礎トピックが含まれますか？",
+          "twentyFive": "学生は動物の体況スコア評価にどのように取り組みますか？",
+          "twentySix": "若い動物の成長と発達に影響する要因は何ですか？",
+          "twentySeven": "環境エンリッチメントは動物の福祉を支援するためにどのように使用されますか？",
+          "twentyEight": "猫のケア研究で一般的に探求される主要な健康概念は何ですか？",
+          "twentyNine": "小型、中型、大型の犬種間で食事要件はどのように異なりますか？",
+          "thirty": "動物学と野生生物生物学は獣医学教育にどのように貢献しますか？"
         }
       },
       "notifications": {
@@ -272,13 +260,13 @@
       },
       "rateAppScreen": {
         "heading": "このアプリは価値があり魅力的だと思いますか？",
-        "like": "はい、気に入りました！",
+        "like": "はい、気に入っています！",
         "dislike": "気に入りません"
       },
       "profile": {
         "title": "プロフィール",
         "edit": "プロフィールを編集",
-        "placeholderPreferredName": "例：クールキャプテン、クイーンビー、または単にアレックス！"
+        "placeholderPreferredName": "例：キャプテン・クール、クイーン・ビー、または単にアレックス！"
       },
       "noInternetScreen": {
         "heading": "オフラインです",
@@ -286,21 +274,20 @@
       },
       "newAppVersionScreen": {
         "heading": "Veterinary AIの新しいバージョンが利用可能です",
-        "subheading": "すべてのアプリ機能を引き続きお楽しみいただくには、最新バージョンに更新してください — わずか5秒で完了します！",
+        "subheading": "すべてのアプリ機能を引き続き楽しむには最新バージョンに更新してください — わずか5秒です！",
         "action": "今すぐ入手！"
       },
       "disclaimerScreen": {
-        "heading": "重要な医療免責事項",
-        "subheading": "Veterinary AIは、放射線科専門家、医療専門家、医学生、愛好家向けに設計されています",
+        "heading": "重要な医学的免責事項",
+        "subheading": "Veterinary AIは放射線科専門家、医療専門家、医学生、愛好家向けに設計されています",
         "consentAgreement": "免責事項を読み、同意しました。",
-        "firstConsent": "Veterinary AIは健康測定や治療アドバイスを提供せず、そのような目的を意図したものではありません。Veterinary AIのユーザーは、臨床的判断を適用し、臨床的決定を行う前に信頼できる情報源から情報を検証する必要があります。",
-        "secondConsent": "Veterinary AIは診断ツール、治療プラットフォーム、または専門的な医療アドバイスの代替手段ではありません。医療専門家が医学的知識にアクセスし、医療画像や文書を分析するのを支援するためにAI生成の洞察を提供します。Veterinary AIは、主にライセンスを持つ医療専門家をサポートするために設計されたAI駆動の情報提供および教育アプリです。",
-        "thirdConsent": "Veterinary AIは患者使用向けに設計されていません。直接的な医学的診断、治療推奨、または患者管理機能を提供しません。",
+        "firstConsent": "Veterinary AIは健康測定や治療アドバイスを提供せず、そのような目的でもありません。Veterinary AIのユーザーは、臨床判断を適用し、権威あるソースからの情報を検証してから臨床決定を行う必要があります。",
+        "secondConsent": "Veterinary AIは診断ツール、治療プラットフォーム、または専門的な医療アドバイスの代わりではありません。これは獣医専門家を支援するAI生成の洞察を提供します。Veterinary AIは、免許を持つ獣医専門家をサポートするためのAI駆動の情報提供および教育アプリです。",
         "fourthConsent": "Veterinary AIは医療機器として分類されておらず、規制承認を主張しません。専門知識を補完するための教育および情報提供を目的としています。",
-        "fifthConsent": "Veterinary AIは個人または患者データを収集、保存、または処理しません。すべてのユーザーインタラクションは機密であり、アプリの範囲に限定されます。"
+        "fifthConsent": "Veterinary AIは個人データまたは患者データを収集、保存、処理しません。すべてのユーザーインタラクションは機密であり、アプリの範囲に限定されます。"
       },
       "contactUs": {
-        "heading": "直接メールでお問い合わせください。当社チームができるだけ早くご連絡いたします",
+        "heading": "お気軽に直接メールでお問い合わせください。当チームができるだけ早くご連絡いたします",
         "customerSupport": "カスタマーサポート",
         "emailAddress": "メールアドレス"
       },
@@ -309,8 +296,8 @@
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "結果が見つかりません — しかしご安心ください！",
-          "notFoundSubtitle": "別のキーワードを使用するか、AI医療アシスタントに直接お問い合わせください",
+          "notFoundTitle": "結果が見つかりません — しかしご心配なく！",
+          "notFoundSubtitle": "別のキーワードを使用するか、AI獣医アシスタントに直接お聞きください",
           "askAssistant": "医療アシスタントに質問"
         }
       },
@@ -320,30 +307,31 @@
           "heading": "無制限アクセス",
           "title": "プレミアム機能を今すぐロック解除！",
           "firstOffering": "すべてのプレミアム機能にアクセス",
-          "secondOffering": "広告なしエクスペリエンス",
-          "thirdOffering": "医療画像、動画、PDFスキャン＋レポートの無制限分析",
-          "fourthOffering": "24時間365日のAI医療アシスタントとの無制限チャット"
+          "secondOffering": "広告なし体験",
+          "thirdOffering": "獣医学画像、動画、PDFスキャン＋レポートの無制限分析",
+          "fourthOffering": "24時間365日のAI獣医アシスタントとの無制限チャット",
+          "renewalInfo": "*サブスクリプションは{{store}}アカウントに請求され、現在のサブスクリプション期間終了の少なくとも24時間前にキャンセルしない限り自動更新されます。アカウント設定でいつでも管理またはキャンセルできます。サブスクリプションは、変更またはキャンセルしない限り、選択した同じ価格とプランで更新されます。"
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "あなたのAI駆動ヘルスケアコンパニオン",
-          "subtitle": "専門AI医師からいつでもどこでも即時の医療インサイトとガイダンスを入手"
+          "title": "あなたのAI駆動の獣医＆学習コンパニオン",
+          "subtitle": "明確なAI生成の教育的洞察で獣医学の概念を探求"
         },
         "secondOnboarding": {
-          "title": "質問、アップロード、医療インサイトの取得",
-          "subtitle": "さまざまな専門分野のAI医師とチャットするか、医療画像をアップロードして迅速な医療分析を実行"
+          "title": "獣医学トピックを質問、学習、研究",
+          "subtitle": "動物の行動、品種、解剖学、一般的な獣医学概念について簡潔な説明を見つけましょう。"
         },
         "thirdOnboarding": {
           "title": "あなたのプライバシーが重要です",
-          "subtitle": "私たちはあなたのプライバシーを保護することにコミットしています。個人データを収集することはありません。アップロードしたファイルはすべて非公開のままで、共有されることはありません。"
+          "subtitle": "私たちはあなたのプライバシーを保護することに取り組んでいます。個人データを収集せず、アップロードしたファイルはすべて非公開で共有されることはありません。"
         }
       },
       "paywallUpgradeScreen": {
         "heading": "プレミアム機能を今すぐロック解除！",
         "firstOffering": {
           "title": "無料トライアルを開始",
-          "subtitle": "{{freeScans}}回の無料スキャンをお楽しみください – 支払いなし"
+          "subtitle": "{{freeScans}}回の無料スキャンをお楽しみください — 支払い不要"
         },
         "secondOffering": {
           "title": "月額プラン",
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} 年額"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}日間トライアル",
+          "title": "{{trialDays}}日間無料トライアル",
           "subtitle": "{{ price }} 年額",
           "plan": "週間プラン"
         }
@@ -366,6 +354,7 @@
     "app_name": "アプリ名",
     "citations": "医療情報の引用",
     "contactUs": "お問い合わせ",
+    "cancelSubscription": "サブスクリプションをキャンセル",
     "devMode": {
       "componentsLibrary": "UIライブラリ",
       "title": "開発者モード"
@@ -413,7 +402,7 @@
     },
     "links": "リンク",
     "logout": "ログアウト",
-    "more": "もっと",
+    "more": "その他",
     "privacy": "プライバシーポリシー",
     "profile": "プロフィール",
     "rate": "フィードバック",
@@ -439,9 +428,9 @@
     "errorTakingPicture": "写真の撮影中に問題が発生しました。もう一度お試しください。",
     "enableNotifications": {
       "heading": "通知を有効にする",
-      "subHeading": "通知は現在オフになっています。最新情報を入手するには、デバイスの設定で有効にしてください。"
+      "subHeading": "通知は現在オフになっています。最新情報を得るには、デバイス設定で有効にしてください。"
     },
-    "enableNotificationFailed": "プッシュ通知が無効になっています。重要な更新を受け取るには設定で有効にしてください！",
+    "enableNotificationFailed": "プッシュ通知が無効です。重要な更新を受け取るには設定で有効にしてください！",
     "enableNotificationError": "通知の有効化中にエラーが発生しました",
     "notificationDisabledSuccess": "通知が正常に無効化されました。",
     "notificationDisabledRegisterError": "通知のデバイス登録解除に失敗しました。",
@@ -456,7 +445,7 @@
     "validateAuthCodeError": "認証コードの検証中にエラーが発生しました",
     "anonymousSignInError": "匿名サインイン中にエラーが発生しました",
     "emailLoginError": "サインイン中にエラーが発生しました",
-    "preferredLanguageError": "ユーザーの優先言語の更新中にエラーが発生しました",
+    "preferredLanguageError": "ユーザーの希望言語の更新中にエラーが発生しました",
     "sharingNotAvailable": "共有は現在お使いのデバイスでは利用できません",
     "sharingLinkError": "リンクの共有に失敗しました。",
     "individualPushNotificationSuccess": "個別プッシュ通知が正常に送信されました！",
@@ -470,16 +459,16 @@
     "subscriptionActivated": "サブスクリプションが正常にアクティベートされました！限定特典をお楽しみください！",
     "subscriptionCancelledByUser": "取引をキャンセルしました。いつでも再試行してください！",
     "subscriptionActivationFailed": "サブスクリプションのアクティベートに失敗しました。もう一度お試しください",
-    "logoutQuestion": "ログアウトしますか？",
-    "noSubscriptionToRestore": "おっと！現在アクティブなサブスクリプションがないようです。フルアクセスを引き続きお楽しみいただくには、サブスクリプションプランのいずれかを選択してください。",
+    "logoutQuestion": "ログアウトしてもよろしいですか？",
+    "noSubscriptionToRestore": "おっと！現在有効なサブスクリプションがないようです。フルアクセスを続けるには、サブスクリプションプランのいずれかを選択してください。",
     "restorationSuccessful": "復元が成功しました！お楽しみください！",
     "restorationError": "購入の復元中にエラーが発生しました。",
-    "medicalDisclaimerAlert": "Veterinary AIアプリは医療相談の代わりにはなりません。一部の診断は情報提供/教育目的のみです。医療に関する推奨事項については、常に医師または認定専門家に相談してください。",
-    "scanLimitReached": "スキャン品質を最適化しています！約{{hours}}時間{{minutes}}分後に再スキャンできます。医療トピックについて質問がありますか？待機中にチャットアシスタントにお聞きください！",
-    "mixedMediaNotAllowed": "精度を高めるため、異なるメディアファイルを混在させてアップロードしないでください。画像、動画、またはPDFのみをアップロードしてください — すべて一緒にはしないでください。",
-    "multipleVideosNotAllowed": "精度を高めるため、一度に1つの動画のみアップロードしてください。",
+    "medicalDisclaimerAlert": "Veterinary AIアプリは医療相談の代わりにはなりません。一部の診断は情報提供/教育目的のみです。医療的な推奨事項については、常に医師または免許を持つ専門家に相談してください。",
+    "scanLimitReached": "スキャン品質を最適化しています！約{{hours}}時間{{minutes}}分後に再スキャンできます。医学的なトピックについて質問がありますか？待っている間にチャットアシスタントにお聞きください！",
+    "mixedMediaNotAllowed": "精度向上のため、異なるメディアファイルの混合をアップロードしないでください。画像、動画、またはPDFのみをアップロードしてください — すべて一緒にはしないでください。",
+    "multipleVideosNotAllowed": "精度向上のため、一度に1つの動画のみアップロードしてください。",
     "mediaFilesUploadFiles": "メディアファイルのアップロード中にエラーが発生しました。もう一度お試しください。",
-    "chatAndMediaFilesLimit": "ユーザーの皆様、無制限チャット、無制限スキャン、複数画像分析などの利点を得るには、プランをアップグレードする必要があります。🔓"
+    "chatAndMediaFilesLimit": "ユーザーの皆様、無制限チャット、無制限スキャン、複数画像分析などの恩恵を受けるにはプランのアップグレードが必要です。🔓"
   },
   "deleteApp": {
     "title": "待って！削除しないで！",

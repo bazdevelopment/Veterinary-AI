@@ -9,7 +9,7 @@
     "close": "Luk",
     "gallery": "Galleri",
     "files": "Filer",
-    "seeAll": "Se alt",
+    "seeAll": "Se alle",
     "cancel": "Annuller",
     "delete": "Slet",
     "attention": "Opmærksomhed!",
@@ -17,13 +17,14 @@
     "activeSubscription": "Abonnement aktivt",
     "agreeingMessage": "Ved at fortsætte accepterer du vores",
     "and": "og",
-    "askAssistant": "Spørg AI-assistenten",
-    "chatbotPlaceholder": "Spørg mig om noget...",
+    "askAssistant": "Spørg AI-assistent",
+    "chatbotPlaceholder": "Spørg mig om hvad som helst...",
     "completedScans": "Scanninger gennemført",
     "conversationHistory": "Samtalehistorik",
-    "medicalAssistants": "Medicinske Assistenter",
+    "medicalAssistants": "Generelle AI Dyrlægeassistenter",
     "searchAssistant": "Søg Assistent...",
     "analyzingMediaFilesPlaceholder": "Analyserer mediefiler...",
+    "mainDisclaimer": "Denne app giver aldrig sundhedsrelaterede målinger, diagnoser eller behandlingsråd. Konsulter altid en licenseret specialist for eventuelle medicinske bekymringer.",
     "copyText": {
       "copied": "Kopieret!",
       "copy": "Kopier link",
@@ -42,23 +43,23 @@
       },
       "initialAppLoad": {
         "first": "Indlæser din personlige oplevelse...",
-        "fourth": "Næsten klar, vent et øjeblik...",
+        "fourth": "Næsten klar, bare et øjeblik...",
         "second": "Synkroniserer systemer...",
         "third": "Behandler dine data..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med gør sig klar til at hjælpe dig...",
-        "second": "Vent venligst! Dr. Med forbereder dit svar...",
-        "third": "Tænker... din assistent Dr. Med er på sagen!"
+        "first": "Dr. Vet gør sig klar til at hjælpe dig...",
+        "second": "Hold fast! Dr. Vet forbereder dit svar...",
+        "third": "Tænker... din assistent Dr. Vet er på sagen!"
       }
     },
     "tabs": {
       "home": "Hjem",
       "chat": "Chat",
-      "aiDoctors": "AI Læger",
+      "aiDoctors": "AI Assistenter",
       "settings": "Indstillinger"
     },
-    "medicalDisclaimer": "Medicinsk ansvarsfraskrivelse",
+    "medicalDisclaimer": "Dyrlægeansvarsfraskrivelse",
     "next": "Næste",
     "noPaymentNow": "Ingen betaling nu. Annuller når som helst.",
     "online": "Online",
@@ -67,9 +68,9 @@
     "perMonth": "pr. måned",
     "perWeek": "pr. uge",
     "perYear": "pr. år",
-    "privacyPolicy": "Fortrolighedspolitik",
+    "privacyPolicy": "Privatlivspolitik",
     "restorePurchase": "Gendan køb",
-    "termsOfUse": "Brugsvilkår",
+    "termsOfUse": "Brugsbetingelser",
     "saveDiscount": "SPAR",
     "seeNotifications": "Se notifikationer",
     "share": "Del",
@@ -85,7 +86,7 @@
     "upgradePlan": "Opgrader plan",
     "viewProfile": "Se profil",
     "yes": "Ja",
-    "chatBotPlaceholder": "Hej 👋 Nysgerrig på {{topic}}? Jeg er her for at hjælpe dig med at udforske og lære mere — spørg mig om hvad som helst!"
+    "chatBotPlaceholder": "Hej der 👋 Nysgerrig på {{topic}}? Jeg er her for at hjælpe dig med at udforske og lære mere — spørg mig om hvad som helst!"
   },
   "weekDays": {
     "today": "I dag",
@@ -93,9 +94,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Få analyse fra forskellige medicinske scanninger, herunder RØNTGEN, CT, MRI, EKG og mere",
+      "first": "Opdag dyrlægekoncepter og dyreemner gennem AI-drevet læring",
       "second": "Adgang til alle premium-funktioner",
-      "fourth": "Ubegrænset chat med 24/7 medicinske AI-assistenter",
+      "fourth": "Ubegrænset chat med 24/7 dyrlæge AI-assistenter",
       "third": "Ingen reklamer"
     },
     "UpgradeBanner": {
@@ -103,18 +104,19 @@
       "subheading": "Nyd alle fordele uden begrænsninger"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Medicinsk Billedanalyse",
-      "askMedicalAssistant": "Spørg Medicinsk AI-assistent",
-      "medicalAssistant": "Medicinsk Assistent",
+      "veterinaryImaging": "Veterinær billeddiagnostik / Race",
+      "medicalImagesAnalyzer": "Veterinær Billeddiagnostik Studie Laboratorium",
+      "askMedicalAssistant": "Spørg AI-assistent",
+      "medicalAssistant": "Medicinsk assistent",
       "imageTypes": {
         "xray": "Røntgen",
-        "ct": "CT",
-        "mri": "MRI",
+        "ct": "CT-scanning",
+        "mri": "MR-scanning",
         "ultrasound": "Ultralyd",
         "ecg": "EKG",
         "skinLesion": "Hudlæsion",
         "mammogram": "Mammografi",
-        "retinalScan": "Nethindescanning",
+        "retinalScan": "Nethinde / Øje-scanning",
         "bloodSmear": "Blodudstryg",
         "dental": "Tand",
         "pet": "PET",
@@ -126,99 +128,71 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Almen Medicin",
-          "subtitle": "Almen praksis"
+        "veterinaryGeneralMedicine": {
+          "title": "Intro til Veterinær",
+          "subtitle": "Generel Studieoversigt"
         },
-        "internalMedicine": {
-          "title": "Intern Medicin"
+        "veterinaryInternalMedicine": {
+          "title": "Intern Medicin (Studieguide)"
         },
-        "pediatrics": {
-          "title": "Pædiatri"
+        "veterinaryDermatology": {
+          "title": "Dermatologi Grundlæggende (Læring)"
         },
-        "dermatology": {
-          "title": "Dermatologi"
+        "veterinaryCardiology": {
+          "title": "Dyrlæge Kardiologi Studie"
         },
-        "cardiology": {
-          "title": "Kardiologi"
+        "veterinaryOrthopedics": {
+          "title": "Ortopædi & Muskuloskeletal (Studie)"
         },
-        "orthopedics": {
-          "title": "Ortopædkirurgi"
+        "veterinaryNeurology": {
+          "title": "Neurologi – Læring"
         },
-        "psychiatry": {
-          "title": "Psykiatri",
-          "subtitle": "Mental sundhed"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmologi – Studieguide"
         },
-        "obstetricsGynecology": {
-          "title": "Obstetrik & Gynækologi",
-          "subtitle": "OB/GYN"
+        "veterinaryDentistry": {
+          "title": "Veterinær Tandpleje Grundlæggende"
         },
-        "neurology": {
-          "title": "Neurologi"
+        "veterinaryRadiology": {
+          "title": "Radiologi & Billeddiagnostik",
+          "subtitle": "Billeddiagnostik Oversigt"
         },
-        "ophthalmology": {
-          "title": "Oftalmologi"
+        "veterinaryOncology": {
+          "title": "Onkologi – Uddannelsesmæssig"
         },
-        "otolaryngology": {
-          "title": "Otolaryngologi",
-          "subtitle": "Øre-næse-hals"
+        "veterinaryEndocrinology": {
+          "title": "Endokrinologi – Studieemner"
         },
-        "dentistry": {
-          "title": "Tandlægevidenskab"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefrologi & Urologi (Læring)"
         },
-        "radiology": {
-          "title": "Radiologi",
-          "subtitle": "Billeddiagnostik"
+        "veterinaryRespiratory": {
+          "title": "Respiratorisk Medicin Oversigt"
         },
-        "oncology": {
-          "title": "Onkologi"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterologi – Studieguide"
         },
-        "endocrinology": {
-          "title": "Endokrinologi"
+        "veterinaryImmunology": {
+          "title": "Immunologi & Infektionssygdomme (Studie)"
         },
-        "nephrology": {
-          "title": "Nefrologi"
+        "veterinaryHematology": {
+          "title": "Hematologi – Læring"
         },
-        "pulmonology": {
-          "title": "Pulmonologi"
+        "veterinarySurgery": {
+          "title": "Kirurgi Koncepter & Studie"
         },
-        "gastroenterology": {
-          "title": "Gastroenterologi"
+        "veterinaryAnesthesiology": {
+          "title": "Anæstesiologi & Smertebehandling (Studie)"
         },
-        "allergyImmunology": {
-          "title": "Allergi & Immunologi"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitering & Fysioterapi",
+          "subtitle": "Uddannelsesguide"
         },
-        "hematology": {
-          "title": "Hæmatologi"
+        "veterinaryExotics": {
+          "title": "Eksotiske & Vildtmedicin (Oversigt)"
         },
-        "rheumatology": {
-          "title": "Reumatologi"
-        },
-        "urology": {
-          "title": "Urologi"
-        },
-        "emergencyMedicine": {
-          "title": "Akutmedicin"
-        },
-        "surgery": {
-          "title": "Kirurgi"
-        },
-        "anesthesiology": {
-          "title": "Anæstesiologi"
-        },
-        "rehabilitationMedicine": {
-          "title": "Rehabiliteringsmedicin",
-          "subtitle": "Fysioterapi"
-        },
-        "geriatrics": {
-          "title": "Geriatri"
-        },
-        "publicHealth": {
-          "title": "Folkesundhed",
-          "subtitle": "Forebyggende medicin"
-        },
-        "microscopy": {
-          "title": "Mikroskopi"
+        "veterinaryLivestock": {
+          "title": "Store Dyr & Kvægstudier"
         }
       }
     },
@@ -237,7 +211,7 @@
       },
       "freeTrialPreview": {
         "heading": "Nyd din gratis prøveperiode! 🎉",
-        "review": "Jeg bruger denne app til medicinske spørgsmål, røntgenscanninger og studier — den er fantastisk!",
+        "review": "Jeg bruger denne app til dyrlægespørgsmål, dyrebillede-scanninger og studier — den er fantastisk!",
         "reviewTrust": "📈 Stolt brugt af 5.212+ brugere"
       },
       "languageAnalysisModal": {
@@ -245,25 +219,39 @@
         "languageSelection": "Vælg et sprog til AI-svar",
         "languageSearchCriteria": "Søg efter sprog, landekode eller flag",
         "noLanguageFound": "Intet sprog fundet",
-        "noLanguageFoundSubtitle": "Prøv at ændre dine søgekriterier"
+        "noLanguageFoundSubtitle": "Prøv at ændre dine søgeord"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Hvad viser et bryst-røntgenbillede?",
-          "two": "Hvad er de almindelige symptomer på et hjerteanfald?",
-          "three": "Hvordan kan jeg sænke mit blodtryk naturligt?",
-          "four": "Hvad er forskellen mellem en MRI og en CT-scanning?",
-          "five": "Hvad er de tidlige tegn på diabetes?",
-          "six": "Hvordan fortolker jeg mine grundlæggende blodprøveresultater?",
-          "seven": "Hvad er behandlingen for en urinvejsinfektion (UTI)?",
-          "eight": "Kan du forklare, hvad en ekkokardiografi bruges til?",
-          "nine": "Hvad er retningslinjerne for en sund diæt?",
-          "ten": "Hvad forårsager højt kolesterol?",
-          "eleven": "Hvordan opdages en hjernesvulst på en MRI?",
-          "twelve": "Hvad er rollen for almen medicin?",
-          "thirteen": "Hvad er risikofaktorerne for et slagtilfælde?",
-          "fourteen": "Hvordan håndteres angst og stress?",
-          "fifteen": "Hvad er de seneste retningslinjer for håndtering af hypertension?"
+          "one": "Hvad kan bryst-røntgenbilleder hjælpe med at lære om dyreanatomi?",
+          "two": "Hvad er almindelige studieemner relateret til hjertefunktion hos dyr?",
+          "three": "Hvilke faktorer påvirker kardiovaskulær sundhed hos forskellige arter?",
+          "four": "Hvordan adskiller MRI- og CT-teknologier sig i veterinær billeddiagnostik studier?",
+          "five": "Hvad er nøglekoncepter i forståelsen af metaboliske processer hos dyr?",
+          "six": "Hvordan fortolkes grundlæggende blodprøveparametre i veterinær uddannelse?",
+          "eight": "Hvad hjælper et ekkokardiogram med at illustrere om hjertefunktion?",
+          "nine": "Hvilke principper styrer balanced ernæring for kæledyr?",
+          "ten": "Hvad påvirker lipid- og kolesterolniveauer hos forskellige dyrearter?",
+          "eleven": "Hvordan bruges billeddiagnostik til at studere neurologiske strukturer hos dyr?",
+          "twelve": "Hvilke emner dækkes typisk i generel veterinærmedicin?",
+          "thirteen": "Hvad er almindelige akademiske koncepter bag slagtilfælde-lignende tilstande?",
+          "fourteen": "Hvordan kan stress- eller angstrelaterede adfærdsmønstre genkendes hos dyr?",
+          "fifteen": "Hvilke faktorer studeres i forhold til blodtryksregulering hos dyr?",
+          "sixteen": "Hvilke træk studeres almindeligvis hos forskellige hunderacer?",
+          "seventeen": "Hvordan varierer katteadfærd blandt katteracer?",
+          "eighteen": "Hvad er de vigtigste anatomiske forskelle mellem hunde og katte?",
+          "nineteen": "Hvordan påvirker genetik racspecifikke karakteristika?",
+          "twenty": "Hvilke miljømæssige faktorer påvirker dyreadfærd og læring?",
+          "twentyOne": "Hvordan tilpasser vildtlevende arter sig deres økosystemer?",
+          "twentyTwo": "Hvad er almindelige principper i avls- og genetikstudier?",
+          "twentyThree": "Hvordan studeres dyrs sociale adfærd i domesticerede arter?",
+          "twentyFour": "Hvilke grundlæggende emner er inkluderet i kæledyrsstudier?",
+          "twentyFive": "Hvordan tilgår studerende evaluering af dyrenes kropsform?",
+          "twentySix": "Hvilke faktorer påvirker vækst og udvikling hos unge dyr?",
+          "twentySeven": "Hvordan bruges berigelse til at støtte dyrevelfærd?",
+          "twentyEight": "Hvilke større sundhedskoncepter udforskes almindeligvis i katteplejestudier?",
+          "twentyNine": "Hvordan adskiller ernæringsbehov sig blandt små, mellemstore og store hunderacer?",
+          "thirty": "Hvordan bidrager zoologi og vildtbiologi til veterinær uddannelse?"
         }
       },
       "notifications": {
@@ -271,7 +259,7 @@
         "noNotifications": "Ingen notifikationer for nu — hold øje med opdateringer!"
       },
       "rateAppScreen": {
-        "heading": "Synes du, at appen er værdifuld og engagerende?",
+        "heading": "Finder du appen værdifuld og engagerende?",
         "like": "Ja, jeg kan lide den!",
         "dislike": "Jeg kan ikke lide den"
       },
@@ -293,25 +281,24 @@
         "heading": "Vigtig medicinsk ansvarsfraskrivelse",
         "subheading": "Veterinary AI er designet til radiologiprofessionelle, sundhedseksperter, medicinstuderende og entusiaster",
         "consentAgreement": "Jeg har læst og accepterer ansvarsfraskrivelsen.",
-        "firstConsent": "Veterinary AI yder ikke sundhedsmålinger eller behandlingsrådgivning, og er ikke beregnet til sådanne formål. Brugere af Veterinary AI skal anvende deres kliniske dømmekraft og verificere information fra autoritative kilder, før de træffer kliniske beslutninger.",
-        "secondConsent": "Veterinary AI er ikke et diagnostisk værktøj, behandlingsplatform eller erstatning for professionel medicinsk rådgivning. Den tilbyder AI-genererede indsigter for at hjælpe sundhedsprofessionelle med at få adgang til medicinsk viden og analysere medicinske billeder og dokumenter. Veterinary AI er en AI-drevet informations- og uddannelsesapp designet til at støtte autoriserede sundhedsprofessionelle.",
-        "thirdConsent": "Veterinary AI er ikke designet til patientbrug. Den giver ikke direkte medicinske diagnoser, behandlingsanbefalinger eller patienthåndteringsfunktionaliteter.",
-        "fourthConsent": "Veterinary AI er ikke klassificeret som et medicinsk udstyr og gør ikke krav på regulatorisk godkendelse. Den er beregnet til uddannelsesmæssige og informationsformål for at komplementere professionel ekspertise.",
-        "fifthConsent": "Veterinary AI indsamler, lagrer eller behandler ikke personlige eller patientdata. Alle brugerinteraktioner er fortrolige og begrænset til appens anvendelsesområde."
+        "firstConsent": "Veterinary AI giver ikke sundhedsmålinger eller behandlingsråd, og er ikke beregnet til sådanne formål. Brugere af Veterinary AI skal anvende deres kliniske dømmekraft og verificere information fra autoritative kilder før de træffer kliniske beslutninger.",
+        "secondConsent": "Veterinary AI er ikke et diagnostisk værktøj, behandlingsplatform eller erstatning for professionel medicinsk rådgivning. Den tilbyder AI-genererede indsigter til at assistere veterinærprofessionelle. Veterinary AI er en AI-drevet informations- og uddannelsesapp designet til at støtte licenserede veterinærprofessionelle.",
+        "fourthConsent": "Veterinary AI er ikke klassificeret som et medicinsk device og gør ikke krav på regulatorisk godkendelse. Den er beregnet til uddannelsesmæssige og informationsformål for at komplementere professionel ekspertise.",
+        "fifthConsent": "Veterinary AI indsamler, lagrer eller behandler ikke personlige eller patientdata. Alle brugerinteraktioner er fortrolige og begrænset til appens omfang."
       },
       "contactUs": {
-        "heading": "Du er velkommen til at e-maile os direkte, og vores team vender tilbage til dig så hurtigt som muligt",
+        "heading": "Kontakt os gerne direkte på e-mail, og vores team vender tilbage til dig så hurtigt som muligt",
         "customerSupport": "Kundesupport",
         "emailAddress": "E-mailadresse"
       },
       "rate": {
-        "title": "Giv os en tilbagemelding!"
+        "title": "Giv os en feedback!"
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "Ingen resultater fundet — men rolig!",
-          "notFoundSubtitle": "Prøv at bruge andre søgeord, eller spørg vores AI-medicinske assistent direkte",
-          "askAssistant": "Spørg Medicinsk Assistent"
+          "notFoundTitle": "Ingen resultater fundet — men bare rolig!",
+          "notFoundSubtitle": "Prøv at bruge andre søgeord, eller spørg vores AI dyrlægeassistent direkte",
+          "askAssistant": "Spørg medicinsk assistent"
         }
       },
       "paywallOnboarding": {
@@ -321,22 +308,23 @@
           "title": "Lås premium-funktioner op i dag!",
           "firstOffering": "Adgang til alle premium-funktioner",
           "secondOffering": "Reklamefri oplevelse",
-          "thirdOffering": "Ubegrænset analyse af medicinske billeder, videoer, PDF-scanninger + rapporter",
-          "fourthOffering": "Ubegrænset chat med 24/7 AI-medicinske assistenter"
+          "thirdOffering": "Ubegrænset analyse af veterinære billeder, videoer, PDF-scanninger + rapporter",
+          "fourthOffering": "Ubegrænset chat med 24/7 AI dyrlægeassistenter",
+          "renewalInfo": "*Dit abonnement vil blive opkrævet på din {{store}}-konto og fornyes automatisk, medmindre det annulleres mindst 24 timer før udløbet af den nuværende abonnementsperiode. Du kan administrere eller annullere når som helst i dine kontoindstillinger. Abonnementet fornyes til samme pris og plan, du valgte, medmindre du ændrer eller annullerer det."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Din AI-drevne sundhedsassistent",
-          "subtitle": "Få øjeblikkelige medicinske indsigter og vejledning fra specialiserede AI-læger, når som helst, hvor som helst."
+          "title": "Din AI-drevne Veterinær & Studie Partner",
+          "subtitle": "Udforsk veterinærkoncepter med klare, AI-genererede uddannelsesmæssige indsigter"
         },
         "secondOnboarding": {
-          "title": "Spørg, upload og få medicinske indsigter",
-          "subtitle": "Chat med AI-læger fra forskellige specialer, eller upload medicinske billeder til hurtig medicinsk analyse."
+          "title": "Spørg, Lær, Studer Veterinære Emner",
+          "subtitle": "Opdag forenklede forklaringer om dyreadfærd, race, anatomi og generelle veterinærkoncepter."
         },
         "thirdOnboarding": {
-          "title": "Din privatliv betyder noget",
-          "subtitle": "Vi er forpligtede til at beskytte dit privatliv. Vi indsamler ikke personlige data. Alle filer, du uploader, forbliver private og deles aldrig."
+          "title": "Dit privatliv betyder noget",
+          "subtitle": "Vi er forpligtede til at beskytte dit privatliv. Vi indsamler ikke personlige data, og alle filer du uploader forbliver private og deles aldrig."
         }
       },
       "paywallUpgradeScreen": {
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} om året"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}-dages prøveperiode",
+          "title": "{{trialDays}}-dages gratis prøveperiode",
           "subtitle": "{{ price }} om året",
           "plan": "Ugentlig plan"
         }
@@ -364,8 +352,9 @@
   "settings": {
     "about": "Om",
     "app_name": "App-navn",
-    "citations": "Referencer til medicinsk information",
+    "citations": "Citationer for medicinsk information",
     "contactUs": "Kontakt os",
+    "cancelSubscription": "Annuller abonnement",
     "devMode": {
       "componentsLibrary": "UI-bibliotek",
       "title": "Udviklertilstand"
@@ -387,7 +376,7 @@
       "french_canada": "Fransk (Canada)",
       "german": "Tysk",
       "greek": "Græsk",
-      "hebrew": "Hebræisk",
+      "hebrew": "Hebraisk",
       "hindi": "Hindi",
       "hungarian": "Ungarsk",
       "indonesian": "Indonesisk",
@@ -414,9 +403,9 @@
     "links": "Links",
     "logout": "Log ud",
     "more": "Mere",
-    "privacy": "Fortrolighedspolitik",
+    "privacy": "Privatlivspolitik",
     "profile": "Profil",
-    "rate": "Tilbagemelding",
+    "rate": "Feedback",
     "share": "Del",
     "support": "Support",
     "support_us": "Støt os",
@@ -436,15 +425,15 @@
     "mediaPickerPermissions": "Beklager, vi har brug for kamera-tilladelser for at dette kan fungere!",
     "errorSelectingImagePicker": "Noget gik galt under valg af billedet. Prøv venligst igen.",
     "errorSelectingDocumentPicker": "Noget gik galt under valg af dokumentet. Prøv venligst igen.",
-    "errorTakingPicture": "Noget gik galt under tagning af fotoet. Prøv venligst igen.",
+    "errorTakingPicture": "Noget gik galt under tagning af billedet. Prøv venligst igen.",
     "enableNotifications": {
       "heading": "Aktiver notifikationer",
-      "subHeading": "Notifikationer er i øjeblikket slået fra. For at holde dig opdateret, skal du aktivere dem i dine enhedsindstillinger."
+      "subHeading": "Notifikationer er i øjeblikket slået fra. For at blive opdateret, skal du venligst aktivere dem i dine enhedsindstillinger."
     },
-    "enableNotificationFailed": "Push-notifikationer er deaktiveret. Aktivér dem i indstillingerne for at modtage vigtige opdateringer!",
+    "enableNotificationFailed": "Push-notifikationer er deaktiveret. Aktivér dem i indstillinger for at modtage vigtige opdateringer!",
     "enableNotificationError": "Der opstod en fejl under aktivering af notifikationer",
     "notificationDisabledSuccess": "Notifikationer deaktiveret succesfuldt.",
-    "notificationDisabledRegisterError": "Kunne ikke fjerne enhedsregistrering for notifikationer.",
+    "notificationDisabledRegisterError": "Kunne ikke framelde enheden for notifikationer.",
     "notificationDisabledError": "Der opstod en fejl under deaktivering af notifikationer.",
     "checkNotificationStatusError": "Fejl under tjek af notifikationsstatus.",
     "projectIdNotFound": "Notifikationsprojekt-ID ikke fundet.",
@@ -452,37 +441,37 @@
     "videoSizeLarge": "Videoen er for stor! Filstørrelsen er {{fileSize}} MB, men grænsen er {{videoLimit}} MB.",
     "loggedInSuccess": "Logget ind succesfuldt",
     "loggedOutSuccess": "Du er logget ud succesfuldt!",
-    "sendVerificationCodeError": "Fejl under afsendelse af verifikationskode",
-    "validateAuthCodeError": "Fejl under validering af auth-kode",
-    "anonymousSignInError": "Fejl under anonym indlogning",
-    "emailLoginError": "Fejl under indlogning",
-    "preferredLanguageError": "Fejl under opdatering af brugerens foretrukne sprog",
+    "sendVerificationCodeError": "Fejl ved afsendelse af verifikationskode",
+    "validateAuthCodeError": "Fejl ved validering af auth-kode",
+    "anonymousSignInError": "Fejl ved anonym log ind",
+    "emailLoginError": "Fejl ved log ind",
+    "preferredLanguageError": "Fejl ved opdatering af brugerens foretrukne sprog",
     "sharingNotAvailable": "Deling er i øjeblikket ikke tilgængelig på din enhed",
     "sharingLinkError": "Kunne ikke dele link.",
     "individualPushNotificationSuccess": "Individuelle push-notifikationer sendt succesfuldt!",
     "globalPushNotificationSuccess": "Globale push-notifikationer sendt succesfuldt! 🌍🚀",
     "interpretationFieldsUpdateFail": "Kunne ikke opdatere fortolkningsfelter! ❌",
     "deleteScanReportFail": "Kan ikke slette scan-rapporten. Prøv venligst igen",
-    "onboardingUnsuccessful": "Introduktion mislykkedes. Prøv venligst igen",
-    "logoutUnsuccessful": "Logud mislykkedes. Prøv venligst igen",
+    "onboardingUnsuccessful": "Onboarding mislykkedes. Prøv venligst igen",
+    "logoutUnsuccessful": "Log ud mislykkedes. Prøv venligst igen",
     "deleteScanReportQuestion": "Er du sikker på, at du vil slette denne rapport permanent?",
     "videoLimitExceeds": "Din video overstiger {{videoSecondsLimit}}-sekunders grænsen. Trim den venligst og upload igen",
     "subscriptionActivated": "Dit abonnement er blevet aktiveret succesfuldt! Nyd dine eksklusive fordele!",
-    "subscriptionCancelledByUser": "Du har annulleret transaktionen. Du er velkommen til at prøve igen!",
+    "subscriptionCancelledByUser": "Du har annulleret transaktionen. Prøv venligst igen!",
     "subscriptionActivationFailed": "Kunne ikke aktivere dit abonnement. Prøv venligst igen",
     "logoutQuestion": "Er du sikker på, at du vil logge ud?",
-    "noSubscriptionToRestore": "Ups! Det ser ud til, at du ikke har et aktivt abonnement i øjeblikket. For at fortsætte med at nyde fuld adgang, skal du vælge en af vores abonnementsplaner.",
-    "restorationSuccessful": "Gendannelsen var succesfuld! God fornøjelse!",
+    "noSubscriptionToRestore": "Ups! Det ser ud til, at du ikke har et aktivt abonnement i øjeblikket. For at fortsætte med fuld adgang, vælg venligst en af vores abonnementsplaner.",
+    "restorationSuccessful": "Gendannelsen var succesfuld! Nyd!",
     "restorationError": "Der opstod en fejl under gendannelse af købet.",
-    "medicalDisclaimerAlert": "Veterinary AI-appen erstatter ikke medicinsk konsultation. Nogle diagnoser er kun til informations-/uddannelsesformål. For medicinske anbefalinger skal du altid konsultere en læge eller autoriseret specialist.",
+    "medicalDisclaimerAlert": "Veterinary AI-appen erstatter ikke medicinsk konsultation. Nogle diagnoser er kun til informations-/uddannelsesformål. For medicinsk anbefaling, konsulter altid en læge eller licenseret specialist.",
     "scanLimitReached": "Vi optimerer scanningskvaliteten for dig! Du vil kunne scanne igen om cirka {{hours}} timer og {{minutes}} minutter. Har du spørgsmål om et medicinsk emne? Spørg vores chat-assistent mens du venter!",
     "mixedMediaNotAllowed": "For bedre nøjagtighed, upload ikke en blanding af forskellige mediefiler. Upload venligst kun billeder, videoer eller pdf'er — ikke alle sammen.",
     "multipleVideosNotAllowed": "For bedre nøjagtighed, upload venligst kun én video ad gangen.",
     "mediaFilesUploadFiles": "Der opstod en fejl under upload af dine mediefiler. Prøv venligst igen.",
-    "chatAndMediaFilesLimit": "Kære bruger, du skal opgradere din plan for at drage fordel af ubegrænset chat, ubegrænsede scanninger, multi-billedeanalyse og mere. 🔓"
+    "chatAndMediaFilesLimit": "Kære bruger, du skal opgradere din plan for at drage fordel af ubegrænset chat, ubegrænsede scanninger, multi-billede analyse og mere. 🔓"
   },
   "deleteApp": {
-    "title": "Vent! Slet mig ikke!",
-    "subtitle": "Send en tilbagemelding i stedet"
+    "title": "Vent! Ikke slet mig!",
+    "subtitle": "Send en feedback i stedet"
   }
 }

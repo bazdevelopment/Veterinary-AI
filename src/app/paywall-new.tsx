@@ -142,21 +142,21 @@ const PricingCard = ({
             {title}
           </Text>
 
-          {/* {badge && (
+          {badge && (
             <View className="ml-3 rounded-lg bg-red-500 px-3 py-1">
-              <Text className="font-bold-poppins text-[13px] text-white">
+              <Text className="font-semibold-poppins text-[13px] text-white">
                 {badge}
               </Text>
             </View>
-          )} */}
+          )}
         </View>
 
         <View>
           {originalPrice && (
             <View className="mt-1 flex-row items-center">
-              {/* <Text className="mr-2 font-semibold-poppins text-lg text-gray-600 line-through">
+              <Text className="mr-2 font-semibold-poppins text-lg text-gray-600 line-through">
                 {originalPrice}
-              </Text> */}
+              </Text>
               <Text className="font-medium-poppins text-lg text-gray-900">
                 {price} {translate('general.perYear')}
               </Text>
@@ -372,10 +372,10 @@ const PaywallNew = () => {
             <View className="mb-2 items-center">
               {/* <FishIcon /> */}
               <Image
-                source={require('../assets/images/random/medical.png')}
+                source={require('../assets/images/random/vet-logo2.png')}
                 style={{
-                  width: 120,
-                  height: 120,
+                  width: 125,
+                  height: 125,
                 }}
               />
             </View>
@@ -427,9 +427,13 @@ const PaywallNew = () => {
                     isFree={true}
                   />
 
-                  {/* <Text className="ml-2 -top-2 text-center font-medium-poppins text-sm text-gray-900">
-                    {freeTrialEnabled ? translate('general.noPaymentNow') : ''}
-                  </Text> */}
+                  {freeTrialEnabled! && (
+                    <Text className="-top-2 ml-2 text-center font-medium-poppins text-sm text-gray-900">
+                      {freeTrialEnabled
+                        ? translate('general.noPaymentNow')
+                        : ''}
+                    </Text>
+                  )}
                 </>
               )}
             </View>
@@ -490,7 +494,10 @@ const PaywallNew = () => {
                 />
 
                 <Text className="mt-6 text-center text-sm text-charcoal-800">
-                  {`*Your subscription will be charged to your ${DEVICE_TYPE.IOS ? 'App Store' : 'Google Play account'} and renews automatically unless canceled at least 24 hours before the end of the current subscription period. You can manage or cancel your subscription anytime in your account settings. The subscription will renew at the same price and plan you selected unless you change or cancel it.`}
+                  {translate(
+                    'rootLayout.screens.paywallOnboarding.freeTierOfferings.renewalInfo',
+                    { store: DEVICE_TYPE.IOS ? 'App Store' : 'Google Play' }
+                  )}
                 </Text>
 
                 {/* <Text className="mx-4 text-base text-gray-400">•</Text>

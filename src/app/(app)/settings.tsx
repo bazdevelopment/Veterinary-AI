@@ -134,6 +134,16 @@ export default function Settings() {
               onPress={() => router.navigate('/citations')}
             />
             <Item
+              text="settings.cancelSubscription"
+              onPress={() =>
+                Linking.openURL(
+                  DEVICE_TYPE.IOS
+                    ? 'https://www.youtube.com/watch?v=MQkHY4DOdfw&ab_channel=AppleSupport'
+                    : 'https://www.youtube.com/watch?v=HzqAOJLSjbk&ab_channel=GuideRealm'
+                )
+              }
+            />
+            <Item
               text="settings.privacy"
               onPress={() =>
                 Linking.openURL('https://veterinaryai-privacy.netlify.app/')

@@ -30,10 +30,6 @@ const disclaimerTexts = [
     text: translate('rootLayout.screens.disclaimerScreen.fourthConsent'),
     className: 'mb-8 font-bold-poppins text-lg',
   },
-  // {
-  //   text: translate('rootLayout.screens.disclaimerScreen.thirdConsent'),
-  //   className: 'mb-8 text-base',
-  // },
 
   {
     text: translate('rootLayout.screens.disclaimerScreen.fifthConsent'),

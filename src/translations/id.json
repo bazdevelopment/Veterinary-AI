@@ -14,18 +14,19 @@
     "delete": "Hapus",
     "attention": "Perhatian!",
     "new": "Baru",
-    "activeSubscription": "Langganan aktif",
+    "activeSubscription": "Berlangganan aktif",
     "agreeingMessage": "Dengan melanjutkan, Anda menyetujui",
     "and": "dan",
-    "askAssistant": "Tanya asisten AI",
+    "askAssistant": "Tanya Asisten AI",
     "chatbotPlaceholder": "Tanya saya apa saja...",
     "completedScans": "Pemindaian selesai",
     "conversationHistory": "Riwayat percakapan",
-    "medicalAssistants": "Asisten Medis",
+    "medicalAssistants": "Asisten Veteriner AI Umum",
     "searchAssistant": "Cari Asisten...",
     "analyzingMediaFilesPlaceholder": "Menganalisis File Media...",
+    "mainDisclaimer": "Aplikasi ini tidak pernah memberikan pengukuran terkait kesehatan, diagnosis, atau saran perawatan. Selalu konsultasikan dengan spesialis berlisensi untuk masalah medis apa pun.",
     "copyText": {
-      "copied": "Tersalin!",
+      "copied": "Disalin!",
       "copy": "Salin Tautan",
       "loading": "Menyalin..."
     },
@@ -47,18 +48,18 @@
         "third": "Memproses data Anda..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med sedang bersiap untuk membantu Anda...",
-        "second": "Tunggu! Dr. Med sedang mempersiapkan respons Anda...",
-        "third": "Berpikir...asisten Anda Dr. Med sedang menanganinya!"
+        "first": "Dr. Vet sedang bersiap untuk membantu Anda...",
+        "second": "Tunggu! Dr. Vet sedang mempersiapkan respons Anda...",
+        "third": "Berpikir... asisten Anda Dr. Vet sedang menanganinya!"
       }
     },
     "tabs": {
       "home": "Beranda",
       "chat": "Chat",
-      "aiDoctors": "Dokter AI",
+      "aiDoctors": "Asisten AI",
       "settings": "Pengaturan"
     },
-    "medicalDisclaimer": "Penyangkalan Medis",
+    "medicalDisclaimer": "Penyangkalan Veteriner",
     "next": "Berikutnya",
     "noPaymentNow": "Tidak Ada Pembayaran Sekarang. Batal kapan saja.",
     "online": "Online",
@@ -85,7 +86,7 @@
     "upgradePlan": "Tingkatkan Paket",
     "viewProfile": "Lihat Profil",
     "yes": "Ya",
-    "chatBotPlaceholder": "Hai 👋 Penasaran tentang {{topic}}? Saya di sini untuk membantu kamu mengeksplorasi dan belajar lebih banyak — tanya apa saja!"
+    "chatBotPlaceholder": "Hai 👋 Penasaran dengan {{topic}}? Saya di sini untuk membantu Anda menjelajahi dan belajar lebih banyak — tanya saya apa saja!"
   },
   "weekDays": {
     "today": "Hari Ini",
@@ -93,28 +94,29 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Dapatkan analisis dari berbagai pemindaian medis, termasuk X-RAY, CT, MRI, EKG dan lainnya",
+      "first": "Temukan konsep veteriner dan topik hewan melalui pembelajaran berbasis AI",
       "second": "Akses ke semua fitur premium",
-      "fourth": "Obrolan tak terbatas dengan asisten medis AI 24/7",
-      "third": "Tidak ada iklan"
+      "fourth": "Chat tak terbatas dengan asisten veteriner AI 24/7",
+      "third": "Tanpa iklan"
     },
     "UpgradeBanner": {
       "heading": "Buka Sekarang",
       "subheading": "Nikmati semua manfaat tanpa batasan"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Analisis Gambar Medis",
-      "askMedicalAssistant": "Tanya Asisten Medis AI",
+      "veterinaryImaging": "Pencitraan Veteriner / Ras",
+      "medicalImagesAnalyzer": "Lab Studi Pencitraan Veteriner",
+      "askMedicalAssistant": "Tanya Asisten AI",
       "medicalAssistant": "Asisten Medis",
       "imageTypes": {
         "xray": "X-Ray",
-        "ct": "CT",
+        "ct": "CT Scan",
         "mri": "MRI",
         "ultrasound": "Ultrasonografi",
         "ecg": "EKG",
         "skinLesion": "Lesi Kulit",
-        "mammogram": "Mamogram",
-        "retinalScan": "Pemindaian Retina",
+        "mammogram": "Mammogram",
+        "retinalScan": "Pemindaian Retina / Mata",
         "bloodSmear": "Apusan Darah",
         "dental": "Gigi",
         "pet": "PET",
@@ -126,104 +128,76 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Kedokteran Keluarga",
-          "subtitle": "Praktik Umum"
+        "veterinaryGeneralMedicine": {
+          "title": "Pengantar Veteriner",
+          "subtitle": "Ikhtisar Studi Umum"
         },
-        "internalMedicine": {
-          "title": "Penyakit Dalam"
+        "veterinaryInternalMedicine": {
+          "title": "Penyakit Dalam (Panduan Belajar)"
         },
-        "pediatrics": {
-          "title": "Ilmu Kesehatan Anak"
+        "veterinaryDermatology": {
+          "title": "Dasar-Dasar Dermatologi (Pembelajaran)"
         },
-        "dermatology": {
-          "title": "Dermatologi"
+        "veterinaryCardiology": {
+          "title": "Studi Kardiologi Veteriner"
         },
-        "cardiology": {
-          "title": "Kardiologi"
+        "veterinaryOrthopedics": {
+          "title": "Orthopedi & Muskuloskeletal (Studi)"
         },
-        "orthopedics": {
-          "title": "Orthopedi"
+        "veterinaryNeurology": {
+          "title": "Neurologi – Pembelajaran"
         },
-        "psychiatry": {
-          "title": "Psikiatri",
-          "subtitle": "Kesehatan Mental"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmologi – Panduan Belajar"
         },
-        "obstetricsGynecology": {
-          "title": "Kebidanan & Ginekologi",
-          "subtitle": "OB/GYN"
+        "veterinaryDentistry": {
+          "title": "Dasar-Dasar Kedokteran Gigi Veteriner"
         },
-        "neurology": {
-          "title": "Neurologi"
+        "veterinaryRadiology": {
+          "title": "Radiologi & Pencitraan",
+          "subtitle": "Ikhtisar Pencitraan"
         },
-        "ophthalmology": {
-          "title": "Oftalmologi"
+        "veterinaryOncology": {
+          "title": "Onkologi – Edukasional"
         },
-        "otolaryngology": {
-          "title": "Otolaringologi",
-          "subtitle": "THT"
+        "veterinaryEndocrinology": {
+          "title": "Endokrinologi – Topik Studi"
         },
-        "dentistry": {
-          "title": "Kedokteran Gigi"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefrologi & Urologi (Pembelajaran)"
         },
-        "radiology": {
-          "title": "Radiologi",
-          "subtitle": "Pencitraan"
+        "veterinaryRespiratory": {
+          "title": "Ikhtisar Penyakit Pernapasan"
         },
-        "oncology": {
-          "title": "Onkologi"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterologi – Panduan Belajar"
         },
-        "endocrinology": {
-          "title": "Endokrinologi"
+        "veterinaryImmunology": {
+          "title": "Imunologi & Penyakit Menular (Studi)"
         },
-        "nephrology": {
-          "title": "Nefrologi"
+        "veterinaryHematology": {
+          "title": "Hematologi – Pembelajaran"
         },
-        "pulmonology": {
-          "title": "Pulmonologi"
+        "veterinarySurgery": {
+          "title": "Konsep & Studi Bedah"
         },
-        "gastroenterology": {
-          "title": "Gastroenterologi"
+        "veterinaryAnesthesiology": {
+          "title": "Anestesiologi & Manajemen Nyeri (Studi)"
         },
-        "allergyImmunology": {
-          "title": "Alergi & Imunologi"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitasi & Fisioterapi",
+          "subtitle": "Panduan Edukasional"
         },
-        "hematology": {
-          "title": "Hematologi"
+        "veterinaryExotics": {
+          "title": "Kedokteran Hewan Eksotis & Satwa Liar (Ikhtisar)"
         },
-        "rheumatology": {
-          "title": "Reumatologi"
-        },
-        "urology": {
-          "title": "Urologi"
-        },
-        "emergencyMedicine": {
-          "title": "Kedokteran Darurat"
-        },
-        "surgery": {
-          "title": "Bedah"
-        },
-        "anesthesiology": {
-          "title": "Anestesiologi"
-        },
-        "rehabilitationMedicine": {
-          "title": "Kedokteran Rehabilitasi",
-          "subtitle": "Fisioterapi"
-        },
-        "geriatrics": {
-          "title": "Geriatri"
-        },
-        "publicHealth": {
-          "title": "Kesehatan Masyarakat",
-          "subtitle": "Kedokteran Preventif"
-        },
-        "microscopy": {
-          "title": "Mikroskopi"
+        "veterinaryLivestock": {
+          "title": "Studi Hewan Besar & Ternak"
         }
       }
     },
     "ImagePickerModal": {
-      "photoLibrary": "Galeri Foto",
+      "photoLibrary": "Pustaka Foto",
       "takePhoto": "Ambil Foto",
       "chooseFile": "Pilih File"
     }
@@ -233,11 +207,11 @@
       "welcome": {
         "accountButton": "Saya sudah memiliki akun",
         "heading": "Selamat Datang di Veterinary AI!",
-        "startButton": "Mari kita mulai!"
+        "startButton": "Mari Mulai!"
       },
       "freeTrialPreview": {
         "heading": "Nikmati uji coba gratis Anda! 🎉",
-        "review": "Saya menggunakan aplikasi ini untuk pertanyaan medis, pemindaian radiologi, dan belajar — ini luar biasa!",
+        "review": "Saya menggunakan aplikasi ini untuk pertanyaan veteriner, pemindaian gambar hewan, dan belajar — ini luar biasa!",
         "reviewTrust": "📈 Dipercaya oleh 5.212+ pengguna"
       },
       "languageAnalysisModal": {
@@ -249,26 +223,40 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Apa yang ditunjukkan oleh rontgen dada?",
-          "two": "Apa gejala umum serangan jantung?",
-          "three": "Bagaimana cara menurunkan tekanan darah secara alami?",
-          "four": "Apa perbedaan antara MRI dan CT scan?",
-          "five": "Apa tanda-tanda awal diabetes?",
-          "six": "Bagaimana cara menafsirkan hasil tes darah dasar saya?",
-          "seven": "Apa pengobatan untuk infeksi saluran kemih (ISK)?",
-          "eight": "Bisakah Anda jelaskan untuk apa ekokardiogram digunakan?",
-          "nine": "Apa pedoman untuk diet sehat?",
-          "ten": "Apa penyebab kolesterol tinggi?",
-          "eleven": "Bagaimana tumor otak terdeteksi pada MRI?",
-          "twelve": "Apa peran kedokteran keluarga?",
-          "thirteen": "Apa faktor risiko stroke?",
-          "fourteen": "Bagaimana mengelola kecemasan dan stres?",
-          "fifteen": "Apa pedoman terbaru untuk mengelola hipertensi?"
+          "one": "Apa yang dapat dipelajari dari X-ray dada tentang anatomi hewan?",
+          "two": "Apa topik studi umum terkait fungsi jantung pada hewan?",
+          "three": "Faktor apa yang mempengaruhi kesehatan kardiovaskular pada spesies berbeda?",
+          "four": "Bagaimana teknologi MRI dan CT berbeda dalam studi pencitraan veteriner?",
+          "five": "Apa konsep kunci dalam memahami proses metabolisme pada hewan?",
+          "six": "Bagaimana parameter tes darah dasar diinterpretasikan dalam pendidikan veteriner?",
+          "eight": "Apa yang membantu diilustrasikan oleh ekokardiogram tentang fungsi jantung?",
+          "nine": "Prinsip apa yang memandu nutrisi seimbang untuk hewan peliharaan?",
+          "ten": "Apa yang mempengaruhi kadar lipid dan kolesterol pada berbagai spesies hewan?",
+          "eleven": "Bagaimana pencitraan digunakan untuk mempelajari struktur neurologis pada hewan?",
+          "twelve": "Topik apa yang biasanya dibahas dalam kedokteran veteriner umum?",
+          "thirteen": "Apa konsep akademis umum di balik kondisi seperti stroke?",
+          "fourteen": "Bagaimana perilaku terkait stres atau kecemasan dapat dikenali pada hewan?",
+          "fifteen": "Faktor apa yang dipelajari dalam kaitannya dengan regulasi tekanan darah pada hewan?",
+          "sixteen": "Sifat apa yang biasa dipelajari pada ras anjing yang berbeda?",
+          "seventeen": "Bagaimana perilaku kucing bervariasi di antara ras kucing?",
+          "eighteen": "Apa perbedaan anatomi utama antara anjing dan kucing?",
+          "nineteen": "Bagaimana genetika mempengaruhi karakteristik spesifik ras?",
+          "twenty": "Faktor lingkungan apa yang mempengaruhi perilaku dan pembelajaran hewan?",
+          "twentyOne": "Bagaimana spesies satwa liar beradaptasi dengan ekosistem mereka?",
+          "twentyTwo": "Apa prinsip umum dalam studi pemuliaan dan genetika?",
+          "twentyThree": "Bagaimana perilaku sosial hewan dipelajari pada spesies domestik?",
+          "twentyFour": "Topik dasar apa yang termasuk dalam studi hewan peliharaan?",
+          "twentyFive": "Bagaimana mahasiswa mendekati evaluasi skor kondisi tubuh hewan?",
+          "twentySix": "Faktor apa yang mempengaruhi pertumbuhan dan perkembangan pada hewan muda?",
+          "twentySeven": "Bagaimana pengayaan digunakan untuk mendukung kesejahteraan hewan?",
+          "twentyEight": "Konsep kesehatan utama apa yang biasa dieksplorasi dalam studi perawatan kucing?",
+          "twentyNine": "Bagaimana kebutuhan makanan berbeda antara ras anjing kecil, sedang, dan besar?",
+          "thirty": "Bagaimana zoologi dan biologi satwa liar berkontribusi pada pendidikan veteriner?"
         }
       },
       "notifications": {
         "title": "Notifikasi",
-        "noNotifications": "Tidak ada notifikasi untuk saat ini — pantau terus untuk pembaruan!"
+        "noNotifications": "Tidak ada notifikasi untuk saat ini — nantikan pembaruan!"
       },
       "rateAppScreen": {
         "heading": "Apakah Anda merasa aplikasi ini berharga dan menarik?",
@@ -278,11 +266,11 @@
       "profile": {
         "title": "Profil",
         "edit": "Edit Profil",
-        "placeholderPreferredName": "Mis. Kapten Keren, Ratu Lebah, atau hanya Alex!"
+        "placeholderPreferredName": "Misalnya, Kapten Keren, Ratu Lebah, atau hanya Alex!"
       },
       "noInternetScreen": {
         "heading": "Anda sedang offline",
-        "subheading": "Koneksi Anda tampak tidak stabil. Harap verifikasi status jaringan Anda"
+        "subheading": "Koneksi Anda tampaknya tidak stabil. Harap verifikasi status jaringan Anda"
       },
       "newAppVersionScreen": {
         "heading": "Versi baru Veterinary AI tersedia",
@@ -291,13 +279,12 @@
       },
       "disclaimerScreen": {
         "heading": "Penyangkalan Medis Penting",
-        "subheading": "Veterinary AI dirancang untuk profesional radiologi, pakar perawatan kesehatan, mahasiswa kedokteran, dan penggemar",
+        "subheading": "Veterinary AI dirancang untuk profesional radiologi, ahli kesehatan, mahasiswa kedokteran, dan penggemar",
         "consentAgreement": "Saya telah membaca dan menyetujui penyangkalan.",
-        "firstConsent": "Veterinary AI tidak memberikan pengukuran kesehatan atau saran pengobatan, dan tidak dimaksudkan untuk tujuan tersebut. Pengguna Veterinary AI harus menerapkan penilaian klinis mereka dan memverifikasi informasi dari sumber otoritatif sebelum membuat keputusan klinis.",
-        "secondConsent": "Veterinary AI bukan alat diagnostik, platform pengobatan, atau pengganti saran medis profesional. Ini menawarkan wawasan yang dihasilkan AI untuk membantu profesional perawatan kesehatan mengakses pengetahuan medis dan menganalisis gambar dan dokumen medis. Veterinary AI adalah aplikasi informasi dan edukasi berbasis AI yang dirancang lebih untuk mendukung profesional perawatan kesehatan berlisensi.",
-        "thirdConsent": "Veterinary AI tidak dirancang untuk penggunaan pasien. Ini tidak memberikan diagnosis medis langsung, rekomendasi perawatan, atau fungsionalitas manajemen pasien.",
-        "fourthConsent": "Veterinary AI tidak diklasifikasikan sebagai perangkat medis dan tidak mengklaim persetujuan peraturan. Ini dimaksudkan untuk tujuan pendidikan dan informasi untuk melengkapi keahlian profesional.",
-        "fifthConsent": "Veterinary AI tidak mengumpulkan, menyimpan, atau memproses data pribadi atau pasien. Semua interaksi pengguna bersifat rahasia dan terbatas pada ruang lingkup aplikasi."
+        "firstConsent": "Veterinary AI tidak memberikan pengukuran kesehatan atau saran perawatan, dan tidak dimaksudkan untuk tujuan tersebut. Pengguna Veterinary AI harus menerapkan penilaian klinis mereka dan memverifikasi informasi dari sumber otoritatif sebelum membuat keputusan klinis.",
+        "secondConsent": "Veterinary AI bukan alat diagnostik, platform perawatan, atau pengganti saran medis profesional. Ini menawarkan wawasan yang dihasilkan AI untuk membantu profesional veteriner. Veterinary AI adalah aplikasi informasi dan edukasi berbasis AI yang dirancang lebih untuk mendukung profesional veteriner berlisensi.",
+        "fourthConsent": "Veterinary AI tidak diklasifikasikan sebagai perangkat medis dan tidak mengklaim persetujuan regulatori. Ini dimaksudkan untuk tujuan edukasional dan informasional untuk melengkapi keahlian profesional.",
+        "fifthConsent": "Veterinary AI tidak mengumpulkan, menyimpan, atau memproses data pribadi atau data pasien. Semua interaksi pengguna bersifat rahasia dan terbatas pada ruang lingkup aplikasi."
       },
       "contactUs": {
         "heading": "Jangan ragu untuk mengirim email langsung kepada kami, dan tim kami akan menghubungi Anda sesegera mungkin",
@@ -310,7 +297,7 @@
       "doctorsScreen": {
         "searchResults": {
           "notFoundTitle": "Tidak Ada Hasil Ditemukan — Tapi Jangan Khawatir!",
-          "notFoundSubtitle": "Coba gunakan kata kunci yang berbeda, atau tanyakan langsung kepada asisten medis AI kami",
+          "notFoundSubtitle": "Coba gunakan kata kunci yang berbeda, atau tanyakan langsung asisten veteriner AI kami",
           "askAssistant": "Tanya Asisten Medis"
         }
       },
@@ -321,29 +308,30 @@
           "title": "Buka Fitur Premium Hari Ini!",
           "firstOffering": "Akses Semua Fitur Premium",
           "secondOffering": "Pengalaman Bebas Iklan",
-          "thirdOffering": "Analisis tak terbatas gambar medis, video, pemindaian PDF + laporan",
-          "fourthOffering": "Obrolan tak terbatas dengan asisten medis AI 24/7"
+          "thirdOffering": "Analisis tak terbatas gambar veteriner, video, pemindaian PDF + laporan",
+          "fourthOffering": "Chat tak terbatas dengan asisten veteriner AI 24/7",
+          "renewalInfo": "*Langganan Anda akan ditagih ke akun {{store}} Anda dan diperpanjang secara otomatis kecuali dibatalkan setidaknya 24 jam sebelum akhir periode langganan saat ini. Anda dapat mengelola atau membatalkan kapan saja di pengaturan akun Anda. Langganan akan diperpanjang dengan harga dan paket yang sama yang Anda pilih kecuali Anda mengubah atau membatalkannya."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Pendamping Kesehatan Berbasis AI Anda",
-          "subtitle": "Dapatkan wawasan medis instan dan panduan dari dokter AI khusus, kapan saja, di mana saja."
+          "title": "Rekomendasi Belajar & Veteriner Berbasis AI Anda",
+          "subtitle": "Jelajahi konsep veteriner dengan wawasan edukasional jelas yang dihasilkan AI"
         },
         "secondOnboarding": {
-          "title": "Tanya, Unggah, dan Dapatkan Wawasan Medis",
-          "subtitle": "Chat dengan dokter AI dari berbagai spesialisasi, atau unggah gambar medis untuk analisis medis cepat."
+          "title": "Tanya, Pelajari, Pelajari Topik Veteriner",
+          "subtitle": "Temukan penjelasan sederhana tentang perilaku hewan, ras, anatomi, dan konsep veteriner umum."
         },
         "thirdOnboarding": {
           "title": "Privasi Anda Penting",
-          "subtitle": "Kami berkomitmen untuk melindungi privasi Anda. Kami tidak mengumpulkan data pribadi. File apa pun yang Anda unggah tetap bersifat pribadi dan tidak pernah dibagikan."
+          "subtitle": "Kami berkomitmen melindungi privasi Anda. Kami tidak mengumpulkan data pribadi, dan file apa pun yang Anda unggah tetap pribadi dan tidak pernah dibagikan."
         }
       },
       "paywallUpgradeScreen": {
         "heading": "Buka Fitur Premium Hari Ini!",
         "firstOffering": {
           "title": "Mulai Uji Coba Gratis",
-          "subtitle": "Nikmati {{freeScans}} pemindaian gratis – tidak ada pembayaran"
+          "subtitle": "Nikmati {{freeScans}} pemindaian gratis – tanpa pembayaran"
         },
         "secondOffering": {
           "title": "Paket Bulanan",
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} per tahun"
         },
         "fourthOffering": {
-          "title": "Uji Coba {{trialDays}}-Hari",
+          "title": "Uji Coba Gratis {{trialDays}}-Hari",
           "subtitle": "{{ price }} per tahun",
           "plan": "Paket Mingguan"
         }
@@ -366,9 +354,10 @@
     "app_name": "Nama Aplikasi",
     "citations": "Kutipan untuk informasi medis",
     "contactUs": "Hubungi Kami",
+    "cancelSubscription": "Batalkan Langganan",
     "devMode": {
       "componentsLibrary": "Pustaka UI",
-      "title": "Mode pengembang"
+      "title": "Mode Pengembang"
     },
     "faq": "FAQ",
     "generale": "Umum",
@@ -433,18 +422,18 @@
     "website": "Situs Web"
   },
   "alerts": {
-    "mediaPickerPermissions": "Maaf, kami memerlukan izin kamera untuk membuat ini bekerja!",
-    "errorSelectingImagePicker": "Terjadi kesalahan saat memilih gambar. Silakan coba lagi.",
-    "errorSelectingDocumentPicker": "Terjadi kesalahan saat memilih dokumen. Silakan coba lagi.",
-    "errorTakingPicture": "Terjadi kesalahan saat mengambil foto. Silakan coba lagi.",
+    "mediaPickerPermissions": "Maaf, kami membutuhkan izin kamera untuk membuat ini bekerja!",
+    "errorSelectingImagePicker": "Ada yang salah saat memilih gambar. Silakan coba lagi.",
+    "errorSelectingDocumentPicker": "Ada yang salah saat memilih dokumen. Silakan coba lagi.",
+    "errorTakingPicture": "Ada yang salah saat mengambil foto. Silakan coba lagi.",
     "enableNotifications": {
       "heading": "Aktifkan Notifikasi",
-      "subHeading": "Notifikasi saat ini dimatikan. Untuk tetap diperbarui, harap aktifkan di pengaturan perangkat Anda."
+      "subHeading": "Notifikasi saat ini dimatikan. Untuk tetap terupdate, harap aktifkan di pengaturan perangkat Anda."
     },
     "enableNotificationFailed": "Notifikasi push dinonaktifkan. Aktifkan di pengaturan untuk menerima pembaruan penting!",
     "enableNotificationError": "Terjadi kesalahan saat mengaktifkan notifikasi",
     "notificationDisabledSuccess": "Notifikasi berhasil dinonaktifkan.",
-    "notificationDisabledRegisterError": "Gagal menghapus pendaftaran perangkat untuk notifikasi.",
+    "notificationDisabledRegisterError": "Gagal membatalkan pendaftaran perangkat untuk notifikasi.",
     "notificationDisabledError": "Terjadi kesalahan saat menonaktifkan notifikasi.",
     "checkNotificationStatusError": "Kesalahan memeriksa status notifikasi.",
     "projectIdNotFound": "ID proyek notifikasi tidak ditemukan.",
@@ -467,22 +456,22 @@
     "logoutUnsuccessful": "Keluar tidak berhasil. Silakan coba lagi",
     "deleteScanReportQuestion": "Apakah Anda yakin ingin menghapus laporan ini secara permanen?",
     "videoLimitExceeds": "Video Anda melebihi batas {{videoSecondsLimit}}-detik. Harap pangkas dan unggah ulang",
-    "subscriptionActivated": "Langganan Anda telah berhasil diaktifkan! Nikmati manfaat eksklusif Anda!",
+    "subscriptionActivated": "Langganan Anda berhasil diaktifkan! Nikmati manfaat eksklusif Anda!",
     "subscriptionCancelledByUser": "Anda telah membatalkan transaksi. Jangan ragu untuk mencoba lagi!",
     "subscriptionActivationFailed": "Gagal mengaktifkan langganan Anda. Silakan coba lagi",
     "logoutQuestion": "Apakah Anda yakin ingin keluar?",
-    "noSubscriptionToRestore": "Ups! Sepertinya Anda tidak memiliki langganan aktif saat ini. Untuk terus menikmati akses penuh, harap pilih salah satu paket langganan kami.",
+    "noSubscriptionToRestore": "Ups! Sepertinya Anda tidak memiliki langganan aktif saat ini. Untuk terus menikmati akses penuh, silakan pilih salah satu paket langganan kami.",
     "restorationSuccessful": "Pemulihan berhasil! Selamat menikmati!",
     "restorationError": "Terjadi kesalahan saat memulihkan pembelian.",
     "medicalDisclaimerAlert": "Aplikasi Veterinary AI tidak menggantikan konsultasi medis. Beberapa diagnosis hanya untuk tujuan informasi/edukasi. Untuk rekomendasi medis, selalu konsultasikan dengan dokter atau spesialis berlisensi.",
-    "scanLimitReached": "Kami mengoptimalkan kualitas pemindaian untuk Anda! Anda akan dapat memindai lagi dalam sekitar {{hours}} jam dan {{minutes}} menit. Ada pertanyaan tentang topik medis? Tanya asisten chat kami sambil menunggu!",
-    "mixedMediaNotAllowed": "Untuk akurasi yang lebih baik, jangan unggah campuran file media yang berbeda. Harap unggah hanya gambar, video, atau pdf — tidak semuanya bersama-sama.",
+    "scanLimitReached": "Kami mengoptimalkan kualitas pemindaian untuk Anda! Anda dapat memindai lagi dalam sekitar {{hours}} jam dan {{minutes}} menit. Ada pertanyaan tentang topik medis? Tanya asisten chat kami sambil menunggu!",
+    "mixedMediaNotAllowed": "Untuk akurasi yang lebih baik, jangan unggah campuran file media yang berbeda. Harap unggah hanya gambar, video, atau pdf — tidak semuanya sekaligus.",
     "multipleVideosNotAllowed": "Untuk akurasi yang lebih baik, harap unggah hanya satu video sekaligus.",
     "mediaFilesUploadFiles": "Terjadi kesalahan saat mengunggah file media Anda. Silakan coba lagi.",
-    "chatAndMediaFilesLimit": "Pengguna yang terhormat, Anda perlu meningkatkan paket Anda untuk mendapatkan manfaat dari obrolan tak terbatas, pemindaian tak terbatas, analisis multi-gambar, dan lainnya. 🔓"
+    "chatAndMediaFilesLimit": "Pengguna yang terhormat, Anda perlu meningkatkan paket Anda untuk mendapatkan manfaat dari chat tak terbatas, pemindaian tak terbatas, analisis multi-gambar, dan lainnya. 🔓"
   },
   "deleteApp": {
     "title": "Tunggu! Jangan hapus saya!",
-    "subtitle": "Berikan masukan saja"
+    "subtitle": "Kirim masukan saja"
   }
 }

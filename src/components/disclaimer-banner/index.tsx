@@ -1,6 +1,8 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import { translate } from '@/lib';
+
 import { Text } from '../ui';
 
 interface IDisclaimerBanner {
@@ -12,9 +14,7 @@ const DisclaimerBanner = ({ className }: IDisclaimerBanner) => {
     <View className={`bg-amber-50 p-4 dark:bg-amber-400 ${className}`}>
       <View className="gap-2">
         <Text className="font-medium-poppins text-sm text-amber-900 dark:text-black">
-          This app never provides health related measurements, diagnoses or
-          treatment advice. Always consult a licensed veterinarian for any
-          medical concerns.
+          {translate('general.mainDisclaimer')}
         </Text>
       </View>
     </View>

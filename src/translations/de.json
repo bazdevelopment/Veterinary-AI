@@ -15,15 +15,16 @@
     "attention": "Achtung!",
     "new": "Neu",
     "activeSubscription": "Abo aktiv",
-    "agreeingMessage": "Indem Sie fortfahren, stimmen Sie unseren",
+    "agreeingMessage": "Durch Fortfahren stimmen Sie unseren",
     "and": "und",
     "askAssistant": "KI-Assistenten fragen",
     "chatbotPlaceholder": "Fragen Sie mich alles...",
     "completedScans": "Scans abgeschlossen",
     "conversationHistory": "Konversationsverlauf",
-    "medicalAssistants": "Medizinische Assistenten",
+    "medicalAssistants": "Allgemeine tierärztliche KI-Assistenten",
     "searchAssistant": "Assistent suchen...",
     "analyzingMediaFilesPlaceholder": "Mediendateien werden analysiert...",
+    "mainDisclaimer": "Diese App bietet niemals gesundheitsbezogene Messungen, Diagnosen oder Behandlungsempfehlungen. Konsultieren Sie immer einen zugelassenen Spezialisten bei medizinischen Anliegen.",
     "copyText": {
       "copied": "Kopiert!",
       "copy": "Link kopieren",
@@ -35,10 +36,10 @@
     "freeTrial": "Kostenlose Testversion",
     "loadingMessages": {
       "imageScanningLoading": {
-        "first": "Ihre medizinischen Aufnahmen werden gescannt, bitte warten Sie...",
-        "fourth": "Fast fertig, Scan wird abgeschlossen...",
+        "first": "Ihre tierärztlichen Bildaufnahmen werden gescannt, bitte haben Sie einen Moment Geduld...",
+        "fourth": "Fast geschafft, Scan wird abgeschlossen...",
         "second": "Details werden analysiert, dies kann einen Moment dauern...",
-        "third": "Genauigkeit wird für beste Ergebnisse verbessert..."
+        "third": "Genauigkeit wird für die besten Ergebnisse verbessert..."
       },
       "initialAppLoad": {
         "first": "Ihre personalisierte Erfahrung wird geladen...",
@@ -47,18 +48,18 @@
         "third": "Ihre Daten werden verarbeitet..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med bereitet sich vor, um Ihnen zu helfen...",
-        "second": "Bitte warten Sie! Dr. Med bereitet Ihre Antwort vor...",
-        "third": "Denken... Ihr Assistent Dr. Med ist dran!"
+        "first": "Dr. Vet bereitet sich darauf vor, Ihnen zu helfen...",
+        "second": "Bitte warten Sie! Dr. Vet bereitet Ihre Antwort vor...",
+        "third": "Denkt nach... Ihr Assistent Dr. Vet ist dran!"
       }
     },
     "tabs": {
       "home": "Startseite",
       "chat": "Chat",
-      "aiDoctors": "KI-Ärzte",
+      "aiDoctors": "KI-Assistenten",
       "settings": "Einstellungen"
     },
-    "medicalDisclaimer": "Medizinischer Haftungsausschluss",
+    "medicalDisclaimer": "Tierärztlicher Haftungsausschluss",
     "next": "Weiter",
     "noPaymentNow": "Jetzt keine Zahlung. Jederzeit kündbar.",
     "online": "Online",
@@ -85,7 +86,7 @@
     "upgradePlan": "Plan upgraden",
     "viewProfile": "Profil anzeigen",
     "yes": "Ja",
-    "chatBotPlaceholder": "Hey 👋 Neugierig auf {{topic}}? Ich helfe dir, mehr zu entdecken und zu lernen — frag mich einfach!"
+    "chatBotPlaceholder": "Hallo dort 👋 Interessiert an {{topic}}? Ich bin hier, um Ihnen zu helfen, mehr zu entdecken und zu lernen — fragen Sie mich alles!"
   },
   "weekDays": {
     "today": "Heute",
@@ -93,9 +94,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Erhalten Sie Analysen von verschiedenen medizinischen Scans, einschließlich RÖNTGEN, CT, MRT, EKG und mehr",
+      "first": "Entdecken Sie tierärztliche Konzepte und Tier-Themen durch KI-gestütztes Lernen",
       "second": "Zugriff auf alle Premium-Funktionen",
-      "fourth": "Unbegrenzte Chats mit 24/7 medizinischen KI-Assistenten",
+      "fourth": "Unbegrenzte Chats mit tierärztlichen KI-Assistenten, 24/7",
       "third": "Keine Werbung"
     },
     "UpgradeBanner": {
@@ -103,22 +104,23 @@
       "subheading": "Genießen Sie alle Vorteile ohne Einschränkungen"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Medizinischer Bildanalysator",
-      "askMedicalAssistant": "Medizinischen KI-Assistenten fragen",
+      "veterinaryImaging": "Tierärztliche Bildgebung / Rasse",
+      "medicalImagesAnalyzer": "Tierärztliches Bildgebungs-Studienlabor",
+      "askMedicalAssistant": "KI-Assistenten fragen",
       "medicalAssistant": "Medizinischer Assistent",
       "imageTypes": {
         "xray": "Röntgen",
-        "ct": "CT",
+        "ct": "CT-Scan",
         "mri": "MRT",
         "ultrasound": "Ultraschall",
         "ecg": "EKG",
         "skinLesion": "Hautläsion",
-        "mammogram": "Mammographie",
-        "retinalScan": "Netzhautscan",
+        "mammogram": "Mammogramm",
+        "retinalScan": "Netzhaut-/Augen-Scan",
         "bloodSmear": "Blutausstrich",
         "dental": "Zahnmedizin",
         "pet": "PET",
-        "dexa": "DEXA / Knochendichtemessung",
+        "dexa": "DEXA / Knochendichte-Scan",
         "angiography": "Angiographie",
         "echo": "Echokardiographie (ECHO)",
         "fluoroscopy": "Durchleuchtung"
@@ -126,99 +128,71 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Allgemeinmedizin",
-          "subtitle": "Hausarzt"
+        "veterinaryGeneralMedicine": {
+          "title": "Einführung in die Tiermedizin",
+          "subtitle": "Allgemeine Studienübersicht"
         },
-        "internalMedicine": {
-          "title": "Innere Medizin"
+        "veterinaryInternalMedicine": {
+          "title": "Innere Medizin (Studienleitfaden)"
         },
-        "pediatrics": {
-          "title": "Kinderheilkunde"
+        "veterinaryDermatology": {
+          "title": "Dermatologie-Grundlagen (Lernen)"
         },
-        "dermatology": {
-          "title": "Dermatologie"
+        "veterinaryCardiology": {
+          "title": "Tierkardiologie-Studie"
         },
-        "cardiology": {
-          "title": "Kardiologie"
+        "veterinaryOrthopedics": {
+          "title": "Orthopädie & Muskel-Skelett-System (Studie)"
         },
-        "orthopedics": {
-          "title": "Orthopädie"
+        "veterinaryNeurology": {
+          "title": "Neurologie – Lernen"
         },
-        "psychiatry": {
-          "title": "Psychiatrie",
-          "subtitle": "Psychische Gesundheit"
+        "veterinaryOphthalmology": {
+          "title": "Ophthalmologie – Studienleitfaden"
         },
-        "obstetricsGynecology": {
-          "title": "Gynäkologie & Geburtshilfe",
-          "subtitle": "Gynäkologie"
+        "veterinaryDentistry": {
+          "title": "Grundlagen der tierärztlichen Zahnmedizin"
         },
-        "neurology": {
-          "title": "Neurologie"
+        "veterinaryRadiology": {
+          "title": "Radiologie & Bildgebung",
+          "subtitle": "Bildgebungsübersicht"
         },
-        "ophthalmology": {
-          "title": "Ophthalmologie"
+        "veterinaryOncology": {
+          "title": "Onkologie – Bildungsinhalte"
         },
-        "otolaryngology": {
-          "title": "Hals-Nasen-Ohren-Heilkunde",
-          "subtitle": "HNO"
+        "veterinaryEndocrinology": {
+          "title": "Endokrinologie – Studienthemen"
         },
-        "dentistry": {
-          "title": "Zahnmedizin"
+        "veterinaryNephrologyUrology": {
+          "title": "Nephrologie & Urologie (Lernen)"
         },
-        "radiology": {
-          "title": "Radiologie",
-          "subtitle": "Bildgebung"
+        "veterinaryRespiratory": {
+          "title": "Übersicht Atemwegserkrankungen"
         },
-        "oncology": {
-          "title": "Onkologie"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterologie – Studienleitfaden"
         },
-        "endocrinology": {
-          "title": "Endokrinologie"
+        "veterinaryImmunology": {
+          "title": "Immunologie & Infektionskrankheiten (Studie)"
         },
-        "nephrology": {
-          "title": "Nephrologie"
+        "veterinaryHematology": {
+          "title": "Hämatologie – Lernen"
         },
-        "pulmonology": {
-          "title": "Pneumologie"
+        "veterinarySurgery": {
+          "title": "Chirurgie-Konzepte & Studium"
         },
-        "gastroenterology": {
-          "title": "Gastroenterologie"
+        "veterinaryAnesthesiology": {
+          "title": "Anästhesiologie & Schmerzmanagement (Studie)"
         },
-        "allergyImmunology": {
-          "title": "Allergologie & Immunologie"
+        "veterinaryRehabilitation": {
+          "title": "Rehabilitation & Physiotherapie",
+          "subtitle": "Bildungsleitfaden"
         },
-        "hematology": {
-          "title": "Hämatologie"
+        "veterinaryExotics": {
+          "title": "Exoten- & Wildtiermedizin (Übersicht)"
         },
-        "rheumatology": {
-          "title": "Rheumatologie"
-        },
-        "urology": {
-          "title": "Urologie"
-        },
-        "emergencyMedicine": {
-          "title": "Notfallmedizin"
-        },
-        "surgery": {
-          "title": "Chirurgie"
-        },
-        "anesthesiology": {
-          "title": "Anästhesiologie"
-        },
-        "rehabilitationMedicine": {
-          "title": "Rehabilitationsmedizin",
-          "subtitle": "Physiotherapie"
-        },
-        "geriatrics": {
-          "title": "Geriatrie"
-        },
-        "publicHealth": {
-          "title": "Öffentliche Gesundheit",
-          "subtitle": "Präventivmedizin"
-        },
-        "microscopy": {
-          "title": "Mikroskopie"
+        "veterinaryLivestock": {
+          "title": "Großtier- & Nutztierstudien"
         }
       }
     },
@@ -237,8 +211,8 @@
       },
       "freeTrialPreview": {
         "heading": "Genießen Sie Ihre kostenlose Testversion! 🎉",
-        "review": "Ich nutze diese App für medizinische Fragen, Radiologie-Scans und zum Lernen - sie ist fantastisch!",
-        "reviewTrust": "📈 Vertrauen von 5.212+ Nutzern"
+        "review": "Ich nutze diese App für tierärztliche Fragen, Tierbild-Scans und zum Lernen - sie ist fantastisch!",
+        "reviewTrust": "📈 Vertraut von 5.212+ Nutzern"
       },
       "languageAnalysisModal": {
         "languagePreferenceQuestion": "Welche Sprache bevorzugen Sie für die KI-Analyse?",
@@ -249,21 +223,35 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "Was zeigt eine Röntgenaufnahme des Brustkorbs?",
-          "two": "Was sind die häufigsten Symptome eines Herzinfarkts?",
-          "three": "Wie kann ich meinen Blutdruck natürlich senken?",
-          "four": "Was ist der Unterschied zwischen MRT und CT?",
-          "five": "Was sind die frühen Anzeichen von Diabetes?",
-          "six": "Wie interpretiere ich meine grundlegenden Blutwerte?",
-          "seven": "Was ist die Behandlung für eine Harnwegsinfektion (HWI)?",
-          "eight": "Können Sie erklären, wofür ein Echokardiogramm verwendet wird?",
-          "nine": "Was sind die Richtlinien für eine gesunde Ernährung?",
-          "ten": "Was verursacht hohen Cholesterinspiegel?",
-          "eleven": "Wie wird ein Hirntumor im MRT erkannt?",
-          "twelve": "Was ist die Rolle der Allgemeinmedizin?",
-          "thirteen": "Was sind die Risikofaktoren für einen Schlaganfall?",
-          "fourteen": "Wie kann man Angst und Stress bewältigen?",
-          "fifteen": "Was sind die neuesten Richtlinien zur Behandlung von Bluthochdruck?"
+          "one": "Was können Thorax-Röntgenaufnahmen über die Tieranatomie lehren?",
+          "two": "Was sind häufige Studienthemen in Bezug auf die Herzfunktion bei Tieren?",
+          "three": "Welche Faktoren beeinflussen die kardiovaskuläre Gesundheit bei verschiedenen Arten?",
+          "four": "Wie unterscheiden sich MRT- und CT-Technologien in tierärztlichen Bildgebungsstudien?",
+          "five": "Was sind Schlüsselkonzepte zum Verständnis von Stoffwechselprozessen bei Tieren?",
+          "six": "Wie werden grundlegende Bluttest-Parameter in der tierärztlichen Ausbildung interpretiert?",
+          "eight": "Was veranschaulicht ein Echokardiogramm über die Herzfunktion?",
+          "nine": "Welche Prinzipien leiten eine ausgewogene Ernährung für Haustiere?",
+          "ten": "Was beeinflusst Lipid- und Cholesterinwerte bei verschiedenen Tierarten?",
+          "eleven": "Wie wird Bildgebung verwendet, um neurologische Strukturen bei Tieren zu studieren?",
+          "twelve": "Welche Themen werden typischerweise in der allgemeinen Tiermedizin abgedeckt?",
+          "thirteen": "Was sind häufige akademische Konzepte hinter schlaganfallähnlichen Zuständen?",
+          "fourteen": "Wie können stress- oder angstbezogene Verhaltensweisen bei Tieren erkannt werden?",
+          "fifteen": "Welche Faktoren werden in Bezug auf die Blutdruckregulation bei Tieren untersucht?",
+          "sixteen": "Welche Merkmale werden häufig bei verschiedenen Hunderassen studiert?",
+          "seventeen": "Wie variiert das Verhalten bei verschiedenen Katzenrassen?",
+          "eighteen": "Was sind die wichtigsten anatomischen Unterschiede zwischen Hunden und Katzen?",
+          "nineteen": "Wie beeinflussen Genetik rassespezifische Merkmale?",
+          "twenty": "Welche Umweltfaktoren beeinflussen Tierverhalten und Lernen?",
+          "twentyOne": "Wie passen sich Wildtierarten an ihre Ökosysteme an?",
+          "twentyTwo": "Was sind häufige Prinzipien in Zucht- und Genetikstudien?",
+          "twentyThree": "Wie wird das soziale Verhalten von Tieren bei Haustierarten studiert?",
+          "twentyFour": "Welche grundlegenden Themen sind in der Heimtierkunde enthalten?",
+          "twentyFive": "Wie gehen Studierende daran, Körperkonditionsscores bei Tieren zu bewerten?",
+          "twentySix": "Welche Faktoren beeinflussen Wachstum und Entwicklung bei jungen Tieren?",
+          "twentySeven": "Wie wird Bereicherung genutzt, um das Tierwohl zu unterstützen?",
+          "twentyEight": "Welche wichtigen Gesundheitskonzepte werden häufig in der Katzenpflege studiert?",
+          "twentyNine": "Wie unterscheiden sich die Ernährungsbedürfnisse bei kleinen, mittleren und großen Hunderassen?",
+          "thirty": "Wie tragen Zoologie und Wildtierbiologie zur tierärztlichen Ausbildung bei?"
         }
       },
       "notifications": {
@@ -278,7 +266,7 @@
       "profile": {
         "title": "Profil",
         "edit": "Profil bearbeiten",
-        "placeholderPreferredName": "Z.B. Captain Cool, Queen Bee, oder einfach Alex!"
+        "placeholderPreferredName": "Z.B. Captain Cool, Queen Bee oder einfach Alex!"
       },
       "noInternetScreen": {
         "heading": "Sie sind offline",
@@ -291,16 +279,15 @@
       },
       "disclaimerScreen": {
         "heading": "Wichtiger medizinischer Haftungsausschluss",
-        "subheading": "Veterinary AI ist für Radiologie-Fachkräfte, Gesundheitsexperten, Medizinstudenten und Enthusiasten konzipiert",
+        "subheading": "Veterinary AI ist für Radiologie-Fachleute, Gesundheitsexperten, Medizinstudenten und Enthusiasten konzipiert",
         "consentAgreement": "Ich habe den Haftungsausschluss gelesen und stimme zu.",
-        "firstConsent": "Veterinary AI bietet keine Gesundheitsmessungen oder Behandlungsempfehlungen und ist auch nicht für solche Zwecke gedacht. Nutzer von Veterinary AI müssen ihr klinisches Urteilsvermögen anwenden und Informationen aus autoritativen Quellen überprüfen, bevor sie klinische Entscheidungen treffen.",
-        "secondConsent": "Veterinary AI ist kein Diagnosewerkzeug, keine Behandlungsplattform oder ein Ersatz für professionellen medizinischen Rat. Es bietet KI-generierte Einblicke, um medizinisches Fachpersonal beim Zugang zu medizinischem Wissen und bei der Analyse medizinischer Bilder und Dokumente zu unterstützen. Veterinary AI ist eine KI-gestützte Informations- und Bildungs-App, die eher lizenzierten medizinischen Fachkräften Unterstützung bieten soll.",
-        "thirdConsent": "Veterinary AI ist nicht für die Patientenverwendung konzipiert. Es bietet keine direkten medizinischen Diagnosen, Behandlungsempfehlungen oder Patientenmanagement-Funktionalitäten.",
+        "firstConsent": "Veterinary AI bietet keine gesundheitsbezogenen Messungen oder Behandlungsempfehlungen und ist nicht für solche Zwecke gedacht. Nutzer von Veterinary AI müssen ihr klinisches Urteil anwenden und Informationen aus autoritativen Quellen überprüfen, bevor sie klinische Entscheidungen treffen.",
+        "secondConsent": "Veterinary AI ist kein Diagnosewerkzeug, keine Behandlungsplattform oder ein Ersatz für professionellen medizinischen Rat. Es bietet KI-generierte Einblicke zur Unterstützung tierärztlicher Fachkräfte. Veterinary AI ist eine KI-gestützte Informations- und Bildungs-App, die eher dazu dient, lizenzierte Tierärzte zu unterstützen.",
         "fourthConsent": "Veterinary AI ist nicht als Medizinprodukt klassifiziert und beansprucht keine regulatorische Zulassung. Es ist für Bildungs- und Informationszwecke gedacht, um professionelle Expertise zu ergänzen.",
         "fifthConsent": "Veterinary AI sammelt, speichert oder verarbeitet keine persönlichen oder Patientendaten. Alle Nutzerinteraktionen sind vertraulich und auf den Umfang der App beschränkt."
       },
       "contactUs": {
-        "heading": "Sie können uns gerne direkt per E-Mail kontaktieren, unser Team wird sich so schnell wie möglich bei Ihnen melden",
+        "heading": "Sie können uns gerne direkt eine E-Mail senden, und unser Team wird sich so schnell wie möglich bei Ihnen melden",
         "customerSupport": "Kundensupport",
         "emailAddress": "E-Mail-Adresse"
       },
@@ -310,7 +297,7 @@
       "doctorsScreen": {
         "searchResults": {
           "notFoundTitle": "Keine Ergebnisse gefunden - Aber keine Sorge!",
-          "notFoundSubtitle": "Versuchen Sie, andere Schlüsselwörter zu verwenden, oder fragen Sie unseren KI-medizinischen Assistenten direkt",
+          "notFoundSubtitle": "Versuchen Sie es mit anderen Stichwörtern oder fragen Sie unseren tierärztlichen KI-Assistenten direkt",
           "askAssistant": "Medizinischen Assistenten fragen"
         }
       },
@@ -320,23 +307,24 @@
           "heading": "Unbegrenzter Zugriff",
           "title": "Schalten Sie noch heute Premium-Funktionen frei!",
           "firstOffering": "Zugriff auf alle Premium-Funktionen",
-          "secondOffering": "Werbe freie Erfahrung",
-          "thirdOffering": "Unbegrenzte Analyse von medizinischen Bildern, Videos, PDF-Scans + Berichten",
-          "fourthOffering": "Unbegrenzte Chats mit 24/7 KI-medizinischen Assistenten"
+          "secondOffering": "Werbe-freie Erfahrung",
+          "thirdOffering": "Unbegrenzte Analyse von tierärztlichen Bildern, Videos, PDF-Scans + Berichten",
+          "fourthOffering": "Unbegrenzte Chats mit tierärztlichen KI-Assistenten, 24/7",
+          "renewalInfo": "*Ihr Abonnement wird über Ihr {{store}}-Konto abgerechnet und verlängert sich automatisch, es sei denn, es wird mindestens 24 Stunden vor Ende des aktuellen Abonnementzeitraums gekündigt. Sie können Ihr Abonnement jederzeit in Ihren Kontoeinstellungen verwalten oder kündigen. Das Abonnement wird zum gleichen Preis und Plan verlängert, den Sie ausgewählt haben, es sei denn, Sie ändern oder kündigen es."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Ihr KI-gestützter Gesundheitsbegleiter",
-          "subtitle": "Erhalten Sie sofortige medizinische Einblicke und Anleitung von spezialisierten KI-Ärzten, jederzeit und überall."
+          "title": "Ihr KI-gestützter Tierarzt- & Lernbegleiter",
+          "subtitle": "Entdecken Sie tierärztliche Konzepte mit klaren, KI-generierten Bildungseinblicken"
         },
         "secondOnboarding": {
-          "title": "Fragen, hochladen und medizinische Einblicke erhalten",
-          "subtitle": "Chatten Sie mit KI-Ärzten verschiedener Fachrichtungen oder laden Sie medizinische Bilder für eine schnelle medizinische Analyse hoch."
+          "title": "Fragen, Lernen, Tierarztthemen studieren",
+          "subtitle": "Entdecken Sie vereinfachte Erklärungen zu Tierverhalten, Rassen, Anatomie und allgemeinen tierärztlichen Konzepten."
         },
         "thirdOnboarding": {
           "title": "Ihre Privatsphäre ist uns wichtig",
-          "subtitle": "Wir verpflichten uns, Ihre Privatsphäre zu schützen. Wir sammeln keine persönlichen Daten. Alle von Ihnen hochgeladenen Dateien bleiben privat und werden niemals weitergegeben."
+          "subtitle": "Wir verpflichten uns, Ihre Privatsphäre zu schützen. Wir sammeln keine persönlichen Daten, und alle hochgeladenen Dateien bleiben privat und werden niemals geteilt."
         }
       },
       "paywallUpgradeScreen": {
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} pro Jahr"
         },
         "fourthOffering": {
-          "title": "{{trialDays}}-Tage Testversion",
+          "title": "{{trialDays}}-Tage kostenlose Testversion",
           "subtitle": "{{ price }} pro Jahr",
           "plan": "Wöchentlicher Plan"
         }
@@ -364,8 +352,9 @@
   "settings": {
     "about": "Über",
     "app_name": "App-Name",
-    "citations": "Zitate für medizinische Informationen",
+    "citations": "Quellen für medizinische Informationen",
     "contactUs": "Kontaktieren Sie uns",
+    "cancelSubscription": "Abonnement kündigen",
     "devMode": {
       "componentsLibrary": "UI-Bibliothek",
       "title": "Entwicklermodus"
@@ -433,7 +422,7 @@
     "website": "Webseite"
   },
   "alerts": {
-    "mediaPickerPermissions": "Entschuldigung, wir benötigen Kameraberechtigungen, damit dies funktioniert!",
+    "mediaPickerPermissions": "Leider benötigen wir Kameraberechtigungen, damit dies funktioniert!",
     "errorSelectingImagePicker": "Beim Auswählen des Bildes ist etwas schief gelaufen. Bitte versuchen Sie es erneut.",
     "errorSelectingDocumentPicker": "Beim Auswählen des Dokuments ist etwas schief gelaufen. Bitte versuchen Sie es erneut.",
     "errorTakingPicture": "Beim Aufnehmen des Fotos ist etwas schief gelaufen. Bitte versuchen Sie es erneut.",
@@ -448,16 +437,16 @@
     "notificationDisabledError": "Beim Deaktivieren der Benachrichtigungen ist ein Fehler aufgetreten.",
     "checkNotificationStatusError": "Fehler beim Überprüfen des Benachrichtigungsstatus.",
     "projectIdNotFound": "Benachrichtigungs-Projekt-ID nicht gefunden.",
-    "imageSizeLarge": "Bild ist zu groß! Dateigröße ist {{fileSize}} MB, aber das Limit ist {{imageLimit}} MB.",
-    "videoSizeLarge": "Video ist zu groß! Dateigröße ist {{fileSize}} MB, aber das Limit ist {{videoLimit}} MB.",
+    "imageSizeLarge": "Bild ist zu groß! Dateigröße ist {{fileSize}} MB, aber das Limit liegt bei {{imageLimit}} MB.",
+    "videoSizeLarge": "Video ist zu groß! Dateigröße ist {{fileSize}} MB, aber das Limit liegt bei {{videoLimit}} MB.",
     "loggedInSuccess": "Erfolgreich angemeldet",
     "loggedOutSuccess": "Sie haben sich erfolgreich abgemeldet!",
-    "sendVerificationCodeError": "Fehler beim Senden des Verifizierungscodes",
+    "sendVerificationCodeError": "Fehler beim Senden des Bestätigungscodes",
     "validateAuthCodeError": "Fehler beim Validieren des Auth-Codes",
     "anonymousSignInError": "Fehler bei der anonymen Anmeldung",
     "emailLoginError": "Fehler bei der Anmeldung",
     "preferredLanguageError": "Fehler beim Aktualisieren der bevorzugten Sprache des Benutzers",
-    "sharingNotAvailable": "Teilen ist derzeit auf Ihrem Gerät nicht verfügbar",
+    "sharingNotAvailable": "Teilen ist auf Ihrem Gerät derzeit nicht verfügbar",
     "sharingLinkError": "Link konnte nicht geteilt werden.",
     "individualPushNotificationSuccess": "Individuelle Push-Benachrichtigungen erfolgreich gesendet!",
     "globalPushNotificationSuccess": "Globale Push-Benachrichtigungen erfolgreich gesendet! 🌍🚀",
@@ -471,13 +460,13 @@
     "subscriptionCancelledByUser": "Sie haben die Transaktion abgebrochen. Fühlen Sie sich frei, es erneut zu versuchen!",
     "subscriptionActivationFailed": "Aktivierung Ihres Abonnements fehlgeschlagen. Bitte versuchen Sie es erneut",
     "logoutQuestion": "Sind Sie sicher, dass Sie sich abmelden möchten?",
-    "noSubscriptionToRestore": "Hoppla! Es scheint, dass Sie momentan kein aktives Abonnement haben. Um weiterhin vollen Zugriff zu genießen, wählen Sie bitte einen unserer Abonnementpläne.",
+    "noSubscriptionToRestore": "Hoppla! Es scheint, Sie haben derzeit kein aktives Abonnement. Um weiterhin vollen Zugriff zu genießen, wählen Sie bitte einen unserer Abonnementpläne.",
     "restorationSuccessful": "Wiederherstellung war erfolgreich! Viel Spaß!",
-    "restorationError": "Beim Wiederherstellen des Kaufs ist ein Fehler aufgetreten.",
-    "medicalDisclaimerAlert": "Die Veterinary AI App ersetzt keine medizinische Beratung. Einige Diagnosen dienen nur Informations-/Bildungszwecken. Für medizinische Empfehlungen konsultieren Sie immer einen Arzt oder lizenzierten Spezialisten.",
-    "scanLimitReached": "Wir optimieren die Scan-Qualität für Sie! Sie können in etwa {{hours}} Stunden und {{minutes}} Minuten erneut scannen. Haben Sie Fragen zu medizinischen Themen? Fragen Sie unseren Chat-Assistenten, während Sie warten!",
+    "restorationError": "Bei der Wiederherstellung des Kaufs ist ein Fehler aufgetreten.",
+    "medicalDisclaimerAlert": "Die Veterinary AI-App ersetzt keine medizinische Beratung. Einige Diagnosen dienen nur zu Informations-/Bildungszwecken. Konsultieren Sie für medizinische Empfehlungen immer einen Arzt oder zugelassenen Spezialisten.",
+    "scanLimitReached": "Wir optimieren die Scan-Qualität für Sie! Sie können in etwa {{hours}} Stunden und {{minutes}} Minuten erneut scannen. Haben Sie Fragen zu einem medizinischen Thema? Fragen Sie unseren Chat-Assistenten, während Sie warten!",
     "mixedMediaNotAllowed": "Für bessere Genauigkeit laden Sie bitte keine Mischung verschiedener Mediendateien hoch. Laden Sie nur Bilder, Videos oder PDFs hoch - nicht alle zusammen.",
-    "multipleVideosNotAllowed": "Für bessere Genauigkeit laden Sie bitte nur ein Video auf einmal hoch.",
+    "multipleVideosNotAllowed": "Für bessere Genauigkeit laden Sie bitte nur ein Video gleichzeitig hoch.",
     "mediaFilesUploadFiles": "Beim Hochladen Ihrer Mediendateien ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
     "chatAndMediaFilesLimit": "Lieber Nutzer, Sie müssen Ihren Plan upgraden, um von unbegrenzten Chats, unbegrenzten Scans, Multi-Bild-Analyse und mehr zu profitieren. 🔓"
   },

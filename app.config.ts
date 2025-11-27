@@ -43,6 +43,45 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     googleServicesFile: ClientEnv.GOOGLE_SERVICES_PLIST_PATH,
     infoPlist: {
       ITSAppUsesNonExemptEncryption: false,
+      CFBundleAllowMixedLocalizations: true,
+      CFBundleLocalizations: [
+        'de', // German
+        'tr', // Turkish
+        'fr', // French
+        'it', // Italian
+        'pt-PT', // Portuguese (Portugal)
+        'ar', // Arabic
+        'es-ES', // Spanish (Spain)
+        'es-MX', // Spanish (Mexico)
+        'hi', // Hindi
+        'ro', // Romanian
+        'uk', // Ukrainian
+        'ru', // Russian
+        'th', // Thai
+        'id', // Indonesian
+        'he', // Hebrew
+        'ja', // Japanese
+        'ko', // Korean
+        'zh', // Chinese (Simplified)
+        'no', // Norwegian
+        'pl', // Polish
+        'sv', // Swedish
+        'en', // English
+        'fr-CA', // French (Canada)
+        'pt-BR', // Portuguese (Brazil)
+        'vi', // Vietnamese
+        'nl', // Dutch
+        'cs', // Czech
+        'el', // Greek
+        'hu', // Hungarian
+        'ms', // Malay
+        'fi', // Finnish
+        'da', // Danish
+        'sk', // Slovak
+        'hr', // Croatian
+        'ca', // Catalan
+      ],
+      CFBundleDevelopmentRegion: 'en', // Default language, adjust if needed
     },
   },
   experiments: {

@@ -10,82 +10,83 @@
     "gallery": "Thư viện",
     "files": "Tệp",
     "seeAll": "Xem tất cả",
-    "cancel": "Hủy",
+    "cancel": "Hủy bỏ",
     "delete": "Xóa",
     "attention": "Chú ý!",
     "new": "Mới",
     "activeSubscription": "Đang đăng ký",
-    "agreeingMessage": "Bằng việc tiếp tục, bạn đồng ý với",
+    "agreeingMessage": "Bằng cách tiếp tục, bạn đồng ý với",
     "and": "và",
     "askAssistant": "Hỏi trợ lý AI",
     "chatbotPlaceholder": "Hỏi tôi bất cứ điều gì...",
-    "completedScans": "Quét hoàn tất",
+    "completedScans": "Quét hoàn thành",
     "conversationHistory": "Lịch sử trò chuyện",
-    "medicalAssistants": "Trợ lý Y tế",
-    "searchAssistant": "Tìm kiếm trợ lý...",
-    "analyzingMediaFilesPlaceholder": "Đang phân tích tệp đa phương tiện...",
+    "medicalAssistants": "Trợ lý AI Thú y Tổng quát",
+    "searchAssistant": "Tìm kiếm Trợ lý...",
+    "analyzingMediaFilesPlaceholder": "Đang phân tích Tệp Media...",
+    "mainDisclaimer": "Ứng dụng này không cung cấp các phép đo liên quan đến sức khỏe, chẩn đoán hoặc lời khuyên điều trị. Luôn tham khảo ý kiến chuyên gia được cấp phép cho bất kỳ vấn đề y tế nào.",
     "copyText": {
       "copied": "Đã sao chép!",
-      "copy": "Sao chép liên kết",
+      "copy": "Sao chép Liên kết",
       "loading": "Đang sao chép..."
     },
-    "createdAt": "Được tạo lúc",
+    "createdAt": "Tạo lúc",
     "download": "Tải xuống",
     "free": "MIỄN PHÍ",
     "freeTrial": "Dùng thử miễn phí",
     "loadingMessages": {
       "imageScanningLoading": {
         "first": "Đang quét hình ảnh y tế của bạn, vui lòng chờ...",
-        "fourth": "Sắp xong, đang hoàn tất quá trình quét...",
+        "fourth": "Sắp xong, đang hoàn tất quét...",
         "second": "Đang phân tích chi tiết, việc này có thể mất một lúc...",
-        "third": "Đang cải thiện độ chính xác để có kết quả tốt nhất..."
+        "third": "Đang nâng cao độ chính xác cho kết quả tốt nhất..."
       },
       "initialAppLoad": {
         "first": "Đang tải trải nghiệm cá nhân hóa của bạn...",
-        "fourth": "Sắp xong, chỉ một chút nữa...",
+        "fourth": "Sắp sẵn sàng, chỉ một chút nữa...",
         "second": "Đang đồng bộ hóa hệ thống...",
         "third": "Đang xử lý dữ liệu của bạn..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med đang chuẩn bị hỗ trợ bạn...",
-        "second": "Chờ chút! Dr. Med đang chuẩn bị phản hồi của bạn...",
-        "third": "Đang suy nghĩ... trợ lý Dr. Med của bạn đang xử lý!"
+        "first": "Dr. Vet đang chuẩn bị hỗ trợ bạn...",
+        "second": "Chờ chút! Dr. Vet đang chuẩn bị phản hồi của bạn...",
+        "third": "Đang suy nghĩ... trợ lý Dr. Vet của bạn đang xử lý!"
       }
     },
     "tabs": {
       "home": "Trang chủ",
       "chat": "Trò chuyện",
-      "aiDoctors": "Bác sĩ AI",
+      "aiDoctors": "Trợ lý AI",
       "settings": "Cài đặt"
     },
-    "medicalDisclaimer": "Tuyên bố miễn trừ trách nhiệm y tế",
+    "medicalDisclaimer": "Tuyên bố miễn trừ Thú y",
     "next": "Tiếp theo",
     "noPaymentNow": "Không thanh toán ngay. Hủy bất cứ lúc nào.",
     "online": "Trực tuyến",
-    "openSettings": "Mở cài đặt",
+    "openSettings": "Mở Cài đặt",
     "or": "hoặc",
     "perMonth": "mỗi tháng",
     "perWeek": "mỗi tuần",
     "perYear": "mỗi năm",
-    "privacyPolicy": "Chính sách bảo mật",
+    "privacyPolicy": "Chính sách Riêng tư",
     "restorePurchase": "Khôi phục mua hàng",
-    "termsOfUse": "Điều khoản sử dụng",
+    "termsOfUse": "Điều khoản Sử dụng",
     "saveDiscount": "TIẾT KIỆM",
     "seeNotifications": "Xem thông báo",
     "share": "Chia sẻ",
-    "shareLink": "Chia sẻ liên kết",
+    "shareLink": "Chia sẻ Liên kết",
     "skip": "Bỏ qua",
     "termsAndConditions": "Điều khoản & Điều kiện",
     "then": "sau đó",
     "tryAgain": "Thử lại",
-    "tryForFree": "Bắt đầu dùng thử miễn phí",
+    "tryForFree": "Bắt đầu Dùng thử Miễn phí",
     "typing": "Đang nhập...",
-    "unlockNow": "Mở khóa ngay",
+    "unlockNow": "Mở khóa Ngay",
     "update": "Cập nhật",
-    "upgradePlan": "Nâng cấp gói",
-    "viewProfile": "Xem hồ sơ",
+    "upgradePlan": "Nâng cấp Gói",
+    "viewProfile": "Xem Hồ sơ",
     "yes": "Có",
-    "chatBotPlaceholder": "Chào bạn 👋 Bạn tò mò về {{topic}} à? Mình ở đây để giúp bạn khám phá và tìm hiểu thêm — cứ hỏi bất cứ điều gì nhé!"
+    "chatBotPlaceholder": "Chào bạn 👋 Tò mò về {{topic}}? Tôi ở đây để giúp bạn khám phá và tìm hiểu thêm — hỏi tôi bất cứ điều gì!"
   },
   "weekDays": {
     "today": "Hôm nay",
@@ -93,139 +94,112 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Nhận phân tích từ các loại quét y tế khác nhau, bao gồm X-QUANG, CT, MRI, ECG và nhiều hơn nữa",
+      "first": "Khám phá khái niệm thú y và chủ đề động vật thông qua học tập dựa trên AI",
       "second": "Truy cập tất cả các tính năng cao cấp",
-      "fourth": "Trò chuyện không giới hạn với trợ lý y tế AI 24/7",
-      "third": "Không có quảng cáo"
+      "fourth": "Trò chuyện không giới hạn với trợ lý thú y AI 24/7",
+      "third": "Không quảng cáo"
     },
     "UpgradeBanner": {
-      "heading": "Mở khóa ngay",
-      "subheading": "Tận hưởng mọi lợi ích không giới hạn"
+      "heading": "Mở khóa Ngay",
+      "subheading": "Tận hưởng mọi lợi ích không hạn chế"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Trình phân tích Hình ảnh Y tế",
-      "askMedicalAssistant": "Hỏi Trợ lý Y tế AI",
+      "veterinaryImaging": "Hình ảnh Thú y / Giống",
+      "medicalImagesAnalyzer": "Phòng Thí nghiệm Nghiên cứu Hình ảnh Thú y",
+      "askMedicalAssistant": "Hỏi Trợ lý AI",
       "medicalAssistant": "Trợ lý Y tế",
       "imageTypes": {
         "xray": "X-Quang",
-        "ct": "CT",
+        "ct": "Chụp CT",
         "mri": "MRI",
         "ultrasound": "Siêu âm",
-        "ecg": "ECG",
-        "skinLesion": "Tổn thương da",
+        "ecg": "Điện tâm đồ",
+        "skinLesion": "Tổn thương Da",
         "mammogram": "Chụp nhũ ảnh",
-        "retinalScan": "Quét võng mạc",
+        "retinalScan": "Quét Võng mạc / Mắt",
         "bloodSmear": "Phết máu",
         "dental": "Nha khoa",
         "pet": "PET",
-        "dexa": "DEXA / Quét mật độ xương",
+        "dexa": "DEXA / Quét Mật độ Xương",
         "angiography": "Chụp mạch",
         "echo": "Siêu âm tim (ECHO)",
-        "fluoroscopy": "Chụp X-quang huỳnh quang"
+        "fluoroscopy": "Chiếu X-quang"
       }
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Y học gia đình",
-          "subtitle": "Thực hành tổng quát"
+        "veterinaryGeneralMedicine": {
+          "title": "Giới thiệu Thú y",
+          "subtitle": "Tổng quan Nghiên cứu Chung"
         },
-        "internalMedicine": {
-          "title": "Nội khoa"
+        "veterinaryInternalMedicine": {
+          "title": "Nội khoa (Hướng dẫn Nghiên cứu)"
         },
-        "pediatrics": {
-          "title": "Nhi khoa"
+        "veterinaryDermatology": {
+          "title": "Cơ bản Da liễu (Học tập)"
         },
-        "dermatology": {
-          "title": "Da liễu"
+        "veterinaryCardiology": {
+          "title": "Nghiên cứu Tim mạch Thú y"
         },
-        "cardiology": {
-          "title": "Tim mạch"
+        "veterinaryOrthopedics": {
+          "title": "Chỉnh hình & Cơ xương khớp (Nghiên cứu)"
         },
-        "orthopedics": {
-          "title": "Chỉnh hình"
+        "veterinaryNeurology": {
+          "title": "Thần kinh học – Học tập"
         },
-        "psychiatry": {
-          "title": "Tâm thần học",
-          "subtitle": "Sức khỏe tâm thần"
+        "veterinaryOphthalmology": {
+          "title": "Nhãn khoa – Hướng dẫn Nghiên cứu"
         },
-        "obstetricsGynecology": {
-          "title": "Sản phụ khoa",
-          "subtitle": "OB/GYN"
+        "veterinaryDentistry": {
+          "title": "Cơ bản Nha khoa Thú y"
         },
-        "neurology": {
-          "title": "Thần kinh học"
+        "veterinaryRadiology": {
+          "title": "X quang & Hình ảnh",
+          "subtitle": "Tổng quan Hình ảnh"
         },
-        "ophthalmology": {
-          "title": "Nhãn khoa"
+        "veterinaryOncology": {
+          "title": "Ung thư – Giáo dục"
         },
-        "otolaryngology": {
-          "title": "Tai mũi họng",
-          "subtitle": "ENT"
+        "veterinaryEndocrinology": {
+          "title": "Nội tiết – Chủ đề Nghiên cứu"
         },
-        "dentistry": {
-          "title": "Nha khoa"
+        "veterinaryNephrologyUrology": {
+          "title": "Thận học & Tiết niệu (Học tập)"
         },
-        "radiology": {
-          "title": "X-quang",
-          "subtitle": "Hình ảnh"
+        "veterinaryRespiratory": {
+          "title": "Tổng quan Y học Hô hấp"
         },
-        "oncology": {
-          "title": "Ung thư"
+        "veterinaryGastroenterology": {
+          "title": "Tiêu hóa – Hướng dẫn Nghiên cứu"
         },
-        "endocrinology": {
-          "title": "Nội tiết"
+        "veterinaryImmunology": {
+          "title": "Miễn dịch & Bệnh truyền nhiễm (Nghiên cứu)"
         },
-        "nephrology": {
-          "title": "Thận học"
+        "veterinaryHematology": {
+          "title": "Huyết học – Học tập"
         },
-        "pulmonology": {
-          "title": "Phổi"
+        "veterinarySurgery": {
+          "title": "Khái niệm & Nghiên cứu Phẫu thuật"
         },
-        "gastroenterology": {
-          "title": "Tiêu hóa"
+        "veterinaryAnesthesiology": {
+          "title": "Gây mê & Quản lý Đau (Nghiên cứu)"
         },
-        "allergyImmunology": {
-          "title": "Dị ứng & Miễn dịch"
+        "veterinaryRehabilitation": {
+          "title": "Phục hồi chức năng & Vật lý trị liệu",
+          "subtitle": "Hướng dẫn Giáo dục"
         },
-        "hematology": {
-          "title": "Huyết học"
+        "veterinaryExotics": {
+          "title": "Thú y Động vật Exotic & Hoang dã (Tổng quan)"
         },
-        "rheumatology": {
-          "title": "Thấp khớp"
-        },
-        "urology": {
-          "title": "Tiết niệu"
-        },
-        "emergencyMedicine": {
-          "title": "Cấp cứu"
-        },
-        "surgery": {
-          "title": "Phẫu thuật"
-        },
-        "anesthesiology": {
-          "title": "Gây mê"
-        },
-        "rehabilitationMedicine": {
-          "title": "Phục hồi chức năng",
-          "subtitle": "Vật lý trị liệu"
-        },
-        "geriatrics": {
-          "title": "Lão khoa"
-        },
-        "publicHealth": {
-          "title": "Y tế công cộng",
-          "subtitle": "Y học dự phòng"
-        },
-        "microscopy": {
-          "title": "Kính hiển vi"
+        "veterinaryLivestock": {
+          "title": "Nghiên cứu Động vật Lớn & Gia súc"
         }
       }
     },
     "ImagePickerModal": {
-      "photoLibrary": "Thư viện ảnh",
-      "takePhoto": "Chụp ảnh",
-      "chooseFile": "Chọn tệp"
+      "photoLibrary": "Thư viện Ảnh",
+      "takePhoto": "Chụp Ảnh",
+      "chooseFile": "Chọn Tệp"
     }
   },
   "rootLayout": {
@@ -233,15 +207,15 @@
       "welcome": {
         "accountButton": "Tôi đã có tài khoản",
         "heading": "Chào mừng đến với Veterinary AI!",
-        "startButton": "Bắt đầu nào!"
+        "startButton": "Hãy bắt đầu!"
       },
       "freeTrialPreview": {
         "heading": "Tận hưởng bản dùng thử miễn phí của bạn! 🎉",
-        "review": "Tôi sử dụng ứng dụng này cho câu hỏi y tế, quét X-quang và học tập - thật tuyệt vời!",
+        "review": "Tôi sử dụng ứng dụng này cho câu hỏi thú y, quét hình ảnh động vật và học tập — thật tuyệt vời!",
         "reviewTrust": "📈 Được tin dùng bởi 5.212+ người dùng"
       },
       "languageAnalysisModal": {
-        "languagePreferenceQuestion": "Bạn muốn phân tích AI bằng ngôn ngữ nào?",
+        "languagePreferenceQuestion": "Bạn muốn sử dụng ngôn ngữ nào cho phân tích AI?",
         "languageSelection": "Chọn ngôn ngữ cho phản hồi AI",
         "languageSearchCriteria": "Tìm kiếm theo ngôn ngữ, mã quốc gia hoặc cờ",
         "noLanguageFound": "Không tìm thấy ngôn ngữ",
@@ -249,26 +223,40 @@
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "X-quang ngực cho thấy điều gì?",
-          "two": "Các triệu chứng phổ biến của cơn đau tim là gì?",
-          "three": "Làm thế nào để hạ huyết áp một cách tự nhiên?",
-          "four": "Sự khác biệt giữa MRI và CT scan là gì?",
-          "five": "Các dấu hiệu sớm của bệnh tiểu đường là gì?",
-          "six": "Làm thế nào để giải thích kết quả xét nghiệm máu cơ bản của tôi?",
-          "seven": "Điều trị nhiễm trùng đường tiết niệu là gì?",
-          "eight": "Bạn có thể giải thích siêu âm tim được sử dụng để làm gì không?",
-          "nine": "Hướng dẫn cho chế độ ăn uống lành mạnh là gì?",
-          "ten": "Nguyên nhân gây cholesterol cao?",
-          "eleven": "Làm thế nào để phát hiện khối u não trên MRI?",
-          "twelve": "Vai trò của y học gia đình là gì?",
-          "thirteen": "Các yếu tố nguy cơ đột quỵ là gì?",
-          "fourteen": "Làm thế nào để quản lý lo lắng và căng thẳng?",
-          "fifteen": "Hướng dẫn mới nhất để quản lý huyết áp cao là gì?"
+          "one": "X-quang ngực có thể giúp học gì về giải phẫu động vật?",
+          "two": "Các chủ đề nghiên cứu phổ biến liên quan đến chức năng tim ở động vật là gì?",
+          "three": "Những yếu tố nào ảnh hưởng đến sức khỏe tim mạch ở các loài khác nhau?",
+          "four": "Công nghệ MRI và CT khác nhau như thế nào trong nghiên cứu hình ảnh thú y?",
+          "five": "Các khái niệm chính để hiểu quá trình trao đổi chất ở động vật là gì?",
+          "six": "Các thông số xét nghiệm máu cơ bản được giải thích như thế nào trong giáo dục thú y?",
+          "eight": "Siêu âm tim giúp minh họa điều gì về chức năng tim?",
+          "nine": "Nguyên tắc nào hướng dẫn dinh dưỡng cân bằng cho thú cưng?",
+          "ten": "Điều gì ảnh hưởng đến mức lipid và cholesterol ở các loài động vật khác nhau?",
+          "eleven": "Hình ảnh được sử dụng như thế nào để nghiên cứu cấu trúc thần kinh ở động vật?",
+          "twelve": "Các chủ đề nào thường được đề cập trong y học thú y tổng quát?",
+          "thirteen": "Các khái niệm học thuật phổ biến đằng sau các tình trạng giống đột quỵ là gì?",
+          "fourteen": "Làm thế nào để nhận biết các hành vi liên quan đến căng thẳng hoặc lo lắng ở động vật?",
+          "fifteen": "Những yếu tố nào được nghiên cứu liên quan đến điều hòa huyết áp ở động vật?",
+          "sixteen": "Những đặc điểm nào thường được nghiên cứu ở các giống chó khác nhau?",
+          "seventeen": "Hành vi của mèo khác nhau như thế nào giữa các giống mèo?",
+          "eighteen": "Sự khác biệt giải phẫu chính giữa chó và mèo là gì?",
+          "nineteen": "Di truyền ảnh hưởng đến đặc điểm cụ thể của giống như thế nào?",
+          "twenty": "Yếu tố môi trường nào ảnh hưởng đến hành vi và học tập của động vật?",
+          "twentyOne": "Các loài động vật hoang dã thích nghi với hệ sinh thái của chúng như thế nào?",
+          "twentyTwo": "Các nguyên tắc phổ biến trong nghiên cứu nhân giống và di truyền là gì?",
+          "twentyThree": "Hành vi xã hội của động vật được nghiên cứu như thế nào ở các loài thuần hóa?",
+          "twentyFour": "Các chủ đề nền tảng nào được bao gồm trong nghiên cứu về thú cưng?",
+          "twentyFive": "Làm thế nào sinh viên tiếp cận việc đánh giá điểm tình trạng cơ thể động vật?",
+          "twentySix": "Những yếu tố nào ảnh hưởng đến tăng trưởng và phát triển ở động vật non?",
+          "twentySeven": "Làm thế nào sự làm phong phú được sử dụng để hỗ trợ phúc lợi động vật?",
+          "twentyEight": "Các khái niệm sức khỏe chính nào thường được khám phá trong nghiên cứu chăm sóc mèo?",
+          "twentyNine": "Nhu cầu ăn kiêng nào khác nhau giữa các giống chó nhỏ, trung bình và lớn?",
+          "thirty": "Động vật học và sinh học động vật hoang dã đóng góp như thế nào vào giáo dục thú y?"
         }
       },
       "notifications": {
         "title": "Thông báo",
-        "noNotifications": "Không có thông báo nào - hãy theo dõi để cập nhật!"
+        "noNotifications": "Không có thông báo nào — hãy theo dõi để cập nhật!"
       },
       "rateAppScreen": {
         "heading": "Bạn có thấy ứng dụng có giá trị và hấp dẫn không?",
@@ -277,86 +265,86 @@
       },
       "profile": {
         "title": "Hồ sơ",
-        "edit": "Chỉnh sửa hồ sơ",
-        "placeholderPreferredName": "Ví dụ: Captain Cool, Queen Bee, hoặc chỉ là Alex!"
+        "edit": "Chỉnh sửa Hồ sơ",
+        "placeholderPreferredName": "VD: Thuyền trưởng Cool, Nữ hoàng Ong, hoặc chỉ là Alex!"
       },
       "noInternetScreen": {
         "heading": "Bạn đang ngoại tuyến",
-        "subheading": "Kết nối của bạn có vẻ không ổn định. Vui lòng kiểm tra trạng thái mạng"
+        "subheading": "Kết nối của bạn có vẻ không ổn định. Vui lòng xác minh trạng thái mạng của bạn"
       },
       "newAppVersionScreen": {
         "heading": "Phiên bản mới của Veterinary AI có sẵn",
-        "subheading": "Cập nhật lên phiên bản mới nhất để tiếp tục tận hưởng tất cả tính năng ứng dụng - chỉ mất 5 giây!",
+        "subheading": "Cập nhật lên phiên bản mới nhất để tiếp tục tận hưởng tất cả tính năng ứng dụng — chỉ mất 5 giây!",
         "action": "Nhận ngay!"
       },
       "disclaimerScreen": {
-        "heading": "Tuyên bố miễn trừ trách nhiệm y tế quan trọng",
-        "subheading": "Veterinary AI được thiết kế cho chuyên gia X-quang, chuyên gia chăm sóc sức khỏe, sinh viên y khoa và người đam mê",
-        "consentAgreement": "Tôi đã đọc và đồng ý với tuyên bố miễn trừ trách nhiệm.",
-        "firstConsent": "Veterinary AI không cung cấp phép đo sức khỏe hoặc lời khuyên điều trị, và không nhằm mục đích đó. Người dùng Veterinary AI phải áp dụng phán đoán lâm sàng của họ và xác minh thông tin từ các nguồn có thẩm quyền trước khi đưa ra quyết định lâm sàng.",
-        "secondConsent": "Veterinary AI không phải là công cụ chẩn đoán, nền tảng điều trị hoặc thay thế cho lời khuyên y tế chuyên nghiệp. Nó cung cấp thông tin chi tiết được tạo bởi AI để giúp chuyên gia chăm sóc sức khỏe truy cập kiến thức y tế và phân tích hình ảnh và tài liệu y tế. Veterinary AI là ứng dụng thông tin và giáo dục được hỗ trợ bởi AI được thiết kế để hỗ trợ chuyên gia chăm sóc sức khỏe có giấy phép.",
-        "thirdConsent": "Veterinary AI không được thiết kế cho bệnh nhân sử dụng. Nó không cung cấp chẩn đoán y tế trực tiếp, khuyến nghị điều trị hoặc chức năng quản lý bệnh nhân.",
+        "heading": "Tuyên bố miễn trừ Y tế Quan trọng",
+        "subheading": "Veterinary AI được thiết kế cho chuyên gia X quang, chuyên gia y tế, sinh viên y khoa và người đam mê",
+        "consentAgreement": "Tôi đã đọc và đồng ý với tuyên bố miễn trừ.",
+        "firstConsent": "Veterinary AI không cung cấp phép đo sức khỏe hoặc lời khuyên điều trị, cũng không nhằm mục đích đó. Người dùng Veterinary AI phải áp dụng phán đoán lâm sàng và xác minh thông tin từ các nguồn có thẩm quyền trước khi đưa ra bất kỳ quyết định lâm sàng nào.",
+        "secondConsent": "Veterinary AI không phải là công cụ chẩn đoán, nền tảng điều trị hoặc thay thế cho lời khuyên y tế chuyên nghiệp. Nó cung cấp thông tin chi tiết được tạo bởi AI để hỗ trợ các chuyên gia thú y. Veterinary AI là một ứng dụng thông tin và giáo dục được điều khiển bởi AI được thiết kế để hỗ trợ các chuyên gia thú y được cấp phép.",
         "fourthConsent": "Veterinary AI không được phân loại là thiết bị y tế và không yêu cầu phê duyệt quy định. Nó nhằm mục đích giáo dục và thông tin để bổ sung cho chuyên môn chuyên nghiệp.",
-        "fifthConsent": "Veterinary AI không thu thập, lưu trữ hoặc xử lý dữ liệu cá nhân hoặc dữ liệu bệnh nhân. Tất cả tương tác của người dùng đều được bảo mật và giới hạn trong phạm vi ứng dụng."
+        "fifthConsent": "Veterinary AI không thu thập, lưu trữ hoặc xử lý dữ liệu cá nhân hoặc bệnh nhân. Tất cả tương tác của người dùng đều được bảo mật và giới hạn trong phạm vi của ứng dụng."
       },
       "contactUs": {
-        "heading": "Hãy gửi email trực tiếp cho chúng tôi và nhóm của chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể",
-        "customerSupport": "Hỗ trợ khách hàng",
-        "emailAddress": "Địa chỉ email"
+        "heading": "Hãy thoải mái gửi email trực tiếp cho chúng tôi và nhóm của chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể",
+        "customerSupport": "Hỗ trợ Khách hàng",
+        "emailAddress": "Địa chỉ Email"
       },
       "rate": {
         "title": "Cho chúng tôi phản hồi!"
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "Không tìm thấy kết quả - nhưng đừng lo lắng!",
-          "notFoundSubtitle": "Thử sử dụng các từ khóa khác nhau, hoặc hỏi trực tiếp trợ lý y tế AI của chúng tôi",
-          "askAssistant": "Hỏi trợ lý y tế"
+          "notFoundTitle": "Không tìm thấy kết quả — nhưng đừng lo lắng!",
+          "notFoundSubtitle": "Thử sử dụng các từ khóa khác, hoặc hỏi trực tiếp trợ lý thú y AI của chúng tôi",
+          "askAssistant": "Hỏi Trợ lý Y tế"
         }
       },
       "paywallOnboarding": {
         "freeTierOfferings": {
-          "freeTrialEnabled": "Đã bật dùng thử miễn phí",
-          "heading": "Truy cập không giới hạn",
-          "title": "Mở khóa tính năng cao cấp ngay hôm nay!",
-          "firstOffering": "Truy cập tất cả tính năng cao cấp",
-          "secondOffering": "Trải nghiệm không quảng cáo",
-          "thirdOffering": "Phân tích không giới hạn hình ảnh y tế, video, quét PDF + báo cáo",
-          "fourthOffering": "Trò chuyện không giới hạn với trợ lý y tế AI 24/7"
+          "freeTrialEnabled": "Đã bật Dùng thử Miễn phí",
+          "heading": "Truy cập Không giới hạn",
+          "title": "Mở khóa Tính năng Cao cấp Hôm nay!",
+          "firstOffering": "Truy cập Tất cả Tính năng Cao cấp",
+          "secondOffering": "Trải nghiệm Không quảng cáo",
+          "thirdOffering": "Phân tích không giới hạn hình ảnh thú y, video, quét PDF + báo cáo",
+          "fourthOffering": "Trò chuyện không giới hạn với trợ lý thú y AI 24/7",
+          "renewalInfo": "*Đăng ký của bạn sẽ được tính vào tài khoản {{store}} của bạn và gia hạn tự động trừ khi bị hủy ít nhất 24 giờ trước khi kết thúc thời gian đăng ký hiện tại. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong cài đặt tài khoản của mình. Đăng ký sẽ gia hạn với cùng mức giá và gói bạn đã chọn trừ khi bạn thay đổi hoặc hủy nó."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Người bạn đồng hành sức khỏe AI của bạn",
-          "subtitle": "Nhận thông tin y tế tức thì và hướng dẫn từ các bác sĩ AI chuyên khoa, mọi lúc, mọi nơi."
+          "title": "Đồng hành Thú y & Học tập được hỗ trợ bởi AI của bạn",
+          "subtitle": "Khám phá khái niệm thú y với thông tin chi tiết giáo dục rõ ràng, được tạo bởi AI"
         },
         "secondOnboarding": {
-          "title": "Hỏi, Tải lên và Nhận Thông tin Y tế",
-          "subtitle": "Trò chuyện với bác sĩ AI từ các chuyên khoa khác nhau, hoặc tải lên hình ảnh y tế để phân tích y tế nhanh chóng."
+          "title": "Hỏi, Học, Nghiên cứu Chủ đề Thú y",
+          "subtitle": "Khám phá giải thích đơn giản về hành vi động vật, giống, giải phẫu và khái niệm thú y chung."
         },
         "thirdOnboarding": {
           "title": "Quyền riêng tư của bạn quan trọng",
-          "subtitle": "Chúng tôi cam kết bảo vệ quyền riêng tư của bạn. Chúng tôi không thu thập dữ liệu cá nhân. Bất kỳ tệp nào bạn tải lên đều được bảo mật và không bao giờ được chia sẻ."
+          "subtitle": "Chúng tôi cam kết bảo vệ quyền riêng tư của bạn. Chúng tôi không thu thập dữ liệu cá nhân và bất kỳ tệp nào bạn tải lên đều ở chế độ riêng tư và không bao giờ được chia sẻ."
         }
       },
       "paywallUpgradeScreen": {
-        "heading": "Mở khóa tính năng cao cấp ngay hôm nay!",
+        "heading": "Mở khóa Tính năng Cao cấp Hôm nay!",
         "firstOffering": {
-          "title": "Bắt đầu dùng thử miễn phí",
+          "title": "Bắt đầu Dùng thử Miễn phí",
           "subtitle": "Tận hưởng {{freeScans}} quét miễn phí – không thanh toán"
         },
         "secondOffering": {
-          "title": "Gói tháng",
+          "title": "Gói Hàng tháng",
           "subtitle": "{{ price }}/tháng"
         },
         "thirdOffering": {
-          "title": "Gói năm",
+          "title": "Gói Hàng năm",
           "subtitle": "{{ price }} mỗi năm"
         },
         "fourthOffering": {
-          "title": "Dùng thử {{trialDays}} ngày",
+          "title": "Dùng thử Miễn phí {{trialDays}} Ngày",
           "subtitle": "{{ price }} mỗi năm",
-          "plan": "Gói tuần"
+          "plan": "Gói Hàng tuần"
         }
       }
     }
@@ -366,8 +354,9 @@
     "app_name": "Tên ứng dụng",
     "citations": "Trích dẫn thông tin y tế",
     "contactUs": "Liên hệ chúng tôi",
+    "cancelSubscription": "Hủy đăng ký",
     "devMode": {
-      "componentsLibrary": "Thư viện giao diện",
+      "componentsLibrary": "Thư viện Giao diện",
       "title": "Chế độ nhà phát triển"
     },
     "faq": "Câu hỏi thường gặp",
@@ -414,14 +403,14 @@
     "links": "Liên kết",
     "logout": "Đăng xuất",
     "more": "Thêm",
-    "privacy": "Chính sách bảo mật",
+    "privacy": "Chính sách Riêng tư",
     "profile": "Hồ sơ",
     "rate": "Phản hồi",
     "share": "Chia sẻ",
     "support": "Hỗ trợ",
     "support_us": "Ủng hộ chúng tôi",
     "tab": "Cài đặt",
-    "terms": "Điều khoản dịch vụ",
+    "terms": "Điều khoản Dịch vụ",
     "theme": {
       "dark": "Tối",
       "light": "Sáng",
@@ -433,12 +422,12 @@
     "website": "Trang web"
   },
   "alerts": {
-    "mediaPickerPermissions": "Xin lỗi, chúng tôi cần quyền truy cập máy ảnh để hoạt động này!",
+    "mediaPickerPermissions": "Xin lỗi, chúng tôi cần quyền truy cập máy ảnh để tính năng này hoạt động!",
     "errorSelectingImagePicker": "Đã xảy ra lỗi khi chọn hình ảnh. Vui lòng thử lại.",
     "errorSelectingDocumentPicker": "Đã xảy ra lỗi khi chọn tài liệu. Vui lòng thử lại.",
     "errorTakingPicture": "Đã xảy ra lỗi khi chụp ảnh. Vui lòng thử lại.",
     "enableNotifications": {
-      "heading": "Bật thông báo",
+      "heading": "Bật Thông báo",
       "subHeading": "Thông báo hiện đang tắt. Để cập nhật, vui lòng bật chúng trong cài đặt thiết bị của bạn."
     },
     "enableNotificationFailed": "Thông báo đẩy bị tắt. Bật chúng trong cài đặt để nhận cập nhật quan trọng!",
@@ -450,7 +439,7 @@
     "projectIdNotFound": "Không tìm thấy ID dự án thông báo.",
     "imageSizeLarge": "Hình ảnh quá lớn! Kích thước tệp là {{fileSize}} MB, nhưng giới hạn là {{imageLimit}} MB.",
     "videoSizeLarge": "Video quá lớn! Kích thước tệp là {{fileSize}} MB, nhưng giới hạn là {{videoLimit}} MB.",
-    "loggedInSuccess": "Đăng nhập thành công",
+    "loggedInSuccess": "Đã đăng nhập thành công",
     "loggedOutSuccess": "Bạn đã đăng xuất thành công!",
     "sendVerificationCodeError": "Lỗi khi gửi mã xác minh",
     "validateAuthCodeError": "Lỗi khi xác thực mã auth",
@@ -465,21 +454,21 @@
     "deleteScanReportFail": "Không thể xóa báo cáo quét. Vui lòng thử lại",
     "onboardingUnsuccessful": "Giới thiệu không thành công. Vui lòng thử lại",
     "logoutUnsuccessful": "Đăng xuất không thành công. Vui lòng thử lại",
-    "deleteScanReportQuestion": "Bạn có chắc chắn muốn xóa vĩnh viễn báo cáo này không?",
+    "deleteScanReportQuestion": "Bạn có chắc chắn muốn xóa vĩnh viễn báo cáo này?",
     "videoLimitExceeds": "Video của bạn vượt quá giới hạn {{videoSecondsLimit}} giây. Vui lòng cắt bớt và tải lên lại",
-    "subscriptionActivated": "Đăng ký của bạn đã được kích hoạt thành công! Tận hưởng các đặc quyền độc quyền của bạn!",
-    "subscriptionCancelledByUser": "Bạn đã hủy giao dịch. Hãy thử lại!",
+    "subscriptionActivated": "Đăng ký của bạn đã được kích hoạt thành công! Hãy tận hưởng các đặc quyền độc quyền của bạn!",
+    "subscriptionCancelledByUser": "Bạn đã hủy giao dịch. Hãy thoải mái thử lại!",
     "subscriptionActivationFailed": "Không thể kích hoạt đăng ký của bạn. Vui lòng thử lại",
-    "logoutQuestion": "Bạn có chắc chắn muốn đăng xuất không?",
+    "logoutQuestion": "Bạn có chắc chắn muốn đăng xuất?",
     "noSubscriptionToRestore": "Rất tiếc! Có vẻ như bạn không có đăng ký hoạt động tại thời điểm này. Để tiếp tục tận hưởng quyền truy cập đầy đủ, vui lòng chọn một trong các gói đăng ký của chúng tôi.",
     "restorationSuccessful": "Khôi phục thành công! Tận hưởng!",
     "restorationError": "Đã xảy ra lỗi khi khôi phục giao dịch mua.",
     "medicalDisclaimerAlert": "Ứng dụng Veterinary AI không thay thế tư vấn y tế. Một số chẩn đoán chỉ dành cho mục đích thông tin/giáo dục. Để được khuyến nghị y tế, luôn tham khảo ý kiến bác sĩ hoặc chuyên gia được cấp phép.",
-    "scanLimitReached": "Chúng tôi đang tối ưu hóa chất lượng quét cho bạn! Bạn sẽ có thể quét lại sau khoảng {{hours}} giờ và {{minutes}} phút. Có câu hỏi về chủ đề y tế? Hỏi trợ lý trò chuyện của chúng tôi trong khi chờ đợi!",
-    "mixedMediaNotAllowed": "Để chính xác hơn, không tải lên hỗn hợp các tệp đa phương tiện khác nhau. Vui lòng chỉ tải lên hình ảnh, video hoặc pdf - không phải tất cả cùng nhau.",
+    "scanLimitReached": "Chúng tôi đang tối ưu hóa chất lượng quét cho bạn! Bạn sẽ có thể quét lại sau khoảng {{hours}} giờ và {{minutes}} phút. Có câu hỏi về chủ đề y tế nào? Hãy hỏi trợ lý trò chuyện của chúng tôi trong khi chờ đợi!",
+    "mixedMediaNotAllowed": "Để chính xác hơn, không tải lên hỗn hợp các tệp media khác nhau. Vui lòng chỉ tải lên hình ảnh, video hoặc pdf — không phải tất cả cùng nhau.",
     "multipleVideosNotAllowed": "Để chính xác hơn, vui lòng chỉ tải lên một video tại một thời điểm.",
-    "mediaFilesUploadFiles": "Đã xảy ra lỗi khi tải lên tệp đa phương tiện của bạn. Vui lòng thử lại.",
-    "chatAndMediaFilesLimit": "Người dùng thân mến, bạn cần nâng cấp gói của mình để hưởng lợi từ trò chuyện không giới hạn, quét không giới hạn, phân tích đa hình ảnh và hơn thế nữa. 🔓"
+    "mediaFilesUploadFiles": "Đã xảy ra lỗi khi tải lên các tệp media của bạn. Vui lòng thử lại.",
+    "chatAndMediaFilesLimit": "Người dùng thân mến, bạn cần nâng cấp gói của mình để hưởng lợi từ các cuộc trò chuyện không giới hạn, quét không giới hạn, phân tích đa hình ảnh và hơn thế nữa. 🔓"
   },
   "deleteApp": {
     "title": "Đợi đã! Đừng xóa tôi!",

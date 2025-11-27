@@ -21,9 +21,10 @@
     "chatbotPlaceholder": "Pergunte-me qualquer coisa...",
     "completedScans": "Escaneamentos concluídos",
     "conversationHistory": "Histórico de conversas",
-    "medicalAssistants": "Assistentes Médicos",
+    "medicalAssistants": "Assistentes Veterinários de IA Gerais",
     "searchAssistant": "Pesquisar Assistente...",
     "analyzingMediaFilesPlaceholder": "Analisando Arquivos de Mídia...",
+    "mainDisclaimer": "Este aplicativo nunca fornece medidas relacionadas à saúde, diagnósticos ou conselhos de tratamento. Sempre consulte um especialista licenciado para qualquer preocupação médica.",
     "copyText": {
       "copied": "Copiado!",
       "copy": "Copiar Link",
@@ -35,7 +36,7 @@
     "freeTrial": "Teste grátis",
     "loadingMessages": {
       "imageScanningLoading": {
-        "first": "Escaneando suas imagens médicas, aguarde...",
+        "first": "Escaneando suas imagens médicas, por favor aguarde...",
         "fourth": "Quase lá, finalizando o escaneamento...",
         "second": "Analisando detalhes, isso pode levar um momento...",
         "third": "Aprimorando a precisão para os melhores resultados..."
@@ -47,18 +48,18 @@
         "third": "Processando seus dados..."
       },
       "loadingChatbot": {
-        "first": "Dr. Med está se preparando para ajudá-lo...",
-        "second": "Aguarde! Dr. Med está preparando sua resposta...",
-        "third": "Pensando... seu assistente Dr. Med está trabalhando nisso!"
+        "first": "Dr. Vet está se preparando para ajudá-lo...",
+        "second": "Aguarde! Dr. Vet está preparando sua resposta...",
+        "third": "Pensando... seu assistente Dr. Vet está trabalhando nisso!"
       }
     },
     "tabs": {
       "home": "Início",
       "chat": "Chat",
-      "aiDoctors": "Médicos IA",
+      "aiDoctors": "Assistentes de IA",
       "settings": "Configurações"
     },
-    "medicalDisclaimer": "Aviso Médico",
+    "medicalDisclaimer": "Aviso Veterinário",
     "next": "Próximo",
     "noPaymentNow": "Sem Pagamento Agora. Cancele a qualquer momento.",
     "online": "Online",
@@ -75,7 +76,7 @@
     "share": "Compartilhar",
     "shareLink": "Compartilhar Link",
     "skip": "Pular",
-    "termsAndConditions": "Termos & Condições",
+    "termsAndConditions": "Termos e Condições",
     "then": "depois",
     "tryAgain": "Tentar novamente",
     "tryForFree": "Iniciar Teste Grátis",
@@ -85,7 +86,7 @@
     "upgradePlan": "Atualizar Plano",
     "viewProfile": "Ver Perfil",
     "yes": "Sim",
-    "chatBotPlaceholder": "Oi 👋 Curioso sobre {{topic}}? Estou aqui para te ajudar a explorar e aprender mais — pode me perguntar qualquer coisa!"
+    "chatBotPlaceholder": "Olá 👋 Curioso sobre {{topic}}? Estou aqui para ajudá-lo a explorar e aprender mais — pergunte-me qualquer coisa!"
   },
   "weekDays": {
     "today": "Hoje",
@@ -93,9 +94,9 @@
   },
   "components": {
     "PremiumFeaturesOverview": {
-      "first": "Obtenha análises de vários exames médicos, incluindo RAIO-X, TC, RM, ECG e mais",
+      "first": "Descubra conceitos veterinários e tópicos sobre animais através de aprendizado com IA",
       "second": "Acesso a todos os recursos premium",
-      "fourth": "Chats ilimitados com assistentes médicos de IA 24/7",
+      "fourth": "Chats ilimitados com assistentes veterinários de IA 24/7",
       "third": "Sem anúncios"
     },
     "UpgradeBanner": {
@@ -103,18 +104,19 @@
       "subheading": "Aproveite todos os benefícios sem restrições"
     },
     "MedicalCard": {
-      "medicalImagesAnalyzer": "Analisador de Imagens Médicas",
-      "askMedicalAssistant": "Perguntar ao Assistente Médico IA",
+      "veterinaryImaging": "Imagem Veterinária / Raça",
+      "medicalImagesAnalyzer": "Laboratório de Estudo de Imagem Veterinária",
+      "askMedicalAssistant": "Perguntar ao Assistente de IA",
       "medicalAssistant": "Assistente Médico",
       "imageTypes": {
         "xray": "Raio-X",
-        "ct": "Tomografia Computadorizada",
-        "mri": "Ressonância Magnética",
+        "ct": "Tomografia Computadorizada (CT)",
+        "mri": "Ressonância Magnética (MRI)",
         "ultrasound": "Ultrassom",
-        "ecg": "ECG",
+        "ecg": "Eletrocardiograma (ECG/EKG)",
         "skinLesion": "Lesão de Pele",
         "mammogram": "Mamografia",
-        "retinalScan": "Scan Retinal",
+        "retinalScan": "Escaneamento Retinal / Ocular",
         "bloodSmear": "Esfregaço de Sangue",
         "dental": "Dental",
         "pet": "PET",
@@ -126,99 +128,71 @@
     },
     "SpecializationCard": {
       "specialization": {
-        "familyMedicine": {
-          "title": "Medicina de Família",
-          "subtitle": "Clínica Geral"
+        "veterinaryGeneralMedicine": {
+          "title": "Introdução à Veterinária",
+          "subtitle": "Visão Geral de Estudo"
         },
-        "internalMedicine": {
-          "title": "Medicina Interna"
+        "veterinaryInternalMedicine": {
+          "title": "Medicina Interna (Guia de Estudo)"
         },
-        "pediatrics": {
-          "title": "Pediatria"
+        "veterinaryDermatology": {
+          "title": "Bases da Dermatologia (Aprendizado)"
         },
-        "dermatology": {
-          "title": "Dermatologia"
+        "veterinaryCardiology": {
+          "title": "Estudo de Cardiologia Veterinária"
         },
-        "cardiology": {
-          "title": "Cardiologia"
+        "veterinaryOrthopedics": {
+          "title": "Ortopedia e Musculoesquelético (Estudo)"
         },
-        "orthopedics": {
-          "title": "Ortopedia"
+        "veterinaryNeurology": {
+          "title": "Neurologia – Aprendizado"
         },
-        "psychiatry": {
-          "title": "Psiquiatria",
-          "subtitle": "Saúde Mental"
+        "veterinaryOphthalmology": {
+          "title": "Oftalmologia – Guia de Estudo"
         },
-        "obstetricsGynecology": {
-          "title": "Obstetrícia & Ginecologia",
-          "subtitle": "OB/GYN"
+        "veterinaryDentistry": {
+          "title": "Bases da Odontologia Veterinária"
         },
-        "neurology": {
-          "title": "Neurologia"
+        "veterinaryRadiology": {
+          "title": "Radiologia e Imagem",
+          "subtitle": "Visão Geral de Imagem"
         },
-        "ophthalmology": {
-          "title": "Oftalmologia"
+        "veterinaryOncology": {
+          "title": "Oncologia – Educacional"
         },
-        "otolaryngology": {
-          "title": "Otorrinolaringologia",
-          "subtitle": "ENT"
+        "veterinaryEndocrinology": {
+          "title": "Endocrinologia – Tópicos de Estudo"
         },
-        "dentistry": {
-          "title": "Odontologia"
+        "veterinaryNephrologyUrology": {
+          "title": "Nefrologia e Urologia (Aprendizado)"
         },
-        "radiology": {
-          "title": "Radiologia",
-          "subtitle": "Imagem"
+        "veterinaryRespiratory": {
+          "title": "Visão Geral da Medicina Respiratória"
         },
-        "oncology": {
-          "title": "Oncologia"
+        "veterinaryGastroenterology": {
+          "title": "Gastroenterologia – Guia de Estudo"
         },
-        "endocrinology": {
-          "title": "Endocrinologia"
+        "veterinaryImmunology": {
+          "title": "Imunologia e Doenças Infecciosas (Estudo)"
         },
-        "nephrology": {
-          "title": "Nefrologia"
+        "veterinaryHematology": {
+          "title": "Hematologia – Aprendizado"
         },
-        "pulmonology": {
-          "title": "Pneumologia"
+        "veterinarySurgery": {
+          "title": "Conceitos e Estudo de Cirurgia"
         },
-        "gastroenterology": {
-          "title": "Gastroenterologia"
+        "veterinaryAnesthesiology": {
+          "title": "Anestesiologia e Gestão da Dor (Estudo)"
         },
-        "allergyImmunology": {
-          "title": "Alergia & Imunologia"
+        "veterinaryRehabilitation": {
+          "title": "Reabilitação e Fisioterapia",
+          "subtitle": "Guia Educacional"
         },
-        "hematology": {
-          "title": "Hematologia"
+        "veterinaryExotics": {
+          "title": "Medicina de Exóticos e Animais Silvestres (Visão Geral)"
         },
-        "rheumatology": {
-          "title": "Reumatologia"
-        },
-        "urology": {
-          "title": "Urologia"
-        },
-        "emergencyMedicine": {
-          "title": "Medicina de Emergência"
-        },
-        "surgery": {
-          "title": "Cirurgia"
-        },
-        "anesthesiology": {
-          "title": "Anestesiologia"
-        },
-        "rehabilitationMedicine": {
-          "title": "Medicina de Reabilitação",
-          "subtitle": "Fisioterapia"
-        },
-        "geriatrics": {
-          "title": "Geriatria"
-        },
-        "publicHealth": {
-          "title": "Saúde Pública",
-          "subtitle": "Medicina Preventiva"
-        },
-        "microscopy": {
-          "title": "Microscopia"
+        "veterinaryLivestock": {
+          "title": "Estudos de Grandes Animais e Gado"
         }
       }
     },
@@ -237,33 +211,47 @@
       },
       "freeTrialPreview": {
         "heading": "Aproveite seu teste grátis! 🎉",
-        "review": "Uso este aplicativo para questões médicas, exames de radiologia e estudos — é incrível!",
+        "review": "Uso este aplicativo para perguntas veterinárias, escaneamento de imagens de animais e estudos — é incrível!",
         "reviewTrust": "📈 Confiado por mais de 5.212 usuários"
       },
       "languageAnalysisModal": {
         "languagePreferenceQuestion": "Qual idioma você prefere para a análise de IA?",
         "languageSelection": "Escolha um idioma para respostas de IA",
-        "languageSearchCriteria": "Pesquise por idioma, código do país ou bandeira",
-        "noLanguageFound": "Nenhum Idioma Encontrado",
+        "languageSearchCriteria": "Pesquisar por idioma, código do país ou bandeira",
+        "noLanguageFound": "Idioma não encontrado",
         "noLanguageFoundSubtitle": "Tente modificar seus termos de pesquisa"
       },
       "chatScreen": {
         "randomQuestions": {
-          "one": "O que um raio-X de tórax mostra?",
-          "two": "Quais são os sintomas comuns de um ataque cardíaco?",
-          "three": "Como posso baixar minha pressão arterial naturalmente?",
-          "four": "Qual é a diferença entre uma ressonância magnética e uma tomografia computadorizada?",
-          "five": "Quais são os sinais precoces de diabetes?",
-          "six": "Como interpreto meus resultados básicos de exame de sangue?",
-          "seven": "Qual é o tratamento para uma infecção do trato urinário (ITU)?",
-          "eight": "Você pode explicar para que serve um ecocardiograma?",
-          "nine": "Quais são as diretrizes para uma dieta saudável?",
-          "ten": "O que causa colesterol alto?",
-          "eleven": "Como um tumor cerebral é detectado em uma ressonância magnética?",
-          "twelve": "Qual é o papel da medicina de família?",
-          "thirteen": "Quais são os fatores de risco para um AVC?",
-          "fourteen": "Como gerenciar ansiedade e estresse?",
-          "fifteen": "Quais são as diretrizes mais recentes para o manejo da hipertensão?"
+          "one": "O que os raios-X de tórax podem ajudar a aprender sobre a anatomia animal?",
+          "two": "Quais são os tópicos de estudo comuns relacionados à função cardíaca em animais?",
+          "three": "Quais fatores influenciam a saúde cardiovascular em diferentes espécies?",
+          "four": "Como as tecnologias de MRI e CT diferem nos estudos de imagem veterinária?",
+          "five": "Quais são os conceitos-chave para entender os processos metabólicos em animais?",
+          "six": "Como os parâmetros básicos de exames de sangue são interpretados na educação veterinária?",
+          "eight": "O que um ecocardiograma ajuda a ilustrar sobre a função cardíaca?",
+          "nine": "Quais princípios orientam uma nutrição equilibrada para animais de companhia?",
+          "ten": "O que influencia os níveis de lipídios e colesterol em várias espécies animais?",
+          "eleven": "Como a imagem é usada para estudar estruturas neurológicas em animais?",
+          "twelve": "Quais tópicos são normalmente cobertos na medicina veterinária geral?",
+          "thirteen": "Quais são os conceitos acadêmicos comuns por trás de condições semelhantes a derrames?",
+          "fourteen": "Como os comportamentos relacionados ao estresse ou ansiedade podem ser reconhecidos em animais?",
+          "fifteen": "Quais fatores são estudados em relação à regulação da pressão arterial em animais?",
+          "sixteen": "Quais características são comumente estudadas em diferentes raças de cães?",
+          "seventeen": "Como os comportamentos felinos variam entre as raças de gatos?",
+          "eighteen": "Quais são as principais diferenças anatômicas entre cães e gatos?",
+          "nineteen": "Como a genética influencia as características específicas da raça?",
+          "twenty": "Quais fatores ambientais afetam o comportamento e aprendizado dos animais?",
+          "twentyOne": "Como as espécies selvagens se adaptam aos seus ecossistemas?",
+          "twentyTwo": "Quais são os princípios comuns em estudos de reprodução e genética?",
+          "twentyThree": "Como o comportamento social animal é estudado em espécies domésticas?",
+          "twentyFour": "Quais tópicos fundamentais estão incluídos nos estudos de animais de companhia?",
+          "twentyFive": "Como os estudantes abordam a avaliação de escores de condição corporal em animais?",
+          "twentySix": "Quais fatores influenciam o crescimento e desenvolvimento em animais jovens?",
+          "twentySeven": "Como o enriquecimento é usado para apoiar o bem-estar animal?",
+          "twentyEight": "Quais conceitos principais de saúde são comumente explorados em estudos de cuidados com gatos?",
+          "twentyNine": "Quais necessidades dietéticas diferem entre raças de cães pequenas, médias e grandes?",
+          "thirty": "Como a zoologia e a biologia da vida selvagem contribuem para a educação veterinária?"
         }
       },
       "notifications": {
@@ -278,11 +266,11 @@
       "profile": {
         "title": "Perfil",
         "edit": "Editar Perfil",
-        "placeholderPreferredName": "Ex: Capitão Legal, Rainha da Festa, ou apenas Alex!"
+        "placeholderPreferredName": "Ex., Capitão Legal, Rainha Abelha, ou apenas Alex!"
       },
       "noInternetScreen": {
         "heading": "Você está offline",
-        "subheading": "Sua conexão parece instável. Verifique o status da sua rede"
+        "subheading": "Sua conexão parece instável. Por favor, verifique o status da sua rede"
       },
       "newAppVersionScreen": {
         "heading": "Uma nova versão do Veterinary AI está disponível",
@@ -291,13 +279,12 @@
       },
       "disclaimerScreen": {
         "heading": "Aviso Médico Importante",
-        "subheading": "O Veterinary AI é projetado para profissionais de radiologia, especialistas em saúde, estudantes de medicina e entusiastas",
+        "subheading": "Veterinary AI é projetado para profissionais de radiologia, especialistas em saúde, estudantes de medicina e entusiastas",
         "consentAgreement": "Li e concordo com o aviso.",
-        "firstConsent": "O Veterinary AI não fornece medições de saúde ou conselhos de tratamento, nem se destina a tais fins. Os usuários do Veterinary AI devem aplicar seu julgamento clínico e verificar informações de fontes autorizadas antes de tomar quaisquer decisões clínicas.",
-        "secondConsent": "O Veterinary AI não é uma ferramenta de diagnóstico, plataforma de tratamento ou substituto para aconselhamento médico profissional. Ele oferece insights gerados por IA para auxiliar profissionais de saúde no acesso ao conhecimento médico e na análise de imagens e documentos médicos. O Veterinary AI é um aplicativo informativo e educacional baseado em IA projetado principalmente para apoiar profissionais de saúde licenciados.",
-        "thirdConsent": "O Veterinary AI não é projetado para uso por pacientes. Ele não fornece diagnósticos médicos diretos, recomendações de tratamento ou funcionalidades de gerenciamento de pacientes.",
-        "fourthConsent": "O Veterinary AI não é classificado como dispositivo médico e não reivindica aprovação regulatória. Destina-se a fins educacionais e informativos para complementar a experiência profissional.",
-        "fifthConsent": "O Veterinary AI não coleta, armazena ou processa dados pessoais ou de pacientes. Todas as interações do usuário são confidenciais e limitadas ao escopo do aplicativo."
+        "firstConsent": "Veterinary AI não fornece medidas de saúde ou conselhos de tratamento, nem se destina a tais finalidades. Os usuários do Veterinary AI devem aplicar seu julgamento clínico e verificar informações de fontes autorizadas antes de tomar quaisquer decisões clínicas.",
+        "secondConsent": "Veterinary AI não é uma ferramenta de diagnóstico, plataforma de tratamento ou substituição para aconselhamento médico profissional. Ele oferece insights gerados por IA para auxiliar profissionais veterinários. Veterinary AI é um aplicativo informativo e educacional baseado em IA projetado para apoiar profissionais veterinários licenciados.",
+        "fourthConsent": "Veterinary AI não é classificado como dispositivo médico e não alega aprovação regulatória. Destina-se a fins educacionais e informativos para complementar a experiência profissional.",
+        "fifthConsent": "Veterinary AI não coleta, armazena ou processa dados pessoais ou de pacientes. Todas as interações do usuário são confidenciais e limitadas ao escopo do aplicativo."
       },
       "contactUs": {
         "heading": "Sinta-se à vontade para nos enviar um e-mail diretamente, e nossa equipe responderá o mais breve possível",
@@ -305,12 +292,12 @@
         "emailAddress": "Endereço de E-mail"
       },
       "rate": {
-        "title": "Dê seu feedback!"
+        "title": "Dê-nos um feedback!"
       },
       "doctorsScreen": {
         "searchResults": {
-          "notFoundTitle": "Nenhum Resultado Encontrado — Mas Não Se Preocupe!",
-          "notFoundSubtitle": "Tente usar palavras-chave diferentes, ou pergunte diretamente ao nosso assistente médico de IA",
+          "notFoundTitle": "Nenhum resultado encontrado — Mas Não Se Preocupe!",
+          "notFoundSubtitle": "Tente usar palavras-chave diferentes, ou pergunte diretamente ao nosso assistente veterinário de IA",
           "askAssistant": "Perguntar ao Assistente Médico"
         }
       },
@@ -321,29 +308,30 @@
           "title": "Desbloqueie Recursos Premium Hoje!",
           "firstOffering": "Acesso a Todos os Recursos Premium",
           "secondOffering": "Experiência Sem Anúncios",
-          "thirdOffering": "Análise ilimitada de imagens médicas, vídeos, exames PDF + relatórios",
-          "fourthOffering": "Chats ilimitados com assistentes médicos de IA 24/7"
+          "thirdOffering": "Análise ilimitada de imagens veterinárias, vídeos, escaneamentos PDF + relatórios",
+          "fourthOffering": "Chats ilimitados com assistentes veterinários de IA 24/7",
+          "renewalInfo": "*Sua assinatura será cobrada em sua conta {{store}} e renova automaticamente, a menos que cancelada pelo menos 24 horas antes do final do período de assinatura atual. Você pode gerenciar ou cancelar a qualquer momento nas configurações da sua conta. A assinatura será renovada pelo mesmo preço e plano que você selecionou, a menos que você o altere ou cancele."
         }
       },
       "onboarding": {
         "firstOnboarding": {
-          "title": "Seu Companheiro de Saúde com IA",
-          "subtitle": "Obtenha insights e orientações médicas instantâneas de médicos de IA especializados, a qualquer hora, em qualquer lugar."
+          "title": "Seu Companheiro Veterinário e de Estudo com IA",
+          "subtitle": "Explore conceitos veterinários com insights educacionais claros, gerados por IA"
         },
         "secondOnboarding": {
-          "title": "Pergunte, Envie e Obtenha Insights Médicos",
-          "subtitle": "Converse com médicos de IA de diferentes especialidades, ou envie imagens médicas para análise médica rápida."
+          "title": "Pergunte, Aprenda, Estude Tópicos Veterinários",
+          "subtitle": "Descubra explicações simplificadas sobre comportamento animal, raça, anatomia e conceitos veterinários gerais."
         },
         "thirdOnboarding": {
           "title": "Sua Privacidade é Importante",
-          "subtitle": "Estamos comprometidos em proteger sua privacidade. Não coletamos dados pessoais. Quaisquer arquivos que você enviar permanecem privados e nunca são compartilhados."
+          "subtitle": "Estamos comprometidos em proteger sua privacidade. Não coletamos dados pessoais, e quaisquer arquivos que você enviar permanecem privados e nunca são compartilhados."
         }
       },
       "paywallUpgradeScreen": {
         "heading": "Desbloqueie Recursos Premium Hoje!",
         "firstOffering": {
           "title": "Iniciar Teste Grátis",
-          "subtitle": "Aproveite {{freeScans}} exames gratuitos – sem pagamento"
+          "subtitle": "Aproveite {{freeScans}} escaneamentos gratuitos – sem pagamento"
         },
         "secondOffering": {
           "title": "Plano Mensal",
@@ -354,7 +342,7 @@
           "subtitle": "{{ price }} por ano"
         },
         "fourthOffering": {
-          "title": "Teste de {{trialDays}} Dias",
+          "title": "Teste Grátis de {{trialDays}} Dias",
           "subtitle": "{{ price }} por ano",
           "plan": "Plano Semanal"
         }
@@ -363,9 +351,10 @@
   },
   "settings": {
     "about": "Sobre",
-    "app_name": "Nome do App",
+    "app_name": "Nome do Aplicativo",
     "citations": "Citações para informações médicas",
     "contactUs": "Contate-nos",
+    "cancelSubscription": "Cancelar Assinatura",
     "devMode": {
       "componentsLibrary": "Biblioteca de UI",
       "title": "Modo desenvolvedor"
@@ -434,14 +423,14 @@
   },
   "alerts": {
     "mediaPickerPermissions": "Desculpe, precisamos de permissões de câmera para que isso funcione!",
-    "errorSelectingImagePicker": "Algo deu errado ao selecionar a imagem. Tente novamente.",
-    "errorSelectingDocumentPicker": "Algo deu errado ao selecionar o documento. Tente novamente.",
-    "errorTakingPicture": "Algo deu errado ao tirar a foto. Tente novamente.",
+    "errorSelectingImagePicker": "Algo deu errado ao selecionar a imagem. Por favor, tente novamente.",
+    "errorSelectingDocumentPicker": "Algo deu errado ao escolher o documento. Por favor, tente novamente.",
+    "errorTakingPicture": "Algo deu errado ao tirar a foto. Por favor, tente novamente.",
     "enableNotifications": {
       "heading": "Ativar Notificações",
-      "subHeading": "As notificações estão atualmente desativadas. Para se manter atualizado, ative-as nas configurações do seu dispositivo."
+      "subHeading": "As notificações estão atualmente desativadas. Para se manter atualizado, por favor, ative-as nas configurações do seu dispositivo."
     },
-    "enableNotificationFailed": "As notificações push estão desativadas. Ative-as nas configurações para receber atualizações importantes!",
+    "enableNotificationFailed": "Notificações push estão desativadas. Ative-as nas configurações para receber atualizações importantes!",
     "enableNotificationError": "Ocorreu um erro ao ativar as notificações",
     "notificationDisabledSuccess": "Notificações desativadas com sucesso.",
     "notificationDisabledRegisterError": "Falha ao cancelar o registro do dispositivo para notificações.",
@@ -462,24 +451,24 @@
     "individualPushNotificationSuccess": "Notificações push individuais enviadas com sucesso!",
     "globalPushNotificationSuccess": "Notificações push globais enviadas com sucesso! 🌍🚀",
     "interpretationFieldsUpdateFail": "Falha ao atualizar os campos de interpretação! ❌",
-    "deleteScanReportFail": "Não foi possível excluir o relatório de exame. Tente novamente",
-    "onboardingUnsuccessful": "Onboarding não realizado com sucesso. Tente novamente",
-    "logoutUnsuccessful": "Logout não realizado com sucesso. Tente novamente",
+    "deleteScanReportFail": "Não é possível excluir o relatório de escaneamento. Por favor, tente novamente",
+    "onboardingUnsuccessful": "Onboarding mal-sucedido. Por favor, tente novamente",
+    "logoutUnsuccessful": "Logout mal-sucedido. Por favor, tente novamente",
     "deleteScanReportQuestion": "Tem certeza de que deseja excluir permanentemente este relatório?",
-    "videoLimitExceeds": "Seu vídeo excede o limite de {{videoSecondsLimit}} segundos. Recorte e envie novamente",
+    "videoLimitExceeds": "Seu vídeo excede o limite de {{videoSecondsLimit}} segundos. Por favor, recorte-o e faça o upload novamente",
     "subscriptionActivated": "Sua assinatura foi ativada com sucesso! Aproveite seus benefícios exclusivos!",
     "subscriptionCancelledByUser": "Você cancelou a transação. Sinta-se à vontade para tentar novamente!",
-    "subscriptionActivationFailed": "Falha ao ativar sua assinatura. Tente novamente",
+    "subscriptionActivationFailed": "Falha ao ativar sua assinatura. Por favor, tente novamente",
     "logoutQuestion": "Tem certeza de que deseja sair?",
-    "noSubscriptionToRestore": "Ops! Parece que você não tem uma assinatura ativa no momento. Para continuar aproveitando o acesso total, escolha um de nossos planos de assinatura.",
+    "noSubscriptionToRestore": "Ops! Parece que você não tem uma assinatura ativa no momento. Para continuar aproveitando o acesso total, por favor, escolha um de nossos planos de assinatura.",
     "restorationSuccessful": "A restauração foi bem-sucedida! Aproveite!",
     "restorationError": "Ocorreu um erro ao restaurar a compra.",
     "medicalDisclaimerAlert": "O aplicativo Veterinary AI não substitui a consulta médica. Alguns diagnósticos são apenas para fins informativos/educacionais. Para recomendações médicas, sempre consulte um médico ou especialista licenciado.",
-    "scanLimitReached": "Estamos otimizando a qualidade do exame para você! Você poderá examinar novamente em cerca de {{hours}} horas e {{minutes}} minutos. Tem alguma dúvida sobre algum tópico médico? Pergunte ao nosso assistente de chat enquanto espera!",
-    "mixedMediaNotAllowed": "Para melhor precisão, não envie uma mistura de diferentes arquivos de mídia. Envie apenas imagens, vídeos ou pdfs — não todos juntos.",
-    "multipleVideosNotAllowed": "Para melhor precisão, envie apenas um vídeo por vez.",
-    "mediaFilesUploadFiles": "Ocorreu um erro ao enviar seus arquivos de mídia. Tente novamente.",
-    "chatAndMediaFilesLimit": "Prezado usuário, você precisa atualizar seu plano para se beneficiar de chats ilimitados, exames ilimitados, análise de múltiplas imagens e mais. 🔓"
+    "scanLimitReached": "Estamos otimizando a qualidade do escaneamento para você! Você poderá escanear novamente em aproximadamente {{hours}} horas e {{minutes}} minutos. Tem alguma dúvida sobre algum tópico médico? Pergunte ao nosso assistente de chat enquanto espera!",
+    "mixedMediaNotAllowed": "Para melhor precisão, não faça upload de uma mistura de diferentes arquivos de mídia. Por favor, faça upload apenas de imagens, vídeos ou pdfs — não todos juntos.",
+    "multipleVideosNotAllowed": "Para melhor precisão, por favor, faça upload de apenas um vídeo por vez.",
+    "mediaFilesUploadFiles": "Houve um erro ao fazer upload dos seus arquivos de mídia. Por favor, tente novamente.",
+    "chatAndMediaFilesLimit": "Prezado usuário, você precisa atualizar seu plano para se beneficiar de chats ilimitados, escaneamentos ilimitados, análise de múltiplas imagens e mais. 🔓"
   },
   "deleteApp": {
     "title": "Espere! Não me exclua!",

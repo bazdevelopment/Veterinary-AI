@@ -1,6 +1,7 @@
+import axios from 'axios';
+
 import { firebaseCloudFunctionsInstance } from '@/firebase/config';
 import { Env } from '@/lib/env';
-import axios from 'axios';
 
 export const fetchConversation = async ({
   conversationId,
