@@ -142,22 +142,22 @@ const PricingCard = ({
             {title}
           </Text>
 
-          {/* {badge && (
+          {badge && (
             <View className="ml-3 rounded-lg bg-red-500 px-3 py-1">
-              <Text className="font-semibold-poppins text-[13px] text-white">
+              <Text className="font-semibold-poppins text-[12px] text-white">
                 {badge}
               </Text>
             </View>
-          )} */}
+          )}
         </View>
 
         <View>
           {originalPrice && (
             <View className="mt-1 flex-row items-center">
-              {/* <Text className="mr-2 font-semibold-poppins text-lg text-gray-600 line-through">
+              <Text className="mr-2 font-semibold-poppins text-[14.5px] text-gray-600 line-through">
                 {originalPrice}
-              </Text> */}
-              <Text className="font-medium-poppins text-lg text-gray-900">
+              </Text>
+              <Text className="font-medium-poppins text-[14.5px] text-gray-900">
                 {price} {translate('general.perYear')}
               </Text>
 
@@ -179,7 +179,7 @@ const PricingCard = ({
         </View>
 
         {subtitle && (
-          <Text className="font-medium-poppins text-lg text-black">
+          <Text className="font-medium-poppins text-[14.5px] text-black">
             {subtitle}
           </Text>
         )}
@@ -350,9 +350,10 @@ const PaywallNew = () => {
                   onUpdateUser,
                   logEvent,
                   setIsFirstTime,
+                  allowAppAccess,
                 });
                 // requestAppRatingWithDelay(3000);
-                DEVICE_TYPE.IOS && router.dismiss();
+                // DEVICE_TYPE.IOS && router.dismiss();
                 return;
               }
 
@@ -493,7 +494,7 @@ const PaywallNew = () => {
                   loading={isPendingRestorePurchase}
                 />
 
-                <Text className="mt-6 text-center text-sm text-charcoal-800">
+                <Text className="mt-10 text-center text-[11px] text-charcoal-800">
                   {translate(
                     'rootLayout.screens.paywallOnboarding.freeTierOfferings.renewalInfo',
                     { store: DEVICE_TYPE.IOS ? 'App Store' : 'Google Play' }

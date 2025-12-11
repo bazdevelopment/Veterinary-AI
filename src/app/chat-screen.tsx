@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 import { Ionicons } from '@expo/vector-icons';
 import { BlurView } from '@react-native-community/blur';
 import { FlashList } from '@shopify/flash-list';
@@ -396,7 +397,6 @@ const ChatScreen = () => {
   const [userMessage, setUserMessage] = useState('');
   const [pendingMessages, setPendingMessages] = useState<MessageType[]>([]);
 
-  const [isStreaming, setIsStreaming] = useState(false);
   const [currentlySpeakingId, setCurrentlySpeakingId] = useState<string | null>(
     null
   );
@@ -452,7 +452,12 @@ const ChatScreen = () => {
 
   const conversationsCount = data?.count || 0;
   // Hooks for messaging
-  const { sendStreamingMessage } = useSendStreamingMessage();
+  const {
+    mutateAsync: sendStreamingMessage,
+    isPending: isPendingStreamingMessage,
+  } = useSendStreamingMessage({
+    onComplete: onResetFiles,
+  });
   const { isUpgradeRequired } = useSubscriptionAlert();
 
   const handleSpeak = (messageId: string, text: string) => {
@@ -504,12 +509,10 @@ const ChatScreen = () => {
         language: selectedLanguage,
         onStream: (chunk: string) => {},
         onComplete: (fullResponse: string) => {
-          setIsStreaming(false);
           onResetFiles?.();
         },
         onError: (error: Error) => {
           // console.error('Error sending message:', error);
-          setIsStreaming(false);
           Toast.error('Failed to send message. Please try again.');
         },
       });
@@ -590,7 +593,6 @@ const ChatScreen = () => {
     setLastUserMessageIndex(messages.length);
 
     // Reset streaming message
-    setIsStreaming(true);
 
     try {
       await sendStreamingMessage({
@@ -607,12 +609,10 @@ const ChatScreen = () => {
         language: selectedLanguage,
         onStream: (chunk: string) => {},
         onComplete: (fullResponse: string) => {
-          setIsStreaming(false);
           onResetFiles?.();
         },
         onError: (error: Error) => {
           // console.error('Error sending message:', error);
-          setIsStreaming(false);
           Toast.error('Failed to send message. Please try again.');
         },
       });
@@ -623,7 +623,6 @@ const ChatScreen = () => {
       );
     } catch (error) {
       // console.error('Error sending message:', error);
-      setIsStreaming(false);
       setPendingMessages((prev) =>
         prev.map((msg) =>
           msg.content === newMessage.content
@@ -752,7 +751,7 @@ const ChatScreen = () => {
                 <Text className="font-bold-poppins text-xl dark:text-white">
                   Vet Assistant
                 </Text>
-                {isStreaming ? (
+                {isPendingStreamingMessage ? (
                   <Text className="text-center text-xs text-gray-500 dark:text-white">
                     {translate('general.typing')}
                   </Text>
@@ -824,7 +823,7 @@ const ChatScreen = () => {
               isSpeaking,
               isUpgradeRequired,
               conversationsCount,
-              isStreaming,
+              isPendingStreamingMessage,
             ]}
             keyExtractor={(item, index) => index.toString()}
             contentContainerStyle={{
@@ -853,11 +852,13 @@ const ChatScreen = () => {
               );
             }}
             estimatedItemSize={100}
-            ListFooterComponent={isStreaming ? <TypingIndicator /> : null}
+            ListFooterComponent={
+              isPendingStreamingMessage ? <TypingIndicator /> : null
+            }
           />
 
           {/* File Preview */}
-          {!!files?.length && !isStreaming && (
+          {!!files?.length && !isPendingStreamingMessage && (
             <ImagePreviewGallery files={files} onRemoveFile={onRemoveFile} />
           )}
 
@@ -921,7 +922,7 @@ const ChatScreen = () => {
             <TouchableOpacity
               onPress={() => handleSendMessage(userMessage)}
               disabled={
-                isStreaming ||
+                isPendingStreamingMessage ||
                 isFetchingAllConversationsPending ||
                 (!userMessage.trim() && !files?.length)
               }
@@ -1020,7 +1021,7 @@ function getChatMessagesStyles(
     body: {
       marginTop: -7,
       marginBottom: -7,
-      fontSize: 15,
+      fontSize: 14.5,
       lineHeight: 22,
       color: darkTextColor,
     },
@@ -1050,7 +1051,7 @@ function getChatMessagesStyles(
       fontWeight: '800',
     },
     em: {
-      fontFamily: 'Font-Regular',
+      fontFamily: 'Font-Medium',
       fontStyle: 'italic',
     },
   };

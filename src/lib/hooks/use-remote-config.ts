@@ -16,6 +16,7 @@ const DEFAULT_CONFIGS = {
   SHOW_SOCIAL_PROOF_ONBOARDING: false,
   SHOW_MEDICAL_DISCLAIMER_BANNER: true,
   SHOW_MEDICAL_IMAGES_GALLERY: false,
+  SHOW_CANCEL_SUBSCRIPTION_OPTION: false,
 };
 
 // 2. Infer the type automatically from the default object

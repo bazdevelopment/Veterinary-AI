@@ -1,21 +1,19 @@
-// hooks/useConversation.ts (Updated for @google/genai)
-
-import { createMutation, createQuery } from 'react-query-kit';
-import { useState, useCallback, useRef } from 'react';
 import { GoogleGenAI } from '@google/genai';
-import Toast from '@/components/toast';
-import dayjs from 'dayjs';
-
 import firestore from '@react-native-firebase/firestore';
 import storage from '@react-native-firebase/storage';
+import dayjs from 'dayjs';
+import { useCallback } from 'react';
+import { createMutation, createQuery } from 'react-query-kit';
 
+import { Env } from '@/lib/env';
+import { LANGUAGES } from '@/utilities/languages';
+
+import { queryClient } from '../common';
 import {
+  analyzeMultipleFilesUsingAI,
   fetchAllUserConversations,
   fetchConversation,
 } from './conversation.requests';
-import { LANGUAGES } from '@/utilities/languages';
-import { Env } from '@/lib/env';
-import { queryClient } from '../common';
 
 // -------------------------------
 // 🔹 Types & Interfaces
@@ -181,7 +179,7 @@ const saveConversationToFirestore = async ({
 // 🔹 Streaming Message Hook
 // -------------------------------
 
-export const useSendStreamingMessage = () => {
+export const useSendStreamingMessageBackup = () => {
   const { encodeMultipleMedia } = useMediaEncoder();
   const { buildSystemPrompt } = usePromptBuilder();
   const { formatHistoryForGenAI } = useHistoryFormatter();
@@ -393,6 +391,27 @@ export const useTopicConversation = () => {
   );
 
   return { startTopicConversation };
+};
+
+export const useSendStreamingMessage = ({ onComplete, onError }) => {
+  return createMutation({
+    mutationKey: ['send-streaming-message'],
+    mutationFn: async (params: StreamingMessageParams): Promise<any> => {
+      return analyzeMultipleFilesUsingAI(params);
+    },
+    onSuccess: (data) => {
+      queryClient.invalidateQueries({
+        queryKey: ['conversation', data.conversationId],
+      });
+      queryClient.invalidateQueries({ queryKey: ['user-conversations'] });
+      onComplete?.(data);
+    },
+    onError: (error) => {
+      onError?.();
+
+      console.error('Failed to send message:', error);
+    },
+  })();
 };
 
 // -------------------------------

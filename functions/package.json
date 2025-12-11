@@ -16,6 +16,8 @@
   "main": "lib/index.js",
   "dependencies": {
     "@google-cloud/functions-framework": "^4.0.0",
+    "axios": "^1.13.2",
+    "@google/genai": "^1.32.0",
     "dayjs": "^1.11.19",
     "eslint": "^8.57.1",
     "expo-server-sdk": "^4.0.0",

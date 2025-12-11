@@ -33,8 +33,12 @@ export default function Settings() {
   const { colorScheme } = useColorScheme();
   const { language } = useSelectedLanguage();
 
-  const { SHOW_FAQ_SCREEN, SHOW_RATE_SCREEN, SHOW_ADMIN_SCREENS } =
-    useRemoteConfig();
+  const {
+    SHOW_FAQ_SCREEN,
+    SHOW_RATE_SCREEN,
+    SHOW_ADMIN_SCREENS,
+    SHOW_CANCEL_SUBSCRIPTION_OPTION,
+  } = useRemoteConfig();
   const { isUpgradeRequired } = useSubscriptionAlert();
 
   const scrollViewRef = useRef(null);
@@ -133,16 +137,19 @@ export default function Settings() {
               text="settings.citations"
               onPress={() => router.navigate('/citations')}
             />
-            <Item
-              text="settings.cancelSubscription"
-              onPress={() =>
-                Linking.openURL(
-                  DEVICE_TYPE.IOS
-                    ? 'https://www.youtube.com/watch?v=MQkHY4DOdfw&ab_channel=AppleSupport'
-                    : 'https://www.youtube.com/watch?v=HzqAOJLSjbk&ab_channel=GuideRealm'
-                )
-              }
-            />
+
+            {SHOW_CANCEL_SUBSCRIPTION_OPTION && (
+              <Item
+                text="settings.cancelSubscription"
+                onPress={() =>
+                  Linking.openURL(
+                    DEVICE_TYPE.IOS
+                      ? 'https://www.youtube.com/watch?v=MQkHY4DOdfw&ab_channel=AppleSupport'
+                      : 'https://www.youtube.com/watch?v=HzqAOJLSjbk&ab_channel=GuideRealm'
+                  )
+                }
+              />
+            )}
             <Item
               text="settings.privacy"
               onPress={() =>

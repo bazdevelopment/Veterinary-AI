@@ -1,3 +1,4 @@
+import storage from '@react-native-firebase/storage';
 import axios from 'axios';
 
 import { firebaseCloudFunctionsInstance } from '@/firebase/config';
@@ -67,4 +68,60 @@ export const sendConversationMessage = async ({
   } catch (e) {
     throw e;
   }
+};
+
+interface MediaFile {
+  fileUri: string;
+  id: string;
+  url?: string; // If already uploaded
+  type: 'image' | 'video' | 'pdf';
+  mimeType?: string;
+}
+/**
+ * Legacy function to match your existing API
+ * Analyzes multiple images/videos/PDFs using AI
+ */
+export const analyzeMultipleFilesUsingAI = async (payload: {
+  mediaFiles: MediaFile[];
+  language: string;
+  userMessage: string;
+  userId: string;
+  conversationId?: string;
+}) => {
+  try {
+    // Upload all files and get URLs
+    const fileUrls = await uploadAllFiles(payload.mediaFiles, payload.userId);
+    // Call cloud function
+    const sendChatMessageFn =
+      firebaseCloudFunctionsInstance.httpsCallable('sendChatMessage');
+    const { data } = await sendChatMessageFn({
+      userId: payload.userId,
+      conversationId: payload.conversationId,
+      userMessage: payload.userMessage,
+      language: payload.language,
+      fileUrls,
+      history: [],
+      includePreviousHistory: true,
+    });
+    return data;
+  } catch (error) {
+    console.error('Error analyzing files:', error);
+    throw error;
+  }
+};
+
+const uploadToFirebaseStorage = async (
+  localPath: string,
+  conversationId: string
+): Promise<string> => {
+  const fileName = localPath?.split('/').pop()!;
+  const ref = storage().ref(`interpretations/${conversationId}/${fileName}`);
+  await ref.putFile(localPath);
+  return await ref.getDownloadURL();
+};
+
+const uploadAllFiles = async (files: MediaFile[], conversationId: string) => {
+  return Promise.all(
+    files.map((f) => uploadToFirebaseStorage(f.uri, conversationId))
+  );
 };
